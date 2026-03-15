@@ -21,7 +21,7 @@ export async function POST(req: NextRequest) {
 
   const { error } = await resend.emails.send({
     from: 'Kontaktformular <onboarding@resend.dev>',
-    to: 'info@martin-projektbau.ch',
+    to: 'chepigadeveloper@gmail.com',
     replyTo: email,
     subject: `Neue Anfrage von ${name}`,
     html: `
