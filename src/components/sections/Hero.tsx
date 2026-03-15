@@ -89,7 +89,7 @@ export default function Hero() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2, duration: 0.8 }}
-          className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/30"
+          className="absolute -bottom-4 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/30"
         >
           <span className="text-[10px] tracking-[0.25em] uppercase">Scroll</span>
           <motion.div
