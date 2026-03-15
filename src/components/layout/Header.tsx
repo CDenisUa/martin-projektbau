@@ -52,21 +52,21 @@ export default function Header() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center gap-3 group">
-            <LogoMark size={36} />
-            <div className="leading-tight">
+            <LogoMark size={38} />
+            <div className="leading-none">
               <div
-                className={`font-semibold text-sm tracking-tight transition-colors duration-300 ${
+                className={`font-bold text-base tracking-[0.14em] uppercase transition-colors duration-300 ${
                   scrolled || mobileOpen ? 'text-primary' : 'text-white'
                 }`}
               >
-                Martin Projektbau
+                Martin
               </div>
               <div
-                className={`text-[10px] tracking-[0.2em] uppercase transition-colors duration-300 ${
-                  scrolled || mobileOpen ? 'text-gray-400' : 'text-white/50'
+                className={`text-[9px] tracking-[0.18em] uppercase font-medium transition-colors duration-300 mt-0.5 ${
+                  scrolled || mobileOpen ? 'text-gray-500' : 'text-white/60'
                 }`}
               >
-                GmbH
+                Projektbau GmbH
               </div>
             </div>
           </Link>

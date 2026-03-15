@@ -26,9 +26,9 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3 mb-5">
               <LogoMark size={36} />
-              <div className="leading-tight">
-                <div className="font-semibold text-sm">Martin Projektbau</div>
-                <div className="text-[10px] text-white/30 tracking-[0.2em] uppercase">GmbH</div>
+              <div className="leading-none">
+                <div className="font-bold text-base tracking-[0.14em] uppercase">Martin</div>
+                <div className="text-[9px] text-white/40 tracking-[0.18em] uppercase font-medium mt-0.5">Projektbau GmbH</div>
               </div>
             </div>
             <p className="text-white/40 text-sm leading-relaxed max-w-xs">{t('tagline')}</p>
@@ -62,7 +62,7 @@ export default function Footer() {
               href="mailto:info@martin-projektbau.ch"
               className="flex items-center gap-2.5 text-sm text-white/50 hover:text-white transition-colors duration-200 mb-3"
             >
-              <Mail size={14} className="text-accent flex-shrink-0" />
+              <Mail size={14} className="text-accent shrink-0" />
               info@martin-projektbau.ch
             </a>
             <p className="text-sm text-white/30">martin-projektbau.ch</p>

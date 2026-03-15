@@ -7,16 +7,19 @@ import { ChevronDown, Globe } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export const LANGUAGES = [
-  { code: 'en', name: 'English', flag: '🇬🇧' },
+  // Priority languages
   { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
+  { code: 'en', name: 'English', flag: '🇬🇧' },
+  { code: 'sk', name: 'Slovenčina', flag: '🇸🇰' },
+  { code: 'cs', name: 'Čeština', flag: '🇨🇿' },
+  { code: 'pl', name: 'Polski', flag: '🇵🇱' },
+  { code: 'ru', name: 'Русский', flag: '🇷🇺' },
+  // Other languages
   { code: 'fr', name: 'Français', flag: '🇫🇷' },
   { code: 'it', name: 'Italiano', flag: '🇮🇹' },
   { code: 'es', name: 'Español', flag: '🇪🇸' },
   { code: 'pt', name: 'Português', flag: '🇵🇹' },
   { code: 'nl', name: 'Nederlands', flag: '🇳🇱' },
-  { code: 'pl', name: 'Polski', flag: '🇵🇱' },
-  { code: 'cs', name: 'Čeština', flag: '🇨🇿' },
-  { code: 'sk', name: 'Slovenčina', flag: '🇸🇰' },
   { code: 'hu', name: 'Magyar', flag: '🇭🇺' },
   { code: 'ro', name: 'Română', flag: '🇷🇴' },
   { code: 'bg', name: 'Български', flag: '🇧🇬' },

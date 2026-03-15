@@ -1,26 +1,42 @@
-export default function LogoMark({ size = 36 }: { size?: number }) {
+// Building icon matching the top-right reference logo style:
+// Grey building (left) + tall navy building (right) + sweeping arc below
+export default function LogoMark({ size = 40 }: { size?: number }) {
+  const h = size;
+  const w = Math.round(size * 1.05); // slightly wider than tall
+
   return (
     <svg
-      width={size}
-      height={size}
-      viewBox="0 0 40 40"
+      width={w}
+      height={h}
+      viewBox="0 0 42 40"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      aria-label="Martin Projektbau logo"
+      aria-label="Martin Projektbau logo mark"
     >
-      {/* Background */}
-      <rect width="40" height="40" rx="6" fill="#3B82F6" />
-      {/* M constructed from building/geometric shapes */}
+      {/* ── LEFT building — grey ── */}
+      <rect x="2" y="14" width="17" height="22" fill="#7A8FA6" />
+      {/* floor lines */}
+      <rect x="2" y="19" width="17" height="1.8" fill="white" opacity="0.45" />
+      <rect x="2" y="24" width="17" height="1.8" fill="white" opacity="0.45" />
+      <rect x="2" y="29" width="17" height="1.8" fill="white" opacity="0.45" />
+
+      {/* ── RIGHT building — tall navy ── */}
+      <rect x="23" y="4" width="17" height="32" fill="#1B3060" />
+      {/* floor lines */}
+      <rect x="23" y="9"  width="17" height="1.8" fill="white" opacity="0.35" />
+      <rect x="23" y="14" width="17" height="1.8" fill="white" opacity="0.35" />
+      <rect x="23" y="19" width="17" height="1.8" fill="white" opacity="0.35" />
+      <rect x="23" y="24" width="17" height="1.8" fill="white" opacity="0.35" />
+      <rect x="23" y="29" width="17" height="1.8" fill="white" opacity="0.35" />
+
+      {/* ── Sweeping arc below both buildings ── */}
       <path
-        d="M8 30V14L15 22L20 14L25 22L32 14V30"
-        stroke="white"
-        strokeWidth="2.8"
-        strokeLinecap="square"
-        strokeLinejoin="miter"
+        d="M0 37 Q21 43 42 37"
+        stroke="#1B3060"
+        strokeWidth="2.5"
         fill="none"
+        strokeLinecap="round"
       />
-      {/* Base line representing ground/foundation */}
-      <rect x="8" y="28" width="24" height="2.5" fill="white" rx="0" />
     </svg>
   );
 }
