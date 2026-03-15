@@ -19,26 +19,28 @@ export default function Footer() {
 
   return (
     <footer className="bg-primary text-white border-t border-white/5">
-      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-16">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 py-8">
+        <div className="grid grid-cols-3 gap-8 items-start">
           {/* Brand */}
-          <div>
-            <div className="mb-5 filter-[brightness(0)_invert(1)] opacity-90">
-              <LogoMark size={36} />
-            </div>
-          </div>
+          <Link
+            href={`/${locale}`}
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            className="filter-[brightness(0)_invert(1)] opacity-90 inline-block"
+          >
+            <LogoMark size={64} />
+          </Link>
 
-          {/* Navigation */}
+          {/* Navigation — 2 columns */}
           <div>
-            <h4 className="text-[10px] text-white/30 uppercase tracking-[0.2em] mb-5">
+            <h4 className="text-[9px] text-white/30 uppercase tracking-[0.2em] mb-3">
               {t('links')}
             </h4>
-            <ul className="space-y-2.5">
+            <ul className="grid grid-cols-2 gap-x-4 gap-y-1.5">
               {navLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
-                    className="text-sm text-white/50 hover:text-white transition-colors duration-200"
+                    className="text-xs text-white/50 hover:text-white transition-colors duration-200"
                   >
                     {link.label}
                   </Link>
@@ -49,44 +51,16 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="text-[10px] text-white/30 uppercase tracking-[0.2em] mb-5">
+            <h4 className="text-[9px] text-white/30 uppercase tracking-[0.2em] mb-3">
               Contact
             </h4>
             <a
               href="mailto:info@martin-projektbau.ch"
-              className="flex items-center gap-2.5 text-sm text-white/50 hover:text-white transition-colors duration-200 mb-3"
+              className="flex items-center gap-2 text-xs text-white/50 hover:text-white transition-colors duration-200"
             >
-              <Mail size={14} className="text-accent shrink-0" />
+              <Mail size={12} className="text-accent shrink-0" />
               info@martin-projektbau.ch
             </a>
-            <p className="text-sm text-white/30">martin-projektbau.ch</p>
-          </div>
-        </div>
-
-        {/* Bottom bar */}
-        <div className="border-t border-transparent pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <span className="text-xs text-transparent">
-            © {new Date().getFullYear()} Martin Projektbau GmbH. {t('rights')}
-          </span>
-          <div className="flex items-center gap-6">
-            <Link
-              href={`/${locale}/settings`}
-              className="text-xs text-transparent hover:text-white/60 transition-colors duration-200"
-            >
-              {t('legal')}
-            </Link>
-            <Link
-              href={`/${locale}/settings`}
-              className="text-xs text-transparent hover:text-white/60 transition-colors duration-200"
-            >
-              {t('privacy')}
-            </Link>
-            <Link
-              href={`/${locale}/settings`}
-              className="text-xs text-transparent hover:text-white/60 transition-colors duration-200"
-            >
-              Language
-            </Link>
           </div>
         </div>
       </div>
