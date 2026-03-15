@@ -24,12 +24,8 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div>
-            <div className="flex items-center gap-3 mb-5">
+            <div className="mb-5 filter-[brightness(0)_invert(1)] opacity-90">
               <LogoMark size={36} />
-              <div className="leading-none">
-                <div className="font-bold text-base tracking-[0.14em] uppercase">Martin</div>
-                <div className="text-[9px] text-white/40 tracking-[0.18em] uppercase font-medium mt-0.5">Projektbau GmbH</div>
-              </div>
             </div>
             <p className="text-white/40 text-sm leading-relaxed max-w-xs">{t('tagline')}</p>
           </div>

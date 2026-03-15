@@ -51,23 +51,9 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href={`/${locale}`} className="flex items-center gap-3 group">
-            <LogoMark size={38} />
-            <div className="leading-none">
-              <div
-                className={`font-bold text-base tracking-[0.14em] uppercase transition-colors duration-300 ${
-                  scrolled || mobileOpen ? 'text-primary' : 'text-white'
-                }`}
-              >
-                Martin
-              </div>
-              <div
-                className={`text-[9px] tracking-[0.18em] uppercase font-medium transition-colors duration-300 mt-0.5 ${
-                  scrolled || mobileOpen ? 'text-gray-500' : 'text-white/60'
-                }`}
-              >
-                Projektbau GmbH
-              </div>
+          <Link href={`/${locale}`} className="flex items-center group">
+            <div className={`transition-all duration-300 ${scrolled || mobileOpen ? '' : 'filter-[brightness(0)_invert(1)]'}`}>
+              <LogoMark size={42} />
             </div>
           </Link>
 
