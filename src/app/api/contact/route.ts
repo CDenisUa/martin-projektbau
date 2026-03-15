@@ -41,8 +41,8 @@ export async function POST(req: NextRequest) {
                 <td>
                   <img src="https://martin-projektbau.vercel.app/images/martin_logo.png"
                        alt="Martin Projektbau GmbH"
-                       height="36"
-                       style="display:block;filter:brightness(0) invert(1);opacity:0.9;" />
+                       height="56"
+                       style="display:block;filter:brightness(0) invert(1);" />
                 </td>
                 <td align="right">
                   <span style="background:#3B82F6;color:#ffffff;font-size:10px;font-weight:600;letter-spacing:0.15em;text-transform:uppercase;padding:4px 12px;border-radius:2px;">Neue Anfrage</span>
