@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
 export async function POST(req: NextRequest) {
+  try {
   const resend = new Resend(process.env.RESEND_API_KEY);
   const { name, email, phone, message } = await req.json();
 
@@ -61,4 +62,8 @@ export async function POST(req: NextRequest) {
   }
 
   return NextResponse.json({ success: true });
+  } catch (e) {
+    console.error('Caught exception:', e);
+    return NextResponse.json({ error: 'Exception', detail: String(e) }, { status: 500 });
+  }
 }
