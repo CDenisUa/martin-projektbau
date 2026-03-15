@@ -40,9 +40,9 @@ export default async function LocaleLayout({
     <html lang={locale} className={inter.variable}>
       <body className="bg-white text-primary font-sans antialiased">
         <NextIntlClientProvider messages={messages} locale={locale}>
-          <div className="flex flex-col h-screen overflow-hidden">
+          <div className="flex flex-col md:h-screen md:overflow-hidden">
             <Header />
-            <main className="flex-1 overflow-y-auto">{children}</main>
+            <main className="flex-1 md:overflow-y-auto">{children}</main>
             <Footer />
           </div>
         </NextIntlClientProvider>

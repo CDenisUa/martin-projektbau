@@ -90,7 +90,7 @@ export default function ContactSection() {
     }`;
 
   return (
-    <section ref={ref} className="py-8 bg-primary text-white w-full">
+    <section ref={ref} className="py-12 md:py-8 bg-primary text-white w-full">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-20">
           {/* Left: info */}
