@@ -26,7 +26,6 @@ export default function Footer() {
             <div className="mb-5 filter-[brightness(0)_invert(1)] opacity-90">
               <LogoMark size={36} />
             </div>
-            <p className="text-white/40 text-sm leading-relaxed max-w-xs">{t('tagline')}</p>
           </div>
 
           {/* Navigation */}
