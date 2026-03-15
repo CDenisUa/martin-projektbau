@@ -1,10 +1,132 @@
 {
-  "nav": { "home": "Dar", "projects": "Proġetti", "services": "Servizzi", "about": "Dwarна", "contact": "Kuntatt", "language": "Lingwa" },
-  "hero": { "headline": "Eċċellenza fil-Bini,\nFiduċja fil-Pedamenti", "subheadline": "Soluzzjonijiet premium ta' kostruzzjoni, rinnovazzjon i faċċati b'preċizzjoni Svizzera.", "cta": "Ara l-Proġetti", "ctaSecondary": "Is-Servizzi Tagħna", "badge": "martin-projektbau.ch", "stat1value": "15+", "stat1label": "Snin ta' esperjenza", "stat2value": "200+", "stat2label": "Proġetti mlestu", "stat3value": "6", "stat3label": "Servizzi ewlenin", "stat4value": "CH", "stat4label": "Kwalità Svizzera" },
-  "services": { "title": "Is-Servizzi Tagħna", "subtitle": "Servizzi komprensivi ta' kostruzzjoni u rinnovazzjoni b'preċizzjoni u esperjenza.", "viewAll": "Ara s-servizzi kollha", "items": { "facade": { "title": "Kostruzzjoni tal-Faċċata", "description": "Sistemi professjonali ta' faċċata għal durabbiltà, estetika u effiċjenza enerġetika." }, "tiling": { "title": "Tqegħid ta' Tiles u Ġebel", "description": "Installazzjon esperta ta' tiles premium u ġebel naturali." }, "parquet": { "title": "Parket", "description": "Installazzjon ta' parket ta' kwalità għolja b'attenzjoni metikolosa." }, "painting": { "title": "Pittura u Plastru", "description": "Servizzi ta' pittura u plastru ta' ġewwa u barra bla difett." }, "windows": { "title": "Installazzjoni ta' Twieqi", "description": "Tqegħid preċiż ta' twieqi għal iżolament, dawl u estetika ottimali." }, "renovation": { "title": "Rinnovazzjoni u Konverżjoni", "description": "Proġetti sħaħ ta' rinnovazzjoni u konverżjoni ta' ġewwa u barra." } } },
-  "projects": { "title": "Proġetti Magħżula", "subtitle": "Għażla kuraturata tal-aħjar xogħlijiet tagħna ta' kostruzzjoni u rinnovazzjoni.", "viewProject": "Ara l-Proġett", "viewAll": "Ara l-Proġetti Kollha", "back": "Lura għall-Proġetti", "overview": "Ħarsa ġenerali tal-Proġett", "gallery": "Gallerija tal-Proġett", "servicesInvolved": "Servizzi Involuti", "materials": "Materjali Użati", "relatedProjects": "Proġetti Relatati", "sectionLabel": "Ix-Xogħol Tagħna" },
-  "about": { "title": "Dwar Martin Projektbau", "subtitle": "Artiġjanat Svizzeru mill-ewwel jum.", "body": "Martin Projektbau GmbH hija kumpanija Svizzera ta' kostruzzjoni u rinnovazzjoni mibnija fuq il-kwalità, preċizzjoni u affidabbiltà.", "sectionLabel": "Min Aħna", "values": { "quality": { "title": "Kwalità", "description": "Nużaw biss l-aqwa materjali u tekniki ppruvati." }, "precision": { "title": "Preċizzjoni", "description": "Kull millimetru jgħodd. Ninġinjeraw il-perfezzjoni." }, "reliability": { "title": "Affidabbiltà", "description": "Fil-ħin, fil-baġit, f'kull proġett." }, "craftsmanship": { "title": "Artiġjanat", "description": "Għexieren ta' snin ta' esperjenza fuq kull wiċċ li nmissuh." } }, "learnMore": "Isir taf aktar" },
-  "contact": { "title": "Ikkuntattjana", "subtitle": "Lest li tibda l-proġett tiegħek? Nixtiequ nisimgħu mingħandek.", "name": "Isem Sħiħ", "email": "Indirizz Email", "phone": "Numru tat-Telefown", "message": "Deskrizzjoni tal-Proġett", "send": "Ibgħat Messaġġ", "address": "Svizzera", "emailLabel": "Email", "phoneLabel": "Telefown", "successMessage": "Grazzi! Ser nikkuntattjawk dalwaqt.", "namePlaceholder": "Ismek sħiħ", "emailPlaceholder": "int@email.mt", "phonePlaceholder": "+41 ...", "messagePlaceholder": "Għidilna dwar il-proġett tiegħek...", "sectionLabel": "Kuntatt" },
-  "footer": { "tagline": "Eċċellenza b'preċizzjoni Svizzera.", "rights": "Id-drittijiet kollha riżervati.", "links": "Links Veloċi", "legal": "Legali", "privacy": "Politika tal-Privatezza", "imprint": "Impressum" },
-  "settings": { "title": "Settings tal-Lingwa", "subtitle": "Agħżel il-lingwa preferuta tiegħek għas-sit web.", "current": "Lingwa Kurrenti", "select": "Agħżel Lingwa", "sectionLabel": "Preferenzi" }
+  "nav": {
+    "home": "Dar",
+    "projects": "Proġetti",
+    "services": "Servizzi",
+    "about": "Dwarна",
+    "contact": "Kuntatt",
+    "language": "Lingwa"
+  },
+  "hero": {
+    "headline": "Eċċellenza fil-Bini,\nFiduċja fil-Pedamenti",
+    "subheadline": "Soluzzjonijiet premium ta' kostruzzjoni, rinnovazzjon i faċċati b'preċizzjoni Svizzera.",
+    "cta": "Ara l-Proġetti",
+    "ctaSecondary": "Is-Servizzi Tagħna",
+    "badge": "martin-projektbau.ch",
+    "stat1value": "15+",
+    "stat1label": "Snin ta' esperjenza",
+    "stat2value": "200+",
+    "stat2label": "Proġetti mlestu",
+    "stat3value": "6",
+    "stat3label": "Servizzi ewlenin",
+    "stat4value": "CH",
+    "stat4label": "Kwalità Svizzera"
+  },
+  "services": {
+    "title": "Is-Servizzi Tagħna",
+    "subtitle": "Servizzi komprensivi ta' kostruzzjoni u rinnovazzjoni b'preċizzjoni u esperjenza.",
+    "viewAll": "Ara s-servizzi kollha",
+    "items": {
+      "facade": {
+        "title": "Kostruzzjoni tal-Faċċata",
+        "description": "Sistemi professjonali ta' faċċata għal durabbiltà, estetika u effiċjenza enerġetika."
+      },
+      "tiling": {
+        "title": "Tqegħid ta' Tiles u Ġebel",
+        "description": "Installazzjon esperta ta' tiles premium u ġebel naturali."
+      },
+      "parquet": {
+        "title": "Parket",
+        "description": "Installazzjon ta' parket ta' kwalità għolja b'attenzjoni metikolosa."
+      },
+      "painting": {
+        "title": "Pittura u Plastru",
+        "description": "Servizzi ta' pittura u plastru ta' ġewwa u barra bla difett."
+      },
+      "windows": {
+        "title": "Installazzjoni ta' Twieqi",
+        "description": "Tqegħid preċiż ta' twieqi għal iżolament, dawl u estetika ottimali."
+      },
+      "renovation": {
+        "title": "Rinnovazzjoni u Konverżjoni",
+        "description": "Proġetti sħaħ ta' rinnovazzjoni u konverżjoni ta' ġewwa u barra."
+      }
+    }
+  },
+  "projects": {
+    "title": "Proġetti Magħżula",
+    "subtitle": "Għażla kuraturata tal-aħjar xogħlijiet tagħna ta' kostruzzjoni u rinnovazzjoni.",
+    "viewProject": "Ara l-Proġett",
+    "viewAll": "Ara l-Proġetti Kollha",
+    "back": "Lura għall-Proġetti",
+    "overview": "Ħarsa ġenerali tal-Proġett",
+    "gallery": "Gallerija tal-Proġett",
+    "servicesInvolved": "Servizzi Involuti",
+    "materials": "Materjali Użati",
+    "relatedProjects": "Proġetti Relatati",
+    "sectionLabel": "Ix-Xogħol Tagħna"
+  },
+  "about": {
+    "title": "Dwar Martin Projektbau",
+    "subtitle": "Artiġjanat Svizzeru mill-ewwel jum.",
+    "body": "Martin Projektbau GmbH hija kumpanija Svizzera ta' kostruzzjoni u rinnovazzjoni mibnija fuq il-kwalità, preċizzjoni u affidabbiltà.",
+    "sectionLabel": "Min Aħna",
+    "values": {
+      "quality": {
+        "title": "Kwalità",
+        "description": "Nużaw biss l-aqwa materjali u tekniki ppruvati."
+      },
+      "precision": {
+        "title": "Preċizzjoni",
+        "description": "Kull millimetru jgħodd. Ninġinjeraw il-perfezzjoni."
+      },
+      "reliability": {
+        "title": "Affidabbiltà",
+        "description": "Fil-ħin, fil-baġit, f'kull proġett."
+      },
+      "craftsmanship": {
+        "title": "Artiġjanat",
+        "description": "Għexieren ta' snin ta' esperjenza fuq kull wiċċ li nmissuh."
+      }
+    },
+    "learnMore": "Isir taf aktar"
+  },
+  "contact": {
+    "title": "Ikkuntattjana",
+    "subtitle": "Lest li tibda l-proġett tiegħek? Nixtiequ nisimgħu mingħandek.",
+    "name": "Isem Sħiħ",
+    "email": "Indirizz Email",
+    "phone": "Numru tat-Telefown",
+    "message": "Deskrizzjoni tal-Proġett",
+    "send": "Ibgħat Messaġġ",
+    "address": "Svizzera",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefown",
+    "successMessage": "Grazzi! Ser nikkuntattjawk dalwaqt.",
+    "namePlaceholder": "Ismek sħiħ",
+    "emailPlaceholder": "int@email.mt",
+    "phonePlaceholder": "+41 ...",
+    "messagePlaceholder": "Għidilna dwar il-proġett tiegħek...",
+    "sectionLabel": "Kuntatt",
+    "errorName": "Daħħal ismek sħiħ",
+    "errorEmail": "Daħħal indirizz email validu",
+    "errorPhone": "Daħħal in-numru tat-telefon tiegħek",
+    "errorMessage": "Iddeskrivi t-talba tiegħek",
+    "errorServer": "Il-bgħit falla. Erġa' pprova."
+  },
+  "footer": {
+    "tagline": "Eċċellenza b'preċizzjoni Svizzera.",
+    "rights": "Id-drittijiet kollha riżervati.",
+    "links": "Links Veloċi",
+    "legal": "Legali",
+    "privacy": "Politika tal-Privatezza",
+    "imprint": "Impressum"
+  },
+  "settings": {
+    "title": "Settings tal-Lingwa",
+    "subtitle": "Agħżel il-lingwa preferuta tiegħek għas-sit web.",
+    "current": "Lingwa Kurrenti",
+    "select": "Agħżel Lingwa",
+    "sectionLabel": "Preferenzi"
+  }
 }

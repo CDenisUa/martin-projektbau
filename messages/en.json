@@ -72,10 +72,22 @@
     "body": "Martin Projektbau GmbH is a Swiss construction and renovation company built on the foundations of quality, precision and reliability. With expertise spanning facade construction, interior finishing and full-scale renovations, we deliver projects that stand the test of time. Every detail is engineered with care — from the first sketch to the final finish.",
     "sectionLabel": "Who We Are",
     "values": {
-      "quality": { "title": "Quality", "description": "We use only the finest materials and proven techniques." },
-      "precision": { "title": "Precision", "description": "Every millimetre matters. We engineer perfection." },
-      "reliability": { "title": "Reliability", "description": "On time, on budget, every single project." },
-      "craftsmanship": { "title": "Craftsmanship", "description": "Decades of expertise in every surface we touch." }
+      "quality": {
+        "title": "Quality",
+        "description": "We use only the finest materials and proven techniques."
+      },
+      "precision": {
+        "title": "Precision",
+        "description": "Every millimetre matters. We engineer perfection."
+      },
+      "reliability": {
+        "title": "Reliability",
+        "description": "On time, on budget, every single project."
+      },
+      "craftsmanship": {
+        "title": "Craftsmanship",
+        "description": "Decades of expertise in every surface we touch."
+      }
     },
     "learnMore": "Learn More About Us"
   },
@@ -95,7 +107,12 @@
     "emailPlaceholder": "your@email.com",
     "phonePlaceholder": "+41 ...",
     "messagePlaceholder": "Tell us about your project...",
-    "sectionLabel": "Contact"
+    "sectionLabel": "Contact",
+    "errorName": "Please enter your full name",
+    "errorEmail": "Please enter a valid email address",
+    "errorPhone": "Please enter your phone number",
+    "errorMessage": "Please describe your enquiry",
+    "errorServer": "Failed to send. Please try again later."
   },
   "footer": {
     "tagline": "Building excellence with Swiss precision.",

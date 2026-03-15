@@ -1,10 +1,132 @@
 {
-  "nav": { "home": "Home", "projects": "Projecten", "services": "Diensten", "about": "Over ons", "contact": "Contact", "language": "Taal" },
-  "hero": { "headline": "Bouwkundige Uitmuntendheid,\nVertrouwen in het Fundament", "subheadline": "Premium bouw-, renovatie- en geveloplossingen met Zwitserse precisie.", "cta": "Bekijk Projecten", "ctaSecondary": "Onze Diensten", "badge": "martin-projektbau.ch", "stat1value": "15+", "stat1label": "Jaar Ervaring", "stat2value": "200+", "stat2label": "Projecten Voltooid", "stat3value": "6", "stat3label": "Kerndiensten", "stat4value": "CH", "stat4label": "Zwitserse Kwaliteit" },
-  "services": { "title": "Onze Diensten", "subtitle": "Uitgebreide bouw- en renovatiediensten met precisie en vakmanschap.", "viewAll": "Alle diensten bekijken", "items": { "facade": { "title": "Gevelbouw", "description": "Professionele gevelsystemen voor duurzaamheid, esthetiek en energie-efficiëntie." }, "tiling": { "title": "Tegel- en Steenleggen", "description": "Deskundige installatie van premium tegels en natuursteen voor vloeren en wanden." }, "parquet": { "title": "Parketvloer", "description": "Hoogwaardige parketinstallatie met zorgvuldige aandacht voor patroon en afwerking." }, "painting": { "title": "Schilder- en Stucwerk", "description": "Onberispelijke binnen- en buitenschilder- en stucwerkdiensten." }, "windows": { "title": "Raamplaatsing", "description": "Nauwkeurige raamplaatsing voor optimale isolatie, licht en esthetiek." }, "renovation": { "title": "Renovatie en Verbouwing", "description": "Complete binnen- en buiten renovatie- en verbouwingsprojecten." } } },
-  "projects": { "title": "Geselecteerde Projecten", "subtitle": "Een zorgvuldige selectie van ons beste bouw- en renovatiewerk.", "viewProject": "Project Bekijken", "viewAll": "Alle Projecten Bekijken", "back": "Terug naar Projecten", "overview": "Projectoverzicht", "gallery": "Projectgalerij", "servicesInvolved": "Betrokken Diensten", "materials": "Gebruikte Materialen", "relatedProjects": "Gerelateerde Projecten", "sectionLabel": "Ons Werk" },
-  "about": { "title": "Over Martin Projektbau", "subtitle": "Zwitsers vakmanschap vanaf dag één.", "body": "Martin Projektbau GmbH is een Zwitsers bouw- en renovatiebedrijf gebouwd op kwaliteit, precisie en betrouwbaarheid. Met expertise in gevelbouw, binnenafwerking en grootschalige renovaties leveren we projecten die de tand des tijds doorstaan.", "sectionLabel": "Wie Wij Zijn", "values": { "quality": { "title": "Kwaliteit", "description": "Wij gebruiken alleen de beste materialen en bewezen technieken." }, "precision": { "title": "Precisie", "description": "Elke millimeter telt. Wij engineeren perfectie." }, "reliability": { "title": "Betrouwbaarheid", "description": "Op tijd, binnen budget, elk project." }, "craftsmanship": { "title": "Vakmanschap", "description": "Decennia expertise op elk oppervlak dat wij aanraken." } }, "learnMore": "Meer over ons" },
-  "contact": { "title": "Neem Contact Op", "subtitle": "Klaar om uw project te starten? We horen graag van u.", "name": "Volledige Naam", "email": "E-mailadres", "phone": "Telefoonnummer", "message": "Projectomschrijving", "send": "Bericht Versturen", "address": "Zwitserland", "emailLabel": "E-mail", "phoneLabel": "Telefoon", "successMessage": "Bedankt! Wij nemen spoedig contact met u op.", "namePlaceholder": "Uw volledige naam", "emailPlaceholder": "uw@email.com", "phonePlaceholder": "+41 ...", "messagePlaceholder": "Vertel ons over uw project...", "sectionLabel": "Contact" },
-  "footer": { "tagline": "Uitmuntendheid met Zwitserse precisie.", "rights": "Alle rechten voorbehouden.", "links": "Snelle Links", "legal": "Juridisch", "privacy": "Privacybeleid", "imprint": "Impressum" },
-  "settings": { "title": "Taalinstellingen", "subtitle": "Kies uw voorkeurstaal voor de website.", "current": "Huidige Taal", "select": "Taal Selecteren", "sectionLabel": "Voorkeuren" }
+  "nav": {
+    "home": "Home",
+    "projects": "Projecten",
+    "services": "Diensten",
+    "about": "Over ons",
+    "contact": "Contact",
+    "language": "Taal"
+  },
+  "hero": {
+    "headline": "Bouwkundige Uitmuntendheid,\nVertrouwen in het Fundament",
+    "subheadline": "Premium bouw-, renovatie- en geveloplossingen met Zwitserse precisie.",
+    "cta": "Bekijk Projecten",
+    "ctaSecondary": "Onze Diensten",
+    "badge": "martin-projektbau.ch",
+    "stat1value": "15+",
+    "stat1label": "Jaar Ervaring",
+    "stat2value": "200+",
+    "stat2label": "Projecten Voltooid",
+    "stat3value": "6",
+    "stat3label": "Kerndiensten",
+    "stat4value": "CH",
+    "stat4label": "Zwitserse Kwaliteit"
+  },
+  "services": {
+    "title": "Onze Diensten",
+    "subtitle": "Uitgebreide bouw- en renovatiediensten met precisie en vakmanschap.",
+    "viewAll": "Alle diensten bekijken",
+    "items": {
+      "facade": {
+        "title": "Gevelbouw",
+        "description": "Professionele gevelsystemen voor duurzaamheid, esthetiek en energie-efficiëntie."
+      },
+      "tiling": {
+        "title": "Tegel- en Steenleggen",
+        "description": "Deskundige installatie van premium tegels en natuursteen voor vloeren en wanden."
+      },
+      "parquet": {
+        "title": "Parketvloer",
+        "description": "Hoogwaardige parketinstallatie met zorgvuldige aandacht voor patroon en afwerking."
+      },
+      "painting": {
+        "title": "Schilder- en Stucwerk",
+        "description": "Onberispelijke binnen- en buitenschilder- en stucwerkdiensten."
+      },
+      "windows": {
+        "title": "Raamplaatsing",
+        "description": "Nauwkeurige raamplaatsing voor optimale isolatie, licht en esthetiek."
+      },
+      "renovation": {
+        "title": "Renovatie en Verbouwing",
+        "description": "Complete binnen- en buiten renovatie- en verbouwingsprojecten."
+      }
+    }
+  },
+  "projects": {
+    "title": "Geselecteerde Projecten",
+    "subtitle": "Een zorgvuldige selectie van ons beste bouw- en renovatiewerk.",
+    "viewProject": "Project Bekijken",
+    "viewAll": "Alle Projecten Bekijken",
+    "back": "Terug naar Projecten",
+    "overview": "Projectoverzicht",
+    "gallery": "Projectgalerij",
+    "servicesInvolved": "Betrokken Diensten",
+    "materials": "Gebruikte Materialen",
+    "relatedProjects": "Gerelateerde Projecten",
+    "sectionLabel": "Ons Werk"
+  },
+  "about": {
+    "title": "Over Martin Projektbau",
+    "subtitle": "Zwitsers vakmanschap vanaf dag één.",
+    "body": "Martin Projektbau GmbH is een Zwitsers bouw- en renovatiebedrijf gebouwd op kwaliteit, precisie en betrouwbaarheid. Met expertise in gevelbouw, binnenafwerking en grootschalige renovaties leveren we projecten die de tand des tijds doorstaan.",
+    "sectionLabel": "Wie Wij Zijn",
+    "values": {
+      "quality": {
+        "title": "Kwaliteit",
+        "description": "Wij gebruiken alleen de beste materialen en bewezen technieken."
+      },
+      "precision": {
+        "title": "Precisie",
+        "description": "Elke millimeter telt. Wij engineeren perfectie."
+      },
+      "reliability": {
+        "title": "Betrouwbaarheid",
+        "description": "Op tijd, binnen budget, elk project."
+      },
+      "craftsmanship": {
+        "title": "Vakmanschap",
+        "description": "Decennia expertise op elk oppervlak dat wij aanraken."
+      }
+    },
+    "learnMore": "Meer over ons"
+  },
+  "contact": {
+    "title": "Neem Contact Op",
+    "subtitle": "Klaar om uw project te starten? We horen graag van u.",
+    "name": "Volledige Naam",
+    "email": "E-mailadres",
+    "phone": "Telefoonnummer",
+    "message": "Projectomschrijving",
+    "send": "Bericht Versturen",
+    "address": "Zwitserland",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefoon",
+    "successMessage": "Bedankt! Wij nemen spoedig contact met u op.",
+    "namePlaceholder": "Uw volledige naam",
+    "emailPlaceholder": "uw@email.com",
+    "phonePlaceholder": "+41 ...",
+    "messagePlaceholder": "Vertel ons over uw project...",
+    "sectionLabel": "Contact",
+    "errorName": "Voer uw volledige naam in",
+    "errorEmail": "Voer een geldig e-mailadres in",
+    "errorPhone": "Voer uw telefoonnummer in",
+    "errorMessage": "Beschrijf uw verzoek",
+    "errorServer": "Verzenden mislukt. Probeer het later opnieuw."
+  },
+  "footer": {
+    "tagline": "Uitmuntendheid met Zwitserse precisie.",
+    "rights": "Alle rechten voorbehouden.",
+    "links": "Snelle Links",
+    "legal": "Juridisch",
+    "privacy": "Privacybeleid",
+    "imprint": "Impressum"
+  },
+  "settings": {
+    "title": "Taalinstellingen",
+    "subtitle": "Kies uw voorkeurstaal voor de website.",
+    "current": "Huidige Taal",
+    "select": "Taal Selecteren",
+    "sectionLabel": "Voorkeuren"
+  }
 }

@@ -1,10 +1,132 @@
 {
-  "nav": { "home": "Acasă", "projects": "Proiecte", "services": "Servicii", "about": "Despre", "contact": "Contact", "language": "Limbă" },
-  "hero": { "headline": "Excelență în Construcții,\nÎncredere în Fundații", "subheadline": "Soluții premium de construcție, renovare și fațade cu precizie elvețiană.", "cta": "Vezi Proiectele", "ctaSecondary": "Serviciile Noastre", "badge": "martin-projektbau.ch", "stat1value": "15+", "stat1label": "Ani de experiență", "stat2value": "200+", "stat2label": "Proiecte finalizate", "stat3value": "6", "stat3label": "Servicii principale", "stat4value": "CH", "stat4label": "Calitate elvețiană" },
-  "services": { "title": "Serviciile Noastre", "subtitle": "Servicii complete de construcție și renovare cu precizie și expertiză.", "viewAll": "Vezi toate serviciile", "items": { "facade": { "title": "Construcții Fațade", "description": "Sisteme profesionale de fațade pentru durabilitate, estetică și eficiență energetică." }, "tiling": { "title": "Montaj Gresie și Piatră", "description": "Instalare expertă de gresie premium și piatră naturală pentru pardoseli și pereți." }, "parquet": { "title": "Parchet", "description": "Instalare parchet de înaltă calitate cu atenție meticuloasă la model și finisaj." }, "painting": { "title": "Zugrăveli și Tencuieli", "description": "Servicii impecabile de zugrăvit și tencuit interior și exterior." }, "windows": { "title": "Montaj Ferestre", "description": "Montaj precis de ferestre pentru izolație, lumină și estetică optimă." }, "renovation": { "title": "Renovare și Conversie", "description": "Proiecte complete de renovare și conversie interior și exterior." } } },
-  "projects": { "title": "Proiecte Selectate", "subtitle": "O selecție a celor mai bune lucrări de construcție și renovare.", "viewProject": "Vezi Proiectul", "viewAll": "Vezi Toate Proiectele", "back": "Înapoi la Proiecte", "overview": "Prezentare Generală", "gallery": "Galerie Proiect", "servicesInvolved": "Servicii Implicate", "materials": "Materiale Utilizate", "relatedProjects": "Proiecte Înrudite", "sectionLabel": "Munca Noastră" },
-  "about": { "title": "Despre Martin Projektbau", "subtitle": "Meșteșug elvețian din prima zi.", "body": "Martin Projektbau GmbH este o companie elvețiană de construcții și renovări construită pe calitate, precizie și fiabilitate.", "sectionLabel": "Cine Suntem", "values": { "quality": { "title": "Calitate", "description": "Folosim doar cele mai bune materiale și tehnici dovedite." }, "precision": { "title": "Precizie", "description": "Fiecare milimetru contează. Proiectăm perfecțiunea." }, "reliability": { "title": "Fiabilitate", "description": "La timp, în buget, la fiecare proiect." }, "craftsmanship": { "title": "Meșteșug", "description": "Decenii de expertiză pe fiecare suprafață pe care o atingem." } }, "learnMore": "Aflați mai multe" },
-  "contact": { "title": "Contactați-ne", "subtitle": "Gata să vă începeți proiectul? Am vrea să vă auzim.", "name": "Nume Complet", "email": "Adresă Email", "phone": "Număr de Telefon", "message": "Descrierea Proiectului", "send": "Trimite Mesajul", "address": "Elveția", "emailLabel": "Email", "phoneLabel": "Telefon", "successMessage": "Mulțumim! Vă vom contacta în curând.", "namePlaceholder": "Numele dvs. complet", "emailPlaceholder": "dvs@email.ro", "phonePlaceholder": "+41 ...", "messagePlaceholder": "Spuneți-ne despre proiectul dvs...", "sectionLabel": "Contact" },
-  "footer": { "tagline": "Excelență cu precizie elvețiană.", "rights": "Toate drepturile rezervate.", "links": "Linkuri Rapide", "legal": "Legal", "privacy": "Politica de Confidențialitate", "imprint": "Imprint" },
-  "settings": { "title": "Setări Limbă", "subtitle": "Alegeți limba preferată pentru site.", "current": "Limbă Curentă", "select": "Selectați Limba", "sectionLabel": "Preferințe" }
+  "nav": {
+    "home": "Acasă",
+    "projects": "Proiecte",
+    "services": "Servicii",
+    "about": "Despre",
+    "contact": "Contact",
+    "language": "Limbă"
+  },
+  "hero": {
+    "headline": "Excelență în Construcții,\nÎncredere în Fundații",
+    "subheadline": "Soluții premium de construcție, renovare și fațade cu precizie elvețiană.",
+    "cta": "Vezi Proiectele",
+    "ctaSecondary": "Serviciile Noastre",
+    "badge": "martin-projektbau.ch",
+    "stat1value": "15+",
+    "stat1label": "Ani de experiență",
+    "stat2value": "200+",
+    "stat2label": "Proiecte finalizate",
+    "stat3value": "6",
+    "stat3label": "Servicii principale",
+    "stat4value": "CH",
+    "stat4label": "Calitate elvețiană"
+  },
+  "services": {
+    "title": "Serviciile Noastre",
+    "subtitle": "Servicii complete de construcție și renovare cu precizie și expertiză.",
+    "viewAll": "Vezi toate serviciile",
+    "items": {
+      "facade": {
+        "title": "Construcții Fațade",
+        "description": "Sisteme profesionale de fațade pentru durabilitate, estetică și eficiență energetică."
+      },
+      "tiling": {
+        "title": "Montaj Gresie și Piatră",
+        "description": "Instalare expertă de gresie premium și piatră naturală pentru pardoseli și pereți."
+      },
+      "parquet": {
+        "title": "Parchet",
+        "description": "Instalare parchet de înaltă calitate cu atenție meticuloasă la model și finisaj."
+      },
+      "painting": {
+        "title": "Zugrăveli și Tencuieli",
+        "description": "Servicii impecabile de zugrăvit și tencuit interior și exterior."
+      },
+      "windows": {
+        "title": "Montaj Ferestre",
+        "description": "Montaj precis de ferestre pentru izolație, lumină și estetică optimă."
+      },
+      "renovation": {
+        "title": "Renovare și Conversie",
+        "description": "Proiecte complete de renovare și conversie interior și exterior."
+      }
+    }
+  },
+  "projects": {
+    "title": "Proiecte Selectate",
+    "subtitle": "O selecție a celor mai bune lucrări de construcție și renovare.",
+    "viewProject": "Vezi Proiectul",
+    "viewAll": "Vezi Toate Proiectele",
+    "back": "Înapoi la Proiecte",
+    "overview": "Prezentare Generală",
+    "gallery": "Galerie Proiect",
+    "servicesInvolved": "Servicii Implicate",
+    "materials": "Materiale Utilizate",
+    "relatedProjects": "Proiecte Înrudite",
+    "sectionLabel": "Munca Noastră"
+  },
+  "about": {
+    "title": "Despre Martin Projektbau",
+    "subtitle": "Meșteșug elvețian din prima zi.",
+    "body": "Martin Projektbau GmbH este o companie elvețiană de construcții și renovări construită pe calitate, precizie și fiabilitate.",
+    "sectionLabel": "Cine Suntem",
+    "values": {
+      "quality": {
+        "title": "Calitate",
+        "description": "Folosim doar cele mai bune materiale și tehnici dovedite."
+      },
+      "precision": {
+        "title": "Precizie",
+        "description": "Fiecare milimetru contează. Proiectăm perfecțiunea."
+      },
+      "reliability": {
+        "title": "Fiabilitate",
+        "description": "La timp, în buget, la fiecare proiect."
+      },
+      "craftsmanship": {
+        "title": "Meșteșug",
+        "description": "Decenii de expertiză pe fiecare suprafață pe care o atingem."
+      }
+    },
+    "learnMore": "Aflați mai multe"
+  },
+  "contact": {
+    "title": "Contactați-ne",
+    "subtitle": "Gata să vă începeți proiectul? Am vrea să vă auzim.",
+    "name": "Nume Complet",
+    "email": "Adresă Email",
+    "phone": "Număr de Telefon",
+    "message": "Descrierea Proiectului",
+    "send": "Trimite Mesajul",
+    "address": "Elveția",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefon",
+    "successMessage": "Mulțumim! Vă vom contacta în curând.",
+    "namePlaceholder": "Numele dvs. complet",
+    "emailPlaceholder": "dvs@email.ro",
+    "phonePlaceholder": "+41 ...",
+    "messagePlaceholder": "Spuneți-ne despre proiectul dvs...",
+    "sectionLabel": "Contact",
+    "errorName": "Introduceți numele complet",
+    "errorEmail": "Introduceți o adresă de email validă",
+    "errorPhone": "Introduceți numărul de telefon",
+    "errorMessage": "Descrieți solicitarea dvs.",
+    "errorServer": "Trimiterea a eșuat. Încercați din nou."
+  },
+  "footer": {
+    "tagline": "Excelență cu precizie elvețiană.",
+    "rights": "Toate drepturile rezervate.",
+    "links": "Linkuri Rapide",
+    "legal": "Legal",
+    "privacy": "Politica de Confidențialitate",
+    "imprint": "Imprint"
+  },
+  "settings": {
+    "title": "Setări Limbă",
+    "subtitle": "Alegeți limba preferată pentru site.",
+    "current": "Limbă Curentă",
+    "select": "Selectați Limba",
+    "sectionLabel": "Preferințe"
+  }
 }

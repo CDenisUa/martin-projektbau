@@ -95,7 +95,12 @@
     "emailPlaceholder": "ihre@email.com",
     "phonePlaceholder": "+41 ...",
     "messagePlaceholder": "Erzählen Sie uns von Ihrem Projekt...",
-    "sectionLabel": "Kontakt"
+    "sectionLabel": "Kontakt",
+    "errorName": "Bitte geben Sie Ihren vollständigen Namen ein",
+    "errorEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+    "errorPhone": "Bitte geben Sie Ihre Telefonnummer ein",
+    "errorMessage": "Bitte beschreiben Sie Ihr Anliegen",
+    "errorServer": "Fehler beim Senden. Bitte versuchen Sie es später erneut."
   },
   "footer": {
     "tagline": "Qualität mit Schweizer Präzision.",

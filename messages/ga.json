@@ -1,10 +1,132 @@
 {
-  "nav": { "home": "Baile", "projects": "Tionscadail", "services": "Seirbhísí", "about": "Fúinn", "contact": "Teagmháil", "language": "Teanga" },
-  "hero": { "headline": "Barr Feabhais sa Tógáil,\nMuinín sna Bunúis", "subheadline": "Réitigh tógála, athnuachana agus façade ardchaighdeáin le cruinneas Eilvéiseach.", "cta": "Féach ar Thionscadail", "ctaSecondary": "Ár Seirbhísí", "badge": "martin-projektbau.ch", "stat1value": "15+", "stat1label": "Bliana taithí", "stat2value": "200+", "stat2label": "Tionscadal críochnaithe", "stat3value": "6", "stat3label": "Príomhsheirbhísí", "stat4value": "CH", "stat4label": "Caighdeán Eilvéiseach" },
-  "services": { "title": "Ár Seirbhísí", "subtitle": "Seirbhísí cuimsitheacha tógála agus athnuachana le cruinneas agus saineolas.", "viewAll": "Féach ar na seirbhísí go léir", "items": { "facade": { "title": "Tógáil Façade", "description": "Córais façade gairmiúla do mharthanacht, aeistéitic agus éifeachtúlacht fuinnimh." }, "tiling": { "title": "Leagan Tíleanna agus Cloiche", "description": "Suiteáil saineolach tíleanna ardchaighdeáin agus cloiche nádúrtha." }, "parquet": { "title": "Urlár Parquet", "description": "Suiteáil parquet ardchaighdeáin le haird chúramach ar phatrún agus críoch." }, "painting": { "title": "Péinteáil agus Plástráil", "description": "Seirbhísí péinteála agus plástrála inmheánacha agus seachtracha gan locht." }, "windows": { "title": "Suiteáil Fuinneog", "description": "Suiteáil cruinn fuinneog le haghaidh insliú, solas agus aeistéitic is fearr." }, "renovation": { "title": "Athnuachan agus Tiontú", "description": "Tionscadail athnuachana agus tiontaithe inmheánacha agus seachtracha iomlána." } } },
-  "projects": { "title": "Tionscadail Roghnaithe", "subtitle": "Rogha cuardaithe dár gcuid oibre tógála agus athnuachana is fearr.", "viewProject": "Féach ar Thionscadal", "viewAll": "Féach ar Gach Tionscadal", "back": "Ar Ais go Tionscadail", "overview": "Forbhreathnú ar an Tionscadal", "gallery": "Gailearaí Tionscadail", "servicesInvolved": "Seirbhísí Páirteacha", "materials": "Ábhair a Úsáideadh", "relatedProjects": "Tionscadail Gaolmhara", "sectionLabel": "Ár gCuid Oibre" },
-  "about": { "title": "Faoi Martin Projektbau", "subtitle": "Ceardaíocht Eilvéiseach ón gcéad lá.", "body": "Is comhlacht tógála agus athnuachana Eilvéiseach í Martin Projektbau GmbH atá tógtha ar bhunúis cáilíochta, cruinnis agus iontaofachta.", "sectionLabel": "Cé Sinn", "values": { "quality": { "title": "Cáilíocht", "description": "Ní úsáidimid ach na hábhair is fearr agus teicníochtaí cruthaithe." }, "precision": { "title": "Cruinneas", "description": "Tá gach milliméadar tábhachtach. Innealtóireacht na foirfeachta." }, "reliability": { "title": "Iontaofacht", "description": "In am, faoin mbuiséad, gach tionscadal aonair." }, "craftsmanship": { "title": "Ceardaíocht", "description": "Deich mbliana de shaineolas ar gach dromchla a dtéimid i dteagmháil leis." } }, "learnMore": "Foghlaim tuilleadh fúinn" },
-  "contact": { "title": "Déan Teagmháil", "subtitle": "Réidh chun do thionscadal a thosú? Ba bhreá linn cloisteáil uait.", "name": "Ainm Iomlán", "email": "Seoladh Ríomhphoist", "phone": "Uimhir Fóin", "message": "Cur Síos ar an Tionscadal", "send": "Seol Teachtaireacht", "address": "An Eilvéis", "emailLabel": "Ríomhphost", "phoneLabel": "Fón", "successMessage": "Go raibh maith agat! Beimid i dteagmháil leat go luath.", "namePlaceholder": "D'ainm iomlán", "emailPlaceholder": "tu@email.ie", "phonePlaceholder": "+41 ...", "messagePlaceholder": "Inis dúinn faoi do thionscadal...", "sectionLabel": "Teagmháil" },
-  "footer": { "tagline": "Barr Feabhais le cruinneas Eilvéiseach.", "rights": "Gach ceart ar cosaint.", "links": "Naisc Thapa", "legal": "Dlíthiúil", "privacy": "Polasaí Príobháideachais", "imprint": "Impressum" },
-  "settings": { "title": "Socruithe Teanga", "subtitle": "Roghnaigh do rogha teanga don láithreán gréasáin.", "current": "Teanga Reatha", "select": "Roghnaigh Teanga", "sectionLabel": "Socruithe" }
+  "nav": {
+    "home": "Baile",
+    "projects": "Tionscadail",
+    "services": "Seirbhísí",
+    "about": "Fúinn",
+    "contact": "Teagmháil",
+    "language": "Teanga"
+  },
+  "hero": {
+    "headline": "Barr Feabhais sa Tógáil,\nMuinín sna Bunúis",
+    "subheadline": "Réitigh tógála, athnuachana agus façade ardchaighdeáin le cruinneas Eilvéiseach.",
+    "cta": "Féach ar Thionscadail",
+    "ctaSecondary": "Ár Seirbhísí",
+    "badge": "martin-projektbau.ch",
+    "stat1value": "15+",
+    "stat1label": "Bliana taithí",
+    "stat2value": "200+",
+    "stat2label": "Tionscadal críochnaithe",
+    "stat3value": "6",
+    "stat3label": "Príomhsheirbhísí",
+    "stat4value": "CH",
+    "stat4label": "Caighdeán Eilvéiseach"
+  },
+  "services": {
+    "title": "Ár Seirbhísí",
+    "subtitle": "Seirbhísí cuimsitheacha tógála agus athnuachana le cruinneas agus saineolas.",
+    "viewAll": "Féach ar na seirbhísí go léir",
+    "items": {
+      "facade": {
+        "title": "Tógáil Façade",
+        "description": "Córais façade gairmiúla do mharthanacht, aeistéitic agus éifeachtúlacht fuinnimh."
+      },
+      "tiling": {
+        "title": "Leagan Tíleanna agus Cloiche",
+        "description": "Suiteáil saineolach tíleanna ardchaighdeáin agus cloiche nádúrtha."
+      },
+      "parquet": {
+        "title": "Urlár Parquet",
+        "description": "Suiteáil parquet ardchaighdeáin le haird chúramach ar phatrún agus críoch."
+      },
+      "painting": {
+        "title": "Péinteáil agus Plástráil",
+        "description": "Seirbhísí péinteála agus plástrála inmheánacha agus seachtracha gan locht."
+      },
+      "windows": {
+        "title": "Suiteáil Fuinneog",
+        "description": "Suiteáil cruinn fuinneog le haghaidh insliú, solas agus aeistéitic is fearr."
+      },
+      "renovation": {
+        "title": "Athnuachan agus Tiontú",
+        "description": "Tionscadail athnuachana agus tiontaithe inmheánacha agus seachtracha iomlána."
+      }
+    }
+  },
+  "projects": {
+    "title": "Tionscadail Roghnaithe",
+    "subtitle": "Rogha cuardaithe dár gcuid oibre tógála agus athnuachana is fearr.",
+    "viewProject": "Féach ar Thionscadal",
+    "viewAll": "Féach ar Gach Tionscadal",
+    "back": "Ar Ais go Tionscadail",
+    "overview": "Forbhreathnú ar an Tionscadal",
+    "gallery": "Gailearaí Tionscadail",
+    "servicesInvolved": "Seirbhísí Páirteacha",
+    "materials": "Ábhair a Úsáideadh",
+    "relatedProjects": "Tionscadail Gaolmhara",
+    "sectionLabel": "Ár gCuid Oibre"
+  },
+  "about": {
+    "title": "Faoi Martin Projektbau",
+    "subtitle": "Ceardaíocht Eilvéiseach ón gcéad lá.",
+    "body": "Is comhlacht tógála agus athnuachana Eilvéiseach í Martin Projektbau GmbH atá tógtha ar bhunúis cáilíochta, cruinnis agus iontaofachta.",
+    "sectionLabel": "Cé Sinn",
+    "values": {
+      "quality": {
+        "title": "Cáilíocht",
+        "description": "Ní úsáidimid ach na hábhair is fearr agus teicníochtaí cruthaithe."
+      },
+      "precision": {
+        "title": "Cruinneas",
+        "description": "Tá gach milliméadar tábhachtach. Innealtóireacht na foirfeachta."
+      },
+      "reliability": {
+        "title": "Iontaofacht",
+        "description": "In am, faoin mbuiséad, gach tionscadal aonair."
+      },
+      "craftsmanship": {
+        "title": "Ceardaíocht",
+        "description": "Deich mbliana de shaineolas ar gach dromchla a dtéimid i dteagmháil leis."
+      }
+    },
+    "learnMore": "Foghlaim tuilleadh fúinn"
+  },
+  "contact": {
+    "title": "Déan Teagmháil",
+    "subtitle": "Réidh chun do thionscadal a thosú? Ba bhreá linn cloisteáil uait.",
+    "name": "Ainm Iomlán",
+    "email": "Seoladh Ríomhphoist",
+    "phone": "Uimhir Fóin",
+    "message": "Cur Síos ar an Tionscadal",
+    "send": "Seol Teachtaireacht",
+    "address": "An Eilvéis",
+    "emailLabel": "Ríomhphost",
+    "phoneLabel": "Fón",
+    "successMessage": "Go raibh maith agat! Beimid i dteagmháil leat go luath.",
+    "namePlaceholder": "D'ainm iomlán",
+    "emailPlaceholder": "tu@email.ie",
+    "phonePlaceholder": "+41 ...",
+    "messagePlaceholder": "Inis dúinn faoi do thionscadal...",
+    "sectionLabel": "Teagmháil",
+    "errorName": "Iontráil d'ainm iomlán",
+    "errorEmail": "Iontráil seoladh ríomhphoist bailí",
+    "errorPhone": "Iontráil d'uimhir ghutháin",
+    "errorMessage": "Déan cur síos ar d'iarratas",
+    "errorServer": "Theip ar an seol. Déan iarracht arís."
+  },
+  "footer": {
+    "tagline": "Barr Feabhais le cruinneas Eilvéiseach.",
+    "rights": "Gach ceart ar cosaint.",
+    "links": "Naisc Thapa",
+    "legal": "Dlíthiúil",
+    "privacy": "Polasaí Príobháideachais",
+    "imprint": "Impressum"
+  },
+  "settings": {
+    "title": "Socruithe Teanga",
+    "subtitle": "Roghnaigh do rogha teanga don láithreán gréasáin.",
+    "current": "Teanga Reatha",
+    "select": "Roghnaigh Teanga",
+    "sectionLabel": "Socruithe"
+  }
 }

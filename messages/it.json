@@ -72,10 +72,22 @@
     "body": "Martin Projektbau GmbH è un'azienda svizzera di costruzione e ristrutturazione fondata sulla qualità, la precisione e l'affidabilità. Con competenze che spaziano dalla costruzione di facciate alle finiture interne e alle ristrutturazioni complete, consegniamo progetti che resistono alla prova del tempo.",
     "sectionLabel": "Chi Siamo",
     "values": {
-      "quality": { "title": "Qualità", "description": "Utilizziamo solo i migliori materiali e tecniche collaudate." },
-      "precision": { "title": "Precisione", "description": "Ogni millimetro conta. Progettiamo la perfezione." },
-      "reliability": { "title": "Affidabilità", "description": "Nei tempi, nel budget, per ogni singolo progetto." },
-      "craftsmanship": { "title": "Artigianalità", "description": "Decenni di esperienza su ogni superficie che tocchiamo." }
+      "quality": {
+        "title": "Qualità",
+        "description": "Utilizziamo solo i migliori materiali e tecniche collaudate."
+      },
+      "precision": {
+        "title": "Precisione",
+        "description": "Ogni millimetro conta. Progettiamo la perfezione."
+      },
+      "reliability": {
+        "title": "Affidabilità",
+        "description": "Nei tempi, nel budget, per ogni singolo progetto."
+      },
+      "craftsmanship": {
+        "title": "Artigianalità",
+        "description": "Decenni di esperienza su ogni superficie che tocchiamo."
+      }
     },
     "learnMore": "Scopri di più"
   },
@@ -95,7 +107,12 @@
     "emailPlaceholder": "tua@email.com",
     "phonePlaceholder": "+41 ...",
     "messagePlaceholder": "Parlaci del tuo progetto...",
-    "sectionLabel": "Contatto"
+    "sectionLabel": "Contatto",
+    "errorName": "Inserisci il tuo nome completo",
+    "errorEmail": "Inserisci un indirizzo email valido",
+    "errorPhone": "Inserisci il tuo numero di telefono",
+    "errorMessage": "Descrivi la tua richiesta",
+    "errorServer": "Invio fallito. Riprova più tardi."
   },
   "footer": {
     "tagline": "Eccellenza con precisione svizzera.",

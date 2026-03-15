@@ -3,19 +3,91 @@
 import { useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { motion, useInView } from 'framer-motion';
-import { Mail, MapPin, ArrowRight, CheckCircle } from 'lucide-react';
+import { Mail, MapPin, ArrowRight, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
+
+type FormState = {
+  name: string;
+  email: string;
+  phone: string;
+  message: string;
+};
+
+type Errors = Partial<Record<keyof FormState, string>>;
+
+function validate(form: FormState, t: ReturnType<typeof useTranslations>): Errors {
+  const errors: Errors = {};
+  if (!form.name.trim() || form.name.trim().length < 2) {
+    errors.name = t('errorName');
+  }
+  if (!form.email.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
+    errors.email = t('errorEmail');
+  }
+  if (!form.phone.trim()) {
+    errors.phone = t('errorPhone');
+  }
+  if (!form.message.trim() || form.message.trim().length < 5) {
+    errors.message = t('errorMessage');
+  }
+  return errors;
+}
 
 export default function ContactSection() {
   const t = useTranslations('contact');
   const ref = useRef<HTMLElement>(null);
   const inView = useInView(ref, { once: true, margin: '-80px' });
   const [submitted, setSubmitted] = useState(false);
-  const [form, setForm] = useState({ name: '', email: '', phone: '', message: '' });
+  const [loading, setLoading] = useState(false);
+  const [serverError, setServerError] = useState('');
+  const [form, setForm] = useState<FormState>({ name: '', email: '', phone: '', message: '' });
+  const [errors, setErrors] = useState<Errors>({});
+  const [touched, setTouched] = useState<Partial<Record<keyof FormState, boolean>>>({});
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setSubmitted(true);
+  const handleBlur = (field: keyof FormState) => {
+    setTouched((prev) => ({ ...prev, [field]: true }));
+    const fieldErrors = validate(form, t);
+    setErrors((prev) => ({ ...prev, [field]: fieldErrors[field] }));
   };
+
+  const handleChange = (field: keyof FormState, value: string) => {
+    const updated = { ...form, [field]: value };
+    setForm(updated);
+    if (touched[field]) {
+      const fieldErrors = validate(updated, t);
+      setErrors((prev) => ({ ...prev, [field]: fieldErrors[field] }));
+    }
+  };
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    const allTouched = { name: true, email: true, phone: true, message: true };
+    setTouched(allTouched);
+    const fieldErrors = validate(form, t);
+    setErrors(fieldErrors);
+    if (Object.keys(fieldErrors).length > 0) return;
+
+    setLoading(true);
+    setServerError('');
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(form),
+      });
+      if (!res.ok) throw new Error();
+      setSubmitted(true);
+    } catch {
+      setServerError(t('errorServer'));
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const inputClass = (field: keyof FormState) =>
+    `w-full bg-white/8 border text-white placeholder-white/25 px-4 py-3 text-sm focus:outline-none transition-colors duration-200 ${
+      touched[field] && errors[field]
+        ? 'border-red-400/60 focus:border-red-400'
+        : 'border-white/15 focus:border-accent'
+    }`;
 
   return (
     <section ref={ref} className="py-32 bg-primary text-white">
@@ -35,7 +107,7 @@ export default function ContactSection() {
 
             <div className="space-y-7">
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 bg-white/8 flex items-center justify-center flex-shrink-0">
+                <div className="w-10 h-10 bg-white/8 flex items-center justify-center shrink-0">
                   <Mail size={17} className="text-accent" />
                 </div>
                 <div>
@@ -51,7 +123,7 @@ export default function ContactSection() {
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="w-10 h-10 bg-white/8 flex items-center justify-center flex-shrink-0">
+                <div className="w-10 h-10 bg-white/8 flex items-center justify-center shrink-0">
                   <MapPin size={17} className="text-accent" />
                 </div>
                 <div>
@@ -82,69 +154,106 @@ export default function ContactSection() {
                 </motion.div>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} className="space-y-5">
+              <form onSubmit={handleSubmit} noValidate className="space-y-5">
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-[10px] text-white/30 uppercase tracking-[0.2em] mb-2">
-                      {t('name')}
+                      {t('name')} *
                     </label>
                     <input
                       type="text"
-                      required
                       value={form.name}
-                      onChange={(e) => setForm({ ...form, name: e.target.value })}
+                      onChange={(e) => handleChange('name', e.target.value)}
+                      onBlur={() => handleBlur('name')}
                       placeholder={t('namePlaceholder')}
-                      className="w-full bg-white/8 border border-white/15 text-white placeholder-white/25 px-4 py-3 text-sm focus:outline-none focus:border-accent transition-colors duration-200"
+                      className={inputClass('name')}
                     />
+                    {touched.name && errors.name && (
+                      <p className="mt-1.5 text-xs text-red-400 flex items-center gap-1">
+                        <AlertCircle size={11} /> {errors.name}
+                      </p>
+                    )}
                   </div>
                   <div>
                     <label className="block text-[10px] text-white/30 uppercase tracking-[0.2em] mb-2">
-                      {t('email')}
+                      {t('email')} *
                     </label>
                     <input
                       type="email"
-                      required
                       value={form.email}
-                      onChange={(e) => setForm({ ...form, email: e.target.value })}
+                      onChange={(e) => handleChange('email', e.target.value)}
+                      onBlur={() => handleBlur('email')}
                       placeholder={t('emailPlaceholder')}
-                      className="w-full bg-white/8 border border-white/15 text-white placeholder-white/25 px-4 py-3 text-sm focus:outline-none focus:border-accent transition-colors duration-200"
+                      className={inputClass('email')}
                     />
+                    {touched.email && errors.email && (
+                      <p className="mt-1.5 text-xs text-red-400 flex items-center gap-1">
+                        <AlertCircle size={11} /> {errors.email}
+                      </p>
+                    )}
                   </div>
                 </div>
+
                 <div>
                   <label className="block text-[10px] text-white/30 uppercase tracking-[0.2em] mb-2">
-                    {t('phone')}
+                    {t('phone')} *
                   </label>
                   <input
                     type="tel"
                     value={form.phone}
-                    onChange={(e) => setForm({ ...form, phone: e.target.value })}
+                    onChange={(e) => handleChange('phone', e.target.value)}
+                    onBlur={() => handleBlur('phone')}
                     placeholder={t('phonePlaceholder')}
-                    className="w-full bg-white/8 border border-white/15 text-white placeholder-white/25 px-4 py-3 text-sm focus:outline-none focus:border-accent transition-colors duration-200"
+                    className={inputClass('phone')}
                   />
+                  {touched.phone && errors.phone && (
+                    <p className="mt-1.5 text-xs text-red-400 flex items-center gap-1">
+                      <AlertCircle size={11} /> {errors.phone}
+                    </p>
+                  )}
                 </div>
+
                 <div>
                   <label className="block text-[10px] text-white/30 uppercase tracking-[0.2em] mb-2">
-                    {t('message')}
+                    {t('message')} *
                   </label>
                   <textarea
-                    required
                     rows={5}
                     value={form.message}
-                    onChange={(e) => setForm({ ...form, message: e.target.value })}
+                    onChange={(e) => handleChange('message', e.target.value)}
+                    onBlur={() => handleBlur('message')}
                     placeholder={t('messagePlaceholder')}
-                    className="w-full bg-white/8 border border-white/15 text-white placeholder-white/25 px-4 py-3 text-sm focus:outline-none focus:border-accent transition-colors duration-200 resize-none"
+                    className={`${inputClass('message')} resize-none`}
                   />
+                  {touched.message && errors.message && (
+                    <p className="mt-1.5 text-xs text-red-400 flex items-center gap-1">
+                      <AlertCircle size={11} /> {errors.message}
+                    </p>
+                  )}
                 </div>
+
+                {serverError && (
+                  <p className="text-sm text-red-400 flex items-center gap-2">
+                    <AlertCircle size={14} /> {serverError}
+                  </p>
+                )}
+
                 <button
                   type="submit"
-                  className="group flex items-center gap-3 bg-accent hover:bg-accent/90 text-white px-8 py-4 text-sm font-medium tracking-wide transition-all duration-200"
+                  disabled={loading}
+                  className="group flex items-center gap-3 bg-accent hover:bg-accent/90 disabled:opacity-60 text-white px-8 py-4 text-sm font-medium tracking-wide transition-all duration-200"
                 >
-                  {t('send')}
-                  <ArrowRight
-                    size={15}
-                    className="group-hover:translate-x-1 transition-transform duration-200"
-                  />
+                  {loading ? (
+                    <Loader2 size={15} className="animate-spin" />
+                  ) : (
+                    <>
+                      {t('send')}
+                      <ArrowRight
+                        size={15}
+                        className="group-hover:translate-x-1 transition-transform duration-200"
+                      />
+                    </>
+                  )}
                 </button>
               </form>
             )}

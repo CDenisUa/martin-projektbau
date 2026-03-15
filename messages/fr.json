@@ -72,10 +72,22 @@
     "body": "Martin Projektbau GmbH est une entreprise suisse de construction et de rénovation fondée sur la qualité, la précision et la fiabilité. Avec une expertise couvrant la construction de façades, la finition intérieure et les rénovations complètes, nous livrons des projets qui résistent à l'épreuve du temps.",
     "sectionLabel": "Qui Nous Sommes",
     "values": {
-      "quality": { "title": "Qualité", "description": "Nous utilisons uniquement les meilleurs matériaux et techniques éprouvées." },
-      "precision": { "title": "Précision", "description": "Chaque millimètre compte. Nous concevons la perfection." },
-      "reliability": { "title": "Fiabilité", "description": "Dans les délais, dans le budget, pour chaque projet." },
-      "craftsmanship": { "title": "Savoir-faire", "description": "Des décennies d'expertise sur chaque surface que nous touchons." }
+      "quality": {
+        "title": "Qualité",
+        "description": "Nous utilisons uniquement les meilleurs matériaux et techniques éprouvées."
+      },
+      "precision": {
+        "title": "Précision",
+        "description": "Chaque millimètre compte. Nous concevons la perfection."
+      },
+      "reliability": {
+        "title": "Fiabilité",
+        "description": "Dans les délais, dans le budget, pour chaque projet."
+      },
+      "craftsmanship": {
+        "title": "Savoir-faire",
+        "description": "Des décennies d'expertise sur chaque surface que nous touchons."
+      }
     },
     "learnMore": "En savoir plus"
   },
@@ -95,7 +107,12 @@
     "emailPlaceholder": "votre@email.com",
     "phonePlaceholder": "+41 ...",
     "messagePlaceholder": "Parlez-nous de votre projet...",
-    "sectionLabel": "Contact"
+    "sectionLabel": "Contact",
+    "errorName": "Veuillez entrer votre nom complet",
+    "errorEmail": "Veuillez entrer une adresse e-mail valide",
+    "errorPhone": "Veuillez entrer votre numéro de téléphone",
+    "errorMessage": "Veuillez décrire votre demande",
+    "errorServer": "Échec de l'envoi. Veuillez réessayer."
   },
   "footer": {
     "tagline": "L'excellence avec la précision suisse.",

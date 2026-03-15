@@ -1,10 +1,132 @@
 {
-  "nav": { "home": "Início", "projects": "Projetos", "services": "Serviços", "about": "Sobre", "contact": "Contato", "language": "Idioma" },
-  "hero": { "headline": "Excelência em Construção,\nConfiança nas Fundações", "subheadline": "Soluções premium de construção, renovação e fachadas com precisão suíça.", "cta": "Ver Projetos", "ctaSecondary": "Nossos Serviços", "badge": "martin-projektbau.ch", "stat1value": "15+", "stat1label": "Anos de Experiência", "stat2value": "200+", "stat2label": "Projetos Concluídos", "stat3value": "6", "stat3label": "Serviços Principais", "stat4value": "CH", "stat4label": "Qualidade Suíça" },
-  "services": { "title": "Nossos Serviços", "subtitle": "Serviços abrangentes de construção e renovação com precisão e experiência.", "viewAll": "Ver todos os serviços", "items": { "facade": { "title": "Construção de Fachadas", "description": "Sistemas de fachadas profissionais para durabilidade, estética e eficiência energética." }, "tiling": { "title": "Assentamento de Azulejo e Pedra", "description": "Instalação especializada de azulejos premium e pedra natural para pisos e paredes." }, "parquet": { "title": "Parquet", "description": "Instalação de parquet de alta qualidade com atenção ao padrão e acabamento." }, "painting": { "title": "Pintura e Reboco", "description": "Serviços impecáveis de pintura e reboco interior e exterior." }, "windows": { "title": "Instalação de Janelas", "description": "Instalação de janelas de precisão para isolamento, luz e estética ideais." }, "renovation": { "title": "Renovação e Conversão", "description": "Projetos completos de renovação e conversão interior e exterior." } } },
-  "projects": { "title": "Projetos Selecionados", "subtitle": "Uma seleção dos nossos melhores trabalhos de construção e renovação.", "viewProject": "Ver Projeto", "viewAll": "Ver Todos os Projetos", "back": "Voltar aos Projetos", "overview": "Visão Geral do Projeto", "gallery": "Galeria do Projeto", "servicesInvolved": "Serviços Envolvidos", "materials": "Materiais Utilizados", "relatedProjects": "Projetos Relacionados", "sectionLabel": "Nosso Trabalho" },
-  "about": { "title": "Sobre Martin Projektbau", "subtitle": "Artesanato suíço desde o primeiro dia.", "body": "Martin Projektbau GmbH é uma empresa suíça de construção e renovação alicerçada em qualidade, precisão e confiabilidade. Com expertise em construção de fachadas, acabamentos interiores e renovações completas, entregamos projetos que resistem ao tempo.", "sectionLabel": "Quem Somos", "values": { "quality": { "title": "Qualidade", "description": "Usamos apenas os melhores materiais e técnicas comprovadas." }, "precision": { "title": "Precisão", "description": "Cada milímetro importa. Projetamos a perfeição." }, "reliability": { "title": "Confiabilidade", "description": "No prazo, no orçamento, em cada projeto." }, "craftsmanship": { "title": "Artesanato", "description": "Décadas de experiência em cada superfície que tocamos." } }, "learnMore": "Saiba mais sobre nós" },
-  "contact": { "title": "Entre em Contato", "subtitle": "Pronto para iniciar seu projeto? Adoraríamos ouvir você.", "name": "Nome Completo", "email": "Endereço de Email", "phone": "Número de Telefone", "message": "Descrição do Projeto", "send": "Enviar Mensagem", "address": "Suíça", "emailLabel": "Email", "phoneLabel": "Telefone", "successMessage": "Obrigado! Entraremos em contato em breve.", "namePlaceholder": "Seu nome completo", "emailPlaceholder": "seu@email.com", "phonePlaceholder": "+41 ...", "messagePlaceholder": "Fale-nos sobre seu projeto...", "sectionLabel": "Contato" },
-  "footer": { "tagline": "Excelência com precisão suíça.", "rights": "Todos os direitos reservados.", "links": "Links Rápidos", "legal": "Legal", "privacy": "Política de Privacidade", "imprint": "Aviso Legal" },
-  "settings": { "title": "Configurações de Idioma", "subtitle": "Escolha seu idioma preferido para o site.", "current": "Idioma Atual", "select": "Selecionar Idioma", "sectionLabel": "Preferências" }
+  "nav": {
+    "home": "Início",
+    "projects": "Projetos",
+    "services": "Serviços",
+    "about": "Sobre",
+    "contact": "Contato",
+    "language": "Idioma"
+  },
+  "hero": {
+    "headline": "Excelência em Construção,\nConfiança nas Fundações",
+    "subheadline": "Soluções premium de construção, renovação e fachadas com precisão suíça.",
+    "cta": "Ver Projetos",
+    "ctaSecondary": "Nossos Serviços",
+    "badge": "martin-projektbau.ch",
+    "stat1value": "15+",
+    "stat1label": "Anos de Experiência",
+    "stat2value": "200+",
+    "stat2label": "Projetos Concluídos",
+    "stat3value": "6",
+    "stat3label": "Serviços Principais",
+    "stat4value": "CH",
+    "stat4label": "Qualidade Suíça"
+  },
+  "services": {
+    "title": "Nossos Serviços",
+    "subtitle": "Serviços abrangentes de construção e renovação com precisão e experiência.",
+    "viewAll": "Ver todos os serviços",
+    "items": {
+      "facade": {
+        "title": "Construção de Fachadas",
+        "description": "Sistemas de fachadas profissionais para durabilidade, estética e eficiência energética."
+      },
+      "tiling": {
+        "title": "Assentamento de Azulejo e Pedra",
+        "description": "Instalação especializada de azulejos premium e pedra natural para pisos e paredes."
+      },
+      "parquet": {
+        "title": "Parquet",
+        "description": "Instalação de parquet de alta qualidade com atenção ao padrão e acabamento."
+      },
+      "painting": {
+        "title": "Pintura e Reboco",
+        "description": "Serviços impecáveis de pintura e reboco interior e exterior."
+      },
+      "windows": {
+        "title": "Instalação de Janelas",
+        "description": "Instalação de janelas de precisão para isolamento, luz e estética ideais."
+      },
+      "renovation": {
+        "title": "Renovação e Conversão",
+        "description": "Projetos completos de renovação e conversão interior e exterior."
+      }
+    }
+  },
+  "projects": {
+    "title": "Projetos Selecionados",
+    "subtitle": "Uma seleção dos nossos melhores trabalhos de construção e renovação.",
+    "viewProject": "Ver Projeto",
+    "viewAll": "Ver Todos os Projetos",
+    "back": "Voltar aos Projetos",
+    "overview": "Visão Geral do Projeto",
+    "gallery": "Galeria do Projeto",
+    "servicesInvolved": "Serviços Envolvidos",
+    "materials": "Materiais Utilizados",
+    "relatedProjects": "Projetos Relacionados",
+    "sectionLabel": "Nosso Trabalho"
+  },
+  "about": {
+    "title": "Sobre Martin Projektbau",
+    "subtitle": "Artesanato suíço desde o primeiro dia.",
+    "body": "Martin Projektbau GmbH é uma empresa suíça de construção e renovação alicerçada em qualidade, precisão e confiabilidade. Com expertise em construção de fachadas, acabamentos interiores e renovações completas, entregamos projetos que resistem ao tempo.",
+    "sectionLabel": "Quem Somos",
+    "values": {
+      "quality": {
+        "title": "Qualidade",
+        "description": "Usamos apenas os melhores materiais e técnicas comprovadas."
+      },
+      "precision": {
+        "title": "Precisão",
+        "description": "Cada milímetro importa. Projetamos a perfeição."
+      },
+      "reliability": {
+        "title": "Confiabilidade",
+        "description": "No prazo, no orçamento, em cada projeto."
+      },
+      "craftsmanship": {
+        "title": "Artesanato",
+        "description": "Décadas de experiência em cada superfície que tocamos."
+      }
+    },
+    "learnMore": "Saiba mais sobre nós"
+  },
+  "contact": {
+    "title": "Entre em Contato",
+    "subtitle": "Pronto para iniciar seu projeto? Adoraríamos ouvir você.",
+    "name": "Nome Completo",
+    "email": "Endereço de Email",
+    "phone": "Número de Telefone",
+    "message": "Descrição do Projeto",
+    "send": "Enviar Mensagem",
+    "address": "Suíça",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefone",
+    "successMessage": "Obrigado! Entraremos em contato em breve.",
+    "namePlaceholder": "Seu nome completo",
+    "emailPlaceholder": "seu@email.com",
+    "phonePlaceholder": "+41 ...",
+    "messagePlaceholder": "Fale-nos sobre seu projeto...",
+    "sectionLabel": "Contato",
+    "errorName": "Insira seu nome completo",
+    "errorEmail": "Insira um endereço de e-mail válido",
+    "errorPhone": "Insira seu número de telefone",
+    "errorMessage": "Descreva a sua questão",
+    "errorServer": "Falha ao enviar. Tente novamente."
+  },
+  "footer": {
+    "tagline": "Excelência com precisão suíça.",
+    "rights": "Todos os direitos reservados.",
+    "links": "Links Rápidos",
+    "legal": "Legal",
+    "privacy": "Política de Privacidade",
+    "imprint": "Aviso Legal"
+  },
+  "settings": {
+    "title": "Configurações de Idioma",
+    "subtitle": "Escolha seu idioma preferido para o site.",
+    "current": "Idioma Atual",
+    "select": "Selecionar Idioma",
+    "sectionLabel": "Preferências"
+  }
 }

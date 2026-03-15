@@ -1,10 +1,132 @@
 {
-  "nav": { "home": "Strona główna", "projects": "Projekty", "services": "Usługi", "about": "O nas", "contact": "Kontakt", "language": "Język" },
-  "hero": { "headline": "Doskonałość w Budowie,\nZaufanie w Fundamentach", "subheadline": "Premium rozwiązania budowlane, renowacyjne i elewacyjne z szwajcarską precyzją.", "cta": "Zobacz Projekty", "ctaSecondary": "Nasze Usługi", "badge": "martin-projektbau.ch", "stat1value": "15+", "stat1label": "Lat Doświadczenia", "stat2value": "200+", "stat2label": "Ukończonych Projektów", "stat3value": "6", "stat3label": "Głównych Usług", "stat4value": "CH", "stat4label": "Szwajcarska Jakość" },
-  "services": { "title": "Nasze Usługi", "subtitle": "Kompleksowe usługi budowlane i remontowe z precyzją i fachowością.", "viewAll": "Zobacz wszystkie usługi", "items": { "facade": { "title": "Budowa Elewacji", "description": "Profesjonalne systemy elewacyjne zaprojektowane dla trwałości, estetyki i efektywności energetycznej." }, "tiling": { "title": "Układanie Płytek i Kamienia", "description": "Ekspercka instalacja premium płytek i kamienia naturalnego na podłogi i ściany." }, "parquet": { "title": "Parkiet", "description": "Wysokiej jakości instalacja parkietu z drobiazgową uwagą na wzór i wykończenie." }, "painting": { "title": "Malowanie i Tynkowanie", "description": "Nienaganne usługi malarskie i tynkarskie wewnętrzne i zewnętrzne." }, "windows": { "title": "Montaż Okien", "description": "Precyzyjny montaż okien dla optymalnej izolacji, światła i estetyki." }, "renovation": { "title": "Renowacja i Przebudowa", "description": "Kompleksowe projekty renowacji i przebudowy wewnętrznej i zewnętrznej." } } },
-  "projects": { "title": "Wybrane Projekty", "subtitle": "Staranna selekcja naszych najlepszych prac budowlanych i remontowych.", "viewProject": "Zobacz Projekt", "viewAll": "Zobacz Wszystkie Projekty", "back": "Powrót do Projektów", "overview": "Przegląd Projektu", "gallery": "Galeria Projektu", "servicesInvolved": "Zaangażowane Usługi", "materials": "Użyte Materiały", "relatedProjects": "Powiązane Projekty", "sectionLabel": "Nasza Praca" },
-  "about": { "title": "O Martin Projektbau", "subtitle": "Szwajcarskie rzemiosło od pierwszego dnia.", "body": "Martin Projektbau GmbH to szwajcarska firma budowlana i remontowa zbudowana na fundamentach jakości, precyzji i niezawodności. Dostarczamy projekty, które wytrzymują próbę czasu.", "sectionLabel": "Kim Jesteśmy", "values": { "quality": { "title": "Jakość", "description": "Używamy tylko najlepszych materiałów i sprawdzonych technik." }, "precision": { "title": "Precyzja", "description": "Każdy milimetr ma znaczenie. Inżynierujemy doskonałość." }, "reliability": { "title": "Niezawodność", "description": "Na czas, w budżecie, przy każdym projekcie." }, "craftsmanship": { "title": "Rzemiosło", "description": "Dekady doświadczenia na każdej powierzchni, której dotykamy." } }, "learnMore": "Dowiedz się więcej" },
-  "contact": { "title": "Skontaktuj się", "subtitle": "Gotowy do rozpoczęcia projektu? Chętnie Cię wysłuchamy.", "name": "Pełne Imię i Nazwisko", "email": "Adres Email", "phone": "Numer Telefonu", "message": "Opis Projektu", "send": "Wyślij Wiadomość", "address": "Szwajcaria", "emailLabel": "Email", "phoneLabel": "Telefon", "successMessage": "Dziękujemy! Wkrótce się skontaktujemy.", "namePlaceholder": "Twoje imię i nazwisko", "emailPlaceholder": "twoj@email.com", "phonePlaceholder": "+41 ...", "messagePlaceholder": "Opowiedz nam o swoim projekcie...", "sectionLabel": "Kontakt" },
-  "footer": { "tagline": "Doskonałość ze szwajcarską precyzją.", "rights": "Wszelkie prawa zastrzeżone.", "links": "Szybkie Linki", "legal": "Prawne", "privacy": "Polityka Prywatności", "imprint": "Impressum" },
-  "settings": { "title": "Ustawienia Języka", "subtitle": "Wybierz preferowany język dla strony internetowej.", "current": "Aktualny Język", "select": "Wybierz Język", "sectionLabel": "Preferencje" }
+  "nav": {
+    "home": "Strona główna",
+    "projects": "Projekty",
+    "services": "Usługi",
+    "about": "O nas",
+    "contact": "Kontakt",
+    "language": "Język"
+  },
+  "hero": {
+    "headline": "Doskonałość w Budowie,\nZaufanie w Fundamentach",
+    "subheadline": "Premium rozwiązania budowlane, renowacyjne i elewacyjne z szwajcarską precyzją.",
+    "cta": "Zobacz Projekty",
+    "ctaSecondary": "Nasze Usługi",
+    "badge": "martin-projektbau.ch",
+    "stat1value": "15+",
+    "stat1label": "Lat Doświadczenia",
+    "stat2value": "200+",
+    "stat2label": "Ukończonych Projektów",
+    "stat3value": "6",
+    "stat3label": "Głównych Usług",
+    "stat4value": "CH",
+    "stat4label": "Szwajcarska Jakość"
+  },
+  "services": {
+    "title": "Nasze Usługi",
+    "subtitle": "Kompleksowe usługi budowlane i remontowe z precyzją i fachowością.",
+    "viewAll": "Zobacz wszystkie usługi",
+    "items": {
+      "facade": {
+        "title": "Budowa Elewacji",
+        "description": "Profesjonalne systemy elewacyjne zaprojektowane dla trwałości, estetyki i efektywności energetycznej."
+      },
+      "tiling": {
+        "title": "Układanie Płytek i Kamienia",
+        "description": "Ekspercka instalacja premium płytek i kamienia naturalnego na podłogi i ściany."
+      },
+      "parquet": {
+        "title": "Parkiet",
+        "description": "Wysokiej jakości instalacja parkietu z drobiazgową uwagą na wzór i wykończenie."
+      },
+      "painting": {
+        "title": "Malowanie i Tynkowanie",
+        "description": "Nienaganne usługi malarskie i tynkarskie wewnętrzne i zewnętrzne."
+      },
+      "windows": {
+        "title": "Montaż Okien",
+        "description": "Precyzyjny montaż okien dla optymalnej izolacji, światła i estetyki."
+      },
+      "renovation": {
+        "title": "Renowacja i Przebudowa",
+        "description": "Kompleksowe projekty renowacji i przebudowy wewnętrznej i zewnętrznej."
+      }
+    }
+  },
+  "projects": {
+    "title": "Wybrane Projekty",
+    "subtitle": "Staranna selekcja naszych najlepszych prac budowlanych i remontowych.",
+    "viewProject": "Zobacz Projekt",
+    "viewAll": "Zobacz Wszystkie Projekty",
+    "back": "Powrót do Projektów",
+    "overview": "Przegląd Projektu",
+    "gallery": "Galeria Projektu",
+    "servicesInvolved": "Zaangażowane Usługi",
+    "materials": "Użyte Materiały",
+    "relatedProjects": "Powiązane Projekty",
+    "sectionLabel": "Nasza Praca"
+  },
+  "about": {
+    "title": "O Martin Projektbau",
+    "subtitle": "Szwajcarskie rzemiosło od pierwszego dnia.",
+    "body": "Martin Projektbau GmbH to szwajcarska firma budowlana i remontowa zbudowana na fundamentach jakości, precyzji i niezawodności. Dostarczamy projekty, które wytrzymują próbę czasu.",
+    "sectionLabel": "Kim Jesteśmy",
+    "values": {
+      "quality": {
+        "title": "Jakość",
+        "description": "Używamy tylko najlepszych materiałów i sprawdzonych technik."
+      },
+      "precision": {
+        "title": "Precyzja",
+        "description": "Każdy milimetr ma znaczenie. Inżynierujemy doskonałość."
+      },
+      "reliability": {
+        "title": "Niezawodność",
+        "description": "Na czas, w budżecie, przy każdym projekcie."
+      },
+      "craftsmanship": {
+        "title": "Rzemiosło",
+        "description": "Dekady doświadczenia na każdej powierzchni, której dotykamy."
+      }
+    },
+    "learnMore": "Dowiedz się więcej"
+  },
+  "contact": {
+    "title": "Skontaktuj się",
+    "subtitle": "Gotowy do rozpoczęcia projektu? Chętnie Cię wysłuchamy.",
+    "name": "Pełne Imię i Nazwisko",
+    "email": "Adres Email",
+    "phone": "Numer Telefonu",
+    "message": "Opis Projektu",
+    "send": "Wyślij Wiadomość",
+    "address": "Szwajcaria",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefon",
+    "successMessage": "Dziękujemy! Wkrótce się skontaktujemy.",
+    "namePlaceholder": "Twoje imię i nazwisko",
+    "emailPlaceholder": "twoj@email.com",
+    "phonePlaceholder": "+41 ...",
+    "messagePlaceholder": "Opowiedz nam o swoim projekcie...",
+    "sectionLabel": "Kontakt",
+    "errorName": "Proszę podać imię i nazwisko",
+    "errorEmail": "Proszę podać prawidłowy adres e-mail",
+    "errorPhone": "Proszę podać numer telefonu",
+    "errorMessage": "Proszę opisać swoje zapytanie",
+    "errorServer": "Wysyłanie nie powiodło się. Spróbuj ponownie."
+  },
+  "footer": {
+    "tagline": "Doskonałość ze szwajcarską precyzją.",
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "links": "Szybkie Linki",
+    "legal": "Prawne",
+    "privacy": "Polityka Prywatności",
+    "imprint": "Impressum"
+  },
+  "settings": {
+    "title": "Ustawienia Języka",
+    "subtitle": "Wybierz preferowany język dla strony internetowej.",
+    "current": "Aktualny Język",
+    "select": "Wybierz Język",
+    "sectionLabel": "Preferencje"
+  }
 }
