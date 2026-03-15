@@ -42,11 +42,15 @@ export default function Header() {
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled || mobileOpen
-          ? 'bg-white/96 backdrop-blur-md shadow-sm border-b border-gray-100'
-          : 'bg-transparent'
+          ? 'bg-white/90 backdrop-blur-xl shadow-sm border-b border-white/60'
+          : 'bg-white/8 backdrop-blur-xl border-b border-white/15 shadow-[0_4px_24px_rgba(0,0,0,0.12)]'
       }`}
+      style={{
+        WebkitBackdropFilter: scrolled || mobileOpen ? 'blur(24px) saturate(180%)' : 'blur(20px) saturate(160%)',
+        backdropFilter: scrolled || mobileOpen ? 'blur(24px) saturate(180%)' : 'blur(20px) saturate(160%)',
+      }}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
