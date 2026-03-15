@@ -11,13 +11,11 @@
 }
 
 @layer base {
-  html {
-    scroll-behavior: smooth;
-    overscroll-behavior: none;
-  }
-
+  html,
   body {
-    overscroll-behavior: none;
+    scroll-behavior: smooth;
+    overscroll-behavior-y: none;
+    overscroll-behavior-x: none;
   }
 
   * {
