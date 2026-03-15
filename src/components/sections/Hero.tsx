@@ -4,7 +4,7 @@ import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { ArrowRight, ChevronDown } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 
 export default function Hero() {
   const t = useTranslations('hero');
@@ -66,16 +66,6 @@ export default function Hero() {
           {/* CTAs */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
-              href={`/${locale}/projects`}
-              className="group flex items-center gap-2.5 bg-accent hover:bg-accent/90 text-white px-8 py-4 text-sm font-medium tracking-wide transition-all duration-200"
-            >
-              {t('cta')}
-              <ArrowRight
-                size={15}
-                className="transition-transform duration-200 group-hover:translate-x-1"
-              />
-            </Link>
-            <Link
               href={`/${locale}/services`}
               className="flex items-center gap-2 border border-white/25 hover:border-white/50 text-white/70 hover:text-white px-8 py-4 text-sm font-medium tracking-wide transition-all duration-200"
             >
@@ -85,11 +75,12 @@ export default function Hero() {
         </motion.div>
 
         {/* Scroll indicator */}
-        <motion.div
+        <motion.button
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 2, duration: 0.8 }}
-          className="absolute -bottom-16 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/30"
+          onClick={() => window.scrollBy({ top: window.innerHeight, behavior: 'smooth' })}
+          className="absolute -bottom-16 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/30 hover:text-white/60 transition-colors duration-200 cursor-pointer"
         >
           <span className="text-[10px] tracking-[0.25em] uppercase">Scroll</span>
           <motion.div
@@ -98,7 +89,7 @@ export default function Hero() {
           >
             <ChevronDown size={16} />
           </motion.div>
-        </motion.div>
+        </motion.button>
       </div>
 
       {/* Bottom stats bar */}
