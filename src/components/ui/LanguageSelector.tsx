@@ -62,9 +62,7 @@ export default function LanguageSelector({ scrolled }: { scrolled?: boolean }) {
     <div ref={ref} className="relative">
       <button
         onClick={() => setOpen(!open)}
-        className={`flex items-center gap-1.5 text-sm transition-colors duration-200 ${
-          scrolled ? 'text-gray-600 hover:text-primary' : 'text-white/70 hover:text-white'
-        }`}
+        className="flex items-center gap-1.5 text-sm transition-colors duration-200 text-gray-600 hover:text-primary"
         aria-label="Select language"
       >
         <Globe size={15} />

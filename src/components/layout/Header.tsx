@@ -43,19 +43,19 @@ export default function Header() {
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled || mobileOpen
-          ? 'bg-white/70 backdrop-blur-xl shadow-sm border-b border-white/40'
-          : 'bg-white/4 backdrop-blur-xl border-b border-white/10 shadow-[0_4px_24px_rgba(0,0,0,0.08)]'
+          ? 'bg-white shadow-sm border-b border-gray-100'
+          : 'bg-white border-b border-gray-100'
       }`}
       style={{
-        WebkitBackdropFilter: scrolled || mobileOpen ? 'blur(24px) saturate(180%)' : 'blur(20px) saturate(160%)',
-        backdropFilter: scrolled || mobileOpen ? 'blur(24px) saturate(180%)' : 'blur(20px) saturate(160%)',
+        WebkitBackdropFilter: 'none',
+        backdropFilter: 'none',
       }}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center group">
-            <div className={`transition-all duration-300 ${scrolled || mobileOpen ? '' : 'filter-[brightness(0)_invert(1)]'}`}>
+            <div>
               <LogoMark size={42} />
             </div>
           </Link>
@@ -66,9 +66,9 @@ export default function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`relative text-sm tracking-wide transition-colors duration-200 group ${
-                  scrolled ? 'text-gray-500 hover:text-primary' : 'text-white/70 hover:text-white'
-                } ${isActive(item.href) ? (scrolled ? '!text-primary' : '!text-white') : ''}`}
+                className={`relative text-sm tracking-wide transition-colors duration-200 group text-gray-500 hover:text-primary ${
+                  isActive(item.href) ? 'text-primary!' : ''
+                }`}
               >
                 {item.label}
                 <span
@@ -84,9 +84,7 @@ export default function Header() {
           <div className="flex items-center gap-4">
             <LanguageSelector scrolled={scrolled} />
             <button
-              className={`lg:hidden p-1.5 transition-colors duration-200 ${
-                scrolled || mobileOpen ? 'text-primary' : 'text-white'
-              }`}
+              className="lg:hidden p-1.5 transition-colors duration-200 text-primary"
               onClick={() => setMobileOpen(!mobileOpen)}
               aria-label="Toggle mobile menu"
             >

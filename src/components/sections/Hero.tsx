@@ -64,31 +64,6 @@ export default function Hero() {
         </motion.div>
       </div>
 
-      {/* Bottom stats bar */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 1.2, duration: 0.6 }}
-        className="absolute bottom-0 left-0 right-0 hidden md:block"
-      >
-        <div className="bg-white/8 backdrop-blur-sm border-t border-white/10">
-          <div className="max-w-7xl mx-auto px-8 py-5 grid grid-cols-4 divide-x divide-white/10">
-            {[
-              { value: t('stat1value'), label: t('stat1label') },
-              { value: t('stat2value'), label: t('stat2label') },
-              { value: t('stat3value'), label: t('stat3label') },
-              { value: t('stat4value'), label: t('stat4label') },
-            ].map((stat) => (
-              <div key={stat.label} className="text-center py-1 px-4">
-                <div className="text-2xl font-light text-accent">{stat.value}</div>
-                <div className="text-[10px] text-white/40 tracking-[0.15em] uppercase mt-1">
-                  {stat.label}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </motion.div>
     </section>
   );
 }

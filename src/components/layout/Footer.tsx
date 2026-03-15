@@ -64,26 +64,26 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="border-t border-white/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <span className="text-xs text-white/25">
+        <div className="border-t border-transparent pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <span className="text-xs text-transparent">
             © {new Date().getFullYear()} Martin Projektbau GmbH. {t('rights')}
           </span>
           <div className="flex items-center gap-6">
             <Link
               href={`/${locale}/settings`}
-              className="text-xs text-white/25 hover:text-white/60 transition-colors duration-200"
+              className="text-xs text-transparent hover:text-white/60 transition-colors duration-200"
             >
               {t('legal')}
             </Link>
             <Link
               href={`/${locale}/settings`}
-              className="text-xs text-white/25 hover:text-white/60 transition-colors duration-200"
+              className="text-xs text-transparent hover:text-white/60 transition-colors duration-200"
             >
               {t('privacy')}
             </Link>
             <Link
               href={`/${locale}/settings`}
-              className="text-xs text-white/25 hover:text-white/60 transition-colors duration-200"
+              className="text-xs text-transparent hover:text-white/60 transition-colors duration-200"
             >
               Language
             </Link>
