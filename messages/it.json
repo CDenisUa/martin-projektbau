@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Progetti",
+    "services": "Servizi",
+    "about": "Chi siamo",
+    "contact": "Contatto",
+    "language": "Lingua"
+  },
+  "hero": {
+    "headline": "Eccellenza nelle Costruzioni,\nFiducia nelle Fondamenta",
+    "subheadline": "Soluzioni premium di costruzione, ristrutturazione e facciate con precisione svizzera.",
+    "cta": "Vedi i Progetti",
+    "ctaSecondary": "I Nostri Servizi",
+    "badge": "martin-projektbau.ch",
+    "stat1value": "15+",
+    "stat1label": "Anni di Esperienza",
+    "stat2value": "200+",
+    "stat2label": "Progetti Completati",
+    "stat3value": "6",
+    "stat3label": "Servizi Principali",
+    "stat4value": "CH",
+    "stat4label": "Qualità Svizzera"
+  },
+  "services": {
+    "title": "I Nostri Servizi",
+    "subtitle": "Servizi completi di costruzione e ristrutturazione con precisione ed esperienza.",
+    "viewAll": "Vedi tutti i servizi",
+    "items": {
+      "facade": {
+        "title": "Costruzione di Facciate",
+        "description": "Sistemi di facciate professionali progettati per durabilità, estetica ed efficienza energetica."
+      },
+      "tiling": {
+        "title": "Posa di Piastrelle e Pietra",
+        "description": "Installazione esperta di piastrelle premium e pietra naturale per pavimenti e pareti."
+      },
+      "parquet": {
+        "title": "Parquet",
+        "description": "Installazione di parquet di alta qualità con attenzione meticolosa alla motivo e alla finitura."
+      },
+      "painting": {
+        "title": "Pittura e Intonacatura",
+        "description": "Servizi impeccabili di pittura e intonacatura interni ed esterni."
+      },
+      "windows": {
+        "title": "Installazione Finestre",
+        "description": "Posa di finestre di precisione per isolamento, luce ed estetica ottimali."
+      },
+      "renovation": {
+        "title": "Ristrutturazione e Conversione",
+        "description": "Progetti completi di ristrutturazione e conversione interni ed esterni."
+      }
+    }
+  },
+  "projects": {
+    "title": "Progetti Selezionati",
+    "subtitle": "Una selezione curata dei nostri migliori lavori di costruzione e ristrutturazione.",
+    "viewProject": "Vedi Progetto",
+    "viewAll": "Vedi Tutti i Progetti",
+    "back": "Torna ai Progetti",
+    "overview": "Panoramica del Progetto",
+    "gallery": "Galleria del Progetto",
+    "servicesInvolved": "Servizi Coinvolti",
+    "materials": "Materiali Utilizzati",
+    "relatedProjects": "Progetti Correlati",
+    "sectionLabel": "Il Nostro Lavoro"
+  },
+  "about": {
+    "title": "Chi è Martin Projektbau",
+    "subtitle": "Artigianato svizzero sin dal primo giorno.",
+    "body": "Martin Projektbau GmbH è un'azienda svizzera di costruzione e ristrutturazione fondata sulla qualità, la precisione e l'affidabilità. Con competenze che spaziano dalla costruzione di facciate alle finiture interne e alle ristrutturazioni complete, consegniamo progetti che resistono alla prova del tempo.",
+    "sectionLabel": "Chi Siamo",
+    "values": {
+      "quality": { "title": "Qualità", "description": "Utilizziamo solo i migliori materiali e tecniche collaudate." },
+      "precision": { "title": "Precisione", "description": "Ogni millimetro conta. Progettiamo la perfezione." },
+      "reliability": { "title": "Affidabilità", "description": "Nei tempi, nel budget, per ogni singolo progetto." },
+      "craftsmanship": { "title": "Artigianalità", "description": "Decenni di esperienza su ogni superficie che tocchiamo." }
+    },
+    "learnMore": "Scopri di più"
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Pronto ad avviare il tuo progetto? Ci farebbe piacere sentirti.",
+    "name": "Nome Completo",
+    "email": "Indirizzo Email",
+    "phone": "Numero di Telefono",
+    "message": "Descrizione del Progetto",
+    "send": "Invia Messaggio",
+    "address": "Svizzera",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefono",
+    "successMessage": "Grazie! Ti contatteremo a breve.",
+    "namePlaceholder": "Il tuo nome completo",
+    "emailPlaceholder": "tua@email.com",
+    "phonePlaceholder": "+41 ...",
+    "messagePlaceholder": "Parlaci del tuo progetto...",
+    "sectionLabel": "Contatto"
+  },
+  "footer": {
+    "tagline": "Eccellenza con precisione svizzera.",
+    "rights": "Tutti i diritti riservati.",
+    "links": "Link Rapidi",
+    "legal": "Legale",
+    "privacy": "Privacy Policy",
+    "imprint": "Impronta"
+  },
+  "settings": {
+    "title": "Impostazioni Lingua",
+    "subtitle": "Scegli la tua lingua preferita per il sito web.",
+    "current": "Lingua Attuale",
+    "select": "Seleziona Lingua",
+    "sectionLabel": "Preferenze"
+  }
+}

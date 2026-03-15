@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "projects": "Projekte",
+    "services": "Leistungen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "language": "Sprache"
+  },
+  "hero": {
+    "headline": "Qualität im Bau,\nVertrauen im Fundament",
+    "subheadline": "Premium Bau-, Renovations- und Fassadenlösungen mit Schweizer Präzision.",
+    "cta": "Projekte ansehen",
+    "ctaSecondary": "Unsere Leistungen",
+    "badge": "martin-projektbau.ch",
+    "stat1value": "15+",
+    "stat1label": "Jahre Erfahrung",
+    "stat2value": "200+",
+    "stat2label": "Abgeschlossene Projekte",
+    "stat3value": "6",
+    "stat3label": "Kernleistungen",
+    "stat4value": "CH",
+    "stat4label": "Schweizer Qualität"
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Umfassende Bau- und Renovationsdienstleistungen mit Präzision und Fachkompetenz.",
+    "viewAll": "Alle Leistungen ansehen",
+    "items": {
+      "facade": {
+        "title": "Fassadenbau",
+        "description": "Professionelle Fassadensysteme für Langlebigkeit, Ästhetik und Energieeffizienz."
+      },
+      "tiling": {
+        "title": "Platten- und Fliesenverlegung",
+        "description": "Fachgerechte Verlegung hochwertiger Fliesen und Naturstein für Böden und Wände."
+      },
+      "parquet": {
+        "title": "Parkettverlegung",
+        "description": "Hochwertige Parkettverlegung mit besonderer Sorgfalt auf Muster und Oberfläche."
+      },
+      "painting": {
+        "title": "Maler- und Gipserarbeiten",
+        "description": "Makellose Innen- und Aussenmalerarbeiten sowie Gipserarbeiten."
+      },
+      "windows": {
+        "title": "Fenstermontage",
+        "description": "Präzise Fenstermontage für optimale Dämmung, Licht und Ästhetik."
+      },
+      "renovation": {
+        "title": "Renovationen und Umbauten",
+        "description": "Vollständige Innen- und Aussenrenovationen sowie Umbauprojekte."
+      }
+    }
+  },
+  "projects": {
+    "title": "Ausgewählte Projekte",
+    "subtitle": "Eine kuratierte Auswahl unserer besten Bau- und Renovationsarbeiten.",
+    "viewProject": "Projekt ansehen",
+    "viewAll": "Alle Projekte",
+    "back": "Zurück zu Projekten",
+    "overview": "Projektübersicht",
+    "gallery": "Projektgalerie",
+    "servicesInvolved": "Eingesetzte Leistungen",
+    "materials": "Verwendete Materialien",
+    "relatedProjects": "Verwandte Projekte",
+    "sectionLabel": "Unsere Arbeiten"
+  },
+  "about": {
+    "title": "Über Martin Projektbau",
+    "subtitle": "Schweizer Handwerk vom ersten Tag an.",
+    "body": "Die Martin Projektbau GmbH ist ein Schweizer Bau- und Renovationsunternehmen, das auf den Grundlagen von Qualität, Präzision und Zuverlässigkeit aufgebaut ist. Mit Expertise in Fassadenbau, Innenausbau und umfassenden Renovationen liefern wir Projekte, die den Test der Zeit bestehen. Jedes Detail wird mit Sorgfalt ausgeführt – vom ersten Entwurf bis zum letzten Schliff.",
+    "sectionLabel": "Wer wir sind",
+    "values": {
+      "quality": { "title": "Qualität", "description": "Wir verwenden nur die besten Materialien und bewährten Techniken." },
+      "precision": { "title": "Präzision", "description": "Jeder Millimeter zählt. Wir konstruieren Perfektion." },
+      "reliability": { "title": "Zuverlässigkeit", "description": "Pünktlich, im Budget, bei jedem Projekt." },
+      "craftsmanship": { "title": "Handwerk", "description": "Jahrzehntelange Expertise auf jeder Fläche, die wir berühren." }
+    },
+    "learnMore": "Mehr über uns"
+  },
+  "contact": {
+    "title": "Kontakt aufnehmen",
+    "subtitle": "Bereit, Ihr Projekt zu starten? Wir freuen uns von Ihnen zu hören.",
+    "name": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "phone": "Telefonnummer",
+    "message": "Projektbeschreibung",
+    "send": "Nachricht senden",
+    "address": "Schweiz",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "successMessage": "Danke! Wir melden uns in Kürze.",
+    "namePlaceholder": "Ihr vollständiger Name",
+    "emailPlaceholder": "ihre@email.com",
+    "phonePlaceholder": "+41 ...",
+    "messagePlaceholder": "Erzählen Sie uns von Ihrem Projekt...",
+    "sectionLabel": "Kontakt"
+  },
+  "footer": {
+    "tagline": "Qualität mit Schweizer Präzision.",
+    "rights": "Alle Rechte vorbehalten.",
+    "links": "Schnelllinks",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutz",
+    "imprint": "Impressum"
+  },
+  "settings": {
+    "title": "Spracheinstellungen",
+    "subtitle": "Wählen Sie Ihre bevorzugte Sprache für die Website.",
+    "current": "Aktuelle Sprache",
+    "select": "Sprache auswählen",
+    "sectionLabel": "Einstellungen"
+  }
+}

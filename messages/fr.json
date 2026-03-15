@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "projects": "Projets",
+    "services": "Services",
+    "about": "À propos",
+    "contact": "Contact",
+    "language": "Langue"
+  },
+  "hero": {
+    "headline": "L'Excellence en Construction,\nLa Confiance dans les Fondations",
+    "subheadline": "Solutions premium de construction, rénovation et façade avec précision suisse.",
+    "cta": "Voir les Projets",
+    "ctaSecondary": "Nos Services",
+    "badge": "martin-projektbau.ch",
+    "stat1value": "15+",
+    "stat1label": "Années d'expérience",
+    "stat2value": "200+",
+    "stat2label": "Projets réalisés",
+    "stat3value": "6",
+    "stat3label": "Services principaux",
+    "stat4value": "CH",
+    "stat4label": "Qualité suisse"
+  },
+  "services": {
+    "title": "Nos Services",
+    "subtitle": "Services complets de construction et rénovation livrés avec précision et expertise.",
+    "viewAll": "Voir tous les services",
+    "items": {
+      "facade": {
+        "title": "Construction de Façades",
+        "description": "Systèmes de façades professionnels conçus pour la durabilité, l'esthétique et l'efficacité énergétique."
+      },
+      "tiling": {
+        "title": "Pose de Carrelage et Pierre",
+        "description": "Installation experte de carrelages premium et de pierres naturelles pour sols et murs."
+      },
+      "parquet": {
+        "title": "Parquet",
+        "description": "Installation de parquet de haute qualité avec une attention méticuleuse au motif et à la finition."
+      },
+      "painting": {
+        "title": "Peinture et Plâtrerie",
+        "description": "Services irréprochables de peinture et plâtrerie intérieure et extérieure."
+      },
+      "windows": {
+        "title": "Pose de Fenêtres",
+        "description": "Pose de fenêtres de précision pour une isolation, une lumière et une esthétique optimales."
+      },
+      "renovation": {
+        "title": "Rénovation et Transformation",
+        "description": "Projets complets de rénovation et transformation intérieure et extérieure."
+      }
+    }
+  },
+  "projects": {
+    "title": "Projets Sélectionnés",
+    "subtitle": "Une sélection de nos plus beaux travaux de construction et de rénovation.",
+    "viewProject": "Voir le Projet",
+    "viewAll": "Voir Tous les Projets",
+    "back": "Retour aux Projets",
+    "overview": "Vue d'ensemble du Projet",
+    "gallery": "Galerie du Projet",
+    "servicesInvolved": "Services Impliqués",
+    "materials": "Matériaux Utilisés",
+    "relatedProjects": "Projets Connexes",
+    "sectionLabel": "Notre Travail"
+  },
+  "about": {
+    "title": "À propos de Martin Projektbau",
+    "subtitle": "L'artisanat suisse dès le premier jour.",
+    "body": "Martin Projektbau GmbH est une entreprise suisse de construction et de rénovation fondée sur la qualité, la précision et la fiabilité. Avec une expertise couvrant la construction de façades, la finition intérieure et les rénovations complètes, nous livrons des projets qui résistent à l'épreuve du temps.",
+    "sectionLabel": "Qui Nous Sommes",
+    "values": {
+      "quality": { "title": "Qualité", "description": "Nous utilisons uniquement les meilleurs matériaux et techniques éprouvées." },
+      "precision": { "title": "Précision", "description": "Chaque millimètre compte. Nous concevons la perfection." },
+      "reliability": { "title": "Fiabilité", "description": "Dans les délais, dans le budget, pour chaque projet." },
+      "craftsmanship": { "title": "Savoir-faire", "description": "Des décennies d'expertise sur chaque surface que nous touchons." }
+    },
+    "learnMore": "En savoir plus"
+  },
+  "contact": {
+    "title": "Nous Contacter",
+    "subtitle": "Prêt à démarrer votre projet ? Nous serions ravis de vous entendre.",
+    "name": "Nom Complet",
+    "email": "Adresse E-mail",
+    "phone": "Numéro de Téléphone",
+    "message": "Description du Projet",
+    "send": "Envoyer le Message",
+    "address": "Suisse",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Téléphone",
+    "successMessage": "Merci ! Nous vous contacterons sous peu.",
+    "namePlaceholder": "Votre nom complet",
+    "emailPlaceholder": "votre@email.com",
+    "phonePlaceholder": "+41 ...",
+    "messagePlaceholder": "Parlez-nous de votre projet...",
+    "sectionLabel": "Contact"
+  },
+  "footer": {
+    "tagline": "L'excellence avec la précision suisse.",
+    "rights": "Tous droits réservés.",
+    "links": "Liens Rapides",
+    "legal": "Mentions Légales",
+    "privacy": "Politique de Confidentialité",
+    "imprint": "Mentions Légales"
+  },
+  "settings": {
+    "title": "Paramètres de Langue",
+    "subtitle": "Choisissez votre langue préférée pour le site web.",
+    "current": "Langue Actuelle",
+    "select": "Sélectionner la Langue",
+    "sectionLabel": "Préférences"
+  }
+}

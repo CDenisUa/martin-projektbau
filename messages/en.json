@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "language": "Language"
+  },
+  "hero": {
+    "headline": "Building Excellence,\nEngineering Trust",
+    "subheadline": "Premium construction, renovation and facade solutions crafted with Swiss precision.",
+    "cta": "View Projects",
+    "ctaSecondary": "Our Services",
+    "badge": "martin-projektbau.ch",
+    "stat1value": "15+",
+    "stat1label": "Years Experience",
+    "stat2value": "200+",
+    "stat2label": "Projects Completed",
+    "stat3value": "6",
+    "stat3label": "Core Services",
+    "stat4value": "CH",
+    "stat4label": "Swiss Quality"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive construction and renovation services delivered with precision and expertise.",
+    "viewAll": "View all services",
+    "items": {
+      "facade": {
+        "title": "Facade Construction",
+        "description": "Professional facade systems designed for durability, aesthetics and energy efficiency."
+      },
+      "tiling": {
+        "title": "Tile & Stone Laying",
+        "description": "Expert installation of premium tiles and natural stone for floors and walls."
+      },
+      "parquet": {
+        "title": "Parquet Flooring",
+        "description": "High-quality parquet installation with meticulous attention to pattern and finish."
+      },
+      "painting": {
+        "title": "Painting & Plastering",
+        "description": "Flawless interior and exterior painting and plastering services."
+      },
+      "windows": {
+        "title": "Window Installation",
+        "description": "Precision window fitting for optimal insulation, light and aesthetics."
+      },
+      "renovation": {
+        "title": "Renovation & Conversion",
+        "description": "Complete interior and exterior renovation and conversion projects."
+      }
+    }
+  },
+  "projects": {
+    "title": "Selected Projects",
+    "subtitle": "A curated selection of our finest construction and renovation work.",
+    "viewProject": "View Project",
+    "viewAll": "View All Projects",
+    "back": "Back to Projects",
+    "overview": "Project Overview",
+    "gallery": "Project Gallery",
+    "servicesInvolved": "Services Involved",
+    "materials": "Materials Used",
+    "relatedProjects": "Related Projects",
+    "sectionLabel": "Our Work"
+  },
+  "about": {
+    "title": "About Martin Projektbau",
+    "subtitle": "Swiss craftsmanship since day one.",
+    "body": "Martin Projektbau GmbH is a Swiss construction and renovation company built on the foundations of quality, precision and reliability. With expertise spanning facade construction, interior finishing and full-scale renovations, we deliver projects that stand the test of time. Every detail is engineered with care — from the first sketch to the final finish.",
+    "sectionLabel": "Who We Are",
+    "values": {
+      "quality": { "title": "Quality", "description": "We use only the finest materials and proven techniques." },
+      "precision": { "title": "Precision", "description": "Every millimetre matters. We engineer perfection." },
+      "reliability": { "title": "Reliability", "description": "On time, on budget, every single project." },
+      "craftsmanship": { "title": "Craftsmanship", "description": "Decades of expertise in every surface we touch." }
+    },
+    "learnMore": "Learn More About Us"
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Ready to start your project? We'd love to hear from you.",
+    "name": "Full Name",
+    "email": "Email Address",
+    "phone": "Phone Number",
+    "message": "Project Description",
+    "send": "Send Message",
+    "address": "Switzerland",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "successMessage": "Thank you! We'll be in touch shortly.",
+    "namePlaceholder": "Your full name",
+    "emailPlaceholder": "your@email.com",
+    "phonePlaceholder": "+41 ...",
+    "messagePlaceholder": "Tell us about your project...",
+    "sectionLabel": "Contact"
+  },
+  "footer": {
+    "tagline": "Building excellence with Swiss precision.",
+    "rights": "All rights reserved.",
+    "links": "Quick Links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "imprint": "Imprint"
+  },
+  "settings": {
+    "title": "Language Settings",
+    "subtitle": "Choose your preferred language for the website.",
+    "current": "Current Language",
+    "select": "Select Language",
+    "sectionLabel": "Preferences"
+  }
+}
