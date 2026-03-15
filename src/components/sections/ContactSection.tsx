@@ -90,7 +90,7 @@ export default function ContactSection() {
     }`;
 
   return (
-    <section ref={ref} className="py-32 bg-primary text-white">
+    <section ref={ref} className="py-12 bg-primary text-white w-full">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-20">
           {/* Left: info */}
@@ -103,9 +103,9 @@ export default function ContactSection() {
               {t('sectionLabel')}
             </p>
             <h2 className="text-4xl lg:text-5xl font-light tracking-tight mb-6">{t('title')}</h2>
-            <p className="text-white/50 text-lg leading-relaxed mb-12">{t('subtitle')}</p>
+            <p className="text-white/50 text-lg leading-relaxed mb-6">{t('subtitle')}</p>
 
-            <div className="space-y-7">
+            <div className="space-y-4">
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 bg-white/8 flex items-center justify-center shrink-0">
                   <Mail size={17} className="text-accent" />
@@ -154,7 +154,7 @@ export default function ContactSection() {
                 </motion.div>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} noValidate className="space-y-5">
+              <form onSubmit={handleSubmit} noValidate className="space-y-3">
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-[10px] text-white/30 uppercase tracking-[0.2em] mb-2">
@@ -218,7 +218,7 @@ export default function ContactSection() {
                     {t('message')} *
                   </label>
                   <textarea
-                    rows={5}
+                    rows={3}
                     value={form.message}
                     onChange={(e) => handleChange('message', e.target.value)}
                     onBlur={() => handleBlur('message')}
