@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Doskonałość w Budowie,\nZaufanie w Fundamentach",
-    "subheadline": "Premium rozwiązania budowlane, renowacyjne i elewacyjne z szwajcarską precyzją.",
+    "subheadline": "Premium rozwiązania budowlane, renowacyjne i elewacyjne ze szwajcarską precyzją.",
     "cta": "Zobacz Projekty",
     "ctaSecondary": "Nasze Usługi",
     "badge": "martin-projektbau.ch",
@@ -33,7 +33,7 @@
       },
       "tiling": {
         "title": "Układanie Płytek i Kamienia",
-        "description": "Ekspercka instalacja premium płytek i kamienia naturalnego na podłogi i ściany."
+        "description": "Profesjonalna instalacja płytek premium i kamienia naturalnego na podłogi i ściany."
       },
       "parquet": {
         "title": "Parkiet",
@@ -118,7 +118,7 @@
     "tagline": "Doskonałość ze szwajcarską precyzją.",
     "rights": "Wszelkie prawa zastrzeżone.",
     "links": "Szybkie Linki",
-    "legal": "Prawne",
+    "legal": "Informacje prawne",
     "privacy": "Polityka Prywatności",
     "imprint": "Impressum"
   },

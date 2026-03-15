@@ -72,12 +72,24 @@
     "body": "Die Martin Projektbau GmbH ist ein Schweizer Bau- und Renovationsunternehmen, das auf den Grundlagen von Qualität, Präzision und Zuverlässigkeit aufgebaut ist. Mit Expertise in Fassadenbau, Innenausbau und umfassenden Renovationen liefern wir Projekte, die den Test der Zeit bestehen. Jedes Detail wird mit Sorgfalt ausgeführt – vom ersten Entwurf bis zum letzten Schliff.",
     "sectionLabel": "Wer wir sind",
     "values": {
-      "quality": { "title": "Qualität", "description": "Wir verwenden nur die besten Materialien und bewährten Techniken." },
-      "precision": { "title": "Präzision", "description": "Jeder Millimeter zählt. Wir konstruieren Perfektion." },
-      "reliability": { "title": "Zuverlässigkeit", "description": "Pünktlich, im Budget, bei jedem Projekt." },
-      "craftsmanship": { "title": "Handwerk", "description": "Jahrzehntelange Expertise auf jeder Fläche, die wir berühren." }
+      "quality": {
+        "title": "Qualität",
+        "description": "Wir verwenden nur die besten Materialien und bewährten Techniken."
+      },
+      "precision": {
+        "title": "Präzision",
+        "description": "Jeder Millimeter zählt. Wir erschaffen Perfektion."
+      },
+      "reliability": {
+        "title": "Zuverlässigkeit",
+        "description": "Pünktlich, im Budget, bei jedem Projekt."
+      },
+      "craftsmanship": {
+        "title": "Handwerk",
+        "description": "Jahrzehntelange Expertise auf jeder Fläche, die wir berühren."
+      }
     },
-    "learnMore": "Mehr über uns"
+    "learnMore": "Mehr über uns erfahren"
   },
   "contact": {
     "title": "Kontakt aufnehmen",

@@ -33,11 +33,11 @@
       },
       "tiling": {
         "title": "Kladenie Dlaždíc a Kameňa",
-        "description": "Odborná inštalácia prémiových dlaždíc a prírodného kameňa."
+        "description": "Odborná inštalácia prémiových dlaždíc a prírodného kameňa pre podlahy a steny."
       },
       "parquet": {
         "title": "Parketové Podlahy",
-        "description": "Vysokokvalitná inštalácia parkiet s precíznou pozornosťou."
+        "description": "Vysokokvalitná inštalácia parkiet s precíznou pozornosťou na vzor a povrchovú úpravu."
       },
       "painting": {
         "title": "Maľovanie a Omietanie",
@@ -67,7 +67,7 @@
     "sectionLabel": "Naša Práca"
   },
   "about": {
-    "title": "O Martin Projektbau",
+    "title": "O spoločnosti Martin Projektbau",
     "subtitle": "Švajčiarske remeslo od prvého dňa.",
     "body": "Martin Projektbau GmbH je švajčiarska stavebná a rekonštrukčná spoločnosť postavená na základoch kvality, precíznosti a spoľahlivosti.",
     "sectionLabel": "Kto Sme",
