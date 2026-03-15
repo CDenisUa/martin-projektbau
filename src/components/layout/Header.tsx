@@ -29,7 +29,6 @@ export default function Header() {
 
   const navItems = [
     { label: t('home'), href: `/${locale}` },
-    { label: t('projects'), href: `/${locale}/projects` },
     { label: t('services'), href: `/${locale}/services` },
     { label: t('about'), href: `/${locale}/about` },
     { label: t('contact'), href: `/${locale}/contact` },
@@ -44,8 +43,8 @@ export default function Header() {
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled || mobileOpen
-          ? 'bg-white/90 backdrop-blur-xl shadow-sm border-b border-white/60'
-          : 'bg-white/8 backdrop-blur-xl border-b border-white/15 shadow-[0_4px_24px_rgba(0,0,0,0.12)]'
+          ? 'bg-white/70 backdrop-blur-xl shadow-sm border-b border-white/40'
+          : 'bg-white/4 backdrop-blur-xl border-b border-white/10 shadow-[0_4px_24px_rgba(0,0,0,0.08)]'
       }`}
       style={{
         WebkitBackdropFilter: scrolled || mobileOpen ? 'blur(24px) saturate(180%)' : 'blur(20px) saturate(160%)',

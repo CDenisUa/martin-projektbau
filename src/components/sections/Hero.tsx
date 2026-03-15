@@ -5,36 +5,34 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
+import { useState, useEffect } from 'react';
 
 export default function Hero() {
   const t = useTranslations('hero');
   const locale = useLocale();
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > window.innerHeight * 0.8);
+    window.addEventListener('scroll', onScroll);
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-primary">
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=1920&q=80"
-          alt="Swiss Alpine mountains"
+          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80"
+          alt="Swiss Alpine mountains with snow"
           fill
           priority
-          className="object-cover opacity-35"
+          className="object-cover opacity-40"
           sizes="100vw"
         />
         {/* Gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-primary/40 via-primary/50 to-primary/85" />
       </div>
-
-      {/* Subtle grid overlay */}
-      <div
-        className="absolute inset-0 opacity-[0.04]"
-        style={{
-          backgroundImage:
-            'linear-gradient(rgba(255,255,255,0.8) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.8) 1px, transparent 1px)',
-          backgroundSize: '64px 64px',
-        }}
-      />
 
       {/* Main content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 text-center text-white pt-20">
@@ -73,23 +71,6 @@ export default function Hero() {
             </Link>
           </div>
         </motion.div>
-
-        {/* Scroll indicator */}
-        <motion.button
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 2, duration: 0.8 }}
-          onClick={() => window.scrollBy({ top: window.innerHeight, behavior: 'smooth' })}
-          className="absolute -bottom-44.5 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-white/30 hover:text-white/60 transition-colors duration-200 cursor-pointer"
-        >
-          <span className="text-[10px] tracking-[0.25em] uppercase">Scroll</span>
-          <motion.div
-            animate={{ y: [0, 6, 0] }}
-            transition={{ duration: 1.8, repeat: Infinity, ease: 'easeInOut' }}
-          >
-            <ChevronDown size={16} />
-          </motion.div>
-        </motion.button>
       </div>
 
       {/* Bottom stats bar */}
@@ -117,6 +98,24 @@ export default function Hero() {
           </div>
         </div>
       </motion.div>
+
+      {/* Scroll indicator — fixed to viewport, always visible */}
+      <motion.button
+        onClick={() => window.scrollBy({ top: window.innerHeight, behavior: 'smooth' })}
+        className={`fixed bottom-8 left-1/2 -translate-x-1/2 z-40 flex flex-col items-center gap-2 transition-colors duration-300 cursor-pointer ${
+          scrolled
+            ? 'text-primary/40 hover:text-primary'
+            : 'text-white/40 hover:text-white/80'
+        }`}
+      >
+        <span className="text-[10px] tracking-[0.25em] uppercase">Scroll</span>
+        <motion.div
+          animate={{ y: [0, 6, 0] }}
+          transition={{ duration: 1.8, repeat: Infinity, ease: 'easeInOut' }}
+        >
+          <ChevronDown size={16} />
+        </motion.div>
+      </motion.button>
     </section>
   );
 }
