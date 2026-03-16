@@ -14,9 +14,12 @@ export default function HomePage() {
   return (
     <>
       <Hero />
-      <ServicesSection />
-      <AboutSection />
-      <ContactSection />
+      {/* These sections scroll over the sticky hero */}
+      <div className="relative z-10">
+        <ServicesSection />
+        <AboutSection />
+        <ContactSection />
+      </div>
     </>
   );
 }

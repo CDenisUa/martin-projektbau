@@ -16,13 +16,17 @@ export default function Header() {
   const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
 
+  const isHomePage = pathname === `/${locale}` || pathname === '/';
+
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 50);
-    window.addEventListener('scroll', onScroll);
+    const onScroll = () => {
+      setScrolled(window.scrollY > window.innerHeight * 0.85);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  // Close mobile menu on route change
   useEffect(() => {
     setMobileOpen(false);
   }, [pathname]);
@@ -36,26 +40,36 @@ export default function Header() {
 
   const isActive = (href: string) => pathname === href;
 
+  // transparent = home page before scrolling past hero
+  const transparent = isHomePage && !scrolled && !mobileOpen;
+
   return (
     <motion.header
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        scrolled || mobileOpen
-          ? 'bg-white shadow-sm border-b border-gray-100'
-          : 'bg-white border-b border-gray-100'
-      }`}
-      style={{
-        WebkitBackdropFilter: 'none',
-        backdropFilter: 'none',
-      }}
+      className="fixed top-0 left-0 right-0 z-50"
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      {/* Sliding white background — slides up when transparent, slides down when solid */}
+      <AnimatePresence>
+        {!transparent && (
+          <motion.div
+            key="solid-bg"
+            initial={{ y: '-100%' }}
+            animate={{ y: 0 }}
+            exit={{ y: '-100%' }}
+            transition={{ duration: 0.38, ease: [0.22, 1, 0.36, 1] }}
+            className="absolute inset-0 bg-white shadow-sm border-b border-gray-100"
+          />
+        )}
+      </AnimatePresence>
+
+      {/* Header content — always on top of background layer */}
+      <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center group">
-            <div>
+            <div className={`transition-all duration-400 ${transparent ? 'filter-[brightness(0)_invert(1)]' : ''}`}>
               <LogoMark size={42} />
             </div>
           </Link>
@@ -66,13 +80,15 @@ export default function Header() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`relative text-sm tracking-wide transition-colors duration-200 group text-gray-500 hover:text-primary ${
-                  isActive(item.href) ? 'text-primary!' : ''
-                }`}
+                className={`relative text-sm tracking-wide transition-colors duration-300 group ${
+                  transparent
+                    ? 'text-white/75 hover:text-white'
+                    : 'text-gray-500 hover:text-primary'
+                } ${isActive(item.href) ? (transparent ? 'text-white!' : 'text-primary!') : ''}`}
               >
                 {item.label}
                 <span
-                  className={`absolute -bottom-1 left-0 h-[1px] bg-accent transition-all duration-300 ${
+                  className={`absolute -bottom-1 left-0 h-px bg-accent transition-all duration-300 ${
                     isActive(item.href) ? 'w-full' : 'w-0 group-hover:w-full'
                   }`}
                 />
@@ -82,9 +98,11 @@ export default function Header() {
 
           {/* Right: Language + Mobile toggle */}
           <div className="flex items-center gap-4">
-            <LanguageSelector scrolled={scrolled} />
+            <LanguageSelector transparent={transparent} />
             <button
-              className="lg:hidden p-1.5 transition-colors duration-200 text-primary"
+              className={`lg:hidden p-1.5 transition-colors duration-300 ${
+                transparent ? 'text-white' : 'text-primary'
+              }`}
               onClick={() => setMobileOpen(!mobileOpen)}
               aria-label="Toggle mobile menu"
             >
@@ -102,7 +120,7 @@ export default function Header() {
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.2 }}
-            className="lg:hidden bg-white border-t border-gray-100 overflow-hidden"
+            className="relative lg:hidden bg-white border-t border-gray-100 overflow-hidden"
           >
             <nav className="px-6 py-4 flex flex-col" aria-label="Mobile navigation">
               {navItems.map((item, i) => (

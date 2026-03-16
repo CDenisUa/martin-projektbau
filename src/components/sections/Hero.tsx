@@ -4,23 +4,36 @@ import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
+import { useEffect, useState } from 'react';
 
 export default function Hero() {
   const t = useTranslations('hero');
   const locale = useLocale();
+  const [offsetY, setOffsetY] = useState(0);
+
+  useEffect(() => {
+    const onScroll = () => setOffsetY(window.scrollY);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-primary">
-      {/* Background image */}
+    <section className="sticky top-0 h-screen z-0 flex items-center justify-center overflow-hidden bg-primary">
+      {/* Background image — parallax: moves at 1/10 scroll speed */}
       <div className="absolute inset-0">
+        <div
+          className="absolute inset-0"
+          style={{ transform: `translateY(${offsetY * 0.1}px)` }}
+        >
         <Image
           src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80"
           alt="Swiss Alpine mountains with snow"
           fill
           priority
-          className="object-cover opacity-40"
+          className="object-cover opacity-40 scale-[1.3]"
           sizes="100vw"
         />
+        </div>
         {/* Gradient overlay */}
         <div className="absolute inset-0 bg-gradient-to-b from-primary/40 via-primary/50 to-primary/85" />
       </div>
@@ -32,7 +45,6 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
         >
-          {/* Eyebrow */}
           <motion.p
             initial={{ opacity: 0, letterSpacing: '0.1em' }}
             animate={{ opacity: 1, letterSpacing: '0.3em' }}
@@ -42,17 +54,14 @@ export default function Hero() {
             {t('badge')}
           </motion.p>
 
-          {/* Headline */}
           <h1 className="text-5xl md:text-7xl lg:text-[88px] font-light tracking-tight leading-[0.93] mb-8 whitespace-pre-line">
             {t('headline')}
           </h1>
 
-          {/* Subheadline */}
           <p className="text-white/60 text-lg md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed font-light">
             {t('subheadline')}
           </p>
 
-          {/* CTAs */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link
               href={`/${locale}/services`}
@@ -63,7 +72,6 @@ export default function Hero() {
           </div>
         </motion.div>
       </div>
-
     </section>
   );
 }

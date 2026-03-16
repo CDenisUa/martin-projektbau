@@ -36,7 +36,7 @@ export const LANGUAGES = [
   { code: 'ga', name: 'Gaeilge', flag: '🇮🇪' },
 ];
 
-export default function LanguageSelector({ scrolled }: { scrolled?: boolean }) {
+export default function LanguageSelector({ transparent }: { transparent?: boolean }) {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
@@ -62,7 +62,9 @@ export default function LanguageSelector({ scrolled }: { scrolled?: boolean }) {
     <div ref={ref} className="relative">
       <button
         onClick={() => setOpen(!open)}
-        className="flex items-center gap-1.5 text-sm transition-colors duration-200 text-gray-600 hover:text-primary"
+        className={`flex items-center gap-1.5 text-sm transition-colors duration-300 ${
+          transparent ? 'text-white/75 hover:text-white' : 'text-gray-600 hover:text-primary'
+        }`}
         aria-label="Select language"
       >
         <Globe size={15} />
