@@ -6,12 +6,15 @@ import { motion } from 'framer-motion';
 import { useEffect, useRef, useState, useCallback } from 'react';
 
 const VIDEOS = [
-  '/video/compressed/1.mp4',
-  '/video/compressed/2.mp4',
-  '/video/compressed/3.mp4',
-  '/video/compressed/4.mp4',
-  '/video/compressed/5.mp4',
-  '/video/compressed/6.mp4',
+  '/video/compressed_2/1.mp4',
+  '/video/compressed_2/2.mp4',
+  '/video/compressed_2/3.mp4',
+  '/video/compressed_2/4.mp4',
+  '/video/compressed_2/5.mp4',
+  '/video/compressed_2/6.mp4',
+  '/video/compressed_2/7.mp4',
+  '/video/compressed_2/8.mp4',
+  '/video/compressed_2/9.mp4',
 ];
 
 export default function Hero() {
