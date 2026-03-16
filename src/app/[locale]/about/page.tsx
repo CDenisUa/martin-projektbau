@@ -2,8 +2,9 @@
 
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
-import { motion } from 'framer-motion';
+import { motion, useInView } from 'framer-motion';
 import { Award, Target, Clock, Wrench } from 'lucide-react';
+import { useRef, useEffect, useState } from 'react';
 
 const VALUE_ICONS = {
   quality: Award,
@@ -13,15 +14,43 @@ const VALUE_ICONS = {
 };
 const VALUE_KEYS = ['quality', 'precision', 'reliability', 'craftsmanship'] as const;
 
+// num = target number, suffix = '+' or '%' or ''
 const STATS = [
-  { value: '15+', label: 'Years in business' },
-  { value: '200+', label: 'Projects completed' },
-  { value: '100%', label: 'Client satisfaction' },
-  { value: 'CH', label: 'Swiss quality' },
+  { num: 15,  suffix: '+', label: 'Years in business' },
+  { num: 200, suffix: '+', label: 'Projects completed' },
+  { num: 100, suffix: '%', label: 'Client satisfaction' },
+  { num: null, suffix: 'CH', label: 'Swiss quality' },
 ];
+
+function CountUp({ target, suffix, trigger }: { target: number; suffix: string; trigger: boolean }) {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    if (!trigger) return;
+    let start = 0;
+    const duration = 1800;
+    const startTime = performance.now();
+
+    const tick = (now: number) => {
+      const elapsed = now - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      // ease out cubic
+      const eased = 1 - Math.pow(1 - progress, 3);
+      start = Math.round(eased * target);
+      setCount(start);
+      if (progress < 1) requestAnimationFrame(tick);
+    };
+
+    requestAnimationFrame(tick);
+  }, [trigger, target]);
+
+  return <>{count}{suffix}</>;
+}
 
 export default function AboutPage() {
   const t = useTranslations('about');
+  const statsRef = useRef<HTMLDivElement>(null);
+  const statsInView = useInView(statsRef, { once: true, margin: '-60px' });
 
   return (
     <div className="min-h-screen bg-white">
@@ -67,6 +96,7 @@ export default function AboutPage() {
 
           {/* Stats */}
           <motion.div
+            ref={statsRef}
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -75,7 +105,11 @@ export default function AboutPage() {
           >
             {STATS.map((stat) => (
               <div key={stat.label} className="bg-white p-8 text-center">
-                <div className="text-4xl font-light text-accent mb-2">{stat.value}</div>
+                <div className="text-4xl font-light text-accent mb-2">
+                  {stat.num !== null
+                    ? <CountUp target={stat.num} suffix={stat.suffix} trigger={statsInView} />
+                    : stat.suffix}
+                </div>
                 <div className="text-xs text-gray-400 uppercase tracking-[0.2em]">{stat.label}</div>
               </div>
             ))}
