@@ -4,32 +4,7 @@ import { useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { motion, useInView } from 'framer-motion';
 import { Mail, MapPin, ArrowRight, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
-
-type FormState = {
-  name: string;
-  email: string;
-  phone: string;
-  message: string;
-};
-
-type Errors = Partial<Record<keyof FormState, string>>;
-
-function validate(form: FormState, t: ReturnType<typeof useTranslations>): Errors {
-  const errors: Errors = {};
-  if (!form.name.trim() || form.name.trim().length < 2) {
-    errors.name = t('errorName');
-  }
-  if (!form.email.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
-    errors.email = t('errorEmail');
-  }
-  if (!form.phone.trim()) {
-    errors.phone = t('errorPhone');
-  }
-  if (!form.message.trim() || form.message.trim().length < 5) {
-    errors.message = t('errorMessage');
-  }
-  return errors;
-}
+import { validate, type FormState, type ValidationErrors as Errors } from '@/lib/contactValidation';
 
 export default function ContactSection({ className }: { className?: string }) {
   const t = useTranslations('contact');
@@ -40,11 +15,11 @@ export default function ContactSection({ className }: { className?: string }) {
   const [serverError, setServerError] = useState('');
   const [form, setForm] = useState<FormState>({ name: '', email: '', phone: '', message: '' });
   const [errors, setErrors] = useState<Errors>({});
-  const [touched, setTouched] = useState<Partial<Record<keyof FormState, boolean>>>({});
+  const [touched, setTouched] = useState<Partial<Record<keyof FormState, boolean>>>({})
 
   const handleBlur = (field: keyof FormState) => {
     setTouched((prev) => ({ ...prev, [field]: true }));
-    const fieldErrors = validate(form, t);
+    const fieldErrors = validate(form, t as (key: string) => string);
     setErrors((prev) => ({ ...prev, [field]: fieldErrors[field] }));
   };
 
@@ -52,7 +27,7 @@ export default function ContactSection({ className }: { className?: string }) {
     const updated = { ...form, [field]: value };
     setForm(updated);
     if (touched[field]) {
-      const fieldErrors = validate(updated, t);
+      const fieldErrors = validate(updated, t as (key: string) => string);
       setErrors((prev) => ({ ...prev, [field]: fieldErrors[field] }));
     }
   };
@@ -61,7 +36,7 @@ export default function ContactSection({ className }: { className?: string }) {
     e.preventDefault();
     const allTouched = { name: true, email: true, phone: true, message: true };
     setTouched(allTouched);
-    const fieldErrors = validate(form, t);
+    const fieldErrors = validate(form, t as (key: string) => string);
     setErrors(fieldErrors);
     if (Object.keys(fieldErrors).length > 0) return;
 

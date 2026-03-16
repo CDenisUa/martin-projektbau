@@ -12,6 +12,7 @@ export const LANGUAGES = [
   { code: 'en', name: 'English', flag: '🇬🇧' },
   { code: 'sk', name: 'Slovenčina', flag: '🇸🇰' },
   { code: 'cs', name: 'Čeština', flag: '🇨🇿' },
+  { code: 'uk', name: 'Українська', flag: '🇺🇦' },
   { code: 'pl', name: 'Polski', flag: '🇵🇱' },
   { code: 'ru', name: 'Русский', flag: '🇷🇺' },
   // Other languages
