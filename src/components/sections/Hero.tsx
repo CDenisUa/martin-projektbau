@@ -5,58 +5,84 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useEffect, useRef, useState, useCallback } from 'react';
 
-const VIDEOS = ['/video_1.mp4', '/video_2.mp4', '/video_3.mp4'];
+const VIDEOS = [
+  '/video/compressed/1.mp4',
+  '/video/compressed/2.mp4',
+  '/video/compressed/3.mp4',
+  '/video/compressed/4.mp4',
+  '/video/compressed/5.mp4',
+  '/video/compressed/6.mp4',
+];
 
 export default function Hero() {
   const t = useTranslations('hero');
   const locale = useLocale();
-  const [current, setCurrent] = useState(0);
-  const refs = useRef<(HTMLVideoElement | null)[]>([null, null, null]);
 
-  // Advance to next video in sequence
-  const advance = useCallback(() => {
-    setCurrent((prev) => (prev + 1) % VIDEOS.length);
+  // Two slots: one plays, one preloads next
+  const [activeSlot, setActiveSlot] = useState<0 | 1>(0);
+  const [slotSrcs, setSlotSrcs] = useState<[string, string]>([VIDEOS[0], VIDEOS[1]]);
+  const currentIdxRef = useRef(0);
+
+  const videoRefs = useRef<[HTMLVideoElement | null, HTMLVideoElement | null]>([null, null]);
+
+  // Play the active slot on mount
+  useEffect(() => {
+    const v = videoRefs.current[0];
+    if (!v) return;
+    v.play().catch(() => {});
   }, []);
 
-  // When current index changes: play it, pause all others
-  useEffect(() => {
-    refs.current.forEach((video, i) => {
-      if (!video) return;
-      if (i === current) {
-        video.currentTime = 0;
-        video.play().catch(() => {});
-      } else {
-        video.pause();
-      }
+  const handleEnded = useCallback(() => {
+    const current = currentIdxRef.current;
+    const nextIdx = (current + 1) % VIDEOS.length;
+    const nextNextIdx = (current + 2) % VIDEOS.length;
+    const nextSlot = activeSlot === 0 ? 1 : 0;
+    const prevSlot = activeSlot;
+
+    // Switch to the already-buffered slot instantly
+    currentIdxRef.current = nextIdx;
+    setActiveSlot(nextSlot);
+    videoRefs.current[nextSlot]?.play().catch(() => {});
+
+    // Load the one after next into the freed slot
+    setSlotSrcs((prev) => {
+      const updated: [string, string] = [...prev] as [string, string];
+      updated[prevSlot] = VIDEOS[nextNextIdx];
+      return updated;
     });
-  }, [current]);
+
+    // Reset freed slot so browser preloads the new src
+    setTimeout(() => {
+      const freed = videoRefs.current[prevSlot];
+      if (freed) {
+        freed.load();
+      }
+    }, 0);
+  }, [activeSlot]);
 
   return (
     <section className="sticky top-0 h-screen z-0 flex items-center justify-center overflow-hidden bg-primary">
 
-      {/* Layer 1 — Background videos (all rendered, only current visible) */}
-      {VIDEOS.map((src, i) => (
-        <motion.video
-          key={src}
-          ref={(el) => { refs.current[i] = el; }}
-          src={src}
+      {/* Layer 1 — Double-buffer video background */}
+      {([0, 1] as const).map((slot) => (
+        <video
+          key={slot}
+          ref={(el) => { videoRefs.current[slot] = el; }}
+          src={slotSrcs[slot]}
           muted
           playsInline
-          preload={i === 0 ? 'auto' : 'metadata'}
-          onEnded={i === current ? advance : undefined}
-          initial={false}
-          animate={{ opacity: i === current ? 1 : 0 }}
-          transition={{ duration: 0.7, ease: 'easeInOut' }}
-          className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none"
-          style={{ opacity: i === 0 ? 1 : 0 }}
+          preload="auto"
+          onEnded={slot === activeSlot ? handleEnded : undefined}
+          className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none transition-opacity duration-0"
+          style={{ opacity: slot === activeSlot ? 1 : 0, zIndex: slot === activeSlot ? 1 : 0 }}
         />
       ))}
 
-      {/* Layer 2 — Overlay for text readability */}
-      <div className="absolute inset-0 bg-linear-to-b from-primary/50 via-primary/55 to-primary/85" />
+      {/* Layer 2 — Overlay */}
+      <div className="absolute inset-0 bg-linear-to-b from-primary/50 via-primary/55 to-primary/85" style={{ zIndex: 2 }} />
 
       {/* Layer 3 — Hero content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 text-center text-white pt-20">
+      <div className="relative max-w-7xl mx-auto px-6 lg:px-8 text-center text-white pt-20" style={{ zIndex: 3 }}>
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
