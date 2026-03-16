@@ -29,7 +29,22 @@
   }
 }
 
-/* Service icon animation */
+/* Service icon — stroke draw on load */
+@keyframes draw-stroke {
+  0% {
+    stroke-dashoffset: 200;
+    opacity: 0;
+  }
+  15% {
+    opacity: 1;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    opacity: 1;
+  }
+}
+
+/* Service icon — pop on hover */
 @keyframes icon-pop {
   0%   { transform: scale(1) rotate(0deg); }
   25%  { transform: scale(1.3) rotate(-10deg); }
@@ -41,6 +56,20 @@
 .service-icon {
   display: block;
   transform-origin: center;
+}
+
+/* Draw each SVG sub-element along its stroke */
+.service-icon path,
+.service-icon circle,
+.service-icon rect,
+.service-icon line,
+.service-icon polyline,
+.service-icon ellipse {
+  fill: none;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation: draw-stroke 1s ease forwards;
+  animation-delay: var(--icon-delay, 0s);
 }
 
 .group:hover .service-icon {

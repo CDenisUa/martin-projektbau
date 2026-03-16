@@ -101,7 +101,11 @@ export default function ServicesPage() {
                 {/* Content */}
                 <div className="md:col-span-3 py-10 md:px-12 flex items-center gap-8">
                   <div className="flex-shrink-0 w-14 h-14 bg-accent-light group-hover:bg-accent/15 flex items-center justify-center transition-colors duration-300">
-                    <Icon size={22} className="text-accent service-icon" />
+                    <Icon
+                      size={22}
+                      className="text-accent service-icon"
+                      style={{ '--icon-delay': `${0.3 + i * 0.15}s` } as React.CSSProperties}
+                    />
                   </div>
                   <div>
                     <p className="text-accent text-[10px] tracking-[0.25em] uppercase mb-2 font-medium">
