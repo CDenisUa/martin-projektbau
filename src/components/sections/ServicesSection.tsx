@@ -8,12 +8,12 @@ import { motion, useInView } from 'framer-motion';
 const SERVICE_KEYS = ['facade', 'tiling', 'parquet', 'painting', 'windows', 'renovation'] as const;
 
 const SERVICE_IMAGES = {
-  facade:     'https://images.unsplash.com/photo-1515488764276-beab7607c1e6?w=800&q=80', // Zurich city
-  tiling:     'https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=800&q=80', // Alpine stone floor
-  parquet:    'https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&q=80', // Wooden chalet interior floor
-  painting:   'https://images.unsplash.com/photo-1562259929-b4e1fd3aef09?w=800&q=80',    // Painting walls
-  windows:    'https://images.unsplash.com/photo-1513694203232-719a280e022f?w=800&q=80', // Swiss chalet windows
-  renovation: 'https://images.unsplash.com/photo-1503174971373-b1f69850bded?w=800&q=80', // Alpine construction
+  facade:     '/images/services/webp/facade_сonstruction.webp',
+  tiling:     '/images/services/webp/tile_stone_saying.webp',
+  parquet:    '/images/services/webp/parquet_flooring.webp',
+  painting:   '/images/services/webp/painting_plastering.webp',
+  windows:    '/images/services/webp/window_installation.webp',
+  renovation: '/images/services/webp/renovation_conversion.webp',
 };
 
 export default function ServicesSection() {
