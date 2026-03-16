@@ -2,43 +2,60 @@
 
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
-import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState, useCallback } from 'react';
+
+const VIDEOS = ['/video_1.mp4', '/video_2.mp4', '/video_3.mp4'];
 
 export default function Hero() {
   const t = useTranslations('hero');
   const locale = useLocale();
-  const [offsetY, setOffsetY] = useState(0);
+  const [current, setCurrent] = useState(0);
+  const refs = useRef<(HTMLVideoElement | null)[]>([null, null, null]);
 
-  useEffect(() => {
-    const onScroll = () => setOffsetY(window.scrollY);
-    window.addEventListener('scroll', onScroll, { passive: true });
-    return () => window.removeEventListener('scroll', onScroll);
+  // Advance to next video in sequence
+  const advance = useCallback(() => {
+    setCurrent((prev) => (prev + 1) % VIDEOS.length);
   }, []);
+
+  // When current index changes: play it, pause all others
+  useEffect(() => {
+    refs.current.forEach((video, i) => {
+      if (!video) return;
+      if (i === current) {
+        video.currentTime = 0;
+        video.play().catch(() => {});
+      } else {
+        video.pause();
+      }
+    });
+  }, [current]);
 
   return (
     <section className="sticky top-0 h-screen z-0 flex items-center justify-center overflow-hidden bg-primary">
-      {/* Background image — parallax: moves at 1/10 scroll speed */}
-      <div className="absolute inset-0">
-        <div
-          className="absolute inset-0"
-          style={{ transform: `translateY(${offsetY * 0.1}px)` }}
-        >
-        <Image
-          src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1920&q=80"
-          alt="Swiss Alpine mountains with snow"
-          fill
-          priority
-          className="object-cover opacity-40 scale-[1.3]"
-          sizes="100vw"
-        />
-        </div>
-        {/* Gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-primary/40 via-primary/50 to-primary/85" />
-      </div>
 
-      {/* Main content */}
+      {/* Layer 1 — Background videos (all rendered, only current visible) */}
+      {VIDEOS.map((src, i) => (
+        <motion.video
+          key={src}
+          ref={(el) => { refs.current[i] = el; }}
+          src={src}
+          muted
+          playsInline
+          preload={i === 0 ? 'auto' : 'metadata'}
+          onEnded={i === current ? advance : undefined}
+          initial={false}
+          animate={{ opacity: i === current ? 1 : 0 }}
+          transition={{ duration: 0.7, ease: 'easeInOut' }}
+          className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none"
+          style={{ opacity: i === 0 ? 1 : 0 }}
+        />
+      ))}
+
+      {/* Layer 2 — Overlay for text readability */}
+      <div className="absolute inset-0 bg-linear-to-b from-primary/50 via-primary/55 to-primary/85" />
+
+      {/* Layer 3 — Hero content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 text-center text-white pt-20">
         <motion.div
           initial={{ opacity: 0, y: 40 }}
