@@ -68,7 +68,7 @@
   fill: none;
   stroke-dasharray: 200;
   stroke-dashoffset: 200;
-  animation: draw-stroke 1s ease forwards;
+  animation: draw-stroke 2.8s ease-in-out forwards;
   animation-delay: var(--icon-delay, 0s);
 }
 
