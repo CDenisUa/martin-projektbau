@@ -55,9 +55,9 @@ export default function AboutPage() {
   const valuesInView = useInView(valuesRef, { once: true, margin: '-60px' });
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white overflow-x-hidden">
       {/* Hero */}
-      <div className="relative h-[65vh] min-h-[420px]">
+      <div className="relative h-[65vh] min-h-[420px] overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&q=80"
           alt="Martin Projektbau — precision construction"
