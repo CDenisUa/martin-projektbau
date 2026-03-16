@@ -34,7 +34,7 @@ export default function AboutSection() {
           >
             <div className="relative aspect-[4/5] overflow-hidden">
               <Image
-                src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=900&q=80"
+                src="/images/about.webp"
                 alt="Martin Projektbau craftsmanship"
                 fill
                 className="object-cover"
