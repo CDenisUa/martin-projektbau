@@ -4,6 +4,13 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Building2, Layers, TreePine, Paintbrush2, AppWindow, Hammer } from 'lucide-react';
+import { useEffect, useState } from 'react';
+
+const BANNERS = [
+  '/images/our-services-banner/banner_1.webp',
+  '/images/our-services-banner/banner_2.webp',
+  '/images/our-services-banner/banner_3.webp',
+];
 
 const SERVICE_KEYS = ['facade', 'tiling', 'parquet', 'painting', 'windows', 'renovation'] as const;
 
@@ -27,19 +34,45 @@ const SERVICE_IMAGES = {
 
 export default function ServicesPage() {
   const t = useTranslations('services');
+  const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    const id = setInterval(() => setCurrent((prev) => (prev + 1) % BANNERS.length), 5000);
+    return () => clearInterval(id);
+  }, []);
 
   return (
     <div className="min-h-screen bg-white">
       {/* Page Hero */}
       <div className="bg-primary pt-40 pb-24 px-6 lg:px-8 relative overflow-hidden">
+
+        {/* Crossfading banner images */}
+        {BANNERS.map((src, i) => (
+          <Image
+            key={src}
+            src={src}
+            alt=""
+            fill
+            priority={i === 0}
+            className="object-cover"
+            sizes="100vw"
+            style={{
+              opacity: i === current ? 0.18 : 0,
+              transition: 'opacity 1.2s ease-in-out',
+            }}
+          />
+        ))}
+
+        {/* Grid overlay */}
         <div
-          className="absolute inset-0 opacity-[0.03]"
+          className="absolute inset-0 opacity-[0.04]"
           style={{
             backgroundImage:
               'linear-gradient(rgba(255,255,255,1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,1) 1px, transparent 1px)',
             backgroundSize: '48px 48px',
           }}
         />
+
         <div className="max-w-7xl mx-auto relative">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
             <p className="text-accent text-xs tracking-[0.3em] uppercase mb-4 font-medium">What We Offer</p>
