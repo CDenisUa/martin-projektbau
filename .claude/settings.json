@@ -22,7 +22,12 @@
       "Bash(/opt/homebrew/bin/ffmpeg -y -ss 2.667 -t 2.667 -i /Volumes/Projects/martin-projektbau/public/video/video_3.mp4 -c:v libx264 -b:v 1150k -maxrate 1250k -bufsize 2500k -preset fast -profile:v baseline -level 3.1 -an -movflags +faststart /Volumes/Projects/martin-projektbau/public/video/compressed_2/8.mp4)",
       "Bash(/opt/homebrew/bin/ffprobe -v error -select_streams v:0 -show_entries stream=width,height -of default=noprint_wrappers=1 /Volumes/Projects/martin-projektbau/public/images/services/facade_сonstruction.png)",
       "Bash(magick identify:*)",
-      "Read(//Volumes/Projects/martin-projektbau/**)"
+      "Read(//Volumes/Projects/martin-projektbau/**)",
+      "Bash(grep -r \"src\\\\|href\\\\|backgroundImage\\\\|import.*from\" /Volumes/Projects/martin-projektbau/src --include=*.js --include=*.jsx --include=*.ts --include=*.tsx -n)",
+      "Bash(grep -r \"png\\\\|jpg\\\\|jpeg\\\\|webp\\\\|svg\\\\|gif\\\\|ico\" /Volumes/Projects/martin-projektbau/src -n --include=*.tsx --include=*.ts --include=*.jsx --include=*.js)"
+    ],
+    "additionalDirectories": [
+      "/Volumes/Projects/martin-projektbau"
     ]
   }
 }
