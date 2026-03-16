@@ -52,7 +52,7 @@ export default function ContactPage() {
       />
 
       {/* Content */}
-      <div className="relative z-10 flex items-center justify-center pt-20 w-full">
+      <div className="relative z-10 flex flex-col min-h-screen items-center justify-center pt-20 w-full">
         <ContactSection className="bg-transparent" />
       </div>
     </div>
