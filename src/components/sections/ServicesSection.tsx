@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, useState, useEffect } from 'react';
+import { useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { motion, useInView } from 'framer-motion';
@@ -20,15 +20,6 @@ export default function ServicesSection() {
   const t = useTranslations('services');
   const ref = useRef<HTMLElement>(null);
   const inView = useInView(ref, { once: true, margin: '-80px' });
-  const [hovered, setHovered] = useState<string | null>(null);
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const check = () => setIsMobile(window.innerWidth < 1024);
-    check();
-    window.addEventListener('resize', check);
-    return () => window.removeEventListener('resize', check);
-  }, []);
 
   return (
     <section ref={ref} className="py-32 bg-white">
@@ -65,45 +56,23 @@ export default function ServicesSection() {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: 0.05 * i }}
-              className="group relative overflow-hidden cursor-default"
+              className="relative overflow-hidden"
               style={{ aspectRatio: '4/3' }}
-              onMouseEnter={() => setHovered(key)}
-              onMouseLeave={() => setHovered(null)}
             >
-              {/* Background image — zoomed in by default, zooms out on hover */}
-              <div className="absolute inset-0 overflow-hidden">
-                <motion.div
-                  className="absolute inset-0"
-                  animate={{
-                    scale: isMobile ? 1 : hovered === key ? 1 : 1.12,
-                    filter: isMobile ? 'blur(0px)' : hovered === key ? 'blur(0px)' : 'blur(2px)',
-                  }}
-                  transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-                >
-                  <Image
-                    src={SERVICE_IMAGES[key]}
-                    alt={t(`items.${key}.title`)}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                  />
-                </motion.div>
-
-                {/* Dark overlay — lighter on hover */}
-                <motion.div
-                  className="absolute inset-0"
-                  animate={{
-                    backgroundColor: isMobile
-                      ? 'rgba(10,22,40,0.50)'
-                      : hovered === key
-                        ? 'rgba(10,22,40,0.45)'
-                        : 'rgba(10,22,40,0.72)',
-                  }}
-                  transition={{ duration: 0.5 }}
+              {/* Background image */}
+              <div className="absolute inset-0">
+                <Image
+                  src={SERVICE_IMAGES[key]}
+                  alt={t(`items.${key}.title`)}
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
+                {/* Dark overlay */}
+                <div className="absolute inset-0" style={{ backgroundColor: 'rgba(10,22,40,0.55)' }} />
               </div>
 
-              {/* Content */}
+              {/* Content — always visible */}
               <div className="relative z-10 h-full flex flex-col justify-end p-8">
                 <p className="text-accent text-[10px] tracking-[0.25em] uppercase mb-3 font-medium">
                   0{i + 1}
@@ -111,16 +80,9 @@ export default function ServicesSection() {
                 <h3 className="text-lg font-medium text-white mb-2 leading-snug">
                   {t(`items.${key}.title`)}
                 </h3>
-                <motion.p
-                  animate={{
-                    opacity: isMobile || hovered === key ? 1 : 0,
-                    y: isMobile || hovered === key ? 0 : 8,
-                  }}
-                  transition={{ duration: 0.35, ease: 'easeOut' }}
-                  className="text-white/70 text-sm leading-relaxed"
-                >
+                <p className="text-white/70 text-sm leading-relaxed">
                   {t(`items.${key}.description`)}
-                </motion.p>
+                </p>
               </div>
             </motion.div>
           ))}
