@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(magick /Volumes/Projects/martin-projektbau/public/images/martin_logo.png -alpha on -background none -fill white -colorize 100 -define png:color-type=6 /Volumes/Projects/martin-projektbau/public/images/martin_logo_white.png)",
+      "Bash(identify -verbose /Volumes/Projects/martin-projektbau/public/images/martin_logo_white.png)",
+      "Bash(ls -lh /Volumes/Projects/martin-projektbau/public/*.mp4)",
+      "Bash(printf \"file ''''1.mp4''''\\\\nfile ''''2.mp4''''\\\\nfile ''''3.mp4''''\\\\nfile ''''4.mp4''''\\\\nfile ''''5.mp4''''\\\\nfile ''''6.mp4''''\\\\n\")",
+      "Bash(ffmpeg -y -f concat -safe 0 -i concat_list.txt -c copy ../hero.mp4)",
+      "Bash(brew install:*)",
+      "Bash(for f:*)",
+      "Bash(echo -n \"$f: \")",
+      "Bash(ffprobe -v quiet -show_entries format=duration -of csv=p=0 \"$f\")",
+      "Bash(export PATH=\"/opt/homebrew/bin:$PATH\")",
+      "Bash(/opt/homebrew/bin/ffprobe -v quiet -show_entries format=duration -of csv=p=0 \"$f\")",
+      "Bash(/opt/homebrew/bin/ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1 /Volumes/Projects/martin-projektbau/public/video_1.mp4)",
+      "Bash(/opt/homebrew/bin/ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1 /Volumes/Projects/martin-projektbau/public/video_2.mp4)",
+      "Bash(/opt/homebrew/bin/ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1 /Volumes/Projects/martin-projektbau/public/video_3.mp4)",
+      "Bash(/opt/homebrew/bin/ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 /Volumes/Projects/martin-projektbau/public/video/video_1.mp4)",
+      "Bash(/opt/homebrew/bin/ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 /Volumes/Projects/martin-projektbau/public/video/video_2.mp4)",
+      "Bash(/opt/homebrew/bin/ffprobe -v error -show_entries format=duration,size -of default=noprint_wrappers=1 /Volumes/Projects/martin-projektbau/public/video/video_3.mp4)",
+      "Bash(/opt/homebrew/bin/ffprobe -v error -select_streams v:0 -show_entries stream=width,height,r_frame_rate -of default=noprint_wrappers=1 /Volumes/Projects/martin-projektbau/public/video/video_1.mp4)",
+      "Bash(/opt/homebrew/bin/ffmpeg -y -ss 2.667 -t 2.667 -i /Volumes/Projects/martin-projektbau/public/video/video_3.mp4 -c:v libx264 -b:v 1150k -maxrate 1250k -bufsize 2500k -preset fast -profile:v baseline -level 3.1 -an -movflags +faststart /Volumes/Projects/martin-projektbau/public/video/compressed_2/8.mp4)"
+    ]
+  }
+}
