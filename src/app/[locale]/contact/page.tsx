@@ -19,7 +19,7 @@ export default function ContactPage() {
   }, []);
 
   return (
-    <div className="flex-1 relative bg-primary overflow-hidden">
+    <div className="flex-1 relative bg-primary lg:overflow-hidden">
 
       {/* Crossfading banner images */}
       {BANNERS.map((src, i) => (
@@ -51,9 +51,9 @@ export default function ContactPage() {
         }}
       />
 
-      {/* Content */}
-      <div className="relative z-10 flex flex-col min-h-screen items-center justify-center pt-20 w-full">
-        <ContactSection className="bg-transparent" />
+      {/* Content — centered H+V within the flex-1 block, offset for fixed header */}
+      <div className="relative z-10 w-full h-full flex items-center justify-center pt-20">
+        <ContactSection className="bg-transparent w-full" />
       </div>
     </div>
   );
