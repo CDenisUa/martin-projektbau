@@ -52,7 +52,7 @@ export default function ContactPage() {
       />
 
       {/* Content — centered H+V within the flex-1 block, offset for fixed header */}
-      <div className="relative z-10 w-full h-full flex items-center justify-center pt-20">
+      <div className="relative z-10 w-full pt-20 lg:h-full lg:flex lg:items-center lg:justify-center">
         <ContactSection className="bg-transparent w-full" />
       </div>
     </div>
