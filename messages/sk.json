@@ -51,7 +51,9 @@
         "title": "Rekonštrukcie a Prestavby",
         "description": "Kompletné interiérové a exteriérové rekonštrukcie a prestavby."
       }
-    }
+    },
+    "whatWeDo": "Čo robíme",
+    "whatWeOffer": "Čo ponúkame"
   },
   "projects": {
     "title": "Vybrané Projekty",
@@ -89,7 +91,14 @@
         "description": "Desaťročia skúseností na každom povrchu, ktorého sa dotkneme."
       }
     },
-    "learnMore": "Zistiť viac"
+    "learnMore": "Zistiť viac",
+    "ourValues": "Naše hodnoty",
+    "stats": {
+      "yearsInBusiness": "Rokov skúseností",
+      "projectsCompleted": "Dokončených projektov",
+      "clientSatisfaction": "Spokojnosť klientov",
+      "swissQuality": "Švajčiarska kvalita"
+    }
   },
   "contact": {
     "title": "Kontaktujte nás",

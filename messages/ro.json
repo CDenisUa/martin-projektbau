@@ -51,7 +51,9 @@
         "title": "Renovare și Conversie",
         "description": "Proiecte complete de renovare și conversie interior și exterior."
       }
-    }
+    },
+    "whatWeDo": "Ce facem",
+    "whatWeOffer": "Ce oferim"
   },
   "projects": {
     "title": "Proiecte Selectate",
@@ -89,7 +91,14 @@
         "description": "Decenii de expertiză pe fiecare suprafață pe care o atingem."
       }
     },
-    "learnMore": "Aflați mai multe"
+    "learnMore": "Aflați mai multe",
+    "ourValues": "Valorile noastre",
+    "stats": {
+      "yearsInBusiness": "Ani de experiență",
+      "projectsCompleted": "Proiecte finalizate",
+      "clientSatisfaction": "Satisfacția clienților",
+      "swissQuality": "Calitate elvețiană"
+    }
   },
   "contact": {
     "title": "Contactați-ne",

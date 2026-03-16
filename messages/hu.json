@@ -51,7 +51,9 @@
         "title": "Felújítás és Átalakítás",
         "description": "Teljes körű bel- és kültéri felújítási és átalakítási projektek."
       }
-    }
+    },
+    "whatWeDo": "Amit csinálunk",
+    "whatWeOffer": "Mit kínálunk"
   },
   "projects": {
     "title": "Kiválasztott Projektek",
@@ -89,7 +91,14 @@
         "description": "Évtizedes tapasztalat minden felületen, amelyhez hozzányúlunk."
       }
     },
-    "learnMore": "Tudjon meg többet"
+    "learnMore": "Tudjon meg többet",
+    "ourValues": "Értékeink",
+    "stats": {
+      "yearsInBusiness": "Év tapasztalat",
+      "projectsCompleted": "Befejezett projekt",
+      "clientSatisfaction": "Vásárlói elégedettség",
+      "swissQuality": "Svájci minőség"
+    }
   },
   "contact": {
     "title": "Lépjen Kapcsolatba",

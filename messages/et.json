@@ -51,7 +51,9 @@
         "title": "Renoveerimine ja Ümberehitus",
         "description": "Terviklikud sise- ja välisrenoveerimis- ning ümberehitusprojektid."
       }
-    }
+    },
+    "whatWeDo": "Mida me teeme",
+    "whatWeOffer": "Mida pakume"
   },
   "projects": {
     "title": "Valitud Projektid",
@@ -89,7 +91,14 @@
         "description": "Kümnete aastate kogemus igal pinnal, mida puudutame."
       }
     },
-    "learnMore": "Loe lisaks"
+    "learnMore": "Loe lisaks",
+    "ourValues": "Meie väärtused",
+    "stats": {
+      "yearsInBusiness": "Aastat kogemust",
+      "projectsCompleted": "Lõpetatud projekti",
+      "clientSatisfaction": "Klientide rahulolu",
+      "swissQuality": "Šveitsi kvaliteet"
+    }
   },
   "contact": {
     "title": "Võtke Ühendust",

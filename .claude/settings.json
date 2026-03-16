@@ -27,7 +27,8 @@
       "Bash(grep -r \"png\\\\|jpg\\\\|jpeg\\\\|webp\\\\|svg\\\\|gif\\\\|ico\" /Volumes/Projects/martin-projektbau/src -n --include=*.tsx --include=*.ts --include=*.jsx --include=*.js)",
       "Bash(DIR=/Volumes/Projects/martin-projektbau/public/images/our-services)",
       "Bash(mv \"$DIR/Tile_and_Stone Laying.webp\" \"$DIR/Tile_and_Stone_Laying.webp\")",
-      "Bash(mv \"$DIR/Window Installation.webp\" \"$DIR/Window_Installation.webp\")"
+      "Bash(mv \"$DIR/Window Installation.webp\" \"$DIR/Window_Installation.webp\")",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(''''services:'''', list\\(d.get\\(''''services'''',{}\\).keys\\(\\)\\)\\); print\\(''''about:'''', list\\(d.get\\(''''about'''',{}\\).keys\\(\\)\\)\\)\")"
     ],
     "additionalDirectories": [
       "/Volumes/Projects/martin-projektbau",

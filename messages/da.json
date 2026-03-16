@@ -51,7 +51,9 @@
         "title": "Renovering og Ombygning",
         "description": "Komplette ind- og udendørs renoverings- og ombygningsprojekter."
       }
-    }
+    },
+    "whatWeDo": "Hvad vi gør",
+    "whatWeOffer": "Hvad vi tilbyder"
   },
   "projects": {
     "title": "Udvalgte Projekter",
@@ -89,7 +91,14 @@
         "description": "Årtiers ekspertise på hver overflade vi rører."
       }
     },
-    "learnMore": "Lær mere om os"
+    "learnMore": "Lær mere om os",
+    "ourValues": "Vores værdier",
+    "stats": {
+      "yearsInBusiness": "Års erfaring",
+      "projectsCompleted": "Gennemførte projekter",
+      "clientSatisfaction": "Kundetilfredshed",
+      "swissQuality": "Schweizisk kvalitet"
+    }
   },
   "contact": {
     "title": "Kontakt Os",

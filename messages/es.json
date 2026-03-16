@@ -51,7 +51,9 @@
         "title": "Renovación y Conversión",
         "description": "Proyectos completos de renovación y conversión interior y exterior."
       }
-    }
+    },
+    "whatWeDo": "Lo que hacemos",
+    "whatWeOffer": "Lo que ofrecemos"
   },
   "projects": {
     "title": "Proyectos Seleccionados",
@@ -89,7 +91,14 @@
         "description": "Décadas de experiencia en cada superficie que tocamos."
       }
     },
-    "learnMore": "Conoce más sobre nosotros"
+    "learnMore": "Conoce más sobre nosotros",
+    "ourValues": "Nuestros valores",
+    "stats": {
+      "yearsInBusiness": "Años de experiencia",
+      "projectsCompleted": "Proyectos completados",
+      "clientSatisfaction": "Satisfacción del cliente",
+      "swissQuality": "Calidad suiza"
+    }
   },
   "contact": {
     "title": "Contáctanos",

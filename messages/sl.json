@@ -51,7 +51,9 @@
         "title": "Renovacije in Preureditve",
         "description": "Celoviti notranji in zunanji renovacijski in preuredbeni projekti."
       }
-    }
+    },
+    "whatWeDo": "Kaj počnemo",
+    "whatWeOffer": "Kaj ponujamo"
   },
   "projects": {
     "title": "Izbrani Projekti",
@@ -89,7 +91,14 @@
         "description": "Desetletja izkušenj na vsaki površini, ki se je dotaknemo."
       }
     },
-    "learnMore": "Izvedi več"
+    "learnMore": "Izvedi več",
+    "ourValues": "Naše vrednote",
+    "stats": {
+      "yearsInBusiness": "Let izkušenj",
+      "projectsCompleted": "Dokončanih projektov",
+      "clientSatisfaction": "Zadovoljstvo strank",
+      "swissQuality": "Švicarska kakovost"
+    }
   },
   "contact": {
     "title": "Stopite v Stik",

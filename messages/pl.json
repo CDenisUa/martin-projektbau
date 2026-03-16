@@ -51,7 +51,9 @@
         "title": "Renowacja i Przebudowa",
         "description": "Kompleksowe projekty renowacji i przebudowy wewnętrznej i zewnętrznej."
       }
-    }
+    },
+    "whatWeDo": "Co robimy",
+    "whatWeOffer": "Co oferujemy"
   },
   "projects": {
     "title": "Wybrane Projekty",
@@ -89,7 +91,14 @@
         "description": "Dekady doświadczenia na każdej powierzchni, której dotykamy."
       }
     },
-    "learnMore": "Dowiedz się więcej"
+    "learnMore": "Dowiedz się więcej",
+    "ourValues": "Nasze wartości",
+    "stats": {
+      "yearsInBusiness": "Lat doświadczenia",
+      "projectsCompleted": "Ukończonych projektów",
+      "clientSatisfaction": "Zadowolenie klientów",
+      "swissQuality": "Szwajcarska jakość"
+    }
   },
   "contact": {
     "title": "Skontaktuj się",

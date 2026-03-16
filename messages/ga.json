@@ -51,7 +51,9 @@
         "title": "Athnuachan agus Tiontú",
         "description": "Tionscadail athnuachana agus tiontaithe inmheánacha agus seachtracha iomlána."
       }
-    }
+    },
+    "whatWeDo": "Cad a dhéanaimid",
+    "whatWeOffer": "Cad a thairgeann muid"
   },
   "projects": {
     "title": "Tionscadail Roghnaithe",
@@ -89,7 +91,14 @@
         "description": "Deich mbliana de shaineolas ar gach dromchla a dtéimid i dteagmháil leis."
       }
     },
-    "learnMore": "Foghlaim tuilleadh fúinn"
+    "learnMore": "Foghlaim tuilleadh fúinn",
+    "ourValues": "Ár luachanna",
+    "stats": {
+      "yearsInBusiness": "Blianta taithí",
+      "projectsCompleted": "Tionscadail críochnaithe",
+      "clientSatisfaction": "Sásamh custaiméirí",
+      "swissQuality": "Cáilíocht na hEilvéise"
+    }
   },
   "contact": {
     "title": "Déan Teagmháil",

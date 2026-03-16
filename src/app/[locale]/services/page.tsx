@@ -65,7 +65,7 @@ export default function ServicesPage() {
 
         <div className="max-w-7xl mx-auto relative">
           <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }}>
-            <p className="text-accent text-xs tracking-[0.3em] uppercase mb-4 font-medium">What We Offer</p>
+            <p className="text-accent text-xs tracking-[0.3em] uppercase mb-4 font-medium">{t('whatWeOffer')}</p>
             <h1 className="text-5xl lg:text-7xl font-light text-white tracking-tight">{t('title')}</h1>
             <p className="text-white/40 mt-5 text-lg max-w-xl leading-relaxed">{t('subtitle')}</p>
           </motion.div>

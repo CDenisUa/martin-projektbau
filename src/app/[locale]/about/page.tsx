@@ -15,12 +15,12 @@ const VALUE_ICONS = {
 const VALUE_KEYS = ['quality', 'precision', 'reliability', 'craftsmanship'] as const;
 
 // num = target number, suffix = '+' or '%' or ''
-const STATS = [
-  { num: 15,  suffix: '+', label: 'Years in business' },
-  { num: 200, suffix: '+', label: 'Projects completed' },
-  { num: 100, suffix: '%', label: 'Client satisfaction' },
-  { num: null, suffix: 'CH', label: 'Swiss quality' },
-];
+const STAT_KEYS = [
+  { num: 15,   suffix: '+',  key: 'yearsInBusiness' },
+  { num: 200,  suffix: '+',  key: 'projectsCompleted' },
+  { num: 100,  suffix: '%',  key: 'clientSatisfaction' },
+  { num: null, suffix: 'CH', key: 'swissQuality' },
+] as const;
 
 function CountUp({ target, suffix, trigger }: { target: number; suffix: string; trigger: boolean }) {
   const [count, setCount] = useState(0);
@@ -105,14 +105,14 @@ export default function AboutPage() {
             transition={{ delay: 0.1 }}
             className="grid grid-cols-2 gap-px bg-gray-100"
           >
-            {STATS.map((stat) => (
-              <div key={stat.label} className="bg-white p-8 text-center">
+            {STAT_KEYS.map((stat) => (
+              <div key={stat.key} className="bg-white p-8 text-center">
                 <div className="text-4xl font-light text-accent mb-2">
                   {stat.num !== null
                     ? <CountUp target={stat.num} suffix={stat.suffix} trigger={statsInView} />
                     : stat.suffix}
                 </div>
-                <div className="text-xs text-gray-400 uppercase tracking-[0.2em]">{stat.label}</div>
+                <div className="text-xs text-gray-400 uppercase tracking-[0.2em]">{t(`stats.${stat.key}`)}</div>
               </div>
             ))}
           </motion.div>
@@ -120,7 +120,7 @@ export default function AboutPage() {
 
         {/* Values */}
         <div>
-          <h2 className="text-xs text-gray-400 uppercase tracking-[0.2em] mb-10">Our Values</h2>
+          <h2 className="text-xs text-gray-400 uppercase tracking-[0.2em] mb-10">{t('ourValues')}</h2>
           <div
             ref={valuesRef}
             className={`grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-gray-100 ${valuesInView ? 'draw-active' : ''}`}

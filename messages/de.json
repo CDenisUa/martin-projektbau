@@ -51,7 +51,9 @@
         "title": "Renovationen und Umbauten",
         "description": "Vollständige Innen- und Aussenrenovationen sowie Umbauprojekte."
       }
-    }
+    },
+    "whatWeDo": "Was wir tun",
+    "whatWeOffer": "Was wir anbieten"
   },
   "projects": {
     "title": "Ausgewählte Projekte",
@@ -89,7 +91,14 @@
         "description": "Jahrzehntelange Expertise auf jeder Fläche, die wir berühren."
       }
     },
-    "learnMore": "Mehr über uns erfahren"
+    "learnMore": "Mehr über uns erfahren",
+    "ourValues": "Unsere Werte",
+    "stats": {
+      "yearsInBusiness": "Jahre Erfahrung",
+      "projectsCompleted": "Abgeschlossene Projekte",
+      "clientSatisfaction": "Kundenzufriedenheit",
+      "swissQuality": "Schweizer Qualität"
+    }
   },
   "contact": {
     "title": "Kontakt aufnehmen",

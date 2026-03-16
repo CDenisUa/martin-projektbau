@@ -51,7 +51,9 @@
         "title": "Renovatie en Verbouwing",
         "description": "Complete binnen- en buiten renovatie- en verbouwingsprojecten."
       }
-    }
+    },
+    "whatWeDo": "Wat we doen",
+    "whatWeOffer": "Wat we bieden"
   },
   "projects": {
     "title": "Geselecteerde Projecten",
@@ -89,7 +91,14 @@
         "description": "Decennia expertise op elk oppervlak dat wij aanraken."
       }
     },
-    "learnMore": "Meer over ons"
+    "learnMore": "Meer over ons",
+    "ourValues": "Onze waarden",
+    "stats": {
+      "yearsInBusiness": "Jaar ervaring",
+      "projectsCompleted": "Voltooide projecten",
+      "clientSatisfaction": "Klanttevredenheid",
+      "swissQuality": "Zwitserse kwaliteit"
+    }
   },
   "contact": {
     "title": "Neem Contact Op",

@@ -51,7 +51,9 @@
         "title": "Renovacija i Preinaka",
         "description": "Kompletni unutarnji i vanjski projekti renovacije i preinake."
       }
-    }
+    },
+    "whatWeDo": "Što radimo",
+    "whatWeOffer": "Što nudimo"
   },
   "projects": {
     "title": "Odabrani Projekti",
@@ -89,7 +91,14 @@
         "description": "Desetljeća iskustva na svakoj površini kojom se bavimo."
       }
     },
-    "learnMore": "Saznaj više"
+    "learnMore": "Saznaj više",
+    "ourValues": "Naše vrijednosti",
+    "stats": {
+      "yearsInBusiness": "Godina iskustva",
+      "projectsCompleted": "Dovršenih projekata",
+      "clientSatisfaction": "Zadovoljstvo klijenata",
+      "swissQuality": "Švicarska kvaliteta"
+    }
   },
   "contact": {
     "title": "Kontaktirajte nas",

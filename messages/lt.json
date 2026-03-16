@@ -51,7 +51,9 @@
         "title": "Renovacija ir Rekonstrukcija",
         "description": "Išsamūs vidaus ir išorės renovacijos ir rekonstrukcijos projektai."
       }
-    }
+    },
+    "whatWeDo": "Ką mes darome",
+    "whatWeOffer": "Ką siūlome"
   },
   "projects": {
     "title": "Atrinkti Projektai",
@@ -89,7 +91,14 @@
         "description": "Dešimtmečių patirtis kiekviename paviršiuje, kurio liečiame."
       }
     },
-    "learnMore": "Sužinoti daugiau"
+    "learnMore": "Sužinoti daugiau",
+    "ourValues": "Mūsų vertybės",
+    "stats": {
+      "yearsInBusiness": "Metų patirties",
+      "projectsCompleted": "Užbaigtų projektų",
+      "clientSatisfaction": "Klientų pasitenkinimas",
+      "swissQuality": "Šveicarijos kokybė"
+    }
   },
   "contact": {
     "title": "Susisiekite su Mumis",

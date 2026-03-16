@@ -51,7 +51,9 @@
         "title": "Rinnovazzjoni u Konverżjoni",
         "description": "Proġetti sħaħ ta' rinnovazzjoni u konverżjoni ta' ġewwa u barra."
       }
-    }
+    },
+    "whatWeDo": "X'nagħmlu",
+    "whatWeOffer": "X'noffru"
   },
   "projects": {
     "title": "Proġetti Magħżula",
@@ -89,7 +91,14 @@
         "description": "Għexieren ta' snin ta' esperjenza fuq kull wiċċ li nmissuh."
       }
     },
-    "learnMore": "Isir taf aktar"
+    "learnMore": "Isir taf aktar",
+    "ourValues": "Il-valuri tagħna",
+    "stats": {
+      "yearsInBusiness": "Snin ta' esperjenza",
+      "projectsCompleted": "Proġetti lesti",
+      "clientSatisfaction": "Sodisfazzjon tal-klijenti",
+      "swissQuality": "Kwalità Żvizzera"
+    }
   },
   "contact": {
     "title": "Ikkuntattjana",

@@ -51,7 +51,9 @@
         "title": "Saneeraus ja Muutos",
         "description": "Täydelliset sisä- ja ulkosaneeraus- ja muutosprojektit."
       }
-    }
+    },
+    "whatWeDo": "Mitä teemme",
+    "whatWeOffer": "Mitä tarjoamme"
   },
   "projects": {
     "title": "Valitut Projektit",
@@ -89,7 +91,14 @@
         "description": "Vuosikymmenien asiantuntemus jokaisella pinnalla, johon koskemme."
       }
     },
-    "learnMore": "Lue lisää meistä"
+    "learnMore": "Lue lisää meistä",
+    "ourValues": "Arvomme",
+    "stats": {
+      "yearsInBusiness": "Vuotta kokemusta",
+      "projectsCompleted": "Valmistunutta projektia",
+      "clientSatisfaction": "Asiakastyytyväisyys",
+      "swissQuality": "Sveitsiläinen laatu"
+    }
   },
   "contact": {
     "title": "Ota Yhteyttä",

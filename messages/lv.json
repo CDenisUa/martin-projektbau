@@ -51,7 +51,9 @@
         "title": "Renovācija un Pārbūve",
         "description": "Pilnīgas iekštelpu un āra renovācijas un pārbūves projekti."
       }
-    }
+    },
+    "whatWeDo": "Ko mēs darām",
+    "whatWeOffer": "Ko mēs piedāvājam"
   },
   "projects": {
     "title": "Atlasīti Projekti",
@@ -89,7 +91,14 @@
         "description": "Gadu desmitu pieredze katrā virsmā, ko mēs pietuvojamies."
       }
     },
-    "learnMore": "Uzzināt vairāk"
+    "learnMore": "Uzzināt vairāk",
+    "ourValues": "Mūsu vērtības",
+    "stats": {
+      "yearsInBusiness": "Gadi pieredze",
+      "projectsCompleted": "Pabeigti projekti",
+      "clientSatisfaction": "Klientu apmierinātība",
+      "swissQuality": "Šveices kvalitāte"
+    }
   },
   "contact": {
     "title": "Sazināties ar Mums",

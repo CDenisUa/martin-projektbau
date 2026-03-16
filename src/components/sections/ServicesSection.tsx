@@ -32,7 +32,7 @@ export default function ServicesSection() {
             transition={{ duration: 0.6 }}
           >
             <p className="text-accent text-xs tracking-[0.3em] uppercase mb-4 font-medium">
-              What We Do
+              {t('whatWeDo')}
             </p>
             <h2 className="text-4xl lg:text-5xl font-light text-primary tracking-tight">
               {t('title')}
