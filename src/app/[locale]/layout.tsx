@@ -6,6 +6,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+import ScrollToTop from '@/components/layout/ScrollToTop';
 import '../globals.css';
 
 const inter = Inter({
@@ -41,6 +42,7 @@ export default async function LocaleLayout({
       <body className="bg-white text-primary font-sans antialiased">
         <NextIntlClientProvider messages={messages} locale={locale}>
           <div className="flex flex-col min-h-screen">
+            <ScrollToTop />
             <Header />
             <main className="flex-1 flex flex-col">{children}</main>
             <Footer />

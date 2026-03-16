@@ -28,7 +28,9 @@
       "Bash(DIR=/Volumes/Projects/martin-projektbau/public/images/our-services)",
       "Bash(mv \"$DIR/Tile_and_Stone Laying.webp\" \"$DIR/Tile_and_Stone_Laying.webp\")",
       "Bash(mv \"$DIR/Window Installation.webp\" \"$DIR/Window_Installation.webp\")",
-      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(''''services:'''', list\\(d.get\\(''''services'''',{}\\).keys\\(\\)\\)\\); print\\(''''about:'''', list\\(d.get\\(''''about'''',{}\\).keys\\(\\)\\)\\)\")"
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(''''services:'''', list\\(d.get\\(''''services'''',{}\\).keys\\(\\)\\)\\); print\\(''''about:'''', list\\(d.get\\(''''about'''',{}\\).keys\\(\\)\\)\\)\")",
+      "Bash(git checkout:*)",
+      "Bash(grep -n \"x-\\\\|-mx\\\\|overflow\\\\|translate-x\\\\|aspect-\" /Volumes/Projects/martin-projektbau/src/app/[locale]/about/page.tsx)"
     ],
     "additionalDirectories": [
       "/Volumes/Projects/martin-projektbau",
