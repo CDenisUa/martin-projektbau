@@ -24,11 +24,15 @@
       "Bash(magick identify:*)",
       "Read(//Volumes/Projects/martin-projektbau/**)",
       "Bash(grep -r \"src\\\\|href\\\\|backgroundImage\\\\|import.*from\" /Volumes/Projects/martin-projektbau/src --include=*.js --include=*.jsx --include=*.ts --include=*.tsx -n)",
-      "Bash(grep -r \"png\\\\|jpg\\\\|jpeg\\\\|webp\\\\|svg\\\\|gif\\\\|ico\" /Volumes/Projects/martin-projektbau/src -n --include=*.tsx --include=*.ts --include=*.jsx --include=*.js)"
+      "Bash(grep -r \"png\\\\|jpg\\\\|jpeg\\\\|webp\\\\|svg\\\\|gif\\\\|ico\" /Volumes/Projects/martin-projektbau/src -n --include=*.tsx --include=*.ts --include=*.jsx --include=*.js)",
+      "Bash(DIR=/Volumes/Projects/martin-projektbau/public/images/our-services)",
+      "Bash(mv \"$DIR/Tile_and_Stone Laying.webp\" \"$DIR/Tile_and_Stone_Laying.webp\")",
+      "Bash(mv \"$DIR/Window Installation.webp\" \"$DIR/Window_Installation.webp\")"
     ],
     "additionalDirectories": [
       "/Volumes/Projects/martin-projektbau",
-      "/Volumes/Projects/martin-projektbau/public/images/our-services-banner"
+      "/Volumes/Projects/martin-projektbau/public/images/our-services-banner",
+      "/Volumes/Projects/martin-projektbau/public/images/our-services"
     ]
   }
 }

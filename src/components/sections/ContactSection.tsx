@@ -31,7 +31,7 @@ function validate(form: FormState, t: ReturnType<typeof useTranslations>): Error
   return errors;
 }
 
-export default function ContactSection() {
+export default function ContactSection({ className }: { className?: string }) {
   const t = useTranslations('contact');
   const ref = useRef<HTMLElement>(null);
   const inView = useInView(ref, { once: true, margin: '-80px' });
@@ -90,7 +90,7 @@ export default function ContactSection() {
     }`;
 
   return (
-    <section ref={ref} className="py-12 md:py-8 bg-primary text-white w-full">
+    <section ref={ref} className={`py-12 md:py-8 text-white w-full ${className ?? 'bg-primary'}`}>
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-20">
           {/* Left: info */}

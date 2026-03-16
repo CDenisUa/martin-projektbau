@@ -24,12 +24,12 @@ const SERVICE_ICONS = {
 };
 
 const SERVICE_IMAGES = {
-  facade: 'https://images.unsplash.com/photo-1486325212027-8081e485255e?w=900&q=80',
-  tiling: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=900&q=80',
-  parquet: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=900&q=80',
-  painting: 'https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=900&q=80',
-  windows: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=80',
-  renovation: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=900&q=80',
+  facade:     '/images/our-services/Facade_Construction.webp',
+  tiling:     '/images/our-services/Tile_and_Stone_Laying.webp',
+  parquet:    '/images/our-services/Parquet_Flooring.webp',
+  painting:   '/images/our-services/Painting_and_Plastering.webp',
+  windows:    '/images/our-services/Window_Installation.webp',
+  renovation: '/images/our-services/Renovation_and_Conversion.webp',
 };
 
 export default function ServicesPage() {
