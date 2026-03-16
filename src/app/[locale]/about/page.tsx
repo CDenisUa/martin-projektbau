@@ -51,6 +51,8 @@ export default function AboutPage() {
   const t = useTranslations('about');
   const statsRef = useRef<HTMLDivElement>(null);
   const statsInView = useInView(statsRef, { once: true, margin: '-60px' });
+  const valuesRef = useRef<HTMLDivElement>(null);
+  const valuesInView = useInView(valuesRef, { once: true, margin: '-60px' });
 
   return (
     <div className="min-h-screen bg-white">
@@ -119,7 +121,10 @@ export default function AboutPage() {
         {/* Values */}
         <div>
           <h2 className="text-xs text-gray-400 uppercase tracking-[0.2em] mb-10">Our Values</h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-gray-100">
+          <div
+            ref={valuesRef}
+            className={`grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-gray-100 ${valuesInView ? 'draw-active' : ''}`}
+          >
             {VALUE_KEYS.map((key, i) => {
               const Icon = VALUE_ICONS[key];
               return (
@@ -129,15 +134,19 @@ export default function AboutPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: i * 0.1 }}
-                  className="group bg-white p-8 hover:bg-primary transition-colors duration-300"
+                  className="bg-white p-8"
                 >
-                  <div className="w-10 h-10 bg-accent-light group-hover:bg-white/10 flex items-center justify-center mb-5 transition-colors duration-300">
-                    <Icon size={18} className="text-accent" />
+                  <div className="w-10 h-10 bg-accent-light flex items-center justify-center mb-5">
+                    <Icon
+                      size={18}
+                      className="text-accent about-icon"
+                      style={{ '--icon-delay': `${i * 0.25}s` } as React.CSSProperties}
+                    />
                   </div>
-                  <h3 className="font-semibold text-primary group-hover:text-white mb-2 transition-colors duration-300">
+                  <h3 className="font-semibold text-primary mb-2">
                     {t(`values.${key}.title`)}
                   </h3>
-                  <p className="text-sm text-gray-400 group-hover:text-white/55 leading-relaxed transition-colors duration-300">
+                  <p className="text-sm text-gray-400 leading-relaxed">
                     {t(`values.${key}.description`)}
                   </p>
                 </motion.div>

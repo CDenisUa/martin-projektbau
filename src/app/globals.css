@@ -75,3 +75,17 @@
 .group:hover .service-icon {
   animation: icon-pop 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
+
+/* About page icons — draw triggered when parent gets .draw-active class */
+.draw-active .about-icon path,
+.draw-active .about-icon circle,
+.draw-active .about-icon rect,
+.draw-active .about-icon line,
+.draw-active .about-icon polyline,
+.draw-active .about-icon ellipse {
+  fill: none;
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation: draw-stroke 2.8s ease-in-out forwards;
+  animation-delay: var(--icon-delay, 0s);
+}
