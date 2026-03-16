@@ -44,12 +44,13 @@ export default function Header() {
   const transparent = isHomePage && !scrolled && !mobileOpen;
 
   return (
-    <motion.header
-      initial={{ y: -100 }}
-      animate={{ y: 0 }}
-      transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
-      className="fixed top-0 left-0 right-0 z-50"
-    >
+    <header className="fixed top-0 left-0 right-0 z-50">
+      <motion.div
+        initial={{ y: -100 }}
+        animate={{ y: 0 }}
+        transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
+        className="relative"
+      >
       {/* Sliding white background — slides up when transparent, slides down when solid */}
       <AnimatePresence>
         {!transparent && (
@@ -144,6 +145,7 @@ export default function Header() {
           </motion.div>
         )}
       </AnimatePresence>
-    </motion.header>
+      </motion.div>
+    </header>
   );
 }
