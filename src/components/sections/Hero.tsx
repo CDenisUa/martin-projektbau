@@ -5,26 +5,72 @@ import Link from 'next/link';
 import { motion } from 'framer-motion';
 import { useEffect, useRef, useState, useCallback } from 'react';
 
-const VIDEOS = [
-  '/video/hero/1.mp4',
-  '/video/hero/2.mp4',
-  '/video/hero/3.mp4',
-  '/video/hero/4.mp4',
-  '/video/hero/5.mp4',
-  '/video/hero/6.mp4',
-  '/video/hero/7.mp4',
-  '/video/hero/8.mp4',
-  '/video/hero/9.mp4',
-];
+// Detect VP9 support on first client render (SSR-safe)
+function detectVP9(): boolean {
+  if (typeof window === 'undefined') return false;
+  return document.createElement('video').canPlayType('video/webm; codecs="vp9"') !== '';
+}
+
+// Hero preview: 35 chunks × 1s — VP9 for capable browsers, VP8 WebM as fallback
+const HERO_PREVIEW = {
+  vp9:  Array.from({ length: 35 }, (_, i) => `/video/hero/vp9/${i + 1}.webm`),
+  webm: Array.from({ length: 35 }, (_, i) => `/video/hero/webm/${i + 1}.webm`),
+};
+
+const VIDEO_GROUPS = {
+  greetings: [
+    '/video/greetings/1.mp4',
+    '/video/greetings/2.mp4',
+    '/video/greetings/3.mp4',
+    '/video/greetings/4.mp4',
+    '/video/greetings/5.mp4',
+    '/video/greetings/6.mp4',
+    '/video/greetings/7.mp4',
+    '/video/greetings/8.mp4',
+    '/video/greetings/9.mp4',
+    '/video/greetings/10.mp4',
+    '/video/greetings/11.mp4',
+    '/video/greetings/12.mp4',
+  ],
+  facadeConstruction: [
+    '/video/facade_construction/1.mp4',
+    '/video/facade_construction/2.mp4',
+    '/video/facade_construction/3.mp4',
+  ],
+  paintingPlastering: [
+    '/video/painting_plastering/1.mp4',
+    '/video/painting_plastering/2.mp4',
+  ],
+  outdoors: [
+    '/video/outdoors/1.mp4',
+    '/video/outdoors/2.mp4',
+    '/video/outdoors/3.mp4',
+  ],
+};
 
 export default function Hero() {
   const t = useTranslations('hero');
   const locale = useLocale();
 
+  // Codec detection: VP9 if supported, VP8 WebM as fallback
+  // useState lazy initializer runs only on client — avoids SSR/hydration issues
+  const [useVP9] = useState<boolean>(detectVP9);
+
+  // Playback order: greetings → facadeConstruction → paintingPlastering → outdoors → heroPreview → loop
+  const VIDEOS = [
+    ...VIDEO_GROUPS.greetings,
+    ...VIDEO_GROUPS.facadeConstruction,
+    ...VIDEO_GROUPS.paintingPlastering,
+    ...VIDEO_GROUPS.outdoors,
+    ...(useVP9 ? HERO_PREVIEW.vp9 : HERO_PREVIEW.webm),
+  ];
+
   // Two slots: one plays, one preloads next
   const [activeSlot, setActiveSlot] = useState<0 | 1>(0);
   const [slotSrcs, setSlotSrcs] = useState<[string, string]>([VIDEOS[0], VIDEOS[1]]);
   const currentIdxRef = useRef(0);
+  const videosRef = useRef(VIDEOS);
+  videosRef.current = VIDEOS;
 
   const videoRefs = useRef<[HTMLVideoElement | null, HTMLVideoElement | null]>([null, null]);
 
@@ -36,9 +82,10 @@ export default function Hero() {
   }, []);
 
   const handleEnded = useCallback(() => {
+    const videos = videosRef.current;
     const current = currentIdxRef.current;
-    const nextIdx = (current + 1) % VIDEOS.length;
-    const nextNextIdx = (current + 2) % VIDEOS.length;
+    const nextIdx = (current + 1) % videos.length;
+    const nextNextIdx = (current + 2) % videos.length;
     const nextSlot = activeSlot === 0 ? 1 : 0;
     const prevSlot = activeSlot;
 
@@ -50,7 +97,7 @@ export default function Hero() {
     // Load the one after next into the freed slot
     setSlotSrcs((prev) => {
       const updated: [string, string] = [...prev] as [string, string];
-      updated[prevSlot] = VIDEOS[nextNextIdx];
+      updated[prevSlot] = videos[nextNextIdx];
       return updated;
     });
 
@@ -76,7 +123,7 @@ export default function Hero() {
           playsInline
           preload="auto"
           onEnded={slot === activeSlot ? handleEnded : undefined}
-          className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none transition-opacity duration-0"
+          className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none transition-opacity duration-300 ease-in-out"
           style={{ opacity: slot === activeSlot ? 1 : 0, zIndex: slot === activeSlot ? 1 : 0 }}
         />
       ))}
