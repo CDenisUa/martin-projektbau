@@ -22,14 +22,11 @@ export default function AboutSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const inView = useInView(sectionRef, { once: true, margin: '-80px' });
 
-  // 'idle' → waiting | 'playing' → normal speed | 'slowing' → decelerating | 'frozen' → poster
-  const [videoState, setVideoState] = useState<'idle' | 'playing' | 'slowing' | 'frozen'>('idle');
+  // 'idle' → waiting | 'playing' → video running | 'frozen' → poster
+  const [videoState, setVideoState] = useState<'idle' | 'playing' | 'frozen'>('idle');
 
-  // Slowdown window: starts 2.5s before end, rate drops 1.0 → 0.04 (near freeze)
-  const SLOW_START = 2.5;
-  // Poster swaps in when playback rate drops below this threshold
-  const SWAP_RATE = 0.06;
-
+  // Slowdown is baked into the video file (interpolated 60fps, graduated slow-mo last 5s)
+  // No playbackRate manipulation needed
   useEffect(() => {
     if (!inView || videoState !== 'idle') return;
 
@@ -42,30 +39,6 @@ export default function AboutSection() {
     setVideoState('playing');
     video.play().catch(() => setVideoState('frozen'));
   }, [inView, videoState]);
-
-  const handleTimeUpdate = () => {
-    const video = videoRef.current;
-    if (!video || videoState === 'idle' || videoState === 'frozen') return;
-
-    const remaining = video.duration - video.currentTime;
-
-    if (remaining <= SLOW_START) {
-      // t: 0 at SLOW_START, 1 at end — ease-in-cubic for aggressive late deceleration
-      const t = 1 - remaining / SLOW_START;
-      const eased = t * t * t; // cubic: barely moves at first, slams to stop at end
-      // Rate: 1.0 → 0.04
-      const rate = Math.max(1 - eased * (1 - 0.04), 0.04);
-      video.playbackRate = rate;
-
-      if (videoState === 'playing') setVideoState('slowing');
-
-      // Swap to poster when nearly frozen — imperceptible cut
-      if (rate <= SWAP_RATE) {
-        video.pause();
-        setVideoState('frozen');
-      }
-    }
-  };
 
   const handleEnded = () => setVideoState('frozen');
 
@@ -83,7 +56,7 @@ export default function AboutSection() {
           >
             <div className="relative aspect-4/5 overflow-hidden bg-gray-100">
 
-              {/* Poster — shown before play and after freeze */}
+              {/* Poster — shown before play and after video ends */}
               <Image
                 src="/images/posters/about.webp"
                 alt="Martin Projektbau craftsmanship"
@@ -91,23 +64,22 @@ export default function AboutSection() {
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 style={{
-                  opacity: videoState === 'playing' || videoState === 'slowing' ? 0 : 1,
+                  opacity: videoState === 'playing' ? 0 : 1,
                   transition: 'none',
                   zIndex: 2,
                 }}
               />
 
-              {/* Video — fades in on start, hidden instantly when frozen */}
+              {/* Video — slowdown is baked in, swap to poster on end */}
               <video
                 ref={videoRef}
                 muted
                 playsInline
                 preload="none"
                 onEnded={handleEnded}
-                onTimeUpdate={handleTimeUpdate}
                 className="absolute inset-0 w-full h-full object-cover"
                 style={{
-                  opacity: videoState === 'playing' || videoState === 'slowing' ? 1 : 0,
+                  opacity: videoState === 'playing' ? 1 : 0,
                   transition: videoState === 'playing' ? 'opacity 0.3s ease' : 'none',
                   zIndex: 1,
                 }}
