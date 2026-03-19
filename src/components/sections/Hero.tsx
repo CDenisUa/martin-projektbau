@@ -52,7 +52,7 @@ export default function Hero() {
         loop
         playsInline
         preload="none"
-        poster="/video/poster.webp"
+        poster="/images/posters/hero.webp"
         className="absolute inset-0 w-full h-full object-cover object-center pointer-events-none"
         style={{ zIndex: 1 }}
       >

@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef } from 'react';
+import { useRef, useEffect, useState } from 'react';
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -18,32 +18,80 @@ const VALUE_KEYS = ['quality', 'precision', 'reliability', 'craftsmanship'] as c
 export default function AboutSection() {
   const t = useTranslations('about');
   const locale = useLocale();
-  const ref = useRef<HTMLElement>(null);
-  const inView = useInView(ref, { once: true, margin: '-80px' });
+  const sectionRef = useRef<HTMLElement>(null);
+  const videoRef = useRef<HTMLVideoElement>(null);
+  const inView = useInView(sectionRef, { once: true, margin: '-80px' });
+
+  // 'idle' → waiting for viewport | 'playing' → video running | 'frozen' → ended, show poster
+  const [videoState, setVideoState] = useState<'idle' | 'playing' | 'frozen'>('idle');
+
+  // Start playback once section enters viewport
+  useEffect(() => {
+    if (!inView || videoState !== 'idle') return;
+
+    const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (reducedMotion) {
+      setVideoState('frozen');
+      return;
+    }
+
+    const video = videoRef.current;
+    if (!video) return;
+
+    setVideoState('playing');
+    video.play().catch(() => setVideoState('frozen'));
+  }, [inView, videoState]);
+
+  const handleEnded = () => setVideoState('frozen');
 
   return (
-    <section ref={ref} className="py-32 bg-white overflow-hidden">
+    <section ref={sectionRef} className="py-32 bg-white overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-20 items-center">
-          {/* Image column */}
+
+          {/* Media column */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             animate={inView ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
             className="relative"
           >
-            <div className="relative aspect-[4/5] overflow-hidden">
+            <div className="relative aspect-4/5 overflow-hidden bg-gray-100">
+
+              {/* Poster — visible until video starts, and after it ends */}
               <Image
-                src="/images/about.webp"
+                src="/images/posters/about.webp"
                 alt="Martin Projektbau craftsmanship"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
+                style={{
+                  opacity: videoState === 'playing' ? 0 : 1,
+                  transition: videoState === 'playing' ? 'opacity 0.3s ease' : 'none',
+                }}
               />
+
+              {/* Video — fades in on play, stays at last frame until frozen replaces it */}
+              <video
+                ref={videoRef}
+                muted
+                playsInline
+                preload="none"
+                onEnded={handleEnded}
+                className="absolute inset-0 w-full h-full object-cover"
+                style={{
+                  opacity: videoState === 'playing' ? 1 : 0,
+                  transition: videoState === 'playing' ? 'opacity 0.3s ease' : 'none',
+                }}
+              >
+                <source src="/video/home/about/about.webm" type="video/webm" />
+                <source src="/video/home/about/about.mp4" type="video/mp4" />
+              </video>
             </div>
+
             {/* Decorative elements */}
             <div className="absolute -bottom-6 -right-6 w-40 h-40 bg-accent-light border border-accent/15 -z-10" />
-            <div className="absolute top-6 -left-4 w-16 h-[3px] bg-accent" />
+            <div className="absolute top-6 -left-4 w-16 h-0.75 bg-accent" />
           </motion.div>
 
           {/* Text column */}
@@ -75,7 +123,7 @@ export default function AboutSection() {
                     transition={{ delay: 0.4 + i * 0.08 }}
                   >
                     <div className="flex items-center gap-2 mb-1.5">
-                      <Icon size={14} className="text-accent flex-shrink-0" />
+                      <Icon size={14} className="text-accent shrink-0" />
                       <h4 className="text-sm font-semibold text-primary tracking-wide">
                         {t(`values.${key}.title`)}
                       </h4>
