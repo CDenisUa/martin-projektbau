@@ -56,7 +56,7 @@ export default function AboutSection() {
     if (remaining <= FADE_START) {
       const progress = 1 - remaining / FADE_START; // 0 → 1
       setPosterOpacity(progress);
-      if (videoState !== 'freezing') setVideoState('freezing');
+      if (videoState === 'playing') setVideoState('freezing');
     }
   };
 
