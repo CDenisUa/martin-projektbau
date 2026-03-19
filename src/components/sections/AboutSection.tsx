@@ -22,55 +22,52 @@ export default function AboutSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const inView = useInView(sectionRef, { once: true, margin: '-80px' });
 
-  // 'idle' → waiting for viewport | 'playing' → video running | 'freezing' → crossfade in progress | 'frozen' → poster shown
-  const [videoState, setVideoState] = useState<'idle' | 'playing' | 'freezing' | 'frozen'>('idle');
-  // 0 = poster hidden, 1 = poster fully visible
-  const [posterOpacity, setPosterOpacity] = useState(0);
+  // 'idle' → waiting | 'playing' → normal speed | 'slowing' → decelerating | 'frozen' → poster
+  const [videoState, setVideoState] = useState<'idle' | 'playing' | 'slowing' | 'frozen'>('idle');
 
-  // FADE_START: how many seconds before end the crossfade + slowdown begins
-  const FADE_START = 2.0;
-  // Minimum playback rate at the very end (0.25 = quarter speed)
-  const MIN_RATE = 0.2;
+  // Slowdown window: starts 2.5s before end, rate drops 1.0 → 0.04 (near freeze)
+  const SLOW_START = 2.5;
+  // Poster swaps in when playback rate drops below this threshold
+  const SWAP_RATE = 0.06;
 
-  // Start playback once section enters viewport
   useEffect(() => {
     if (!inView || videoState !== 'idle') return;
 
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (reducedMotion) {
-      setPosterOpacity(1);
-      setVideoState('frozen');
-      return;
-    }
+    if (reducedMotion) { setVideoState('frozen'); return; }
 
     const video = videoRef.current;
     if (!video) return;
 
     setVideoState('playing');
-    video.play().catch(() => { setPosterOpacity(1); setVideoState('frozen'); });
+    video.play().catch(() => setVideoState('frozen'));
   }, [inView, videoState]);
 
-  // Crossfade + slowdown: ramp poster opacity 0→1 and playback rate 1→MIN_RATE
-  // during the last FADE_START seconds, using an ease-in curve for natural deceleration
   const handleTimeUpdate = () => {
     const video = videoRef.current;
-    if (!video || (videoState !== 'playing' && videoState !== 'freezing')) return;
+    if (!video || videoState === 'idle' || videoState === 'frozen') return;
+
     const remaining = video.duration - video.currentTime;
-    if (remaining <= FADE_START) {
-      const t = 1 - remaining / FADE_START; // linear 0→1
-      // ease-in-quad: starts slow, accelerates — makes fade feel more natural
-      const eased = t * t;
-      setPosterOpacity(eased);
-      // slow down playback: 1.0 → MIN_RATE
-      video.playbackRate = 1 - t * (1 - MIN_RATE);
-      if (videoState === 'playing') setVideoState('freezing');
+
+    if (remaining <= SLOW_START) {
+      // t: 0 at SLOW_START, 1 at end — ease-in-cubic for aggressive late deceleration
+      const t = 1 - remaining / SLOW_START;
+      const eased = t * t * t; // cubic: barely moves at first, slams to stop at end
+      // Rate: 1.0 → 0.04
+      const rate = Math.max(1 - eased * (1 - 0.04), 0.04);
+      video.playbackRate = rate;
+
+      if (videoState === 'playing') setVideoState('slowing');
+
+      // Swap to poster when nearly frozen — imperceptible cut
+      if (rate <= SWAP_RATE) {
+        video.pause();
+        setVideoState('frozen');
+      }
     }
   };
 
-  const handleEnded = () => {
-    setPosterOpacity(1);
-    setVideoState('frozen');
-  };
+  const handleEnded = () => setVideoState('frozen');
 
   return (
     <section ref={sectionRef} className="py-32 bg-white overflow-hidden">
@@ -86,7 +83,7 @@ export default function AboutSection() {
           >
             <div className="relative aspect-4/5 overflow-hidden bg-gray-100">
 
-              {/* Poster — sits on top, opacity driven by posterOpacity */}
+              {/* Poster — shown before play and after freeze */}
               <Image
                 src="/images/posters/about.webp"
                 alt="Martin Projektbau craftsmanship"
@@ -94,13 +91,13 @@ export default function AboutSection() {
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 style={{
-                  opacity: posterOpacity,
+                  opacity: videoState === 'playing' || videoState === 'slowing' ? 0 : 1,
                   transition: 'none',
                   zIndex: 2,
                 }}
               />
 
-              {/* Video — underneath, fades in when playback starts */}
+              {/* Video — fades in on start, hidden instantly when frozen */}
               <video
                 ref={videoRef}
                 muted
@@ -110,8 +107,8 @@ export default function AboutSection() {
                 onTimeUpdate={handleTimeUpdate}
                 className="absolute inset-0 w-full h-full object-cover"
                 style={{
-                  opacity: videoState === 'idle' || videoState === 'frozen' ? 0 : 1,
-                  transition: 'opacity 0.3s ease',
+                  opacity: videoState === 'playing' || videoState === 'slowing' ? 1 : 0,
+                  transition: videoState === 'playing' ? 'opacity 0.3s ease' : 'none',
                   zIndex: 1,
                 }}
               >
