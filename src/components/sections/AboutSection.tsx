@@ -27,8 +27,10 @@ export default function AboutSection() {
   // 0 = poster hidden, 1 = poster fully visible
   const [posterOpacity, setPosterOpacity] = useState(0);
 
-  // FADE_START: how many seconds before end the crossfade begins
-  const FADE_START = 0.8;
+  // FADE_START: how many seconds before end the crossfade + slowdown begins
+  const FADE_START = 2.0;
+  // Minimum playback rate at the very end (0.25 = quarter speed)
+  const MIN_RATE = 0.2;
 
   // Start playback once section enters viewport
   useEffect(() => {
@@ -48,14 +50,19 @@ export default function AboutSection() {
     video.play().catch(() => { setPosterOpacity(1); setVideoState('frozen'); });
   }, [inView, videoState]);
 
-  // Crossfade: ramp poster opacity from 0→1 during the last FADE_START seconds
+  // Crossfade + slowdown: ramp poster opacity 0→1 and playback rate 1→MIN_RATE
+  // during the last FADE_START seconds, using an ease-in curve for natural deceleration
   const handleTimeUpdate = () => {
     const video = videoRef.current;
-    if (!video || videoState !== 'playing') return;
+    if (!video || (videoState !== 'playing' && videoState !== 'freezing')) return;
     const remaining = video.duration - video.currentTime;
     if (remaining <= FADE_START) {
-      const progress = 1 - remaining / FADE_START; // 0 → 1
-      setPosterOpacity(progress);
+      const t = 1 - remaining / FADE_START; // linear 0→1
+      // ease-in-quad: starts slow, accelerates — makes fade feel more natural
+      const eased = t * t;
+      setPosterOpacity(eased);
+      // slow down playback: 1.0 → MIN_RATE
+      video.playbackRate = 1 - t * (1 - MIN_RATE);
       if (videoState === 'playing') setVideoState('freezing');
     }
   };
@@ -88,7 +95,7 @@ export default function AboutSection() {
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 style={{
                   opacity: posterOpacity,
-                  transition: videoState === 'idle' ? 'none' : 'opacity 0.05s linear',
+                  transition: 'none',
                   zIndex: 2,
                 }}
               />
