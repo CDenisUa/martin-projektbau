@@ -22,8 +22,13 @@ export default function AboutSection() {
   const videoRef = useRef<HTMLVideoElement>(null);
   const inView = useInView(sectionRef, { once: true, margin: '-80px' });
 
-  // 'idle' → waiting for viewport | 'playing' → video running | 'frozen' → ended, show poster
-  const [videoState, setVideoState] = useState<'idle' | 'playing' | 'frozen'>('idle');
+  // 'idle' → waiting for viewport | 'playing' → video running | 'freezing' → crossfade in progress | 'frozen' → poster shown
+  const [videoState, setVideoState] = useState<'idle' | 'playing' | 'freezing' | 'frozen'>('idle');
+  // 0 = poster hidden, 1 = poster fully visible
+  const [posterOpacity, setPosterOpacity] = useState(0);
+
+  // FADE_START: how many seconds before end the crossfade begins
+  const FADE_START = 0.8;
 
   // Start playback once section enters viewport
   useEffect(() => {
@@ -31,6 +36,7 @@ export default function AboutSection() {
 
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (reducedMotion) {
+      setPosterOpacity(1);
       setVideoState('frozen');
       return;
     }
@@ -39,10 +45,25 @@ export default function AboutSection() {
     if (!video) return;
 
     setVideoState('playing');
-    video.play().catch(() => setVideoState('frozen'));
+    video.play().catch(() => { setPosterOpacity(1); setVideoState('frozen'); });
   }, [inView, videoState]);
 
-  const handleEnded = () => setVideoState('frozen');
+  // Crossfade: ramp poster opacity from 0→1 during the last FADE_START seconds
+  const handleTimeUpdate = () => {
+    const video = videoRef.current;
+    if (!video || videoState !== 'playing') return;
+    const remaining = video.duration - video.currentTime;
+    if (remaining <= FADE_START) {
+      const progress = 1 - remaining / FADE_START; // 0 → 1
+      setPosterOpacity(progress);
+      if (videoState !== 'freezing') setVideoState('freezing');
+    }
+  };
+
+  const handleEnded = () => {
+    setPosterOpacity(1);
+    setVideoState('frozen');
+  };
 
   return (
     <section ref={sectionRef} className="py-32 bg-white overflow-hidden">
@@ -58,7 +79,7 @@ export default function AboutSection() {
           >
             <div className="relative aspect-4/5 overflow-hidden bg-gray-100">
 
-              {/* Poster — visible until video starts, and after it ends */}
+              {/* Poster — sits on top, opacity driven by posterOpacity */}
               <Image
                 src="/images/posters/about.webp"
                 alt="Martin Projektbau craftsmanship"
@@ -66,22 +87,25 @@ export default function AboutSection() {
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
                 style={{
-                  opacity: videoState === 'playing' ? 0 : 1,
-                  transition: videoState === 'playing' ? 'opacity 0.3s ease' : 'none',
+                  opacity: posterOpacity,
+                  transition: videoState === 'idle' ? 'none' : 'opacity 0.05s linear',
+                  zIndex: 2,
                 }}
               />
 
-              {/* Video — fades in on play, stays at last frame until frozen replaces it */}
+              {/* Video — underneath, fades in when playback starts */}
               <video
                 ref={videoRef}
                 muted
                 playsInline
                 preload="none"
                 onEnded={handleEnded}
+                onTimeUpdate={handleTimeUpdate}
                 className="absolute inset-0 w-full h-full object-cover"
                 style={{
-                  opacity: videoState === 'playing' ? 1 : 0,
-                  transition: videoState === 'playing' ? 'opacity 0.3s ease' : 'none',
+                  opacity: videoState === 'idle' || videoState === 'frozen' ? 0 : 1,
+                  transition: 'opacity 0.3s ease',
+                  zIndex: 1,
                 }}
               >
                 <source src="/video/home/about/about.webm" type="video/webm" />
