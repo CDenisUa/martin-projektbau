@@ -65,9 +65,9 @@ export default function ContactSection({ className }: { className?: string }) {
     }`;
 
   return (
-    <section ref={ref} className={`py-12 md:py-8 text-white w-full ${className ?? 'bg-primary'}`}>
+    <section ref={ref} className={`py-6 md:py-5 text-white w-full ${className ?? 'bg-primary'}`}>
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        <div className="grid lg:grid-cols-2 gap-20">
+        <div className="grid lg:grid-cols-2 gap-10 lg:gap-20">
           {/* Left: info */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -77,10 +77,10 @@ export default function ContactSection({ className }: { className?: string }) {
             <p className="text-accent text-xs tracking-[0.3em] uppercase mb-4 font-medium">
               {t('sectionLabel')}
             </p>
-            <h2 className="text-4xl lg:text-5xl font-light tracking-tight mb-6">{t('title')}</h2>
-            <p className="text-white/50 text-lg leading-relaxed mb-6">{t('subtitle')}</p>
+            <h2 className="text-4xl lg:text-5xl font-light tracking-tight mb-4">{t('title')}</h2>
+            <p className="text-white/50 text-lg leading-relaxed mb-4">{t('subtitle')}</p>
 
-            <div className="space-y-4">
+            <div className="space-y-3">
               <div className="flex items-start gap-4">
                 <div className="w-10 h-10 bg-white/8 flex items-center justify-center shrink-0">
                   <Mail size={17} className="text-accent" />
@@ -129,7 +129,7 @@ export default function ContactSection({ className }: { className?: string }) {
                 </motion.div>
               </div>
             ) : (
-              <form onSubmit={handleSubmit} noValidate className="space-y-3">
+              <form onSubmit={handleSubmit} noValidate className="space-y-2">
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-[10px] text-white/30 uppercase tracking-[0.2em] mb-2">
@@ -193,7 +193,7 @@ export default function ContactSection({ className }: { className?: string }) {
                     {t('message')} *
                   </label>
                   <textarea
-                    rows={3}
+                    rows={2}
                     value={form.message}
                     onChange={(e) => handleChange('message', e.target.value)}
                     onBlur={() => handleBlur('message')}
