@@ -63,6 +63,23 @@ export default function Footer() {
             </a>
           </div>
         </div>
+
+        {/* Developer credit */}
+        <div className="mt-8 pt-6 border-t border-white/5 flex justify-end">
+          <a
+            href="https://chepio.tech"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="opacity-30 hover:opacity-100 transition-all duration-300"
+            aria-label="Developed by Chepio"
+          >
+            <img
+              src="/images/icons/logo_designed.svg"
+              alt="Chepio"
+              className="h-8 w-auto brightness-0 invert hover:brightness-100 hover:invert-0 transition-all duration-300"
+            />
+          </a>
+        </div>
       </div>
     </footer>
   );
