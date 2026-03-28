@@ -78,7 +78,7 @@ export default function Footer() {
           >
             <img
               src="/images/icons/logo_designed.svg"
-              alt="Chepio"
+              alt="chepio.tech"
               className="h-7 w-auto brightness-0 invert hover:brightness-100 hover:invert-0 transition-all duration-300"
             />
           </a>
