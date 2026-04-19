@@ -106,7 +106,7 @@ export function buildContactEmail(
 </html>`;
 }
 
-export function buildConfirmationEmail(name: string): string {
+export function buildConfirmationEmail(): string {
   return `<!DOCTYPE html>
 <html lang="de">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"></head>
@@ -140,19 +140,12 @@ export function buildConfirmationEmail(name: string): string {
         <!-- Body -->
         <tr>
           <td style="background:#ffffff;padding:40px;">
-            <h1 style="margin:0 0 6px;font-size:22px;font-weight:300;color:#0A1628;letter-spacing:-0.3px;">Vielen Dank, ${name}!</h1>
-            <p style="margin:0 0 32px;font-size:13px;color:#94a3b8;">Ihre Anfrage wurde erfolgreich übermittelt.</p>
-
             <!-- Confirmation card -->
             <div style="background:#f0fdf4;border:1px solid #bbf7d0;border-radius:6px;padding:24px 28px;margin-bottom:28px;">
-              <p style="margin:0 0 12px;font-size:15px;color:#15803d;font-weight:500;">Wir haben Ihre Nachricht erhalten.</p>
-              <p style="margin:0;font-size:14px;color:#374151;line-height:1.75;">Unser Team wird sich so schnell wie möglich mit Ihnen in Verbindung setzen.</p>
+              <p style="margin:0 0 12px;font-size:15px;color:#15803d;font-weight:500;">Ihre Anfrage wurde erfolgreich übermittelt.</p>
+              <p style="margin:0 0 16px;font-size:14px;color:#374151;line-height:1.75;">Wir haben Ihre Nachricht erhalten und werden uns so schnell wie möglich bei Ihnen melden.</p>
+              <p style="margin:0;font-size:13px;color:#0A1628;font-weight:600;">Martin Projekt Group GmbH</p>
             </div>
-
-            <!-- Divider -->
-            <div style="border-top:1px solid #e2e8f0;margin:0 0 24px;"></div>
-
-            <p style="margin:0;font-size:12px;color:#94a3b8;line-height:1.6;">Bitte antworten Sie nicht auf diese E-Mail. Falls Sie uns direkt erreichen möchten, finden Sie unsere Kontaktdaten auf unserer Website.</p>
           </td>
         </tr>
 

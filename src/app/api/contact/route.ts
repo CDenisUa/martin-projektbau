@@ -38,7 +38,7 @@ export async function POST(req: NextRequest) {
     from: 'Martin Projekt Group <noreply@martinprojektgroup.ch>',
     to: email,
     subject: 'Ihre Anfrage wurde erhalten – Martin Projekt Group',
-    html: buildConfirmationEmail(name),
+    html: buildConfirmationEmail(),
   });
 
   return NextResponse.json({ success: true });
