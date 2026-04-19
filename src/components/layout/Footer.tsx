@@ -28,7 +28,7 @@ export default function Footer() {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="filter-[brightness(0)_invert(1)] opacity-90 inline-block"
           >
-            <LogoMark size={32} />
+            <LogoMark width={64} />
           </Link>
 
           {/* Navigation — 2 columns */}
