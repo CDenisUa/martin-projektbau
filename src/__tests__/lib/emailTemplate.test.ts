@@ -32,6 +32,11 @@ describe('buildContactEmail', () => {
     expect(html).toContain('tel:+41 79 000 00 00');
   });
 
+  test('uses the current production domain for branded assets', () => {
+    expect(html).toContain('https://martinprojektgroup.ch/images/martin_logo_white.png');
+    expect(html).not.toContain('vercel.app/images/martin_logo_white.png');
+  });
+
   test('is valid HTML with DOCTYPE', () => {
     expect(html.trim()).toMatch(/^<!DOCTYPE html>/i);
   });

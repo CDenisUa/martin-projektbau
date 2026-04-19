@@ -18,7 +18,7 @@ export function buildContactEmail(
             <table width="100%" cellpadding="0" cellspacing="0">
               <tr>
                 <td>
-                  <img src="https://martin-projektbau.vercel.app/images/martin_logo_white.png"
+                  <img src="https://martinprojektgroup.ch/images/martin_logo_white.png"
                        alt="Martin Projekt Group"
                        height="56"
                        style="display:block;" />
