@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import Header from '@/components/layout/Header';
@@ -15,38 +15,49 @@ const inter = Inter({
   display: 'swap',
 });
 
-export const metadata: Metadata = {
-  title: 'Martin Projekt Group – Premium Construction & Renovation',
-  description: 'Swiss construction, renovation and facade solutions crafted with precision and expertise.',
-  keywords: 'construction, renovation, facade, Fassadenbau, Parkettverlegung, Switzerland',
-  metadataBase: new URL('https://martinprojektgroup.ch'),
-  openGraph: {
-    title: 'Martin Projekt Group – Premium Construction & Renovation',
-    description: 'Swiss construction, renovation and facade solutions crafted with precision and expertise.',
-    url: 'https://martinprojektgroup.ch',
-    siteName: 'Martin Projekt Group',
-    images: [{ url: '/android-chrome-512x512.png', width: 512, height: 512, alt: 'Martin Projekt Group' }],
-    type: 'website',
-    locale: 'de_CH',
-  },
-  twitter: {
-    card: 'summary',
-    title: 'Martin Projekt Group – Premium Construction & Renovation',
-    description: 'Swiss construction, renovation and facade solutions crafted with precision and expertise.',
-    images: ['/android-chrome-512x512.png'],
-  },
-  icons: {
-    icon: [
-      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-      { url: '/favicon.ico' },
-    ],
-    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180' }],
-    other: [
-      { rel: 'manifest', url: '/site.webmanifest' },
-    ],
-  },
-};
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale });
+  const title = t('metaTitle');
+  const description = t('metaDescription');
+
+  return {
+    title,
+    description,
+    keywords: 'Bau, Renovation, Fassadenbau, Fenstermontage, Innenausbau, Schweiz',
+    metadataBase: new URL('https://martinprojektgroup.ch'),
+    openGraph: {
+      title,
+      description,
+      url: 'https://martinprojektgroup.ch',
+      siteName: 'Martin Projekt Group',
+      images: [{ url: '/android-chrome-512x512.png', width: 512, height: 512, alt: 'Martin Projekt Group' }],
+      type: 'website',
+      locale: locale.replace('-', '_'),
+    },
+    twitter: {
+      card: 'summary',
+      title,
+      description,
+      images: ['/android-chrome-512x512.png'],
+    },
+    icons: {
+      icon: [
+        { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+        { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+        { url: '/favicon.ico' },
+      ],
+      apple: [{ url: '/apple-touch-icon.png', sizes: '180x180' }],
+      other: [
+        { rel: 'manifest', url: '/site.webmanifest' },
+      ],
+    },
+  };
+}
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));

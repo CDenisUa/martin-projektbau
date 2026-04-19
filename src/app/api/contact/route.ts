@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
-import { buildContactEmail } from '@/lib/emailTemplate';
+import { buildContactEmail, buildConfirmationEmail } from '@/lib/emailTemplate';
 
 export async function POST(req: NextRequest) {
   try {
@@ -33,6 +33,13 @@ export async function POST(req: NextRequest) {
     console.error('Resend error:', JSON.stringify(error));
     return NextResponse.json({ error: 'Failed to send email', detail: error }, { status: 500 });
   }
+
+  await resend.emails.send({
+    from: 'Martin Projekt Group <noreply@martinprojektgroup.ch>',
+    to: email,
+    subject: 'Ihre Anfrage wurde erhalten – Martin Projekt Group',
+    html: buildConfirmationEmail(name),
+  });
 
   return NextResponse.json({ success: true });
   } catch (e) {
