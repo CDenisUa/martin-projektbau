@@ -121,7 +121,11 @@
     "errorEmail": "Angiv en gyldig e-mailadresse",
     "errorPhone": "Angiv dit telefonnummer",
     "errorMessage": "Beskriv din forespørgsel",
-    "errorServer": "Afsendelse mislykkedes. Prøv igen."
+    "errorServer": "Afsendelse mislykkedes. Prøv igen.",
+    "phoneOptional": "(valgfrit)",
+    "privacyPre": "Ved at indsende formularen accepterer jeg behandlingen af mine data i overensstemmelse med",
+    "privacyLink": "Privatlivspolitikken",
+    "privacySuf": "."
   },
   "footer": {
     "tagline": "Ekspertise med schweizisk præcision.",
@@ -139,5 +143,46 @@
     "sectionLabel": "Præferencer"
   },
   "metaTitle": "Martin Projekt Group GmbH – Byggeri, Renoveringer og Montage",
-  "metaDescription": "Facadebyggeri, vinduesmontering og indvendig renovering. Pålidelige arbejder til lejligheder og huse."
+  "metaDescription": "Facadebyggeri, vinduesmontering og indvendig renovering. Pålidelige arbejder til lejligheder og huse.",
+  "impressum": {
+    "pageTitle": "Juridisk information",
+    "sectionLabel": "Juridisk",
+    "heading": "Juridisk information",
+    "companyLabel": "Virksomhed",
+    "addressLabel": "Adresse",
+    "address": "—",
+    "registerLabel": "Handelsregister",
+    "register": "—",
+    "uidLabel": "UID-nummer",
+    "uid": "—",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefon",
+    "phone": "—",
+    "responsibleLabel": "Ejer",
+    "responsible": "—",
+    "disclaimer": "Ansvarsfraskrivelse",
+    "disclaimerText": "Indholdet på denne hjemmeside er udarbejdet med størst mulig omhu. Vi garanterer ikke for nøjagtigheden, fuldstændigheden eller aktualiteten af indholdet. Brug af hjemmesiden sker på eget ansvar."
+  },
+  "privacy": {
+    "pageTitle": "Privatlivspolitik",
+    "sectionLabel": "Juridisk",
+    "heading": "Privatlivspolitik",
+    "lastUpdated": "Sidst opdateret",
+    "s1h": "1. Dataansvarlig",
+    "s1p": "Martin Projekt Group GmbH, —, Schweiz. Kontakt: info@martinprojektgroup.ch",
+    "s2h": "2. Indsamlede data",
+    "s2p": "Via vores kontaktformular indsamler vi: fuldt navn, e-mailadresse, telefonnummer (valgfrit) og projektbeskrivelse. Data bruges udelukkende til behandling af din henvendelse.",
+    "s3h": "3. Formål med behandling",
+    "s3p": "Dine data bruges udelukkende til at besvare din henvendelse og etablere et forretningsforhold. De bruges ikke til markedsføring og deles ikke med tredjeparter uden dit samtykke.",
+    "s4h": "4. Databehandlere",
+    "s4p": "Til e-mailudsendelse bruger vi Resend Inc. (resend.com). Denne tjeneste modtager formulardata for at videresende dem til os, baseret på en databehandleraftale.",
+    "s5h": "5. Opbevaringsperiode",
+    "s5p": "Dine data slettes efter fuldstændig behandling og udløb af lovpligtige opbevaringsperioder.",
+    "s6h": "6. Dine rettigheder (schweizisk DSG)",
+    "s6p": "I henhold til schweizisk databeskyttelseslov (nDSG) har du ret til indsigt, berigtigelse, sletning, begrænsning, dataportabilitet og indsigelse. Kontakt: info@martinprojektgroup.ch",
+    "s7h": "7. Hosting & Infrastruktur",
+    "s7p": "Denne hjemmeside hostes af Vercel Inc. (vercel.com). Al dataoverførsel er krypteret via HTTPS/TLS.",
+    "s8h": "8. Kontakt for databeskyttelse",
+    "s8p": "For spørgsmål om databeskyttelse: info@martinprojektgroup.ch"
+  }
 }

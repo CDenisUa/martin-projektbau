@@ -121,7 +121,11 @@
     "errorEmail": "Kérjük, adjon meg érvényes e-mail-címet",
     "errorPhone": "Kérjük, adja meg telefonszámát",
     "errorMessage": "Kérjük, írja le kérdését",
-    "errorServer": "Küldés sikertelen. Kérjük, próbálja újra."
+    "errorServer": "Küldés sikertelen. Kérjük, próbálja újra.",
+    "phoneOptional": "(opcionális)",
+    "privacyPre": "Az űrlap elküldésével elfogadom az adataim kezelését az",
+    "privacyLink": "Adatvédelmi tájékoztató",
+    "privacySuf": "szerint."
   },
   "footer": {
     "tagline": "Kiválóság svájci precizitással.",
@@ -139,5 +143,46 @@
     "sectionLabel": "Beállítások"
   },
   "metaTitle": "Martin Projekt Group GmbH – Építkezés, Felújítás és Szerelés",
-  "metaDescription": "Homlokzatépítés, ablakszerelés és belső munkák. Megbízható munkák lakásokhoz és házakhoz."
+  "metaDescription": "Homlokzatépítés, ablakszerelés és belső munkák. Megbízható munkák lakásokhoz és házakhoz.",
+  "impressum": {
+    "pageTitle": "Jogi nyilatkozat",
+    "sectionLabel": "Jogi",
+    "heading": "Jogi nyilatkozat",
+    "companyLabel": "Vállalat",
+    "addressLabel": "Cím",
+    "address": "—",
+    "registerLabel": "Kereskedelmi nyilvántartás",
+    "register": "—",
+    "uidLabel": "UID szám",
+    "uid": "—",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefon",
+    "phone": "—",
+    "responsibleLabel": "Tulajdonos",
+    "responsible": "—",
+    "disclaimer": "Felelősségkizárás",
+    "disclaimerText": "Ennek a weboldalnak a tartalma a legnagyobb gondossággal készült. Nem vállalunk felelősséget a tartalom pontosságáért, teljességéért és aktualitásáért. A weboldal használata saját felelősségre történik."
+  },
+  "privacy": {
+    "pageTitle": "Adatvédelmi tájékoztató",
+    "sectionLabel": "Jogi",
+    "heading": "Adatvédelmi tájékoztató",
+    "lastUpdated": "Utolsó frissítés",
+    "s1h": "1. Adatkezelő",
+    "s1p": "Martin Projekt Group GmbH, —, Svájc. Kapcsolat: info@martinprojektgroup.ch",
+    "s2h": "2. Gyűjtött adatok",
+    "s2p": "Kapcsolatfelvételi űrlapunkon keresztül gyűjtjük: teljes nevet, e-mail-címet, telefonszámot (opcionális) és a projekt leírását. Az adatokat kizárólag az Ön kérésének feldolgozásához használjuk.",
+    "s3h": "3. Az adatkezelés célja",
+    "s3p": "Az adatokat kizárólag az Ön kérésének megválaszolására és üzleti kapcsolat kialakítására használjuk. Nem használjuk reklámcélokra, és hozzájárulás nélkül nem adjuk át harmadik feleknek.",
+    "s4h": "4. Adatfeldolgozók",
+    "s4p": "Az e-mailek küldéséhez a Resend Inc. (resend.com) szolgáltatást vesszük igénybe. Ez a szolgáltatás megkapja az űrlapadatokat, hogy továbbítsa azokat nekünk, adatfeldolgozási megállapodás alapján.",
+    "s5h": "5. Adatmegőrzési idő",
+    "s5p": "A kérés adatai a teljes feldolgozás után és a törvényes megőrzési idők lejártával törlésre kerülnek.",
+    "s6h": "6. Az Ön jogai (svájci DSG)",
+    "s6p": "A svájci adatvédelmi törvény (nDSG) alapján Önnek joga van a hozzáféréshez, helyesbítéshez, törléshez, korlátozáshoz, adathordozhatósághoz és tiltakozáshoz. Kapcsolat: info@martinprojektgroup.ch",
+    "s7h": "7. Hosting & Infrastruktúra",
+    "s7p": "Ez a weboldal a Vercel Inc. (vercel.com) szerverein üzemel. Az adatátvitel HTTPS/TLS titkosítással zajlik.",
+    "s8h": "8. Adatvédelmi kapcsolat",
+    "s8p": "Adatvédelmi kérdésekkel: info@martinprojektgroup.ch"
+  }
 }

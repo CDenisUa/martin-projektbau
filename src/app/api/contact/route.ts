@@ -14,9 +14,6 @@ export async function POST(req: NextRequest) {
   if (!email?.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     return NextResponse.json({ error: 'Invalid email' }, { status: 400 });
   }
-  if (!phone?.trim()) {
-    return NextResponse.json({ error: 'Phone required' }, { status: 400 });
-  }
   if (!message?.trim() || message.trim().length < 5) {
     return NextResponse.json({ error: 'Message too short' }, { status: 400 });
   }

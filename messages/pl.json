@@ -121,7 +121,11 @@
     "errorEmail": "Proszę podać prawidłowy adres e-mail",
     "errorPhone": "Proszę podać numer telefonu",
     "errorMessage": "Proszę opisać swoje zapytanie",
-    "errorServer": "Wysyłanie nie powiodło się. Spróbuj ponownie."
+    "errorServer": "Wysyłanie nie powiodło się. Spróbuj ponownie.",
+    "phoneOptional": "(opcjonalnie)",
+    "privacyPre": "Przesyłając formularz, wyrażam zgodę na przetwarzanie moich danych zgodnie z",
+    "privacyLink": "Polityką prywatności",
+    "privacySuf": "."
   },
   "footer": {
     "tagline": "Doskonałość ze szwajcarską precyzją.",
@@ -139,5 +143,46 @@
     "sectionLabel": "Preferencje"
   },
   "metaTitle": "Martin Projekt Group GmbH – Budownictwo, Remonty i Montaż",
-  "metaDescription": "Budowa elewacji, montaż okien i prace wewnętrzne. Niezawodne usługi dla mieszkań i domów."
+  "metaDescription": "Budowa elewacji, montaż okien i prace wewnętrzne. Niezawodne usługi dla mieszkań i domów.",
+  "impressum": {
+    "pageTitle": "Informacje prawne",
+    "sectionLabel": "Prawne",
+    "heading": "Informacje prawne",
+    "companyLabel": "Firma",
+    "addressLabel": "Adres",
+    "address": "—",
+    "registerLabel": "Rejestr handlowy",
+    "register": "—",
+    "uidLabel": "Numer UID",
+    "uid": "—",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefon",
+    "phone": "—",
+    "responsibleLabel": "Właściciel",
+    "responsible": "—",
+    "disclaimer": "Zastrzeżenie prawne",
+    "disclaimerText": "Treść tej strony została opracowana z najwyższą starannością. Nie gwarantujemy dokładności, kompletności ani aktualności zamieszczonych treści. Korzystanie ze strony odbywa się na własne ryzyko."
+  },
+  "privacy": {
+    "pageTitle": "Polityka prywatności",
+    "sectionLabel": "Prawne",
+    "heading": "Polityka prywatności",
+    "lastUpdated": "Ostatnia aktualizacja",
+    "s1h": "1. Administrator danych",
+    "s1p": "Martin Projekt Group GmbH, —, Szwajcaria. Kontakt: info@martinprojektgroup.ch",
+    "s2h": "2. Zbierane dane",
+    "s2p": "Za pośrednictwem formularza kontaktowego zbieramy: imię i nazwisko, adres e-mail, numer telefonu (opcjonalnie) oraz opis projektu. Dane są wykorzystywane wyłącznie do obsługi zapytania.",
+    "s3h": "3. Cel przetwarzania",
+    "s3p": "Dane są wykorzystywane wyłącznie do odpowiedzi na zapytanie i nawiązania relacji biznesowej. Nie są wykorzystywane do celów marketingowych ani przekazywane osobom trzecim bez zgody.",
+    "s4h": "4. Podmioty przetwarzające",
+    "s4p": "Do wysyłki wiadomości e-mail korzystamy z Resend Inc. (resend.com). Serwis otrzymuje dane formularza w celu ich przekazania nam, na podstawie umowy powierzenia przetwarzania danych.",
+    "s5h": "5. Okres przechowywania",
+    "s5p": "Dane zapytania zostaną usunięte po pełnym rozpatrzeniu sprawy i upływie ustawowych terminów przechowywania.",
+    "s6h": "6. Twoje prawa (szwajcarska ustawa DSG)",
+    "s6p": "Zgodnie ze szwajcarską ustawą o ochronie danych osobowych (nDSG) przysługuje Ci prawo dostępu, sprostowania, usunięcia, ograniczenia przetwarzania, przenoszalności i sprzeciwu. Kontakt: info@martinprojektgroup.ch",
+    "s7h": "7. Hosting i infrastruktura",
+    "s7p": "Strona jest hostowana przez Vercel Inc. (vercel.com). Transmisja danych jest szyfrowana przez HTTPS/TLS.",
+    "s8h": "8. Kontakt ds. ochrony danych",
+    "s8p": "W sprawach ochrony danych: info@martinprojektgroup.ch"
+  }
 }

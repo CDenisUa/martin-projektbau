@@ -121,7 +121,11 @@
     "errorEmail": "Lūdzu, ievadiet derīgu e-pasta adresi",
     "errorPhone": "Lūdzu, ievadiet tālruņa numuru",
     "errorMessage": "Lūdzu, aprakstiet savu jautājumu",
-    "errorServer": "Nosūtīšana neizdevās. Mēģiniet vēlreiz."
+    "errorServer": "Nosūtīšana neizdevās. Mēģiniet vēlreiz.",
+    "phoneOptional": "(neobligāti)",
+    "privacyPre": "Iesniedzot veidlapu, piekrītu savu datu apstrādei saskaņā ar",
+    "privacyLink": "Privātuma politiku",
+    "privacySuf": "."
   },
   "footer": {
     "tagline": "Izcilība ar Šveices precizitāti.",
@@ -139,5 +143,46 @@
     "sectionLabel": "Preferences"
   },
   "metaTitle": "Martin Projekt Group GmbH – Celtniecība, Renovācijas un Montāža",
-  "metaDescription": "Fasādes darbi, logu montāža un iekšdarbi. Uzticami darbi dzīvokļiem un mājām."
+  "metaDescription": "Fasādes darbi, logu montāža un iekšdarbi. Uzticami darbi dzīvokļiem un mājām.",
+  "impressum": {
+    "pageTitle": "Juridiskā informācija",
+    "sectionLabel": "Juridiskais",
+    "heading": "Juridiskā informācija",
+    "companyLabel": "Uzņēmums",
+    "addressLabel": "Adrese",
+    "address": "—",
+    "registerLabel": "Komercreģistrs",
+    "register": "—",
+    "uidLabel": "UID numurs",
+    "uid": "—",
+    "emailLabel": "E-pasts",
+    "phoneLabel": "Tālrunis",
+    "phone": "—",
+    "responsibleLabel": "Īpašnieks",
+    "responsible": "—",
+    "disclaimer": "Atbildības atruna",
+    "disclaimerText": "Šīs vietnes saturs ir izveidots ar vislielāko rūpību. Mēs negarantējam satura precizitāti, pilnīgumu vai aktualitāti. Vietnes izmantošana notiek uz paša risku."
+  },
+  "privacy": {
+    "pageTitle": "Privātuma politika",
+    "sectionLabel": "Juridiskais",
+    "heading": "Privātuma politika",
+    "lastUpdated": "Pēdējo reizi atjaunināts",
+    "s1h": "1. Pārzinis",
+    "s1p": "Martin Projekt Group GmbH, —, Šveice. Kontakts: info@martinprojektgroup.ch",
+    "s2h": "2. Apkopotie dati",
+    "s2p": "Caur mūsu kontakta veidlapu apkopojam: pilnu vārdu, e-pasta adresi, tālruņa numuru (neobligāti) un projekta aprakstu. Dati tiek izmantoti tikai jūsu pieprasījuma apstrādei.",
+    "s3h": "3. Apstrādes mērķis",
+    "s3p": "Jūsu dati tiek izmantoti tikai jūsu pieprasījumam atbildei un biznesa attiecību nodibināšanai. Tie netiek izmantoti mārketinga nolūkos un netiek nodoti trešajām pusēm bez piekrišanas.",
+    "s4h": "4. Apstrādātāji",
+    "s4p": "E-pasta sūtīšanai izmantojam Resend Inc. (resend.com). Šis pakalpojums saņem veidlapas datus, lai tos pārsūtītu mums, pamatojoties uz datu apstrādes līgumu.",
+    "s5h": "5. Glabāšanas termiņš",
+    "s5p": "Jūsu pieprasījuma dati tiks dzēsti pēc pilnīgas apstrādes un likumisko glabāšanas termiņu beigām.",
+    "s6h": "6. Jūsu tiesības (Šveices DSG)",
+    "s6p": "Saskaņā ar Šveices datu aizsardzības likumu (nDSG) jums ir tiesības uz piekļuvi, labošanu, dzēšanu, apstrādes ierobežošanu, pārnesamību un iebildumu. Kontakts: info@martinprojektgroup.ch",
+    "s7h": "7. Hostings & Infrastruktūra",
+    "s7p": "Šo vietni mitina Vercel Inc. (vercel.com). Visi datu pārsūtījumi ir šifrēti ar HTTPS/TLS.",
+    "s8h": "8. Datu aizsardzības kontakts",
+    "s8p": "Jautājumiem par datu aizsardzību: info@martinprojektgroup.ch"
+  }
 }

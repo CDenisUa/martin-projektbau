@@ -121,7 +121,11 @@
     "errorEmail": "Insira um endereço de e-mail válido",
     "errorPhone": "Insira seu número de telefone",
     "errorMessage": "Descreva a sua questão",
-    "errorServer": "Falha ao enviar. Tente novamente."
+    "errorServer": "Falha ao enviar. Tente novamente.",
+    "phoneOptional": "(opcional)",
+    "privacyPre": "Ao submeter o formulário, aceito o tratamento dos meus dados de acordo com a",
+    "privacyLink": "Política de Privacidade",
+    "privacySuf": "."
   },
   "footer": {
     "tagline": "Excelência com precisão suíça.",
@@ -139,5 +143,46 @@
     "sectionLabel": "Preferências"
   },
   "metaTitle": "Martin Projekt Group GmbH – Construção, Renovações e Montagem",
-  "metaDescription": "Construção de fachadas, instalação de janelas e obras interiores. Trabalhos fiáveis para apartamentos e casas."
+  "metaDescription": "Construção de fachadas, instalação de janelas e obras interiores. Trabalhos fiáveis para apartamentos e casas.",
+  "impressum": {
+    "pageTitle": "Informações Legais",
+    "sectionLabel": "Legal",
+    "heading": "Informações Legais",
+    "companyLabel": "Empresa",
+    "addressLabel": "Endereço",
+    "address": "—",
+    "registerLabel": "Registo Comercial",
+    "register": "—",
+    "uidLabel": "Número UID",
+    "uid": "—",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefone",
+    "phone": "—",
+    "responsibleLabel": "Proprietário",
+    "responsible": "—",
+    "disclaimer": "Isenção de Responsabilidade",
+    "disclaimerText": "O conteúdo deste site foi criado com o maior cuidado. Não garantimos a exatidão, integridade ou atualidade do conteúdo. A utilização do site é da inteira responsabilidade do utilizador."
+  },
+  "privacy": {
+    "pageTitle": "Política de Privacidade",
+    "sectionLabel": "Legal",
+    "heading": "Política de Privacidade",
+    "lastUpdated": "Última atualização",
+    "s1h": "1. Responsável pelo tratamento",
+    "s1p": "Martin Projekt Group GmbH, —, Suíça. Contacto: info@martinprojektgroup.ch",
+    "s2h": "2. Dados recolhidos",
+    "s2p": "Através do nosso formulário de contacto recolhemos: nome completo, endereço de e-mail, número de telefone (opcional) e descrição do projeto. Os dados são usados exclusivamente para processar o seu pedido.",
+    "s3h": "3. Finalidade do tratamento",
+    "s3p": "Os seus dados são usados exclusivamente para responder ao seu pedido e estabelecer uma relação comercial. Não são usados para fins publicitários nem partilhados com terceiros sem o seu consentimento.",
+    "s4h": "4. Subcontratantes",
+    "s4p": "Para o envio de e-mails utilizamos a Resend Inc. (resend.com). Este serviço recebe os dados do formulário para nos os reencaminhar, com base num contrato de subcontratação de dados.",
+    "s5h": "5. Período de retenção",
+    "s5p": "Os dados do seu pedido serão eliminados após resolução completa e expiração dos prazos legais de conservação.",
+    "s6h": "6. Os seus direitos (Lei suíça DSG)",
+    "s6p": "Nos termos da lei federal suíça de proteção de dados (nDSG), tem direito de acesso, retificação, eliminação, limitação, portabilidade e oposição. Contacto: info@martinprojektgroup.ch",
+    "s7h": "7. Alojamento & Infraestrutura",
+    "s7p": "Este site é alojado pela Vercel Inc. (vercel.com). Todas as transmissões de dados são encriptadas via HTTPS/TLS.",
+    "s8h": "8. Contacto para proteção de dados",
+    "s8p": "Para questões sobre proteção de dados: info@martinprojektgroup.ch"
+  }
 }

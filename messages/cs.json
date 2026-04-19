@@ -121,7 +121,11 @@
     "errorEmail": "Zadejte prosím platnou e-mailovou adresu",
     "errorPhone": "Zadejte prosím telefonní číslo",
     "errorMessage": "Popište prosím svůj dotaz",
-    "errorServer": "Odeslání se nezdařilo. Zkuste to prosím znovu."
+    "errorServer": "Odeslání se nezdařilo. Zkuste to prosím znovu.",
+    "phoneOptional": "(volitelně)",
+    "privacyPre": "Odesláním formuláře souhlasím se zpracováním svých údajů v souladu se",
+    "privacyLink": "Zásadami ochrany osobních údajů",
+    "privacySuf": "."
   },
   "footer": {
     "tagline": "Dokonalost se švýcarskou precizností.",
@@ -139,5 +143,46 @@
     "sectionLabel": "Předvolby"
   },
   "metaTitle": "Martin Projekt Group GmbH – Stavba, Renovace a Montáž",
-  "metaDescription": "Fasádní práce, montáž oken a interiérové práce. Spolehlivé práce pro byty a domy."
+  "metaDescription": "Fasádní práce, montáž oken a interiérové práce. Spolehlivé práce pro byty a domy.",
+  "impressum": {
+    "pageTitle": "Právní informace",
+    "sectionLabel": "Právní",
+    "heading": "Právní informace",
+    "companyLabel": "Firma",
+    "addressLabel": "Adresa",
+    "address": "—",
+    "registerLabel": "Obchodní rejstřík",
+    "register": "—",
+    "uidLabel": "UID číslo",
+    "uid": "—",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefon",
+    "phone": "—",
+    "responsibleLabel": "Majitel",
+    "responsible": "—",
+    "disclaimer": "Odmítnutí odpovědnosti",
+    "disclaimerText": "Obsah tohoto webu byl vytvořen s maximální péčí. Nezaručujeme přesnost, úplnost ani aktuálnost poskytnutého obsahu. Používání webu je na vlastní riziko."
+  },
+  "privacy": {
+    "pageTitle": "Zásady ochrany osobních údajů",
+    "sectionLabel": "Právní",
+    "heading": "Zásady ochrany osobních údajů",
+    "lastUpdated": "Poslední aktualizace",
+    "s1h": "1. Správce osobních údajů",
+    "s1p": "Martin Projekt Group GmbH, —, Švýcarsko. Kontakt: info@martinprojektgroup.ch",
+    "s2h": "2. Shromažďované údaje",
+    "s2p": "Prostřednictvím kontaktního formuláře shromažďujeme: celé jméno, e-mailovou adresu, telefonní číslo (volitelně) a popis projektu. Údaje slouží výhradně ke zpracování vašeho dotazu.",
+    "s3h": "3. Účel zpracování",
+    "s3p": "Vaše údaje slouží výhradně k odpovědi na váš dotaz a navázání obchodního vztahu. Nejsou používány pro reklamní účely ani předávány třetím stranám bez souhlasu.",
+    "s4h": "4. Zpracovatelé údajů",
+    "s4p": "Pro odesílání e-mailů využíváme Resend Inc. (resend.com). Tato služba přijímá data z formuláře, aby je přeposlala nám, na základě smlouvy o zpracování údajů.",
+    "s5h": "5. Doba uchovávání",
+    "s5p": "Vaše údaje budou smazány po úplném vyřízení dotazu a uplynutí zákonných lhůt pro uchovávání.",
+    "s6h": "6. Vaše práva (švýcarský DSG)",
+    "s6p": "Podle švýcarského zákona o ochraně osobních údajů (nDSG) máte právo na přístup, opravu, výmaz, omezení zpracování, přenositelnost a námitku. Kontakt: info@martinprojektgroup.ch",
+    "s7h": "7. Hosting & Infrastruktura",
+    "s7p": "Tento web je hostován u Vercel Inc. (vercel.com). Přenos dat je šifrován prostřednictvím HTTPS/TLS.",
+    "s8h": "8. Kontakt pro ochranu osobních údajů",
+    "s8p": "V otázkách ochrany osobních údajů: info@martinprojektgroup.ch"
+  }
 }

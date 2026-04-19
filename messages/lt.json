@@ -121,7 +121,11 @@
     "errorEmail": "Įveskite galiojantį el. pašto adresą",
     "errorPhone": "Įveskite telefono numerį",
     "errorMessage": "Aprašykite savo užklausą",
-    "errorServer": "Nepavyko išsiųsti. Bandykite dar kartą."
+    "errorServer": "Nepavyko išsiųsti. Bandykite dar kartą.",
+    "phoneOptional": "(neprivaloma)",
+    "privacyPre": "Pateikdamas formą sutinku, kad mano duomenys būtų tvarkomi pagal",
+    "privacyLink": "Privatumo politiką",
+    "privacySuf": "."
   },
   "footer": {
     "tagline": "Meistriškumas su Šveicarijos tikslumu.",
@@ -139,5 +143,46 @@
     "sectionLabel": "Nuostatos"
   },
   "metaTitle": "Martin Projekt Group GmbH – Statyba, Renovacijos ir Montavimas",
-  "metaDescription": "Fasado darbai, langų montavimas ir vidaus apdaila. Patikimi darbai butams ir namams."
+  "metaDescription": "Fasado darbai, langų montavimas ir vidaus apdaila. Patikimi darbai butams ir namams.",
+  "impressum": {
+    "pageTitle": "Teisinė informacija",
+    "sectionLabel": "Teisinė",
+    "heading": "Teisinė informacija",
+    "companyLabel": "Įmonė",
+    "addressLabel": "Adresas",
+    "address": "—",
+    "registerLabel": "Verslo registras",
+    "register": "—",
+    "uidLabel": "UID numeris",
+    "uid": "—",
+    "emailLabel": "El. paštas",
+    "phoneLabel": "Telefonas",
+    "phone": "—",
+    "responsibleLabel": "Savininkas",
+    "responsible": "—",
+    "disclaimer": "Atsakomybės apribojimas",
+    "disclaimerText": "Šios svetainės turinys sukurtas su didžiausiu rūpestingumu. Mes negarantuojame turinio tikslumo, išsamumo ar aktualumo. Svetainės naudojimas yra jūsų pačių atsakomybė."
+  },
+  "privacy": {
+    "pageTitle": "Privatumo politika",
+    "sectionLabel": "Teisinė",
+    "heading": "Privatumo politika",
+    "lastUpdated": "Paskutinį kartą atnaujinta",
+    "s1h": "1. Duomenų valdytojas",
+    "s1p": "Martin Projekt Group GmbH, —, Šveicarija. Kontaktas: info@martinprojektgroup.ch",
+    "s2h": "2. Renkami duomenys",
+    "s2p": "Per mūsų kontaktinę formą renkame: vardą ir pavardę, el. pašto adresą, telefono numerį (neprivaloma) ir projekto aprašymą. Duomenys naudojami tik jūsų užklausai apdoroti.",
+    "s3h": "3. Tvarkymo tikslas",
+    "s3p": "Jūsų duomenys naudojami tik atsakymui į jūsų užklausą ir verslo santykių užmezgimui. Jie nenaudojami rinkodaros tikslais ir neperduodami trečiosioms šalims be sutikimo.",
+    "s4h": "4. Duomenų tvarkytojai",
+    "s4p": "El. laiškų siuntimui naudojame Resend Inc. (resend.com). Ši paslauga gauna formos duomenis, kad persiųstų juos mums, remdamasi duomenų tvarkymo sutartimi.",
+    "s5h": "5. Saugojimo trukmė",
+    "s5p": "Jūsų užklausos duomenys bus ištrinti po visiško apdorojimo ir pasibaigus teisiniams saugojimo terminams.",
+    "s6h": "6. Jūsų teisės (Šveicarijos DSG)",
+    "s6p": "Pagal Šveicarijos duomenų apsaugos įstatymą (nDSG) turite teisę į prieigą, ištaisymą, ištrynimą, tvarkymo apribojimą, perkeliamumą ir prieštaravimą. Kontaktas: info@martinprojektgroup.ch",
+    "s7h": "7. Prieglobstis & Infrastruktūra",
+    "s7p": "Šią svetainę talpina Vercel Inc. (vercel.com). Visi duomenų perdavimai yra šifruoti per HTTPS/TLS.",
+    "s8h": "8. Kontaktas duomenų apsaugos klausimais",
+    "s8p": "Duomenų apsaugos klausimais: info@martinprojektgroup.ch"
+  }
 }

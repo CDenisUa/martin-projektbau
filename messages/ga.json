@@ -121,7 +121,11 @@
     "errorEmail": "Iontráil seoladh ríomhphoist bailí",
     "errorPhone": "Iontráil d'uimhir ghutháin",
     "errorMessage": "Déan cur síos ar d'iarratas",
-    "errorServer": "Theip ar an seol. Déan iarracht arís."
+    "errorServer": "Theip ar an seol. Déan iarracht arís.",
+    "phoneOptional": "(roghnach)",
+    "privacyPre": "Trí fhoirm a chur isteach, aontaím le próiseáil mo chuid sonraí de réir an",
+    "privacyLink": "Beartais Príobháideachais",
+    "privacySuf": "."
   },
   "footer": {
     "tagline": "Barr Feabhais le cruinneas Eilvéiseach.",
@@ -139,5 +143,46 @@
     "sectionLabel": "Socruithe"
   },
   "metaTitle": "Martin Projekt Group GmbH – Tógáil, Athchóiriú agus Suiteáil",
-  "metaDescription": "Tógáil éadan, suiteáil fuinneog agus oibreacha inmheánacha. Obair iontaofa d'árasáin agus tithe."
+  "metaDescription": "Tógáil éadan, suiteáil fuinneog agus oibreacha inmheánacha. Obair iontaofa d'árasáin agus tithe.",
+  "impressum": {
+    "pageTitle": "Fógra Dlíthiúil",
+    "sectionLabel": "Dlíthiúil",
+    "heading": "Fógra Dlíthiúil",
+    "companyLabel": "Cuideachta",
+    "addressLabel": "Seoladh",
+    "address": "—",
+    "registerLabel": "Clár Tráchtála",
+    "register": "—",
+    "uidLabel": "Uimhir UID",
+    "uid": "—",
+    "emailLabel": "Ríomhphost",
+    "phoneLabel": "Teileafón",
+    "phone": "—",
+    "responsibleLabel": "Úinéir",
+    "responsible": "—",
+    "disclaimer": "Séanadh Dlíthiúil",
+    "disclaimerText": "Cruthaíodh ábhar an láithreáin ghréasáin seo leis an gcúram is mó. Ní ráthaímid cruinneas, iomláine ná nuashonrú an ábhair. Úsáidtear an láithreán gréasáin ar do phriacal féin."
+  },
+  "privacy": {
+    "pageTitle": "Beartas Príobháideachais",
+    "sectionLabel": "Dlíthiúil",
+    "heading": "Beartas Príobháideachais",
+    "lastUpdated": "Nuashonraithe",
+    "s1h": "1. Rialaitheoir Sonraí",
+    "s1p": "Martin Projekt Group GmbH, —, an Eilvéis. Teagmháil: info@martinprojektgroup.ch",
+    "s2h": "2. Sonraí a Bhailímid",
+    "s2p": "Tríd ár bhfoirm teagmhála bailímid: ainm iomlán, seoladh ríomhphoist, uimhir theileafóin (roghnach) agus cur síos ar an tionscadal. Úsáidtear na sonraí chun d'iarratas a phróiseáil amháin.",
+    "s3h": "3. Cuspóir na Próiseála",
+    "s3p": "Úsáidtear do shonraí chun freagra a thabhairt ar d'iarratas agus caidreamh gnó a bhunú. Ní úsáidtear iad chun críocha margaíochta agus ní roinntear le tríú páirtithe gan cead.",
+    "s4h": "4. Próiseálaithe Sonraí",
+    "s4p": "Chun ríomhphoist a sheoladh úsáidimid Resend Inc. (resend.com). Faigheann an tseirbhís seo sonraí na foirme chun iad a chur chugainn, bunaithe ar chomhaontú próiseála sonraí.",
+    "s5h": "5. Tréimhse Coinneála",
+    "s5p": "Scriosfar sonraí d'iarratais tar éis próiseála iomlán agus nuair a bheidh na tréimhsí coinneála dlíthiúla caite.",
+    "s6h": "6. Do Chearta (DSG na hEilvéise)",
+    "s6p": "Faoi dhlí cosanta sonraí na hEilvéise (nDSG) tá ceart agat rochtana, ceartúcháin, scriosta, teorannaithe, iniomparthachta agus agóide. Teagmháil: info@martinprojektgroup.ch",
+    "s7h": "7. Óstáil & Bonneagar",
+    "s7p": "Óstálann Vercel Inc. (vercel.com) an láithreán gréasáin seo. Déantar gach tarchur sonraí a chriptiú trí HTTPS/TLS.",
+    "s8h": "8. Teagmháil Cosanta Sonraí",
+    "s8p": "Le haghaidh ceisteanna maidir le cosaint sonraí: info@martinprojektgroup.ch"
+  }
 }

@@ -1,8 +1,10 @@
 'use client';
 
+// Core
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import { Mail } from 'lucide-react';
+// Components
 import LogoMark from '@/components/ui/LogoMark';
 
 export default function Footer() {
@@ -21,17 +23,17 @@ export default function Footer() {
     <footer className="bg-primary text-white border-t border-white/5">
       {/* Main footer content */}
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-8">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-start">
           {/* Brand */}
           <Link
             href={`/${locale}`}
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="filter-[brightness(0)_invert(1)] opacity-90 inline-block"
+            className="opacity-90 inline-block"
           >
             <LogoMark width={100} />
           </Link>
 
-          {/* Navigation — 2 columns */}
+          {/* Navigation */}
           <div>
             <h4 className="text-[9px] text-white/30 uppercase tracking-[0.2em] mb-3">
               {t('links')}
@@ -62,6 +64,31 @@ export default function Footer() {
               <Mail size={12} className="text-accent shrink-0" />
               info@martinprojektgroup.ch
             </a>
+          </div>
+
+          {/* Legal */}
+          <div>
+            <h4 className="text-[9px] text-white/30 uppercase tracking-[0.2em] mb-3">
+              {t('legal')}
+            </h4>
+            <ul className="space-y-1.5">
+              <li>
+                <Link
+                  href={`/${locale}/privacy`}
+                  className="text-xs text-white/50 hover:text-white transition-colors duration-200"
+                >
+                  {t('privacy')}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/impressum`}
+                  className="text-xs text-white/50 hover:text-white transition-colors duration-200"
+                >
+                  {t('imprint')}
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

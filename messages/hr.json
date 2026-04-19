@@ -121,7 +121,11 @@
     "errorEmail": "Unesite valjanu e-mail adresu",
     "errorPhone": "Unesite broj telefona",
     "errorMessage": "Opišite svoj upit",
-    "errorServer": "Slanje neuspješno. Pokušajte ponovo."
+    "errorServer": "Slanje neuspješno. Pokušajte ponovo.",
+    "phoneOptional": "(opcionalno)",
+    "privacyPre": "Slanjem obrasca pristajemo na obradu mojih podataka sukladno",
+    "privacyLink": "Politici privatnosti",
+    "privacySuf": "."
   },
   "footer": {
     "tagline": "Izvrsnost sa švicarskom preciznošću.",
@@ -139,5 +143,46 @@
     "sectionLabel": "Postavke"
   },
   "metaTitle": "Martin Projekt Group GmbH – Gradnja, Renovacije i Montaža",
-  "metaDescription": "Fasadni radovi, montaža prozora i unutarnji radovi. Pouzdani radovi za stanove i kuće."
+  "metaDescription": "Fasadni radovi, montaža prozora i unutarnji radovi. Pouzdani radovi za stanove i kuće.",
+  "impressum": {
+    "pageTitle": "Pravne informacije",
+    "sectionLabel": "Pravno",
+    "heading": "Pravne informacije",
+    "companyLabel": "Tvrtka",
+    "addressLabel": "Adresa",
+    "address": "—",
+    "registerLabel": "Trgovački registar",
+    "register": "—",
+    "uidLabel": "UID broj",
+    "uid": "—",
+    "emailLabel": "E-pošta",
+    "phoneLabel": "Telefon",
+    "phone": "—",
+    "responsibleLabel": "Vlasnik",
+    "responsible": "—",
+    "disclaimer": "Odricanje od odgovornosti",
+    "disclaimerText": "Sadržaj ove web stranice izrađen je s najvećom pažnjom. Ne jamčimo točnost, potpunost ni ažurnost sadržaja. Korištenje stranice odvija se na vlastitu odgovornost."
+  },
+  "privacy": {
+    "pageTitle": "Politika privatnosti",
+    "sectionLabel": "Pravno",
+    "heading": "Politika privatnosti",
+    "lastUpdated": "Zadnje ažuriranje",
+    "s1h": "1. Voditelj obrade",
+    "s1p": "Martin Projekt Group GmbH, —, Švicarska. Kontakt: info@martinprojektgroup.ch",
+    "s2h": "2. Prikupljeni podaci",
+    "s2p": "Putem kontaktnog obrasca prikupljamo: puno ime, adresu e-pošte, telefonski broj (opcionalno) i opis projekta. Podaci se koriste isključivo za obradu upita.",
+    "s3h": "3. Svrha obrade",
+    "s3p": "Podaci se koriste isključivo za odgovaranje na upit i uspostavljanje poslovnog odnosa. Ne koriste se u reklamne svrhe niti se dijele s trećim stranama bez pristanka.",
+    "s4h": "4. Izvršitelji obrade",
+    "s4p": "Za slanje e-pošte koristimo Resend Inc. (resend.com). Ova usluga prima podatke obrasca radi prosljeđivanja nama, na temelju ugovora o obradi podataka.",
+    "s5h": "5. Rok pohrane",
+    "s5p": "Podaci upita bit će obrisani nakon potpune obrade i isteka zakonskih rokova pohrane.",
+    "s6h": "6. Vaša prava (švicarski DSG)",
+    "s6p": "Prema švicarskom zakonu o zaštiti podataka (nDSG) imate pravo na pristup, ispravak, brisanje, ograničenje, prenosivost i prigovor. Kontakt: info@martinprojektgroup.ch",
+    "s7h": "7. Hosting & Infrastruktura",
+    "s7p": "Ova stranica hostirana je kod Vercel Inc. (vercel.com). Prijenos podataka šifriran je putem HTTPS/TLS.",
+    "s8h": "8. Kontakt za zaštitu podataka",
+    "s8p": "Za pitanja o zaštiti podataka: info@martinprojektgroup.ch"
+  }
 }

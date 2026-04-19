@@ -121,7 +121,11 @@
     "errorEmail": "Syötä kelvollinen sähköpostiosoite",
     "errorPhone": "Syötä puhelinnumerosi",
     "errorMessage": "Kuvaile kyselysi",
-    "errorServer": "Lähetys epäonnistui. Yritä uudelleen."
+    "errorServer": "Lähetys epäonnistui. Yritä uudelleen.",
+    "phoneOptional": "(valinnainen)",
+    "privacyPre": "Lähettämällä lomakkeen hyväksyn tietojeni käsittelyn",
+    "privacyLink": "Tietosuojakäytännön",
+    "privacySuf": "mukaisesti."
   },
   "footer": {
     "tagline": "Huippuosaamista sveitsiläisellä tarkkuudella.",
@@ -139,5 +143,46 @@
     "sectionLabel": "Asetukset"
   },
   "metaTitle": "Martin Projekt Group GmbH – Rakentaminen, Remontit ja Asennus",
-  "metaDescription": "Julkisivurakentaminen, ikkunaasennus ja sisätyöt. Luotettavat työt asunnoille ja taloille."
+  "metaDescription": "Julkisivurakentaminen, ikkunaasennus ja sisätyöt. Luotettavat työt asunnoille ja taloille.",
+  "impressum": {
+    "pageTitle": "Oikeudellinen tiedote",
+    "sectionLabel": "Oikeudellinen",
+    "heading": "Oikeudellinen tiedote",
+    "companyLabel": "Yritys",
+    "addressLabel": "Osoite",
+    "address": "—",
+    "registerLabel": "Kaupparekisteri",
+    "register": "—",
+    "uidLabel": "UID-numero",
+    "uid": "—",
+    "emailLabel": "Sähköposti",
+    "phoneLabel": "Puhelin",
+    "phone": "—",
+    "responsibleLabel": "Omistaja",
+    "responsible": "—",
+    "disclaimer": "Vastuuvapauslauseke",
+    "disclaimerText": "Tämän verkkosivuston sisältö on luotu suurimmalla huolellisuudella. Emme takaa sisällön tarkkuutta, täydellisyyttä tai ajantasaisuutta. Verkkosivuston käyttö tapahtuu omalla vastuulla."
+  },
+  "privacy": {
+    "pageTitle": "Tietosuojakäytäntö",
+    "sectionLabel": "Oikeudellinen",
+    "heading": "Tietosuojakäytäntö",
+    "lastUpdated": "Viimeksi päivitetty",
+    "s1h": "1. Rekisterinpitäjä",
+    "s1p": "Martin Projekt Group GmbH, —, Sveitsi. Yhteystiedot: info@martinprojektgroup.ch",
+    "s2h": "2. Kerättävät tiedot",
+    "s2p": "Yhteydenottolomakkeemme kautta keräämme: koko nimen, sähköpostiosoitteen, puhelinnumeron (valinnainen) ja projektikuvauksen. Tietoja käytetään vain yhteydenottosi käsittelyyn.",
+    "s3h": "3. Käsittelyn tarkoitus",
+    "s3p": "Tietojasi käytetään vain yhteydenottosi vastaamiseen ja liikesuhteen luomiseen. Niitä ei käytetä markkinointitarkoituksiin eikä luovuteta kolmansille osapuolille ilman suostumustasi.",
+    "s4h": "4. Alihankkijat",
+    "s4p": "Sähköpostilähetystä varten käytämme Resend Inc. (resend.com). Palvelu vastaanottaa lomakkeen tiedot välittääkseen ne meille tietojenkäsittelysopimuksen perusteella.",
+    "s5h": "5. Säilytysaika",
+    "s5p": "Yhteydenottosi tiedot poistetaan täydellisen käsittelyn jälkeen lakisääteisten säilytysaikojen päätyttyä.",
+    "s6h": "6. Oikeutesi (Sveitsin DSG)",
+    "s6p": "Sveitsin tietosuojalain (nDSG) mukaan sinulla on oikeus tietojen saamiseen, oikaisemiseen, poistamiseen, käsittelyn rajoittamiseen, siirrettävyyteen ja vastalauseeseen. Yhteystiedot: info@martinprojektgroup.ch",
+    "s7h": "7. Hosting & Infrastruktuuri",
+    "s7p": "Tätä verkkosivustoa isännöi Vercel Inc. (vercel.com). Kaikki tiedonsiirrot on salattu HTTPS/TLS:llä.",
+    "s8h": "8. Tietosuojan yhteystiedot",
+    "s8p": "Tietosuojaa koskeviin kysymyksiin: info@martinprojektgroup.ch"
+  }
 }

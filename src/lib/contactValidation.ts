@@ -16,9 +16,6 @@ export function validate(form: FormState, t: (key: string) => string): Validatio
   if (!form.email.trim() || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(form.email)) {
     errors.email = t('errorEmail');
   }
-  if (!form.phone.trim()) {
-    errors.phone = t('errorPhone');
-  }
   if (!form.message.trim() || form.message.trim().length < 5) {
     errors.message = t('errorMessage');
   }

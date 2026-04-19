@@ -121,7 +121,11 @@
     "errorEmail": "Please enter a valid email address",
     "errorPhone": "Please enter your phone number",
     "errorMessage": "Please describe your enquiry",
-    "errorServer": "Failed to send. Please try again later."
+    "errorServer": "Failed to send. Please try again later.",
+    "phoneOptional": "(optional)",
+    "privacyPre": "By submitting, I agree to the processing of my data in accordance with the",
+    "privacyLink": "Privacy Policy",
+    "privacySuf": "."
   },
   "footer": {
     "tagline": "Building excellence with Swiss precision.",
@@ -139,5 +143,46 @@
     "sectionLabel": "Preferences"
   },
   "metaTitle": "Martin Projekt Group GmbH – Construction, Renovations and Installation",
-  "metaDescription": "Facade construction, window installation and interior work. Reliable services for apartments and houses."
+  "metaDescription": "Facade construction, window installation and interior work. Reliable services for apartments and houses.",
+  "impressum": {
+    "pageTitle": "Legal Notice",
+    "sectionLabel": "Legal",
+    "heading": "Legal Notice",
+    "companyLabel": "Company",
+    "addressLabel": "Address",
+    "address": "—",
+    "registerLabel": "Commercial Register",
+    "register": "—",
+    "uidLabel": "UID Number",
+    "uid": "—",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone",
+    "phone": "—",
+    "responsibleLabel": "Owner",
+    "responsible": "—",
+    "disclaimer": "Disclaimer",
+    "disclaimerText": "The contents of this website have been created with the utmost care. We do not guarantee the accuracy, completeness or topicality of the content. Use of this website is at your own risk."
+  },
+  "privacy": {
+    "pageTitle": "Privacy Policy",
+    "sectionLabel": "Legal",
+    "heading": "Privacy Policy",
+    "lastUpdated": "Last updated",
+    "s1h": "1. Controller",
+    "s1p": "Martin Projekt Group GmbH, —, Switzerland. Contact: info@martinprojektgroup.ch",
+    "s2h": "2. Data We Collect",
+    "s2p": "Through our contact form we collect: full name, email address, phone number (optional), and project description. This data is used solely to process your inquiry.",
+    "s3h": "3. Purpose of Processing",
+    "s3p": "Your data is used solely to respond to your inquiry and to establish a potential business relationship. We do not use your data for marketing purposes or share it with third parties without your consent.",
+    "s4h": "4. Third-Party Processors",
+    "s4p": "For email delivery we use Resend Inc. (resend.com) as a data processor. This service receives the form data to forward it to us, based on a data processing agreement.",
+    "s5h": "5. Data Retention",
+    "s5p": "Your inquiry data will be deleted after full resolution of the matter and expiry of any applicable statutory retention periods.",
+    "s6h": "6. Your Rights (Swiss nDSG)",
+    "s6p": "Under the Swiss Federal Act on Data Protection (nDSG) you have the right to access, correction, deletion, restriction of processing, data portability, and objection. Contact: info@martinprojektgroup.ch",
+    "s7h": "7. Hosting & Infrastructure",
+    "s7p": "This website is hosted by Vercel Inc. (vercel.com). All data transmissions are encrypted via HTTPS/TLS.",
+    "s8h": "8. Data Protection Contact",
+    "s8p": "For all data protection inquiries: info@martinprojektgroup.ch"
+  }
 }

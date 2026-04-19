@@ -121,7 +121,11 @@
     "errorEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
     "errorPhone": "Bitte geben Sie Ihre Telefonnummer ein",
     "errorMessage": "Bitte beschreiben Sie Ihr Anliegen",
-    "errorServer": "Fehler beim Senden. Bitte versuchen Sie es später erneut."
+    "errorServer": "Fehler beim Senden. Bitte versuchen Sie es später erneut.",
+    "phoneOptional": "(optional)",
+    "privacyPre": "Mit dem Absenden stimme ich der Verarbeitung meiner Daten gemäss der",
+    "privacyLink": "Datenschutzerklärung",
+    "privacySuf": "zu."
   },
   "footer": {
     "tagline": "Qualität mit Schweizer Präzision.",
@@ -139,5 +143,46 @@
     "sectionLabel": "Einstellungen"
   },
   "metaTitle": "Martin Projekt Group GmbH – Bau, Renovationen und Montage",
-  "metaDescription": "Fassadenbau, Fenstermontage und Innenausbau. Zuverlässige Arbeiten für Wohnungen und Häuser."
+  "metaDescription": "Fassadenbau, Fenstermontage und Innenausbau. Zuverlässige Arbeiten für Wohnungen und Häuser.",
+  "impressum": {
+    "pageTitle": "Impressum",
+    "sectionLabel": "Rechtliches",
+    "heading": "Impressum",
+    "companyLabel": "Firma",
+    "addressLabel": "Adresse",
+    "address": "—",
+    "registerLabel": "Handelsregister",
+    "register": "—",
+    "uidLabel": "UID-Nummer",
+    "uid": "—",
+    "emailLabel": "E-Mail",
+    "phoneLabel": "Telefon",
+    "phone": "—",
+    "responsibleLabel": "Inhaber",
+    "responsible": "—",
+    "disclaimer": "Haftungsausschluss",
+    "disclaimerText": "Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Wir übernehmen keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte. Die Nutzung der Website erfolgt auf eigene Gefahr."
+  },
+  "privacy": {
+    "pageTitle": "Datenschutzerklärung",
+    "sectionLabel": "Rechtliches",
+    "heading": "Datenschutzerklärung",
+    "lastUpdated": "Stand",
+    "s1h": "1. Verantwortliche Stelle",
+    "s1p": "Martin Projekt Group GmbH, —, Schweiz. Kontakt: info@martinprojektgroup.ch",
+    "s2h": "2. Erhobene Daten",
+    "s2p": "Über das Kontaktformular erheben wir: vollständiger Name, E-Mail-Adresse, Telefonnummer (optional) und Projektbeschreibung. Diese Daten werden ausschliesslich zur Bearbeitung Ihrer Anfrage verwendet.",
+    "s3h": "3. Zweck der Verarbeitung",
+    "s3p": "Ihre Daten dienen ausschliesslich der Beantwortung Ihrer Anfrage und der Anbahnung einer Geschäftsbeziehung. Eine Nutzung zu Werbezwecken oder Weitergabe an Dritte ohne Einwilligung findet nicht statt.",
+    "s4h": "4. Auftragsverarbeiter",
+    "s4p": "Für den E-Mail-Versand setzen wir Resend Inc. (resend.com) als Auftragsverarbeiter ein. Dieser Dienst erhält die Formulardaten zur Weiterleitung an uns. Die Zusammenarbeit erfolgt auf Basis eines Auftragsverarbeitungsvertrags.",
+    "s5h": "5. Speicherdauer",
+    "s5p": "Ihre Anfragedaten werden nach vollständiger Bearbeitung und unter Einhaltung gesetzlicher Aufbewahrungsfristen gelöscht.",
+    "s6h": "6. Ihre Rechte (nDSG)",
+    "s6p": "Gemäss dem revidierten Schweizer Datenschutzgesetz (nDSG) haben Sie das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenportabilität und Widerspruch. Anfragen: info@martinprojektgroup.ch",
+    "s7h": "7. Hosting & Infrastruktur",
+    "s7p": "Diese Website wird bei Vercel Inc. (vercel.com) gehostet. Die Datenübertragung erfolgt verschlüsselt über HTTPS/TLS.",
+    "s8h": "8. Kontakt für Datenschutzfragen",
+    "s8p": "Bei Fragen zum Datenschutz: info@martinprojektgroup.ch"
+  }
 }

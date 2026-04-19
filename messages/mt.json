@@ -121,7 +121,11 @@
     "errorEmail": "Daħħal indirizz email validu",
     "errorPhone": "Daħħal in-numru tat-telefon tiegħek",
     "errorMessage": "Iddeskrivi t-talba tiegħek",
-    "errorServer": "Il-bgħit falla. Erġa' pprova."
+    "errorServer": "Il-bgħit falla. Erġa' pprova.",
+    "phoneOptional": "(fakultattiv)",
+    "privacyPre": "Billi nibgħat il-formola, naqbel mal-ipproċessar tad-dejta tiegħi skont il-",
+    "privacyLink": "Politika tal-Privatezza",
+    "privacySuf": "."
   },
   "footer": {
     "tagline": "Eċċellenza b'preċizzjoni Svizzera.",
@@ -139,5 +143,46 @@
     "sectionLabel": "Preferenzi"
   },
   "metaTitle": "Martin Projekt Group GmbH – Kostruzzjoni, Rinnovazzjonijiet u Installazzjoni",
-  "metaDescription": "Kostruzzjoni tal-faċċata, installazzjoni tat-twieqi u xogħol intern. Xogħol affidabbli għal appartamenti u djar."
+  "metaDescription": "Kostruzzjoni tal-faċċata, installazzjoni tat-twieqi u xogħol intern. Xogħol affidabbli għal appartamenti u djar.",
+  "impressum": {
+    "pageTitle": "Avviż Legali",
+    "sectionLabel": "Legali",
+    "heading": "Avviż Legali",
+    "companyLabel": "Kumpanija",
+    "addressLabel": "Indirizz",
+    "address": "—",
+    "registerLabel": "Reġistru Kummerċjali",
+    "register": "—",
+    "uidLabel": "Numru UID",
+    "uid": "—",
+    "emailLabel": "Email",
+    "phoneLabel": "Telefon",
+    "phone": "—",
+    "responsibleLabel": "Sid",
+    "responsible": "—",
+    "disclaimer": "Ċaħda tar-Responsabbiltà",
+    "disclaimerText": "Il-kontenut ta' dan is-sit inħoloq bl-akbar attenzjoni. Ma niggarantixxux l-eżattezza, il-kompletezza jew l-aġġornament tal-kontenut. L-użu tas-sit huwa r-responsabbiltà tiegħek stess."
+  },
+  "privacy": {
+    "pageTitle": "Politika tal-Privatezza",
+    "sectionLabel": "Legali",
+    "heading": "Politika tal-Privatezza",
+    "lastUpdated": "Aġġornata l-aħħar",
+    "s1h": "1. Kontrollur tad-Dejta",
+    "s1p": "Martin Projekt Group GmbH, —, l-Isvizzera. Kuntatt: info@martinprojektgroup.ch",
+    "s2h": "2. Dejta Miġbura",
+    "s2p": "Permezz tal-formola ta' kuntatt niġbru: isem sħiħ, indirizz email, numru tat-telefon (fakultattiv) u deskrizzjoni tal-proġett. Id-dejta tintuża biss biex tipproċessa t-talba tiegħek.",
+    "s3h": "3. Skop tal-Ipproċessar",
+    "s3p": "Id-dejta tiegħek tintuża biss biex tirrispondi għat-talba tiegħek u biex tistabbilixxi relazzjoni kummerċjali. Ma tintuża għal skopijiet ta' marketing u ma tinqasam ma' partijiet terzi mingħajr il-kunsens tiegħek.",
+    "s4h": "4. Proċessuri tad-Dejta",
+    "s4p": "Għall-invio tal-emails nużaw Resend Inc. (resend.com). Dan is-servizz jirċievi d-dejta tal-formola biex jgħaddihielna, abbażi ta' ftehim tal-ipproċessar tad-dejta.",
+    "s5h": "5. Perijodu ta' Żamma",
+    "s5p": "Id-dejta tat-talba tiegħek titħassar wara l-ipproċessar sħiħ u wara l-iskadenza tal-perijodi legali taż-żamma.",
+    "s6h": "6. Id-Drittijiet Tiegħek (DSG Svizzeru)",
+    "s6p": "Skont il-liġi Svizzera dwar il-protezzjoni tad-dejta (nDSG) għandek dritt ta' aċċess, rettifika, tħassir, limitazzjoni, portabbiltà u oġġezzjoni. Kuntatt: info@martinprojektgroup.ch",
+    "s7h": "7. Hosting & Infrastruttura",
+    "s7p": "Dan is-sit jiġi ospitat minn Vercel Inc. (vercel.com). It-trażmissjonijiet kollha tad-dejta huma kriptati permezz ta' HTTPS/TLS.",
+    "s8h": "8. Kuntatt għall-Protezzjoni tad-Dejta",
+    "s8p": "Għal mistoqsijiet dwar il-protezzjoni tad-dejta: info@martinprojektgroup.ch"
+  }
 }

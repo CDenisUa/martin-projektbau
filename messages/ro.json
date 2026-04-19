@@ -121,7 +121,11 @@
     "errorEmail": "Introduceți o adresă de email validă",
     "errorPhone": "Introduceți numărul de telefon",
     "errorMessage": "Descrieți solicitarea dvs.",
-    "errorServer": "Trimiterea a eșuat. Încercați din nou."
+    "errorServer": "Trimiterea a eșuat. Încercați din nou.",
+    "phoneOptional": "(opțional)",
+    "privacyPre": "Prin trimiterea formularului, sunt de acord cu prelucrarea datelor mele conform",
+    "privacyLink": "Politicii de confidențialitate",
+    "privacySuf": "."
   },
   "footer": {
     "tagline": "Excelență cu precizie elvețiană.",
@@ -139,5 +143,46 @@
     "sectionLabel": "Preferințe"
   },
   "metaTitle": "Martin Projekt Group GmbH – Construcții, Renovări și Montaj",
-  "metaDescription": "Construcția fațadelor, montaj ferestre și amenajări interioare. Lucrări de încredere pentru apartamente și case."
+  "metaDescription": "Construcția fațadelor, montaj ferestre și amenajări interioare. Lucrări de încredere pentru apartamente și case.",
+  "impressum": {
+    "pageTitle": "Mențiuni legale",
+    "sectionLabel": "Legal",
+    "heading": "Mențiuni legale",
+    "companyLabel": "Firmă",
+    "addressLabel": "Adresă",
+    "address": "—",
+    "registerLabel": "Registrul comerțului",
+    "register": "—",
+    "uidLabel": "Număr UID",
+    "uid": "—",
+    "emailLabel": "E-mail",
+    "phoneLabel": "Telefon",
+    "phone": "—",
+    "responsibleLabel": "Proprietar",
+    "responsible": "—",
+    "disclaimer": "Excluderea răspunderii",
+    "disclaimerText": "Conținutul acestui site a fost creat cu cea mai mare grijă. Nu garantăm acuratețea, exhaustivitatea sau actualitatea conținutului. Utilizarea site-ului se face pe propria răspundere."
+  },
+  "privacy": {
+    "pageTitle": "Politică de confidențialitate",
+    "sectionLabel": "Legal",
+    "heading": "Politică de confidențialitate",
+    "lastUpdated": "Ultima actualizare",
+    "s1h": "1. Responsabil cu prelucrarea",
+    "s1p": "Martin Projekt Group GmbH, —, Elveția. Contact: info@martinprojektgroup.ch",
+    "s2h": "2. Date colectate",
+    "s2p": "Prin formularul de contact colectăm: nume complet, adresă de e-mail, număr de telefon (opțional) și descrierea proiectului. Datele sunt utilizate exclusiv pentru procesarea solicitării.",
+    "s3h": "3. Scopul prelucrării",
+    "s3p": "Datele sunt utilizate exclusiv pentru a răspunde solicitării și a stabili o relație comercială. Nu sunt folosite în scop publicitar și nu sunt transmise terților fără consimțământ.",
+    "s4h": "4. Operatori implicați",
+    "s4p": "Pentru trimiterea e-mailurilor folosim Resend Inc. (resend.com). Serviciul primește datele din formular pentru a ni le transmite, pe baza unui acord de prelucrare a datelor.",
+    "s5h": "5. Durata stocării",
+    "s5p": "Datele solicitării vor fi șterse după soluționarea completă și expirarea termenelor legale de păstrare.",
+    "s6h": "6. Drepturile dvs. (LPD elvețiană)",
+    "s6p": "Conform legii elvețiene privind protecția datelor (nLPD), aveți dreptul la acces, rectificare, ștergere, restricționare, portabilitate și opoziție. Contact: info@martinprojektgroup.ch",
+    "s7h": "7. Găzduire & Infrastructură",
+    "s7p": "Site-ul este găzduit de Vercel Inc. (vercel.com). Transmiterea datelor este criptată prin HTTPS/TLS.",
+    "s8h": "8. Contact pentru protecția datelor",
+    "s8p": "Pentru întrebări privind protecția datelor: info@martinprojektgroup.ch"
+  }
 }

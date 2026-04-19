@@ -1,13 +1,17 @@
 'use client';
 
+// Core
 import { useRef, useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useTranslations, useLocale } from 'next-intl';
+import Link from 'next/link';
 import { motion, useInView } from 'framer-motion';
 import { Mail, MapPin, ArrowRight, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
+// Utils
 import { validate, type FormState, type ValidationErrors as Errors } from '@/lib/contactValidation';
 
 export default function ContactSection({ className }: { className?: string }) {
   const t = useTranslations('contact');
+  const locale = useLocale();
   const ref = useRef<HTMLElement>(null);
   const inView = useInView(ref, { once: true, margin: '-80px' });
   const [submitted, setSubmitted] = useState(false);
@@ -171,7 +175,7 @@ export default function ContactSection({ className }: { className?: string }) {
 
                 <div>
                   <label className="block text-[10px] text-white/30 uppercase tracking-[0.2em] mb-2">
-                    {t('phone')} *
+                    {t('phone')} <span className="normal-case tracking-normal opacity-60">{t('phoneOptional')}</span>
                   </label>
                   <input
                     type="tel"
@@ -212,6 +216,17 @@ export default function ContactSection({ className }: { className?: string }) {
                     <AlertCircle size={14} /> {serverError}
                   </p>
                 )}
+
+                <p className="text-[11px] text-white/25 leading-relaxed">
+                  {t('privacyPre')}{' '}
+                  <Link
+                    href={`/${locale}/privacy`}
+                    className="underline text-white/40 hover:text-white/70 transition-colors duration-200"
+                  >
+                    {t('privacyLink')}
+                  </Link>
+                  {' '}{t('privacySuf')}
+                </p>
 
                 <button
                   type="submit"

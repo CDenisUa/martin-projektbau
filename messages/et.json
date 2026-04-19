@@ -121,7 +121,11 @@
     "errorEmail": "Sisestage kehtiv e-posti aadress",
     "errorPhone": "Sisestage telefoninumber",
     "errorMessage": "Kirjeldage oma päringut",
-    "errorServer": "Saatmine ebaõnnestus. Proovige uuesti."
+    "errorServer": "Saatmine ebaõnnestus. Proovige uuesti.",
+    "phoneOptional": "(valikuline)",
+    "privacyPre": "Vormi esitamisega nõustun oma andmete töötlemisega vastavalt",
+    "privacyLink": "privaatsuspoliitikale",
+    "privacySuf": "."
   },
   "footer": {
     "tagline": "Tipptase Šveitsi täpsusega.",
@@ -139,5 +143,46 @@
     "sectionLabel": "Seaded"
   },
   "metaTitle": "Martin Projekt Group GmbH – Ehitus, Renoveerimine ja Paigaldus",
-  "metaDescription": "Fassaaditööd, akende paigaldus ja siseviimistlus. Usaldusväärsed tööd korteritele ja majadele."
+  "metaDescription": "Fassaaditööd, akende paigaldus ja siseviimistlus. Usaldusväärsed tööd korteritele ja majadele.",
+  "impressum": {
+    "pageTitle": "Juriidiline teave",
+    "sectionLabel": "Juriidiline",
+    "heading": "Juriidiline teave",
+    "companyLabel": "Ettevõte",
+    "addressLabel": "Aadress",
+    "address": "—",
+    "registerLabel": "Äriregister",
+    "register": "—",
+    "uidLabel": "UID-number",
+    "uid": "—",
+    "emailLabel": "E-post",
+    "phoneLabel": "Telefon",
+    "phone": "—",
+    "responsibleLabel": "Omanik",
+    "responsible": "—",
+    "disclaimer": "Vastutuse välistamine",
+    "disclaimerText": "Selle veebisaidi sisu on koostatud suurima hoolikusega. Me ei garanteeri sisu täpsust, täielikkust ega ajakohasust. Veebisaidi kasutamine toimub omal vastutusel."
+  },
+  "privacy": {
+    "pageTitle": "Privaatsuspoliitika",
+    "sectionLabel": "Juriidiline",
+    "heading": "Privaatsuspoliitika",
+    "lastUpdated": "Viimati uuendatud",
+    "s1h": "1. Vastutav töötleja",
+    "s1p": "Martin Projekt Group GmbH, —, Šveits. Kontakt: info@martinprojektgroup.ch",
+    "s2h": "2. Kogutavad andmed",
+    "s2p": "Meie kontaktivormi kaudu kogume: täisnime, e-posti aadressi, telefoninumbri (valikuline) ja projektikirjelduse. Andmeid kasutatakse ainult teie päringu töötlemiseks.",
+    "s3h": "3. Töötlemise eesmärk",
+    "s3p": "Teie andmeid kasutatakse ainult teie päringule vastamiseks ja ärisuhte loomiseks. Neid ei kasutata turunduslikel eesmärkidel ega jagata kolmandate osapooltega ilma nõusolekuta.",
+    "s4h": "4. Volitatud töötlejad",
+    "s4p": "E-posti saatmiseks kasutame Resend Inc. (resend.com). See teenus saab vormiandmed meile edastamiseks andmetöötluslepingu alusel.",
+    "s5h": "5. Säilitustähtaeg",
+    "s5p": "Teie päringuandmed kustutatakse pärast täielikku töötlemist ja seadusjärgsete säilitustähtaegade möödumist.",
+    "s6h": "6. Teie õigused (Šveitsi DSG)",
+    "s6p": "Šveitsi isikuandmete kaitse seaduse (nDSG) alusel on teil õigus andmetele juurdepääsuks, parandamiseks, kustutamiseks, töötlemise piiramiseks, ülekantavuseks ja vastuväiteks. Kontakt: info@martinprojektgroup.ch",
+    "s7h": "7. Hosting & Infrastruktuur",
+    "s7p": "Seda veebisaiti majutab Vercel Inc. (vercel.com). Kõik andmeedastused on krüpteeritud HTTPS/TLS-ga.",
+    "s8h": "8. Andmekaitse kontakt",
+    "s8p": "Andmekaitsega seotud küsimusteks: info@martinprojektgroup.ch"
+  }
 }

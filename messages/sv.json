@@ -121,7 +121,11 @@
     "errorEmail": "Ange en giltig e-postadress",
     "errorPhone": "Ange ditt telefonnummer",
     "errorMessage": "Beskriv din förfrågan",
-    "errorServer": "Det gick inte att skicka. Försök igen."
+    "errorServer": "Det gick inte att skicka. Försök igen.",
+    "phoneOptional": "(valfritt)",
+    "privacyPre": "Genom att skicka formuläret godkänner jag behandlingen av mina uppgifter enligt",
+    "privacyLink": "Integritetspolicyn",
+    "privacySuf": "."
   },
   "footer": {
     "tagline": "Excellens med schweizisk precision.",
@@ -139,5 +143,46 @@
     "sectionLabel": "Inställningar"
   },
   "metaTitle": "Martin Projekt Group GmbH – Bygg, Renoveringar och Montage",
-  "metaDescription": "Fasadbyggnad, fönstermontage och inredningsarbeten. Pålitliga arbeten för lägenheter och hus."
+  "metaDescription": "Fasadbyggnad, fönstermontage och inredningsarbeten. Pålitliga arbeten för lägenheter och hus.",
+  "impressum": {
+    "pageTitle": "Juridisk information",
+    "sectionLabel": "Juridiskt",
+    "heading": "Juridisk information",
+    "companyLabel": "Företag",
+    "addressLabel": "Adress",
+    "address": "—",
+    "registerLabel": "Handelsregister",
+    "register": "—",
+    "uidLabel": "UID-nummer",
+    "uid": "—",
+    "emailLabel": "E-post",
+    "phoneLabel": "Telefon",
+    "phone": "—",
+    "responsibleLabel": "Ägare",
+    "responsible": "—",
+    "disclaimer": "Ansvarsfriskrivning",
+    "disclaimerText": "Innehållet på denna webbplats har skapats med yttersta omsorg. Vi garanterar inte riktigheten, fullständigheten eller aktualiteten hos innehållet. Användning av webbplatsen sker på eget ansvar."
+  },
+  "privacy": {
+    "pageTitle": "Integritetspolicy",
+    "sectionLabel": "Juridiskt",
+    "heading": "Integritetspolicy",
+    "lastUpdated": "Senast uppdaterad",
+    "s1h": "1. Personuppgiftsansvarig",
+    "s1p": "Martin Projekt Group GmbH, —, Schweiz. Kontakt: info@martinprojektgroup.ch",
+    "s2h": "2. Insamlade uppgifter",
+    "s2p": "Via vårt kontaktformulär samlar vi in: fullständigt namn, e-postadress, telefonnummer (valfritt) och projektbeskrivning. Uppgifterna används uteslutande för att behandla din förfrågan.",
+    "s3h": "3. Syfte med behandling",
+    "s3p": "Dina uppgifter används uteslutande för att besvara din förfrågan och etablera en affärsrelation. De används inte i marknadsföringssyfte och delas inte med tredje part utan ditt samtycke.",
+    "s4h": "4. Personuppgiftsbiträden",
+    "s4p": "För e-postutskick använder vi Resend Inc. (resend.com). Denna tjänst tar emot formulärdata för att vidarebefordra dem till oss, baserat på ett personuppgiftsbiträdesavtal.",
+    "s5h": "5. Lagringstid",
+    "s5p": "Dina uppgifter raderas efter fullständig handläggning och när lagstadgade lagringstider har löpt ut.",
+    "s6h": "6. Dina rättigheter (schweizisk DSG)",
+    "s6p": "Enligt schweizisk dataskyddslag (nDSG) har du rätt till tillgång, rättelse, radering, begränsning, dataportabilitet och invändning. Kontakt: info@martinprojektgroup.ch",
+    "s7h": "7. Hosting & Infrastruktur",
+    "s7p": "Denna webbplats driftas av Vercel Inc. (vercel.com). All dataöverföring krypteras via HTTPS/TLS.",
+    "s8h": "8. Kontakt för dataskyddsfrågor",
+    "s8p": "För frågor om dataskydd: info@martinprojektgroup.ch"
+  }
 }
