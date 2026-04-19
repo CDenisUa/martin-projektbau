@@ -7,7 +7,7 @@
   --color-accent-light: #EFF6FF;
   --color-surface: #F8F9FA;
 
-  --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
+  --font-sans: "Helvetica Neue", Helvetica, Arial, system-ui, -apple-system, sans-serif;
 }
 
 @layer base {
@@ -29,7 +29,7 @@
   }
 }
 
-/* Service icon — stroke draw on load */
+/* Service icon - stroke draw on load */
 @keyframes draw-stroke {
   0% {
     stroke-dashoffset: 200;
@@ -44,7 +44,7 @@
   }
 }
 
-/* Service icon — pop on hover */
+/* Service icon - pop on hover */
 @keyframes icon-pop {
   0%   { transform: scale(1) rotate(0deg); }
   25%  { transform: scale(1.3) rotate(-10deg); }
@@ -76,7 +76,7 @@
   animation: icon-pop 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
 }
 
-/* About page icons — draw triggered when parent gets .draw-active class */
+/* About page icons - draw triggered when parent gets .draw-active class */
 .draw-active .about-icon path,
 .draw-active .about-icon circle,
 .draw-active .about-icon rect,

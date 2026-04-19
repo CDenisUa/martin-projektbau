@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { startTransition, useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useTranslations, useLocale } from 'next-intl';
 import { usePathname } from 'next/navigation';
@@ -28,7 +28,9 @@ export default function Header() {
   }, []);
 
   useEffect(() => {
-    setMobileOpen(false);
+    startTransition(() => {
+      setMobileOpen(false);
+    });
   }, [pathname]);
 
   const navItems = [
@@ -51,7 +53,7 @@ export default function Header() {
         transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
         className="relative"
       >
-      {/* Sliding white background — slides up when transparent, slides down when solid */}
+      {/* Sliding white background - slides up when transparent, slides down when solid */}
       <AnimatePresence>
         {!transparent && (
           <motion.div
@@ -65,13 +67,13 @@ export default function Header() {
         )}
       </AnimatePresence>
 
-      {/* Header content — always on top of background layer */}
+      {/* Header content - always on top of background layer */}
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center group">
             <div className={`transition-all duration-400 ${transparent ? 'filter-[brightness(0)_invert(1)]' : ''}`}>
-              <LogoMark width={64} />
+              <LogoMark width={80} />
             </div>
           </Link>
 

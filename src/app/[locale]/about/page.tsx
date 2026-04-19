@@ -60,7 +60,7 @@ export default function AboutPage() {
       <div className="relative h-[65vh] min-h-[420px] overflow-hidden">
         <Image
           src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1920&q=80"
-          alt="Martin Projekt Group — precision construction"
+          alt="Martin Projekt Group - precision construction"
           fill
           className="object-cover"
           priority

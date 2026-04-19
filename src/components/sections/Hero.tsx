@@ -45,7 +45,7 @@ export default function Hero() {
   return (
     <section className="sticky top-0 h-screen z-0 flex items-center justify-center overflow-hidden bg-primary">
 
-      {/* Layer 1 — Video background */}
+      {/* Layer 1 - Video background */}
       <video
         ref={videoRef}
         muted
@@ -60,10 +60,10 @@ export default function Hero() {
         <source src="/video/hero.mp4" type="video/mp4" />
       </video>
 
-      {/* Layer 2 — Overlay */}
+      {/* Layer 2 - Overlay */}
       <div className="absolute inset-0 bg-linear-to-b from-primary/50 via-primary/55 to-primary/85" style={{ zIndex: 2 }} />
 
-      {/* Layer 3 — Hero content */}
+      {/* Layer 3 - Hero content */}
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8 text-center text-white pt-20" style={{ zIndex: 3 }}>
         <motion.div
           initial={{ opacity: 0, y: 40 }}

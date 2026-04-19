@@ -48,11 +48,11 @@ describe('validate', () => {
   });
 
   describe('phone', () => {
-    test('rejects empty phone', () => {
-      expect(validate({ ...valid, phone: '' }, t)).toHaveProperty('phone');
+    test('accepts empty phone', () => {
+      expect(validate({ ...valid, phone: '' }, t)).not.toHaveProperty('phone');
     });
-    test('rejects whitespace-only phone', () => {
-      expect(validate({ ...valid, phone: '   ' }, t)).toHaveProperty('phone');
+    test('accepts whitespace-only phone because the field is optional', () => {
+      expect(validate({ ...valid, phone: '   ' }, t)).not.toHaveProperty('phone');
     });
     test('accepts any non-empty phone', () => {
       expect(validate({ ...valid, phone: '+41' }, t)).not.toHaveProperty('phone');
@@ -76,7 +76,6 @@ describe('validate', () => {
     const result = validate({ name: '', email: '', phone: '', message: '' }, mockT);
     expect(result.name).toBe('msg:errorName');
     expect(result.email).toBe('msg:errorEmail');
-    expect(result.phone).toBe('msg:errorPhone');
     expect(result.message).toBe('msg:errorMessage');
   });
 

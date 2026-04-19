@@ -13,6 +13,7 @@ jest.mock('resend', () => ({
 
 jest.mock('@/lib/emailTemplate', () => ({
   buildContactEmail: jest.fn(() => '<html>mock</html>'),
+  buildConfirmationEmail: jest.fn(() => '<html>confirmation</html>'),
 }));
 
 const VALID = {
@@ -56,7 +57,7 @@ describe('POST /api/contact', () => {
     );
   });
 
-  describe('validation — 400 responses', () => {
+  describe('validation - 400 responses', () => {
     test('rejects empty name', async () => {
       const res = await POST(makeReq({ ...VALID, name: '' }));
       expect(res.status).toBe(400);
@@ -79,10 +80,10 @@ describe('POST /api/contact', () => {
       expect(res.status).toBe(400);
     });
 
-    test('rejects empty phone', async () => {
+    test('accepts empty phone because it is optional', async () => {
       const res = await POST(makeReq({ ...VALID, phone: '' }));
-      expect(res.status).toBe(400);
-      expect((await res.json()).error).toBe('Phone required');
+      expect(res.status).toBe(200);
+      expect(await res.json()).toEqual({ success: true });
     });
 
     test('rejects short message', async () => {

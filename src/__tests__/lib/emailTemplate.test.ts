@@ -2,6 +2,7 @@ import { buildContactEmail } from '@/lib/emailTemplate';
 
 describe('buildContactEmail', () => {
   const html = buildContactEmail('Jane Doe', 'jane@example.com', '+41 79 000 00 00', 'Test message');
+  const htmlWithoutPhone = buildContactEmail('Jane Doe', 'jane@example.com', '', 'Test message');
 
   test('returns a non-empty string', () => {
     expect(typeof html).toBe('string');
@@ -30,6 +31,11 @@ describe('buildContactEmail', () => {
 
   test('includes a tel link for the phone', () => {
     expect(html).toContain('tel:+41 79 000 00 00');
+  });
+
+  test('renders a fallback when no phone is provided', () => {
+    expect(htmlWithoutPhone).toContain('Nicht angegeben');
+    expect(htmlWithoutPhone).not.toContain('href="tel:"');
   });
 
   test('uses the current production domain for branded assets', () => {

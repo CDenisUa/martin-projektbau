@@ -11,12 +11,12 @@ export async function generateMetadata({
   const copy = await getLegalCopy(locale);
 
   return {
-    title: `${copy.legalNotice.title} | Martin Projekt Group`,
-    description: copy.legalNotice.description,
+    title: `${copy.terms.title} | Martin Projekt Group`,
+    description: copy.terms.description,
   };
 }
 
-export default async function ImpressumPage({
+export default async function TermsPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
@@ -26,12 +26,12 @@ export default async function ImpressumPage({
 
   return (
     <LegalPageFrame
-      eyebrow={copy.legalNotice.eyebrow}
-      title={copy.legalNotice.title}
-      description={copy.legalNotice.description}
-      facts={copy.legalNotice.facts}
-      noteTitle={copy.legalNotice.noteTitle}
-      noteParagraphs={copy.legalNotice.noteParagraphs}
+      eyebrow={copy.terms.eyebrow}
+      title={copy.terms.title}
+      description={copy.terms.description}
+      lastUpdatedLabel={copy.terms.lastUpdatedLabel}
+      lastUpdatedValue={copy.terms.lastUpdatedValue}
+      sections={copy.terms.sections}
     />
   );
 }

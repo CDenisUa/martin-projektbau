@@ -72,7 +72,7 @@ export default function ServicesSection() {
                 <div className="absolute inset-0" style={{ backgroundColor: 'rgba(10,22,40,0.55)' }} />
               </div>
 
-              {/* Content — always visible */}
+              {/* Content - always visible */}
               <div className="relative z-10 h-full flex flex-col justify-end p-8">
                 <p className="text-accent text-[10px] tracking-[0.25em] uppercase mb-3 font-medium">
                   0{i + 1}

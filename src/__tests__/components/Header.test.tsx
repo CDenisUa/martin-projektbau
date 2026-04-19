@@ -12,28 +12,58 @@ jest.mock('next/navigation', () => ({
 }));
 
 jest.mock('framer-motion', () => {
-  const React = require('react');
+  const React = jest.requireActual<typeof import('react')>('react');
+  const motionPropKeys = new Set(['initial', 'animate', 'exit', 'transition']);
+
+  type MockMotionProps = React.PropsWithChildren<
+    React.HTMLAttributes<HTMLDivElement> & {
+      initial?: unknown;
+      animate?: unknown;
+      exit?: unknown;
+      transition?: unknown;
+    }
+  >;
+
+  const MotionDiv = React.forwardRef<HTMLDivElement, MockMotionProps>(function MotionDiv(
+    { children, ...props },
+    ref,
+  ) {
+    const domProps = Object.fromEntries(
+      Object.entries(props).filter(([key]) => !motionPropKeys.has(key)),
+    ) as React.HTMLAttributes<HTMLDivElement>;
+
+    return React.createElement('div', { ...domProps, ref }, children);
+  });
+
+  function AnimatePresence({ children }: React.PropsWithChildren) {
+    return React.createElement(React.Fragment, null, children);
+  }
+
   return {
     motion: {
-      div: React.forwardRef(
-        ({ children, initial, animate, exit, transition, ...props }: any, ref: any) =>
-          React.createElement('div', { ...props, ref }, children),
-      ),
+      div: MotionDiv,
     },
-    AnimatePresence: ({ children }: any) => children,
+    AnimatePresence,
   };
 });
 
-jest.mock('@/components/ui/LogoMark', () => () => <div data-testid="logo-mark" />);
-jest.mock('@/components/ui/LanguageSelector', () => () => <div data-testid="language-selector" />);
+jest.mock('@/components/ui/LogoMark', () => function MockLogoMark() {
+  return <div data-testid="logo-mark" />;
+});
+
+jest.mock('@/components/ui/LanguageSelector', () => function MockLanguageSelector() {
+  return <div data-testid="language-selector" />;
+});
 
 jest.mock('next/link', () => {
-  return function MockLink({ href, children, ...props }: any) {
-    return (
-      <a href={href} {...props}>
-        {children}
-      </a>
-    );
+  const React = jest.requireActual<typeof import('react')>('react');
+
+  type MockLinkProps = React.PropsWithChildren<
+    React.AnchorHTMLAttributes<HTMLAnchorElement> & { href: string }
+  >;
+
+  return function MockLink({ href, children, ...props }: MockLinkProps) {
+    return React.createElement('a', { ...props, href }, children);
   };
 });
 

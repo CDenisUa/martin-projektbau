@@ -1,16 +1,17 @@
 'use client';
 
 // Core
+import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import { Mail } from 'lucide-react';
-// Components
-import LogoMark from '@/components/ui/LogoMark';
+import { getFooterLegalCopy } from '@/lib/legalClientCopy';
 
 export default function Footer() {
   const t = useTranslations('footer');
   const tn = useTranslations('nav');
   const locale = useLocale();
+  const legalCopy = getFooterLegalCopy(locale);
 
   const navLinks = [
     { label: tn('home'), href: `/${locale}` },
@@ -30,7 +31,14 @@ export default function Footer() {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="opacity-90 inline-block"
           >
-            <LogoMark width={100} />
+            <Image
+              src="/images/martin_logo_white.png"
+              alt="Martin Projekt Group"
+              width={300}
+              height={231}
+              className="w-[100px] h-auto"
+              priority
+            />
           </Link>
 
           {/* Navigation */}
@@ -52,6 +60,47 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Legal */}
+          <div>
+            <h4 className="text-[9px] text-white/30 uppercase tracking-[0.2em] mb-3">
+              {t('legal')}
+            </h4>
+            <ul className="space-y-1.5">
+              <li>
+                <Link
+                  href={`/${locale}/privacy`}
+                  className="text-xs text-white/50 hover:text-white transition-colors duration-200"
+                >
+                  {legalCopy.privacy}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/impressum`}
+                  className="text-xs text-white/50 hover:text-white transition-colors duration-200"
+                >
+                  {legalCopy.imprint}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/terms`}
+                  className="text-xs text-white/50 hover:text-white transition-colors duration-200"
+                >
+                  {legalCopy.terms}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={`/${locale}/cookies`}
+                  className="text-xs text-white/50 hover:text-white transition-colors duration-200"
+                >
+                  {legalCopy.cookies}
+                </Link>
+              </li>
+            </ul>
+          </div>
+
           {/* Contact */}
           <div>
             <h4 className="text-[9px] text-white/30 uppercase tracking-[0.2em] mb-3">
@@ -64,31 +113,6 @@ export default function Footer() {
               <Mail size={12} className="text-accent shrink-0" />
               info@martinprojektgroup.ch
             </a>
-          </div>
-
-          {/* Legal */}
-          <div>
-            <h4 className="text-[9px] text-white/30 uppercase tracking-[0.2em] mb-3">
-              {t('legal')}
-            </h4>
-            <ul className="space-y-1.5">
-              <li>
-                <Link
-                  href={`/${locale}/privacy`}
-                  className="text-xs text-white/50 hover:text-white transition-colors duration-200"
-                >
-                  {t('privacy')}
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href={`/${locale}/impressum`}
-                  className="text-xs text-white/50 hover:text-white transition-colors duration-200"
-                >
-                  {t('imprint')}
-                </Link>
-              </li>
-            </ul>
           </div>
         </div>
       </div>
@@ -103,10 +127,12 @@ export default function Footer() {
             className="opacity-25 hover:opacity-100 transition-all duration-300"
             aria-label="Developed by Chepio"
           >
-            <img
+            <Image
               src="/images/icons/logo_designed.svg"
               alt="chepio.tech"
-              className="h-3.5 w-auto brightness-0 invert hover:brightness-100 hover:invert-0 transition-all duration-300"
+              width={120}
+              height={21}
+              className="h-[21px] w-auto brightness-0 invert hover:brightness-100 hover:invert-0 transition-all duration-300"
             />
           </a>
         </div>

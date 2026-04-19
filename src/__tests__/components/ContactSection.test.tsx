@@ -4,19 +4,52 @@ import ContactSection from '@/components/sections/ContactSection';
 
 jest.mock('next-intl', () => ({
   useTranslations: () => (key: string) => key,
+  useLocale: () => 'en',
 }));
 
 jest.mock('framer-motion', () => {
-  const React = require('react');
+  const React = jest.requireActual<typeof import('react')>('react');
+  const motionPropKeys = new Set([
+    'initial',
+    'animate',
+    'exit',
+    'transition',
+    'viewport',
+    'whileInView',
+  ]);
+
+  type MockMotionProps = React.PropsWithChildren<
+    React.HTMLAttributes<HTMLDivElement> & {
+      initial?: unknown;
+      animate?: unknown;
+      exit?: unknown;
+      transition?: unknown;
+      viewport?: unknown;
+      whileInView?: unknown;
+    }
+  >;
+
+  const MotionDiv = React.forwardRef<HTMLDivElement, MockMotionProps>(function MotionDiv(
+    { children, ...props },
+    ref,
+  ) {
+    const domProps = Object.fromEntries(
+      Object.entries(props).filter(([key]) => !motionPropKeys.has(key)),
+    ) as React.HTMLAttributes<HTMLDivElement>;
+
+    return React.createElement('div', { ...domProps, ref }, children);
+  });
+
+  function AnimatePresence({ children }: React.PropsWithChildren) {
+    return React.createElement(React.Fragment, null, children);
+  }
+
   return {
     motion: {
-      div: React.forwardRef(
-        ({ children, initial, animate, exit, transition, viewport, whileInView, ...props }: any, ref: any) =>
-          React.createElement('div', { ...props, ref }, children),
-      ),
+      div: MotionDiv,
     },
     useInView: () => true,
-    AnimatePresence: ({ children }: any) => children,
+    AnimatePresence,
   };
 });
 
@@ -63,7 +96,6 @@ describe('ContactSection', () => {
     await waitFor(() => {
       expect(screen.getByText('errorName')).toBeInTheDocument();
       expect(screen.getByText('errorEmail')).toBeInTheDocument();
-      expect(screen.getByText('errorPhone')).toBeInTheDocument();
       expect(screen.getByText('errorMessage')).toBeInTheDocument();
     });
   });
@@ -112,7 +144,6 @@ describe('ContactSection', () => {
     const user = userEvent.setup();
     await user.type(screen.getByPlaceholderText('namePlaceholder'), 'John Doe');
     await user.type(screen.getByPlaceholderText('emailPlaceholder'), 'john@example.com');
-    await user.type(screen.getByPlaceholderText('phonePlaceholder'), '+41 44 123 45 67');
     await user.type(screen.getByPlaceholderText('messagePlaceholder'), 'Hello world inquiry');
     fireEvent.click(screen.getByRole('button', { name: /send/i }));
   }
@@ -133,6 +164,7 @@ describe('ContactSection', () => {
     const body = JSON.parse((global.fetch as jest.Mock).mock.calls[0][1].body);
     expect(body.name).toBe('John Doe');
     expect(body.email).toBe('john@example.com');
+    expect(body.phone).toBe('');
   });
 
   test('shows success message after successful submission', async () => {

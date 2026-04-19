@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { getMessages, getTranslations } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -7,13 +6,8 @@ import { routing } from '@/i18n/routing';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
 import ScrollToTop from '@/components/layout/ScrollToTop';
+import CookieNotice from '@/components/legal/CookieNotice';
 import '../globals.css';
-
-const inter = Inter({
-  subsets: ['latin', 'latin-ext'],
-  variable: '--font-inter',
-  display: 'swap',
-});
 
 export async function generateMetadata({
   params,
@@ -75,7 +69,7 @@ export default async function LocaleLayout({
   const messages = await getMessages();
 
   return (
-    <html lang={locale} className={inter.variable}>
+    <html lang={locale}>
       <body className="bg-white text-primary font-sans antialiased">
         <NextIntlClientProvider messages={messages} locale={locale}>
           <div className="flex flex-col min-h-screen">
@@ -83,6 +77,7 @@ export default async function LocaleLayout({
             <Header />
             <main className="flex-1 flex flex-col">{children}</main>
             <Footer />
+            <CookieNotice />
           </div>
         </NextIntlClientProvider>
       </body>

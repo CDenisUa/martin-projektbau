@@ -31,15 +31,15 @@ export default function AboutSection() {
     if (!inView || videoState !== 'idle') return;
 
     const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    if (reducedMotion) { setVideoState('frozen'); return; }
+    if (reducedMotion) return;
 
     const video = videoRef.current;
     if (!video) return;
 
-    setVideoState('playing');
-    video.play().catch(() => setVideoState('frozen'));
+    void video.play().catch(() => setVideoState('frozen'));
   }, [inView, videoState]);
 
+  const handlePlay = () => setVideoState('playing');
   const handleEnded = () => setVideoState('frozen');
 
   return (
@@ -56,7 +56,7 @@ export default function AboutSection() {
           >
             <div className="relative aspect-4/5 overflow-hidden bg-gray-100">
 
-              {/* Poster — shown before play and after video ends */}
+              {/* Poster - shown before play and after video ends */}
               <Image
                 src="/images/posters/about.webp"
                 alt="Martin Projekt Group craftsmanship"
@@ -70,12 +70,13 @@ export default function AboutSection() {
                 }}
               />
 
-              {/* Video — slowdown is baked in, swap to poster on end */}
+              {/* Video - slowdown is baked in, swap to poster on end */}
               <video
                 ref={videoRef}
                 muted
                 playsInline
                 preload="none"
+                onPlay={handlePlay}
                 onEnded={handleEnded}
                 className="absolute inset-0 w-full h-full object-cover"
                 style={{
