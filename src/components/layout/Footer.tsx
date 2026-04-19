@@ -28,7 +28,7 @@ export default function Footer() {
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             className="filter-[brightness(0)_invert(1)] opacity-90 inline-block"
           >
-            <LogoMark width={64} />
+            <LogoMark width={100} />
           </Link>
 
           {/* Navigation — 2 columns */}
@@ -79,7 +79,7 @@ export default function Footer() {
             <img
               src="/images/icons/logo_designed.svg"
               alt="chepio.tech"
-              className="h-7 w-auto brightness-0 invert hover:brightness-100 hover:invert-0 transition-all duration-300"
+              className="h-3.5 w-auto brightness-0 invert hover:brightness-100 hover:invert-0 transition-all duration-300"
             />
           </a>
         </div>
