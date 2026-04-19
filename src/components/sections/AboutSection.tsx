@@ -59,7 +59,7 @@ export default function AboutSection() {
               {/* Poster — shown before play and after video ends */}
               <Image
                 src="/images/posters/about.webp"
-                alt="Martin Projektbau craftsmanship"
+                alt="Martin Projekt Group craftsmanship"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"

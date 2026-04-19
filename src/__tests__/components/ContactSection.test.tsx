@@ -50,7 +50,7 @@ describe('ContactSection', () => {
 
   test('renders contact info (email and address)', () => {
     renderSection();
-    expect(screen.getByRole('link', { name: /info@martin-projektbau\.ch/i })).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: /info@martinprojektgroup\.ch/i })).toBeInTheDocument();
     expect(screen.getByText('Switzerland')).toBeInTheDocument();
   });
 

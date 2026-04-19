@@ -5,7 +5,7 @@ import AboutSection from '@/components/sections/AboutSection';
 import ContactSection from '@/components/sections/ContactSection';
 
 export const metadata: Metadata = {
-  title: 'Martin Projektbau GmbH – Premium Construction & Renovation Switzerland',
+  title: 'Martin Projekt Group – Premium Construction & Renovation Switzerland',
   description:
     'Swiss construction, renovation, facade and interior finishing services. Premium quality with precision craftsmanship.',
 };

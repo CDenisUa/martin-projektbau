@@ -19,7 +19,7 @@ export function buildContactEmail(
               <tr>
                 <td>
                   <img src="https://martin-projektbau.vercel.app/images/martin_logo_white.png"
-                       alt="Martin Projektbau GmbH"
+                       alt="Martin Projekt Group"
                        height="56"
                        style="display:block;" />
                 </td>
@@ -39,7 +39,7 @@ export function buildContactEmail(
           <td style="background:#ffffff;padding:40px;">
 
             <h1 style="margin:0 0 6px;font-size:22px;font-weight:300;color:#0A1628;letter-spacing:-0.3px;">Neue Kontaktanfrage</h1>
-            <p style="margin:0 0 32px;font-size:13px;color:#94a3b8;">Eingegangen über das Kontaktformular auf martin-projektbau.ch</p>
+            <p style="margin:0 0 32px;font-size:13px;color:#94a3b8;">Eingegangen über das Kontaktformular auf martinprojektgroup.ch</p>
 
             <!-- Info cards -->
             <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom:28px;">
@@ -95,7 +95,7 @@ export function buildContactEmail(
         <!-- Footer -->
         <tr>
           <td style="padding:24px 40px;text-align:center;">
-            <p style="margin:0;font-size:11px;color:#cbd5e1;">© ${new Date().getFullYear()} Martin Projektbau GmbH · martin-projektbau.ch</p>
+            <p style="margin:0;font-size:11px;color:#cbd5e1;">© ${new Date().getFullYear()} Martin Projekt Group · martinprojektgroup.ch</p>
           </td>
         </tr>
 

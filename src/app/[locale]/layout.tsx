@@ -16,10 +16,21 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: 'Martin Projektbau GmbH – Premium Construction & Renovation',
+  title: 'Martin Projekt Group – Premium Construction & Renovation',
   description: 'Swiss construction, renovation and facade solutions crafted with precision and expertise.',
   keywords: 'construction, renovation, facade, Fassadenbau, Parkettverlegung, Switzerland',
-  metadataBase: new URL('https://martin-projektbau.ch'),
+  metadataBase: new URL('https://martinprojektgroup.ch'),
+  icons: {
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/favicon.ico' },
+    ],
+    apple: [{ url: '/apple-touch-icon.png', sizes: '180x180' }],
+    other: [
+      { rel: 'manifest', url: '/site.webmanifest' },
+    ],
+  },
 };
 
 export function generateStaticParams() {

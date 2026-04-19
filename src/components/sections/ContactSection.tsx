@@ -90,10 +90,10 @@ export default function ContactSection({ className }: { className?: string }) {
                     {t('emailLabel')}
                   </div>
                   <a
-                    href="mailto:info@martin-projektbau.ch"
+                    href="mailto:info@martinprojektgroup.ch"
                     className="text-sm text-white/70 hover:text-white transition-colors duration-200"
                   >
-                    info@martin-projektbau.ch
+                    info@martinprojektgroup.ch
                   </a>
                 </div>
               </div>

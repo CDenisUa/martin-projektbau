@@ -56,11 +56,11 @@ export default function Footer() {
               Contact
             </h4>
             <a
-              href="mailto:info@martin-projektbau.ch"
+              href="mailto:info@martinprojektgroup.ch"
               className="flex items-center gap-2 text-xs text-white/50 hover:text-white transition-colors duration-200"
             >
               <Mail size={12} className="text-accent shrink-0" />
-              info@martin-projektbau.ch
+              info@martinprojektgroup.ch
             </a>
           </div>
         </div>

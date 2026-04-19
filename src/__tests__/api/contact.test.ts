@@ -49,7 +49,7 @@ describe('POST /api/contact', () => {
     await POST(makeReq(VALID));
     expect(mockSend).toHaveBeenCalledWith(
       expect.objectContaining({
-        to: 'chepigadeveloper@gmail.com',
+        to: 'info@martinprojektgroup.ch',
         replyTo: VALID.email,
         subject: `Neue Anfrage von ${VALID.name}`,
       }),
