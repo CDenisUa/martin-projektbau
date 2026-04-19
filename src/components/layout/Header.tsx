@@ -71,7 +71,7 @@ export default function Header() {
           {/* Logo */}
           <Link href={`/${locale}`} className="flex items-center group">
             <div className={`transition-all duration-400 ${transparent ? 'filter-[brightness(0)_invert(1)]' : ''}`}>
-              <LogoMark size={42} />
+              <LogoMark size={21} />
             </div>
           </Link>
 
