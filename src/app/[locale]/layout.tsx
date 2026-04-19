@@ -27,6 +27,13 @@ export const metadata: Metadata = {
     siteName: 'Martin Projekt Group',
     images: [{ url: '/android-chrome-512x512.png', width: 512, height: 512, alt: 'Martin Projekt Group' }],
     type: 'website',
+    locale: 'de_CH',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Martin Projekt Group – Premium Construction & Renovation',
+    description: 'Swiss construction, renovation and facade solutions crafted with precision and expertise.',
+    images: ['/android-chrome-512x512.png'],
   },
   icons: {
     icon: [
