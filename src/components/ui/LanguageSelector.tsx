@@ -1,9 +1,10 @@
 'use client';
 
+// Core
 import { useState, useRef, useEffect } from 'react';
 import { useLocale } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
-import { ChevronDown, Globe } from 'lucide-react';
+import { ChevronDown, Globe, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export const LANGUAGES = [
@@ -42,15 +43,32 @@ export default function LanguageSelector({ transparent }: { transparent?: boolea
   const router = useRouter();
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    const check = () => setIsMobile(window.innerWidth < 1024);
+    check();
+    window.addEventListener('resize', check);
+    return () => window.removeEventListener('resize', check);
+  }, []);
+
+  useEffect(() => {
     const handler = (e: MouseEvent) => {
-      if (ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
+      if (!isMobile && ref.current && !ref.current.contains(e.target as Node)) setOpen(false);
     };
     document.addEventListener('mousedown', handler);
     return () => document.removeEventListener('mousedown', handler);
-  }, []);
+  }, [isMobile]);
+
+  useEffect(() => {
+    if (isMobile && open) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => { document.body.style.overflow = ''; };
+  }, [isMobile, open]);
 
   const switchLocale = (code: string) => {
     const segments = pathname.split('/');
@@ -78,8 +96,9 @@ export default function LanguageSelector({ transparent }: { transparent?: boolea
         />
       </button>
 
+      {/* Desktop dropdown */}
       <AnimatePresence>
-        {open && (
+        {!isMobile && open && (
           <motion.div
             initial={{ opacity: 0, y: 6, scale: 0.97 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -105,6 +124,62 @@ export default function LanguageSelector({ transparent }: { transparent?: boolea
               </button>
             ))}
           </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Mobile bottom sheet */}
+      <AnimatePresence>
+        {isMobile && open && (
+          <>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              className="fixed inset-0 bg-black/50 z-100"
+              onClick={() => setOpen(false)}
+            />
+            <motion.div
+              initial={{ y: '100%' }}
+              animate={{ y: 0 }}
+              exit={{ y: '100%' }}
+              transition={{ duration: 0.35, ease: [0.22, 1, 0.36, 1] }}
+              className="fixed bottom-0 left-0 right-0 bg-white rounded-t-2xl z-101 flex flex-col max-h-[80vh]"
+            >
+              <div className="flex items-center justify-between px-5 py-4 border-b border-gray-100 shrink-0">
+                <div className="flex items-center gap-2 text-gray-500">
+                  <Globe size={15} />
+                  <span className="text-sm font-medium text-gray-900">Sprache / Language</span>
+                </div>
+                <button
+                  onClick={() => setOpen(false)}
+                  className="p-1 text-gray-400 hover:text-gray-700 transition-colors"
+                  aria-label="Close"
+                >
+                  <X size={18} />
+                </button>
+              </div>
+              <div className="overflow-y-auto overscroll-contain pb-safe">
+                {LANGUAGES.map((lang) => (
+                  <button
+                    key={lang.code}
+                    onClick={() => switchLocale(lang.code)}
+                    className={`w-full flex items-center gap-3 px-5 py-3.5 text-sm border-b border-gray-50 transition-colors last:border-0 ${
+                      lang.code === locale
+                        ? 'bg-accent/5 text-accent font-medium'
+                        : 'text-gray-700 active:bg-gray-50'
+                    }`}
+                  >
+                    <span className="text-xl leading-none">{lang.flag}</span>
+                    <span>{lang.name}</span>
+                    {lang.code === locale && (
+                      <span className="ml-auto w-2 h-2 rounded-full bg-accent shrink-0" />
+                    )}
+                  </button>
+                ))}
+              </div>
+            </motion.div>
+          </>
         )}
       </AnimatePresence>
     </div>
