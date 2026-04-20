@@ -76,6 +76,17 @@ This file is the working map for future changes in this repository. It should be
 - `CookieNotice` uses local storage key `martin-cookie-notice-dismissed-v1`.
 - Privacy and impressum translations come from `messages/*.json`. Terms and cookies are fully localized in `src/lib/legalPageTranslations.ts`, and the test suite checks that every supported locale has a complete legal section set.
 
+## Legal Snapshot
+
+- Implemented legal routes: `privacy`, `impressum`, `terms`, `cookies`, all locale-aware and rendered through `src/lib/legalContent.ts`.
+- Translation coverage for `terms` and `cookies` is enforced by `src/__tests__/lib/legalPageTranslations.test.ts`.
+- Current legal company metadata in `src/lib/legalInfo.ts` is incomplete. `phone`, `postalAddress`, `commercialRegister`, `uidNumber`, and `responsiblePerson` are still `null`.
+- Because of those `null` values, the legal notice currently falls back to placeholder `-` values from `messages/*.json` for address, register, UID, phone, and responsible person.
+- Privacy text currently mentions `Resend` and `Vercel`, but it does not yet disclose destination countries or transfer safeguards for cross-border processing.
+- Cookie disclosures currently match the visible implementation: language persistence plus local storage dismissal flag, with no analytics or marketing stack detected in the codebase.
+- Contact flow currently collects `name`, `email`, optional `phone`, and `message`, and sends the data through `Resend` in `src/app/api/contact/route.ts`.
+- The contact form links to the privacy page, but there is no explicit privacy consent checkbox or processor-specific disclosure at form-submit time.
+
 ## Maintenance Rule
 
 Update this map whenever any of the following changes:

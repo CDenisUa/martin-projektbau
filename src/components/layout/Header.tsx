@@ -8,6 +8,8 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import LanguageSelector from '@/components/ui/LanguageSelector';
 import LogoMark from '@/components/ui/LogoMark';
+// Utils
+import { getFooterLegalCopy } from '@/lib/legalClientCopy';
 
 export default function Header() {
   const t = useTranslations('nav');
@@ -38,6 +40,14 @@ export default function Header() {
     { label: t('services'), href: `/${locale}/services` },
     { label: t('about'), href: `/${locale}/about` },
     { label: t('contact'), href: `/${locale}/contact` },
+  ];
+
+  const legalCopy = getFooterLegalCopy(locale);
+  const legalItems = [
+    { label: legalCopy.privacy, href: `/${locale}/privacy` },
+    { label: legalCopy.imprint, href: `/${locale}/impressum` },
+    { label: legalCopy.terms, href: `/${locale}/terms` },
+    { label: legalCopy.cookies, href: `/${locale}/cookies` },
   ];
 
   const isActive = (href: string) => pathname === href;
@@ -115,36 +125,77 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile Navigation */}
+      {/* Mobile Navigation — right-side drawer */}
       <AnimatePresence>
         {mobileOpen && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            transition={{ duration: 0.2 }}
-            className="relative lg:hidden bg-white border-t border-gray-100 overflow-hidden"
-          >
-            <nav className="px-6 py-4 flex flex-col" aria-label="Mobile navigation">
-              {navItems.map((item, i) => (
+          <>
+            {/* Backdrop */}
+            <motion.div
+              key="backdrop"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.2 }}
+              className="fixed inset-0 top-20 bg-black/20 backdrop-blur-sm lg:hidden z-40"
+              onClick={() => setMobileOpen(false)}
+            />
+
+            {/* Drawer */}
+            <motion.div
+              key="drawer"
+              initial={{ x: '100%' }}
+              animate={{ x: 0 }}
+              exit={{ x: '100%' }}
+              transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
+              className="fixed top-20 right-0 bottom-0 w-36 bg-white shadow-2xl lg:hidden z-50 flex flex-col"
+            >
+              <div className="flex flex-col flex-1 overflow-y-auto px-6 py-6 items-end">
+                {/* Main nav */}
+                <nav className="flex flex-col w-full text-right" aria-label="Mobile navigation">
+                  {navItems.map((item, i) => (
+                    <motion.div
+                      key={item.href}
+                      initial={{ opacity: 0, x: 12 }}
+                      animate={{ opacity: 1, x: 0 }}
+                      transition={{ delay: i * 0.05 }}
+                    >
+                      <Link
+                        href={item.href}
+                        className={`block py-3 text-sm font-medium border-b border-gray-50 transition-colors last:border-0 ${
+                          isActive(item.href) ? 'text-accent' : 'text-gray-700 hover:text-primary'
+                        }`}
+                      >
+                        {item.label}
+                      </Link>
+                    </motion.div>
+                  ))}
+                </nav>
+
+                {/* Legal block */}
                 <motion.div
-                  key={item.href}
-                  initial={{ opacity: 0, x: -10 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: i * 0.05 }}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: navItems.length * 0.05 + 0.05 }}
+                  className="mt-auto pt-5 border-t border-gray-100 w-full text-right"
                 >
-                  <Link
-                    href={item.href}
-                    className={`block py-3.5 text-sm font-medium border-b border-gray-50 transition-colors last:border-0 ${
-                      isActive(item.href) ? 'text-accent' : 'text-gray-700 hover:text-primary'
-                    }`}
-                  >
-                    {item.label}
-                  </Link>
+                  <p className="text-[9px] text-gray-400 uppercase tracking-[0.2em] mb-3">Legal</p>
+                  <div className="flex flex-col gap-3 items-end">
+                    {legalItems.map((item) => (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        className={`text-xs transition-colors duration-200 ${
+                          isActive(item.href) ? 'text-accent' : 'text-gray-400 hover:text-gray-700'
+                        }`}
+                      >
+                        {item.label}
+                      </Link>
+                    ))}
+                  </div>
                 </motion.div>
-              ))}
-            </nav>
-          </motion.div>
+              </div>
+            </motion.div>
+          </>
         )}
       </AnimatePresence>
       </motion.div>
