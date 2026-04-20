@@ -147,7 +147,7 @@ export default function Header() {
               animate={{ x: 0 }}
               exit={{ x: '100%' }}
               transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
-              className="fixed top-20 right-0 bottom-0 w-36 bg-white shadow-2xl lg:hidden z-50 flex flex-col"
+              className="fixed top-20 right-0 bottom-0 w-[194px] bg-white shadow-2xl lg:hidden z-50 flex flex-col"
             >
               <div className="flex flex-col flex-1 overflow-y-auto px-6 py-6 items-end">
                 {/* Main nav */}
