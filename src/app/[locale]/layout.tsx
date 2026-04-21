@@ -29,15 +29,15 @@ export async function generateMetadata({
       description,
       url: 'https://martinprojektgroup.ch',
       siteName: 'Martin Projekt Group',
-      images: [{ url: '/android-chrome-512x512.png', width: 512, height: 512, alt: 'Martin Projekt Group' }],
+      images: [{ url: '/og-image.png', width: 1734, height: 907, alt: 'Martin Projekt Group GmbH' }],
       type: 'website',
       locale: locale.replace('-', '_'),
     },
     twitter: {
-      card: 'summary',
+      card: 'summary_large_image',
       title,
       description,
-      images: ['/android-chrome-512x512.png'],
+      images: ['/og-image.png'],
     },
     icons: {
       icon: [
