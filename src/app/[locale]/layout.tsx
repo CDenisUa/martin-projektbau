@@ -23,11 +23,11 @@ export async function generateMetadata({
     title,
     description,
     keywords: 'Bau, Renovation, Fassadenbau, Fenstermontage, Innenausbau, Schweiz',
-    metadataBase: new URL('https://martinprojektgroup.ch'),
+    metadataBase: new URL('https://www.martinprojektgroup.ch'),
     openGraph: {
       title,
       description,
-      url: 'https://martinprojektgroup.ch',
+      url: 'https://www.martinprojektgroup.ch',
       siteName: 'Martin Projekt Group',
       images: [{ url: '/og-image.png', width: 1734, height: 907, alt: 'Martin Projekt Group GmbH' }],
       type: 'website',
