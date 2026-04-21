@@ -29,7 +29,7 @@ export async function generateMetadata({
       description,
       url: 'https://www.martinprojektgroup.ch',
       siteName: 'Martin Projekt Group',
-      images: [{ url: '/og-image.png', width: 1734, height: 907, alt: 'Martin Projekt Group GmbH' }],
+      images: [{ url: '/images/banners/og-image.webp', width: 1734, height: 907, alt: 'Martin Projekt Group GmbH' }],
       type: 'website',
       locale: locale.replace('-', '_'),
     },
@@ -37,7 +37,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title,
       description,
-      images: ['/og-image.png'],
+      images: ['/images/banners/og-image.webp'],
     },
     icons: {
       icon: [
