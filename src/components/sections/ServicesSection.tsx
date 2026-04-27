@@ -5,7 +5,7 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { motion, useInView } from 'framer-motion';
 
-const SERVICE_KEYS = ['facade', 'tiling', 'parquet', 'painting', 'windows', 'renovation'] as const;
+const SERVICE_KEYS = ['facade', 'tiling', 'parquet', 'painting', 'windows', 'renovation', 'shower'] as const;
 
 const SERVICE_IMAGES = {
   facade:     '/images/services/webp/facade_сonstruction.webp',
@@ -14,6 +14,7 @@ const SERVICE_IMAGES = {
   painting:   '/images/services/webp/painting_plastering.webp',
   windows:    '/images/services/webp/window_installation.webp',
   renovation: '/images/services/webp/renovation_conversion.webp',
+  shower:     '/images/services/webp/duschglas_duschabtrennungen.webp',
 };
 
 export default function ServicesSection() {

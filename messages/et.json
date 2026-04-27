@@ -50,6 +50,10 @@
       "renovation": {
         "title": "Renoveerimine ja Ümberehitus",
         "description": "Terviklikud sise- ja välisrenoveerimis- ning ümberehitusprojektid."
+      },
+      "shower": {
+        "title": "Dušiklaas ja dušikabiinid mõõtu",
+        "description": "Tellimustööna valmistatud dušikabiinid, walk-in dušid ja klaasillahendused vannitubadesse, kontoritesse ja interjööridesse - sh nõustamine, mõõtmine, tellimine, paigaldus ja hooldus."
       }
     },
     "whatWeDo": "Mida me teeme",

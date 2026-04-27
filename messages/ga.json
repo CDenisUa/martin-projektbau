@@ -50,6 +50,10 @@
       "renovation": {
         "title": "Athnuachan agus Tiontú",
         "description": "Tionscadail athnuachana agus tiontaithe inmheánacha agus seachtracha iomlána."
+      },
+      "shower": {
+        "title": "Gloine cithfholctha & rannóirí ar mhéid",
+        "description": "Rannóirí cithfholctha déanta ar mhéid, cithfholcthaí walk-in agus réitigh ghloine do sheomraí folctha, oifigí agus intí - lena n-áirítear comhairliúchán, tomhas, ordú, suiteáil agus seirbhís."
       }
     },
     "whatWeDo": "Cad a dhéanaimid",

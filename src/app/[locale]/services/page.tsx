@@ -3,7 +3,7 @@
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { motion } from 'framer-motion';
-import { Building2, Layers, TreePine, Paintbrush2, AppWindow, Hammer } from 'lucide-react';
+import { Building2, Layers, TreePine, Paintbrush2, AppWindow, Hammer, Bath } from 'lucide-react';
 import { useEffect, useState } from 'react';
 
 const BANNERS = [
@@ -12,7 +12,7 @@ const BANNERS = [
   '/images/our-services-banner/banner_3.webp',
 ];
 
-const SERVICE_KEYS = ['facade', 'tiling', 'parquet', 'painting', 'windows', 'renovation'] as const;
+const SERVICE_KEYS = ['facade', 'tiling', 'parquet', 'painting', 'windows', 'renovation', 'shower'] as const;
 
 const SERVICE_ICONS = {
   facade: Building2,
@@ -21,6 +21,7 @@ const SERVICE_ICONS = {
   painting: Paintbrush2,
   windows: AppWindow,
   renovation: Hammer,
+  shower: Bath,
 };
 
 const SERVICE_IMAGES = {
@@ -30,6 +31,7 @@ const SERVICE_IMAGES = {
   painting:   '/images/our-services/Painting_and_Plastering.webp',
   windows:    '/images/our-services/Window_Installation.webp',
   renovation: '/images/our-services/Renovation_and_Conversion.webp',
+  shower:     '/images/our-services/Duschglas_Duschabtrennungen.webp',
 };
 
 export default function ServicesPage() {

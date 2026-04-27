@@ -50,6 +50,10 @@
       "renovation": {
         "title": "Felújítás és Átalakítás",
         "description": "Teljes körű bel- és kültéri felújítási és átalakítási projektek."
+      },
+      "shower": {
+        "title": "Zuhanyzó üveg és válaszfalak méretre",
+        "description": "Méretre készített zuhanyzófalak, walk-in zuhanyzók és üvegmegoldások fürdőszobákhoz, irodákhoz és belsőterekhez - tanácsadással, méréssel, rendeléssel, beépítéssel és szervizzel együtt."
       }
     },
     "whatWeDo": "Amit csinálunk",

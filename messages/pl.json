@@ -50,6 +50,10 @@
       "renovation": {
         "title": "Renowacja i Przebudowa",
         "description": "Kompleksowe projekty renowacji i przebudowy wewnętrznej i zewnętrznej."
+      },
+      "shower": {
+        "title": "Szkło prysznicowe i kabiny na wymiar",
+        "description": "Kabiny prysznicowe na wymiar, prysznice walk-in i rozwiązania szklane do łazienek, biur i wnętrz - w tym doradztwo, pomiar, zamówienie, montaż i serwis."
       }
     },
     "whatWeDo": "Co robimy",

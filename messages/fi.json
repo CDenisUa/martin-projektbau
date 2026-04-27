@@ -50,6 +50,10 @@
       "renovation": {
         "title": "Saneeraus ja Muutos",
         "description": "Täydelliset sisä- ja ulkosaneeraus- ja muutosprojektit."
+      },
+      "shower": {
+        "title": "Suihkulasi ja -seinät mittatilaustyönä",
+        "description": "Mittatilaustyönä valmistetut suihkuseinät, walk-in suihkut ja lasiratkaisut kylpyhuoneisiin, toimistoihin ja sisätiloihin - sisältäen neuvonnan, mittauksen, tilauksen, asennuksen ja huollon."
       }
     },
     "whatWeDo": "Mitä teemme",

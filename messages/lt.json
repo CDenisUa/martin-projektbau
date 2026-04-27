@@ -50,6 +50,10 @@
       "renovation": {
         "title": "Renovacija ir Rekonstrukcija",
         "description": "Išsamūs vidaus ir išorės renovacijos ir rekonstrukcijos projektai."
+      },
+      "shower": {
+        "title": "Dušo stiklas ir pertvaros pagal matmenis",
+        "description": "Individualiai pagamintos dušo pertvaros, walk-in dušai ir stiklo sprendimai vonios kambariams, biurams ir interjerams - su konsultacija, matavimais, užsakymu, montavimu ir aptarnavimu."
       }
     },
     "whatWeDo": "Ką mes darome",
