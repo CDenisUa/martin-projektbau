@@ -59,7 +59,7 @@ function ServiceRow({ serviceKey, index }: { serviceKey: ServiceKey; index: numb
           src={SERVICE_IMAGES[serviceKey]}
           alt={t(`items.${serviceKey}.title`)}
           fill
-          className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+          className="object-cover scale-[1.08] transition-transform duration-700 ease-out group-hover:scale-[1.12]"
           sizes="60vw"
         />
         <div className="absolute inset-0 bg-primary/20 group-hover:bg-primary/10 transition-colors duration-500" />
