@@ -125,7 +125,7 @@ export default function Header() {
         </div>
       </div>
 
-      {/* Mobile Navigation — right-side drawer */}
+      {/* Mobile Navigation - right-side drawer */}
       <AnimatePresence>
         {mobileOpen && (
           <>
