@@ -93,15 +93,12 @@ export default function ServicesPage() {
                   src={SERVICE_IMAGES[key]}
                   alt={t(`items.${key}.title`)}
                   fill
-                  className="object-cover object-[50%_38%] transition-transform duration-700 group-hover:scale-[1.04]"
+                  className="object-cover object-[50%_38%] scale-[1.08] transition-transform duration-700 group-hover:scale-[1.12]"
                   sizes="(max-width: 768px) 100vw, 420px"
                 />
                 <div className="absolute inset-0 bg-linear-to-t from-primary/35 via-transparent to-transparent" />
                 <div className="absolute left-4 top-4 flex h-11 w-11 items-center justify-center rounded-[6px] bg-white text-primary shadow-[0_10px_24px_rgba(10,22,40,0.18)]">
                   <Icon size={19} strokeWidth={1.8} aria-hidden="true" />
-                </div>
-                <div className="absolute right-4 top-4 rounded-[6px] bg-primary px-3 py-2 font-mono text-[11px] font-semibold leading-none text-white shadow-[0_10px_24px_rgba(10,22,40,0.18)]">
-                  {String(i + 1).padStart(2, '0')}
                 </div>
               </div>
 
