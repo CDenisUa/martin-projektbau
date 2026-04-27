@@ -1,0 +1,220 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e6]:
+        - link "Martin Projekt Group" [ref=e7] [cursor=pointer]:
+          - /url: /en
+          - img "Martin Projekt Group" [ref=e9]
+        - navigation "Main navigation" [ref=e10]:
+          - link "Home" [ref=e11] [cursor=pointer]:
+            - /url: /en
+            - text: Home
+          - link "Services" [ref=e13] [cursor=pointer]:
+            - /url: /en/services
+            - text: Services
+          - link "About" [ref=e14] [cursor=pointer]:
+            - /url: /en/about
+            - text: About
+          - link "Contact" [ref=e15] [cursor=pointer]:
+            - /url: /en/contact
+            - text: Contact
+        - button "Select language" [ref=e18]:
+          - img [ref=e19]
+          - generic [ref=e22]: en
+          - img [ref=e23]
+    - main [ref=e25]:
+      - generic [ref=e29]:
+        - paragraph [ref=e30]: martinprojektgroup.ch
+        - heading "Building Excellence, Engineering Trust" [level=1] [ref=e31]
+        - paragraph [ref=e32]: Construction, Facades, Installation and Interior Work
+        - link "Our Services" [ref=e34] [cursor=pointer]:
+          - /url: /en/services
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - generic [ref=e38]:
+            - generic [ref=e39]:
+              - paragraph [ref=e40]: What We Do
+              - heading "Our Services" [level=2] [ref=e41]
+            - paragraph [ref=e42]: Comprehensive construction and renovation services delivered with precision and expertise.
+          - generic [ref=e43]:
+            - generic [ref=e44]:
+              - generic [ref=e45]:
+                - paragraph [ref=e46]: "01"
+                - heading "Facade Construction" [level=3] [ref=e47]
+                - paragraph [ref=e48]: Professional facade systems designed for durability, aesthetics and energy efficiency.
+              - generic [ref=e49]:
+                - img "Facade Construction" [ref=e50]
+                - generic: "01"
+            - generic [ref=e52]:
+              - generic [ref=e53]:
+                - paragraph [ref=e54]: "02"
+                - heading "Tile & Stone Laying" [level=3] [ref=e55]
+                - paragraph [ref=e56]: Expert installation of premium tiles and natural stone for floors and walls.
+              - generic [ref=e57]:
+                - img "Tile & Stone Laying" [ref=e58]
+                - generic: "02"
+            - generic [ref=e60]:
+              - generic [ref=e61]:
+                - paragraph [ref=e62]: "03"
+                - heading "Parquet Flooring" [level=3] [ref=e63]
+                - paragraph [ref=e64]: High-quality parquet installation with meticulous attention to pattern and finish.
+              - generic [ref=e65]:
+                - img "Parquet Flooring" [ref=e66]
+                - generic: "03"
+            - generic [ref=e68]:
+              - generic [ref=e69]:
+                - paragraph [ref=e70]: "04"
+                - heading "Painting & Plastering" [level=3] [ref=e71]
+                - paragraph [ref=e72]: Flawless interior and exterior painting and plastering services.
+              - generic [ref=e73]:
+                - img "Painting & Plastering" [ref=e74]
+                - generic: "04"
+            - generic [ref=e76]:
+              - generic [ref=e77]:
+                - paragraph [ref=e78]: "05"
+                - heading "Window Installation" [level=3] [ref=e79]
+                - paragraph [ref=e80]: Precision window fitting for optimal insulation, light and aesthetics.
+              - generic [ref=e81]:
+                - img "Window Installation" [ref=e82]
+                - generic: "05"
+            - generic [ref=e84]:
+              - generic [ref=e85]:
+                - paragraph [ref=e86]: "06"
+                - heading "Renovation & Conversion" [level=3] [ref=e87]
+                - paragraph [ref=e88]: Complete interior and exterior renovation and conversion projects.
+              - generic [ref=e89]:
+                - img "Renovation & Conversion" [ref=e90]
+                - generic: "06"
+            - generic [ref=e92]:
+              - generic [ref=e93]:
+                - paragraph [ref=e94]: "07"
+                - heading "Custom Shower Glass & Enclosures" [level=3] [ref=e95]
+                - paragraph [ref=e96]: Custom shower enclosures, walk-in showers, and glass solutions for bathrooms, offices, and interiors - including consultation, measurement, ordering, installation, and service.
+              - generic [ref=e97]:
+                - img "Custom Shower Glass & Enclosures" [ref=e98]
+                - generic: "07"
+        - generic [ref=e104]:
+          - img "Martin Projekt Group craftsmanship" [ref=e108]
+          - generic [ref=e110]:
+            - paragraph [ref=e111]: Who We Are
+            - heading "About Martin Projekt Group" [level=2] [ref=e112]
+            - paragraph [ref=e113]: Swiss craftsmanship since day one.
+            - paragraph [ref=e114]: Martin Projekt Group is a Swiss construction and renovation company built on the foundations of quality, precision and reliability. With expertise spanning facade construction, interior finishing and full-scale renovations, we deliver projects that stand the test of time. Every detail is engineered with care - from the first sketch to the final finish.
+            - generic [ref=e115]:
+              - generic [ref=e116]:
+                - img [ref=e118]
+                - generic [ref=e121]:
+                  - generic [ref=e122]:
+                    - generic [ref=e123]: "01"
+                    - heading "Quality" [level=3] [ref=e124]
+                  - paragraph [ref=e125]: We use only the finest materials and proven techniques.
+              - generic [ref=e126]:
+                - img [ref=e128]
+                - generic [ref=e132]:
+                  - generic [ref=e133]:
+                    - generic [ref=e134]: "02"
+                    - heading "Precision" [level=3] [ref=e135]
+                  - paragraph [ref=e136]: Every millimetre matters. We engineer perfection.
+              - generic [ref=e137]:
+                - img [ref=e139]
+                - generic [ref=e142]:
+                  - generic [ref=e143]:
+                    - generic [ref=e144]: "03"
+                    - heading "Reliability" [level=3] [ref=e145]
+                  - paragraph [ref=e146]: On time, on budget, every single project.
+              - generic [ref=e147]:
+                - img [ref=e149]
+                - generic [ref=e151]:
+                  - generic [ref=e152]:
+                    - generic [ref=e153]: "04"
+                    - heading "Craftsmanship" [level=3] [ref=e154]
+                  - paragraph [ref=e155]: Decades of expertise in every surface we touch.
+            - link "Learn More About Us" [ref=e157] [cursor=pointer]:
+              - /url: /en/about
+              - text: Learn More About Us
+              - img [ref=e160]
+        - generic [ref=e164]:
+          - generic [ref=e165]:
+            - paragraph [ref=e166]: Contact
+            - heading "Get in Touch" [level=2] [ref=e167]
+            - paragraph [ref=e168]: Ready to start your project? We'd love to hear from you.
+            - generic [ref=e169]:
+              - generic [ref=e170]:
+                - img [ref=e172]
+                - generic [ref=e175]:
+                  - generic [ref=e176]: Email
+                  - link "info@martinprojektgroup.ch" [ref=e177] [cursor=pointer]:
+                    - /url: mailto:info@martinprojektgroup.ch
+              - generic [ref=e178]:
+                - img [ref=e180]
+                - generic [ref=e183]:
+                  - generic [ref=e184]: Switzerland
+                  - generic [ref=e185]: Switzerland
+          - generic [ref=e187]:
+            - generic [ref=e188]:
+              - generic [ref=e189]:
+                - generic [ref=e190]: Full Name *
+                - textbox "Your full name" [ref=e191]
+              - generic [ref=e192]:
+                - generic [ref=e193]: Email Address *
+                - textbox "your@email.com" [ref=e194]
+            - generic [ref=e195]:
+              - generic [ref=e196]: Phone Number (optional)
+              - textbox "+41 ..." [ref=e197]
+            - generic [ref=e198]:
+              - generic [ref=e199]: Project Description *
+              - textbox "Tell us about your project..." [ref=e200]
+            - paragraph [ref=e201]:
+              - text: By submitting, I agree to the processing of my data in accordance with the
+              - link "Privacy Policy" [ref=e202] [cursor=pointer]:
+                - /url: /en/privacy
+              - text: .
+            - button "Send Message" [ref=e203]:
+              - text: Send Message
+              - img [ref=e204]
+    - contentinfo [ref=e206]:
+      - generic [ref=e208]:
+        - link "Martin Projekt Group" [ref=e209] [cursor=pointer]:
+          - /url: /en
+          - img "Martin Projekt Group" [ref=e210]
+        - generic [ref=e211]:
+          - heading "Quick Links" [level=4] [ref=e212]
+          - list [ref=e213]:
+            - listitem [ref=e214]:
+              - link "Home" [ref=e215] [cursor=pointer]:
+                - /url: /en
+            - listitem [ref=e216]:
+              - link "Services" [ref=e217] [cursor=pointer]:
+                - /url: /en/services
+            - listitem [ref=e218]:
+              - link "About" [ref=e219] [cursor=pointer]:
+                - /url: /en/about
+            - listitem [ref=e220]:
+              - link "Contact" [ref=e221] [cursor=pointer]:
+                - /url: /en/contact
+        - generic [ref=e222]:
+          - heading "Legal" [level=4] [ref=e223]
+          - list [ref=e224]:
+            - listitem [ref=e225]:
+              - link "Privacy Policy" [ref=e226] [cursor=pointer]:
+                - /url: /en/privacy
+            - listitem [ref=e227]:
+              - link "Legal Notice" [ref=e228] [cursor=pointer]:
+                - /url: /en/impressum
+            - listitem [ref=e229]:
+              - link "Terms of Use" [ref=e230] [cursor=pointer]:
+                - /url: /en/terms
+            - listitem [ref=e231]:
+              - link "Cookie Policy" [ref=e232] [cursor=pointer]:
+                - /url: /en/cookies
+        - generic [ref=e233]:
+          - heading "Contact" [level=4] [ref=e234]
+          - link "info@martinprojektgroup.ch" [ref=e235] [cursor=pointer]:
+            - /url: mailto:info@martinprojektgroup.ch
+            - img [ref=e236]
+            - text: info@martinprojektgroup.ch
+      - link "Developed by Chepio" [ref=e241] [cursor=pointer]:
+        - /url: https://chepio.tech
+        - img "chepio.tech" [ref=e242]
+  - button "Open Next.js Dev Tools" [ref=e248] [cursor=pointer]:
+    - img [ref=e249]
