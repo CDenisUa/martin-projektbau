@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Excelencia en Construcción,\nConfianza en los Cimientos",
-    "subheadline": "Construcción, fachadas, montaje e interiores",
+    "subheadline": "Construcción, fachadas, ventanas, interiores y renovaciones en Suiza",
     "cta": "Ver Proyectos",
     "ctaSecondary": "Nuestros Servicios",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Años de Experiencia",
     "stat2value": "200+",
     "stat2label": "Proyectos Completados",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Servicios Principales",
     "stat4value": "CH",
     "stat4label": "Calidad Suiza"
   },
   "services": {
     "title": "Nuestros Servicios",
-    "subtitle": "Servicios integrales de construcción y renovación con precisión y experiencia.",
+    "subtitle": "Unimos envolvente del edificio, acabados interiores y trabajos de superficie en soluciones de construcción y renovación claramente coordinadas para viviendas, apartamentos y espacios comerciales en Suiza.",
     "viewAll": "Ver todos los servicios",
     "items": {
       "facade": {
         "title": "Construcción de Fachadas",
-        "description": "Sistemas de fachadas profesionales diseñados para durabilidad, estética y eficiencia energética."
+        "description": "Planificamos y realizamos fachadas para obra nueva y renovación: subestructura, aislamiento, revestimiento y encuentros limpios. Así la envolvente del edificio queda resistente a la intemperie, eficiente energéticamente y visualmente coherente."
       },
       "tiling": {
         "title": "Colocación de Azulejos y Piedra",
-        "description": "Instalación experta de azulejos premium y piedra natural para suelos y paredes."
+        "description": "Azulejos, gres porcelánico, piedra natural y mosaico para baños, cocinas, zonas de estar, escaleras y exteriores. Cuidamos la base, las pendientes, la impermeabilización, las juntas precisas y un acabado duradero y limpio."
       },
       "parquet": {
         "title": "Parquet",
-        "description": "Instalación de parquet de alta calidad con atención meticulosa al patrón y acabado."
+        "description": "Trabajos de parquet a medida, desde la preparación de la base hasta el acabado de la superficie. Ya sea renovación, nueva instalación o renovación de la superficie, creamos suelos de madera cálidos, robustos y con un patrón equilibrado."
       },
       "painting": {
         "title": "Pintura y Enlucido",
-        "description": "Servicios impecables de pintura y enlucido interior y exterior."
+        "description": "Pintura interior y exterior, revocos, enlucidos y preparación de superficies con un solo equipo. Para paredes lisas, fachadas protegidas y espacios que transmiten limpieza y calidad."
       },
       "windows": {
         "title": "Instalación de Ventanas",
-        "description": "Colocación de ventanas de precisión para aislamiento, luz y estética óptimos."
+        "description": "Ventanas medidas con precisión, instaladas profesionalmente y conectadas de forma hermética. Una buena instalación mejora el aislamiento térmico, la protección acústica, la seguridad y el confort en obra nueva y reformas."
       },
       "renovation": {
         "title": "Renovación y Conversión",
-        "description": "Proyectos completos de renovación y conversión interior y exterior."
+        "description": "Renovaciones y reformas con coordinación clara de los oficios - desde la demolición hasta los acabados, pasando por la construcción interior. La estructura existente se moderniza, se revaloriza y se adapta al uso diario."
       },
       "shower": {
         "title": "Mamparas de ducha y vidrio a medida",
-        "description": "Mamparas de ducha a medida, duchas walk-in y soluciones de vidrio para baños, oficinas e interiores - incluida consultoría, medición, pedido, instalación y servicio."
+        "description": "Vidrio de ducha y mamparas a medida para nichos, esquinas, soluciones walk-in y dimensiones especiales. Nos encargamos de asesoramiento, medición, pedido, instalación y servicio para baños luminosos y fáciles de mantener."
       }
     },
     "whatWeDo": "Lo que hacemos",
@@ -75,24 +75,24 @@
   "about": {
     "title": "Sobre Martin Projekt Group",
     "subtitle": "Artesanía suiza desde el primer día.",
-    "body": "Martin Projekt Group es una empresa suiza de construcción y renovación fundada en la calidad, precisión y fiabilidad. Con experiencia en construcción de fachadas, acabados interiores y renovaciones completas, entregamos proyectos que perduran.",
+    "body": "Martin Projekt Group es una empresa suiza de construcción y renovación para fachadas, ventanas, acabados interiores y superficies de alta calidad. Abordamos cada proyecto desde la sustancia del edificio: bases limpias, encuentros precisos, materiales adecuados y coordinación fiable. Así creamos soluciones que funcionan en el uso diario, tienen una presencia cuidada y ayudan a proteger el valor del inmueble a largo plazo.",
     "sectionLabel": "Quiénes Somos",
     "values": {
       "quality": {
         "title": "Calidad",
-        "description": "Usamos solo los mejores materiales y técnicas probadas."
+        "description": "Los materiales y sistemas se eligen según el uso, la base y el nivel de desgaste que deben soportar."
       },
       "precision": {
         "title": "Precisión",
-        "description": "Cada milímetro importa. Diseñamos la perfección."
+        "description": "Mediciones exactas, encuentros limpios y detalles controlados definen el resultado final."
       },
       "reliability": {
         "title": "Fiabilidad",
-        "description": "A tiempo, en presupuesto, en cada proyecto."
+        "description": "Procesos claros, comunicación transparente y ejecución puntual desde la primera cita hasta la entrega."
       },
       "craftsmanship": {
         "title": "Artesanía",
-        "description": "Décadas de experiencia en cada superficie que tocamos."
+        "description": "Manos expertas para fachadas, suelos, paredes, ventanas y soluciones de vidrio - visibles en cada detalle."
       }
     },
     "learnMore": "Conoce más sobre nosotros",
@@ -147,7 +147,7 @@
     "sectionLabel": "Preferencias"
   },
   "metaTitle": "Martin Projekt Group GmbH – Construcción, Renovaciones y Montaje",
-  "metaDescription": "Construcción de fachadas, instalación de ventanas e interiores. Trabajos fiables para apartamentos y casas.",
+  "metaDescription": "Construcción, fachadas, instalación de ventanas, acabados interiores y renovaciones en Suiza. Trabajos precisos para apartamentos, casas y locales comerciales.",
   "impressum": {
     "pageTitle": "Aviso legal",
     "sectionLabel": "Legal",

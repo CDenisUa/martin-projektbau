@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Qualität im Bau,\nVertrauen im Fundament",
-    "subheadline": "Bau, Fassaden, Montage und Innenausbau",
+    "subheadline": "Bau, Fassaden, Fenster, Innenausbau und Renovationen in der Schweiz",
     "cta": "Projekte ansehen",
     "ctaSecondary": "Unsere Leistungen",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Jahre Erfahrung",
     "stat2value": "200+",
     "stat2label": "Abgeschlossene Projekte",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Kernleistungen",
     "stat4value": "CH",
     "stat4label": "Schweizer Qualität"
   },
   "services": {
     "title": "Unsere Leistungen",
-    "subtitle": "Umfassende Bau- und Renovationsdienstleistungen mit Präzision und Fachkompetenz.",
+    "subtitle": "Wir verbinden Gebäudehülle, Innenausbau und Oberflächenarbeiten zu sauber koordinierten Bau- und Renovationslösungen - für Wohnungen, Häuser und gewerbliche Räume in der Schweiz.",
     "viewAll": "Alle Leistungen ansehen",
     "items": {
       "facade": {
         "title": "Fassadenbau",
-        "description": "Professionelle Fassadensysteme für Langlebigkeit, Ästhetik und Energieeffizienz."
+        "description": "Wir planen und realisieren Fassaden für Neubau und Sanierung: Unterkonstruktion, Dämmung, Verkleidung und saubere Anschlüsse. So wird die Gebäudehülle wetterbeständig, energieeffizient und optisch stimmig."
       },
       "tiling": {
         "title": "Platten- und Fliesenverlegung",
-        "description": "Fachgerechte Verlegung hochwertiger Fliesen und Naturstein für Böden und Wände."
+        "description": "Platten, Feinsteinzeug, Naturstein und Mosaik für Bad, Küche, Wohnräume, Treppen und Aussenbereiche. Wir achten auf Untergrund, Gefälle, Abdichtung, präzise Fugen und ein dauerhaft sauberes Finish."
       },
       "parquet": {
         "title": "Parkettverlegung",
-        "description": "Hochwertige Parkettverlegung mit besonderer Sorgfalt auf Muster und Oberfläche."
+        "description": "Massgenaue Parkettarbeiten vom Untergrundaufbau bis zur Oberfläche. Ob Renovation, Neuverlegung oder Auffrischung: Wir schaffen warme, robuste Holzböden mit ruhigem Verlegebild."
       },
       "painting": {
         "title": "Maler- und Gipserarbeiten",
-        "description": "Makellose Innen- und Aussenmalerarbeiten sowie Gipserarbeiten."
+        "description": "Innen- und Aussenanstriche, Verputz, Spachtelarbeiten und Oberflächenvorbereitung aus einer Hand. Für glatte Wände, geschützte Fassaden und Räume, die sauber und hochwertig wirken."
       },
       "windows": {
         "title": "Fenstermontage",
-        "description": "Präzise Fenstermontage für optimale Dämmung, Licht und Ästhetik."
+        "description": "Fenster präzise ausmessen, fachgerecht montieren und luftdicht anschliessen. Gute Fenster verbessern Wärmedämmung, Schallschutz, Sicherheit und Wohnkomfort bei Neubauten und Sanierungen."
       },
       "renovation": {
         "title": "Renovationen und Umbauten",
-        "description": "Vollständige Innen- und Aussenrenovationen sowie Umbauprojekte."
+        "description": "Renovationen und Umbauten mit klarer Koordination der Gewerke - vom Rückbau über Innenausbau bis zu Oberflächen. Bestehende Bausubstanz wird modernisiert, aufgewertet und alltagstauglich erneuert."
       },
       "shower": {
         "title": "Duschglas & Duschabtrennungen nach Mass",
-        "description": "Massgefertigte Duschabtrennungen, Walk-in-Duschen und Glaslösungen für Badezimmer, Büros und Innenräume - inklusive Beratung, Aufmass, Bestellung, Montage und Service."
+        "description": "Duschglas und Duschabtrennungen nach Mass für Nischen, Ecken, Walk-in-Lösungen und Sondermasse. Wir übernehmen Beratung, Aufmass, Bestellung, Montage und Service für helle, pflegeleichte Bäder."
       }
     },
     "whatWeDo": "Was wir tun",
@@ -75,24 +75,24 @@
   "about": {
     "title": "Über Martin Projekt Group",
     "subtitle": "Schweizer Handwerk vom ersten Tag an.",
-    "body": "Die Martin Projekt Group ist ein Schweizer Bau- und Renovationsunternehmen, das auf den Grundlagen von Qualität, Präzision und Zuverlässigkeit aufgebaut ist. Mit Expertise in Fassadenbau, Innenausbau und umfassenden Renovationen liefern wir Projekte, die den Test der Zeit bestehen. Jedes Detail wird mit Sorgfalt ausgeführt – vom ersten Entwurf bis zum letzten Schliff.",
+    "body": "Die Martin Projekt Group ist ein Schweizer Bau- und Renovationsunternehmen für Fassaden, Fenster, Innenausbau und hochwertige Oberflächen. Wir denken Projekte von der Substanz aus: sauberer Untergrund, präzise Anschlüsse, passende Materialien und verlässliche Koordination. So entstehen Lösungen, die im Alltag funktionieren, optisch überzeugen und den Wert der Liegenschaft langfristig sichern.",
     "sectionLabel": "Wer wir sind",
     "values": {
       "quality": {
         "title": "Qualität",
-        "description": "Wir verwenden nur die besten Materialien und bewährten Techniken."
+        "description": "Materialien und Systeme werden passend zur Nutzung, zum Untergrund und zur Beanspruchung ausgewählt."
       },
       "precision": {
         "title": "Präzision",
-        "description": "Jeder Millimeter zählt. Wir erschaffen Perfektion."
+        "description": "Exakte Aufmasse, saubere Anschlüsse und kontrollierte Details entscheiden über das Ergebnis."
       },
       "reliability": {
         "title": "Zuverlässigkeit",
-        "description": "Pünktlich, im Budget, bei jedem Projekt."
+        "description": "Klare Abläufe, transparente Kommunikation und termintreue Ausführung vom ersten Termin bis zur Übergabe."
       },
       "craftsmanship": {
         "title": "Handwerk",
-        "description": "Jahrzehntelange Expertise auf jeder Fläche, die wir berühren."
+        "description": "Erfahrene Handarbeit für Fassaden, Böden, Wände, Fenster und Glaslösungen - sichtbar in jedem Detail."
       }
     },
     "learnMore": "Mehr über uns erfahren",
@@ -147,7 +147,7 @@
     "sectionLabel": "Einstellungen"
   },
   "metaTitle": "Martin Projekt Group GmbH – Bau, Renovationen und Montage",
-  "metaDescription": "Fassadenbau, Fenstermontage und Innenausbau. Zuverlässige Arbeiten für Wohnungen und Häuser.",
+  "metaDescription": "Bau, Fassadenbau, Fenstermontage, Innenausbau und Renovationen in der Schweiz. Präzise Arbeiten für Wohnungen, Häuser und Gewerberäume.",
   "impressum": {
     "pageTitle": "Impressum",
     "sectionLabel": "Rechtliches",

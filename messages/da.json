@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Byggeriets Ekspertise,\nTillid i Fundamentet",
-    "subheadline": "Byggeri, facader, montage og indvendigt arbejde",
+    "subheadline": "Byggeri, facader, vinduer, interiør og renoveringer i Schweiz",
     "cta": "Se Projekter",
     "ctaSecondary": "Vores Tjenester",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Års erfaring",
     "stat2value": "200+",
     "stat2label": "Gennemførte projekter",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Kernetjenester",
     "stat4value": "CH",
     "stat4label": "Schweizisk kvalitet"
   },
   "services": {
     "title": "Vores Tjenester",
-    "subtitle": "Omfattende bygge- og renoveringstjenester leveret med præcision og ekspertise.",
+    "subtitle": "Vi kombinerer klimaskærm, indvendig finish og overfladearbejde i klart koordinerede bygge- og renoveringsløsninger til lejligheder, huse og erhvervslokaler i Schweiz.",
     "viewAll": "Se alle tjenester",
     "items": {
       "facade": {
         "title": "Facadebyggeri",
-        "description": "Professionelle facadesystemer designet til holdbarhed, æstetik og energieffektivitet."
+        "description": "Vi planlægger og udfører facader til nybyggeri og renovering: underkonstruktion, isolering, beklædning og rene tilslutninger. Resultatet er en vejrbestandig, energieffektiv og visuelt afstemt klimaskærm."
       },
       "tiling": {
         "title": "Flise- og Stenlægning",
-        "description": "Ekspert installation af premium fliser og natursten til gulve og vægge."
+        "description": "Fliser, porcelænsfliser, natursten og mosaik til badeværelser, køkkener, opholdsrum, trapper og udendørsarealer. Vi fokuserer på underlag, fald, vådrumssikring, præcise fuger og en varigt ren finish."
       },
       "parquet": {
         "title": "Parketgulv",
-        "description": "Høj kvalitet parketinstallation med omhyggelig opmærksomhed på mønster og finish."
+        "description": "Præcist parketarbejde fra opbygning af underlag til den færdige overflade. Ved renovering, ny lægning eller opfriskning skaber vi varme og robuste trægulve med et roligt læggemønster."
       },
       "painting": {
         "title": "Maling og Puds",
-        "description": "Upåklagelig indvendig og udvendig maling og pudsning."
+        "description": "Indvendig og udvendig maling, puds, spartling og overfladeforberedelse fra ét team. Til glatte vægge, beskyttede facader og rum, der fremstår rene og eksklusive."
       },
       "windows": {
         "title": "Vinduesmontering",
-        "description": "Præcis vinduesmontering for optimal isolering, lys og æstetik."
+        "description": "Vinduer måles præcist, monteres fagligt korrekt og tilsluttes lufttæt. God vinduesmontering forbedrer varmeisolering, lydkomfort, sikkerhed og boligkomfort i både nybyggeri og renovering."
       },
       "renovation": {
         "title": "Renovering og Ombygning",
-        "description": "Komplette ind- og udendørs renoverings- og ombygningsprojekter."
+        "description": "Renoveringer og ombygninger med klar koordinering af fagene - fra nedrivning og indvendig opbygning til de endelige overflader. Den eksisterende bygningsmasse moderniseres, opgraderes og gøres praktisk i hverdagen."
       },
       "shower": {
         "title": "Bruserafskærmning & glas efter mål",
-        "description": "Skræddersyede bruserafskærmninger, walk-in-brusere og glasløsninger til badeværelser, kontorer og interiører - inklusiv rådgivning, opmåling, bestilling, montage og service."
+        "description": "Bruseglas og bruserafskærmninger efter mål til nicher, hjørner, walk-in-løsninger og specialmål. Vi står for rådgivning, opmåling, bestilling, montage og service til lyse badeværelser, der er nemme at vedligeholde."
       }
     },
     "whatWeDo": "Hvad vi gør",
@@ -75,24 +75,24 @@
   "about": {
     "title": "Om Martin Projekt Group",
     "subtitle": "Schweizisk håndværk fra dag ét.",
-    "body": "Martin Projekt Group er en schweizisk bygge- og renoveringsvirksomhed bygget på kvalitet, præcision og pålidelighed.",
+    "body": "Martin Projekt Group er en schweizisk bygge- og renoveringsvirksomhed for facader, vinduer, indvendig finish og overflader i høj kvalitet. Vi tager udgangspunkt i bygningens substans: rene underlag, præcise tilslutninger, egnede materialer og pålidelig koordinering. Det giver løsninger, der fungerer i daglig brug, ser veludførte ud og hjælper med at bevare ejendommens langsigtede værdi.",
     "sectionLabel": "Hvem Vi Er",
     "values": {
       "quality": {
         "title": "Kvalitet",
-        "description": "Vi bruger kun de bedste materialer og afprøvede teknikker."
+        "description": "Materialer og systemer vælges efter brug, underlag og den belastning, de skal kunne modstå."
       },
       "precision": {
         "title": "Præcision",
-        "description": "Hver millimeter tæller. Vi konstruerer perfektion."
+        "description": "Nøjagtige opmålinger, rene tilslutninger og kontrollerede detaljer afgør det endelige resultat."
       },
       "reliability": {
         "title": "Pålidelighed",
-        "description": "Til tiden, inden for budgettet, hvert eneste projekt."
+        "description": "Klare processer, transparent kommunikation og punktlig udførelse fra første møde til aflevering."
       },
       "craftsmanship": {
         "title": "Håndværk",
-        "description": "Årtiers ekspertise på hver overflade vi rører."
+        "description": "Erfarent håndværk til facader, gulve, vægge, vinduer og glasløsninger - synligt i hver eneste detalje."
       }
     },
     "learnMore": "Lær mere om os",
@@ -147,7 +147,7 @@
     "sectionLabel": "Præferencer"
   },
   "metaTitle": "Martin Projekt Group GmbH – Byggeri, Renoveringer og Montage",
-  "metaDescription": "Facadebyggeri, vinduesmontering og indvendig renovering. Pålidelige arbejder til lejligheder og huse.",
+  "metaDescription": "Byggeri, facader, vinduesmontering, indvendig finish og renoveringer i Schweiz. Præcist arbejde til lejligheder, huse og erhvervslokaler.",
   "impressum": {
     "pageTitle": "Juridisk information",
     "sectionLabel": "Juridisk",

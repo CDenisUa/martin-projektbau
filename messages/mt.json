@@ -3,13 +3,13 @@
     "home": "Dar",
     "projects": "Proġetti",
     "services": "Servizzi",
-    "about": "Dwarна",
+    "about": "Dwarna",
     "contact": "Kuntatt",
     "language": "Lingwa"
   },
   "hero": {
     "headline": "Eċċellenza fil-Bini,\nFiduċja fil-Pedamenti",
-    "subheadline": "Kostruzzjoni, faċċati, installazzjoni u xogħol intern",
+    "subheadline": "Kostruzzjoni, faċċati, twieqi, interjuri u rinnovazzjonijiet fl-Iżvizzera",
     "cta": "Ara l-Proġetti",
     "ctaSecondary": "Is-Servizzi Tagħna",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Snin ta' esperjenza",
     "stat2value": "200+",
     "stat2label": "Proġetti mlestu",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Servizzi ewlenin",
     "stat4value": "CH",
     "stat4label": "Kwalità Svizzera"
   },
   "services": {
     "title": "Is-Servizzi Tagħna",
-    "subtitle": "Servizzi komprensivi ta' kostruzzjoni u rinnovazzjoni b'preċizzjoni u esperjenza.",
+    "subtitle": "Ngħaqqdu l-qoxra tal-bini, il-finituri interni u x-xogħol fuq l-uċuħ f'soluzzjonijiet ta' kostruzzjoni u rinnovazzjoni kkoordinati b'mod ċar għal appartamenti, djar u spazji kummerċjali fl-Iżvizzera.",
     "viewAll": "Ara s-servizzi kollha",
     "items": {
       "facade": {
         "title": "Kostruzzjoni tal-Faċċata",
-        "description": "Sistemi professjonali ta' faċċata għal durabbiltà, estetika u effiċjenza enerġetika."
+        "description": "Nippjanaw u nwettqu faċċati għal bini ġdid u rinnovazzjoni: sottostruttura, iżolament, kisi u konnessjonijiet nodfa. B'hekk il-qoxra tal-bini ssir reżistenti għat-temp, effiċjenti fl-enerġija u viżwalment armonjuża."
       },
       "tiling": {
         "title": "Tqegħid ta' Tiles u Ġebel",
-        "description": "Installazzjon esperta ta' tiles premium u ġebel naturali."
+        "description": "Madum, gres porċellanat, ġebel naturali u mużajk għal kmamar tal-banju, kċejjen, spazji tal-għajxien, taraġ u żoni ta' barra. Nagħtu kas tal-bażi, l-inklinazzjonijiet, l-impermeabilizzazzjoni, il-ġonot preċiżi u finitura nadifa u dejjiema."
       },
       "parquet": {
         "title": "Parket",
-        "description": "Installazzjon ta' parket ta' kwalità għolja b'attenzjoni metikolosa."
+        "description": "Xogħol preċiż tal-parkè mill-preparazzjoni tal-bażi sal-wiċċ finali. Kemm f'rinnovazzjoni, installazzjoni ġdida jew tiġdid, noħolqu artijiet tal-injam sħan u robusti b'mudell kalm."
       },
       "painting": {
         "title": "Pittura u Plastru",
-        "description": "Servizzi ta' pittura u plastru ta' ġewwa u barra bla difett."
+        "description": "Pittura interna u esterna, ġibs, livellar u preparazzjoni tal-uċuħ minn tim wieħed. Għal ħitan lixxi, faċċati protetti u spazji li jidhru nodfa u ta' kwalità."
       },
       "windows": {
         "title": "Installazzjoni ta' Twieqi",
-        "description": "Tqegħid preċiż ta' twieqi għal iżolament, dawl u estetika ottimali."
+        "description": "It-twieqi jitkejlu b'mod preċiż, jiġu installati professjonalment u jingħaqdu b'mod ermetiku. Installazzjoni tajba ttejjeb l-iżolament termali, il-protezzjoni mill-ħoss, is-sigurtà u l-kumdità fil-bini ġdid u fir-rinnovazzjoni."
       },
       "renovation": {
         "title": "Rinnovazzjoni u Konverżjoni",
-        "description": "Proġetti sħaħ ta' rinnovazzjoni u konverżjoni ta' ġewwa u barra."
+        "description": "Rinnovazzjonijiet u tibdiliet b'koordinazzjoni ċara tax-xogħlijiet - mit-tneħħija u l-bini intern sal-uċuħ finali. Il-bini eżistenti jiġi modernizzat, jingħata aktar valur u jiġi adattat għall-użu ta' kuljum."
       },
       "shower": {
         "title": "Ħġieġ tad-doċċa u separaturi fuq il-qies",
-        "description": "Separaturi tad-doċċa magħmula fuq il-qies, doċċi walk-in u soluzzjonijiet tal-ħġieġ għal kmamar tal-banju, uffiċċji u interni - inkluż konsultazzjoni, kejl, ordni, installazzjoni u servizz."
+        "description": "Ħġieġ tad-doċċa u separaturi fuq il-qies għal niċeċ, kantunieri, soluzzjonijiet walk-in u qisien speċjali. Nieħdu ħsieb il-konsultazzjoni, il-kejl, l-ordni, l-installazzjoni u s-servizz għal kmamar tal-banju mdawla u faċli biex jinżammu."
       }
     },
     "whatWeDo": "X'nagħmlu",
@@ -75,24 +75,24 @@
   "about": {
     "title": "Dwar Martin Projekt Group",
     "subtitle": "Artiġjanat Svizzeru mill-ewwel jum.",
-    "body": "Martin Projekt Group hija kumpanija Svizzera ta' kostruzzjoni u rinnovazzjoni mibnija fuq il-kwalità, preċizzjoni u affidabbiltà.",
+    "body": "Martin Projekt Group hija kumpanija Svizzera ta' kostruzzjoni u rinnovazzjoni għal faċċati, twieqi, finituri interni u uċuħ ta' kwalità għolja. Inħarsu lejn kull proġett mill-qalba tal-bini: bażi nadifa, konnessjonijiet preċiżi, materjali xierqa u koordinazzjoni affidabbli. B'hekk jinħolqu soluzzjonijiet li jaħdmu fil-ħajja ta' kuljum, jidhru puliti u jgħinu biex jinżamm il-valur tal-proprjetà fit-tul.",
     "sectionLabel": "Min Aħna",
     "values": {
       "quality": {
         "title": "Kwalità",
-        "description": "Nużaw biss l-aqwa materjali u tekniki ppruvati."
+        "description": "Il-materjali u s-sistemi jintgħażlu skont l-użu, il-bażi u l-livell ta' tagħbija mistenni."
       },
       "precision": {
         "title": "Preċizzjoni",
-        "description": "Kull millimetru jgħodd. Ninġinjeraw il-perfezzjoni."
+        "description": "Kejl eżatt, konnessjonijiet nodfa u dettalji kkontrollati jiddeterminaw ir-riżultat finali."
       },
       "reliability": {
         "title": "Affidabbiltà",
-        "description": "Fil-ħin, fil-baġit, f'kull proġett."
+        "description": "Proċessi ċari, komunikazzjoni trasparenti u eżekuzzjoni fil-ħin mill-ewwel laqgħa sal-kunsinna."
       },
       "craftsmanship": {
         "title": "Artiġjanat",
-        "description": "Għexieren ta' snin ta' esperjenza fuq kull wiċċ li nmissuh."
+        "description": "Xogħol bl-idejn b'esperjenza għal faċċati, artijiet, ħitan, twieqi u soluzzjonijiet tal-ħġieġ - viżibbli f'kull dettall."
       }
     },
     "learnMore": "Isir taf aktar",
@@ -147,7 +147,7 @@
     "sectionLabel": "Preferenzi"
   },
   "metaTitle": "Martin Projekt Group GmbH – Kostruzzjoni, Rinnovazzjonijiet u Installazzjoni",
-  "metaDescription": "Kostruzzjoni tal-faċċata, installazzjoni tat-twieqi u xogħol intern. Xogħol affidabbli għal appartamenti u djar.",
+  "metaDescription": "Kostruzzjoni, faċċati, installazzjoni tat-twieqi, finituri interni u rinnovazzjonijiet fl-Iżvizzera. Xogħol preċiż għal appartamenti, djar u spazji kummerċjali.",
   "impressum": {
     "pageTitle": "Avviż Legali",
     "sectionLabel": "Legali",

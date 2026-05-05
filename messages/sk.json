@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Dokonalosť v Stavebníctve,\nDôvera v Základoch",
-    "subheadline": "Stavba, fasády, montáž a interiérové práce",
+    "subheadline": "Stavba, fasády, okná, interiéry a rekonštrukcie vo Švajčiarsku",
     "cta": "Zobraziť Projekty",
     "ctaSecondary": "Naše Služby",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Rokov skúseností",
     "stat2value": "200+",
     "stat2label": "Dokončených projektov",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Hlavných služieb",
     "stat4value": "CH",
     "stat4label": "Švajčiarska kvalita"
   },
   "services": {
     "title": "Naše Služby",
-    "subtitle": "Komplexné stavebné a rekonštrukčné služby s precíznosťou a odbornosťou.",
+    "subtitle": "Spájame obálku budovy, interiérové dokončovacie práce a povrchové úpravy do jasne koordinovaných stavebných a rekonštrukčných riešení pre byty, domy a komerčné priestory vo Švajčiarsku.",
     "viewAll": "Zobraziť všetky služby",
     "items": {
       "facade": {
         "title": "Fasádne Stavby",
-        "description": "Profesionálne fasádne systémy pre trvanlivosť, estetiku a energetickú efektívnosť."
+        "description": "Navrhujeme a realizujeme fasády pre novostavby aj rekonštrukcie: podkonštrukciu, izoláciu, obklad a čisté napojenia. Obálka budovy je tak odolná voči počasiu, energeticky úsporná a vizuálne jednotná."
       },
       "tiling": {
         "title": "Kladenie Dlaždíc a Kameňa",
-        "description": "Odborná inštalácia prémiových dlaždíc a prírodného kameňa pre podlahy a steny."
+        "description": "Dlažba, porcelánová kamenina, prírodný kameň a mozaika pre kúpeľne, kuchyne, obytné priestory, schody aj exteriéry. Dbáme na podklad, spád, hydroizoláciu, presné škáry a trvalo čisté prevedenie."
       },
       "parquet": {
         "title": "Parketové Podlahy",
-        "description": "Vysokokvalitná inštalácia parkiet s precíznou pozornosťou na vzor a povrchovú úpravu."
+        "description": "Presné parketárske práce od prípravy podkladu až po finálny povrch. Či ide o rekonštrukciu, novú pokládku alebo oživenie, vytvárame teplé a odolné drevené podlahy s pokojným vzorom pokládky."
       },
       "painting": {
         "title": "Maľovanie a Omietanie",
-        "description": "Bezchybné interiérové a exteriérové maliarske a omietacie práce."
+        "description": "Interiérové aj exteriérové nátery, omietky, stierky a príprava povrchov z jednej ruky. Pre hladké steny, chránené fasády a priestory, ktoré pôsobia čisto a kvalitne."
       },
       "windows": {
         "title": "Montáž Okien",
-        "description": "Presná montáž okien pre optimálnu izoláciu a estetiku."
+        "description": "Okná presne zameriame, odborne namontujeme a vzduchotesne napojíme. Kvalitná montáž zlepšuje tepelnú izoláciu, akustický komfort, bezpečnosť aj pohodlie pri novostavbách a rekonštrukciách."
       },
       "renovation": {
         "title": "Rekonštrukcie a Prestavby",
-        "description": "Kompletné interiérové a exteriérové rekonštrukcie a prestavby."
+        "description": "Rekonštrukcie a prestavby s jasnou koordináciou profesií - od búracích prác cez interiérovú výstavbu až po finálne povrchy. Existujúca stavba sa modernizuje, zhodnocuje a prispôsobuje každodennému používaniu."
       },
       "shower": {
         "title": "Sprchové sklo a zásteny na mieru",
-        "description": "Sprchové zásteny na mieru, walk-in sprchy a sklenené riešenia pre kúpeľne, kancelárie a interiéry - vrátane poradenstva, merania, objednávky, montáže a servisu."
+        "description": "Sprchové sklo a zásteny na mieru pre niky, rohy, walk-in riešenia aj atypické rozmery. Zabezpečujeme poradenstvo, meranie, objednávku, montáž a servis pre svetlé kúpeľne s jednoduchou údržbou."
       }
     },
     "whatWeDo": "Čo robíme",
@@ -75,24 +75,24 @@
   "about": {
     "title": "O spoločnosti Martin Projekt Group",
     "subtitle": "Švajčiarske remeslo od prvého dňa.",
-    "body": "Martin Projekt Group je švajčiarska stavebná a rekonštrukčná spoločnosť postavená na základoch kvality, precíznosti a spoľahlivosti.",
+    "body": "Martin Projekt Group je švajčiarska stavebná a rekonštrukčná spoločnosť pre fasády, okná, interiérové dokončovacie práce a kvalitné povrchy. Každý projekt posudzujeme od samotnej podstaty budovy: čistý podklad, presné napojenia, vhodné materiály a spoľahlivá koordinácia. Vznikajú tak riešenia, ktoré fungujú v každodennom používaní, dobre vyzerajú a dlhodobo chránia hodnotu nehnuteľnosti.",
     "sectionLabel": "Kto Sme",
     "values": {
       "quality": {
         "title": "Kvalita",
-        "description": "Používame iba najlepšie materiály a overené techniky."
+        "description": "Materiály a systémy volíme podľa využitia, podkladu a očakávaného zaťaženia."
       },
       "precision": {
         "title": "Precíznosť",
-        "description": "Každý milimeter sa počíta. Navrhujeme dokonalosť."
+        "description": "Presné zameranie, čisté napojenia a kontrolované detaily určujú konečný výsledok."
       },
       "reliability": {
         "title": "Spoľahlivosť",
-        "description": "Načas, v rozpočte, pri každom projekte."
+        "description": "Jasné procesy, transparentná komunikácia a dodržanie termínov od prvej schôdzky po odovzdanie."
       },
       "craftsmanship": {
         "title": "Remeslo",
-        "description": "Desaťročia skúseností na každom povrchu, ktorého sa dotkneme."
+        "description": "Skúsená ručná práca pre fasády, podlahy, steny, okná a sklenené riešenia - viditeľná v každom detaile."
       }
     },
     "learnMore": "Zistiť viac",
@@ -147,7 +147,7 @@
     "sectionLabel": "Predvoľby"
   },
   "metaTitle": "Martin Projekt Group GmbH – Stavebníctvo, Rekonštrukcie a Montáž",
-  "metaDescription": "Fasádne práce, montáž okien a interiérové práce. Spoľahlivé práce pre byty a domy.",
+  "metaDescription": "Stavba, fasády, montáž okien, interiérové dokončovacie práce a rekonštrukcie vo Švajčiarsku. Presná práca pre byty, domy a komerčné priestory.",
   "impressum": {
     "pageTitle": "Právne informácie",
     "sectionLabel": "Právne",

@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "L'Excellence en Construction,\nLa Confiance dans les Fondations",
-    "subheadline": "Construction, façades, montage et aménagement intérieur",
+    "subheadline": "Construction, façades, fenêtres, aménagement intérieur et rénovations en Suisse",
     "cta": "Voir les Projets",
     "ctaSecondary": "Nos Services",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Années d'expérience",
     "stat2value": "200+",
     "stat2label": "Projets réalisés",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Services principaux",
     "stat4value": "CH",
     "stat4label": "Qualité suisse"
   },
   "services": {
     "title": "Nos Services",
-    "subtitle": "Services complets de construction et rénovation livrés avec précision et expertise.",
+    "subtitle": "Nous réunissons l'enveloppe du bâtiment, l'aménagement intérieur et les travaux de surfaces dans des solutions de construction et de rénovation bien coordonnées - pour appartements, maisons et locaux commerciaux en Suisse.",
     "viewAll": "Voir tous les services",
     "items": {
       "facade": {
         "title": "Construction de Façades",
-        "description": "Systèmes de façades professionnels conçus pour la durabilité, l'esthétique et l'efficacité énergétique."
+        "description": "Nous planifions et réalisons des façades pour les constructions neuves et les rénovations : sous-construction, isolation, habillage et raccords propres. L'enveloppe du bâtiment devient ainsi résistante aux intempéries, efficace sur le plan énergétique et cohérente sur le plan esthétique."
       },
       "tiling": {
         "title": "Pose de Carrelage et Pierre",
-        "description": "Installation experte de carrelages premium et de pierres naturelles pour sols et murs."
+        "description": "Carrelage, grès cérame, pierre naturelle et mosaïque pour salles de bain, cuisines, pièces de vie, escaliers et espaces extérieurs. Nous veillons au support, aux pentes, à l'étanchéité, aux joints précis et à une finition durablement soignée."
       },
       "parquet": {
         "title": "Parquet",
-        "description": "Installation de parquet de haute qualité avec une attention méticuleuse au motif et à la finition."
+        "description": "Travaux de parquet sur mesure, de la préparation du support au traitement de surface. Qu'il s'agisse d'une rénovation, d'une nouvelle pose ou d'un rafraîchissement, nous créons des sols en bois chaleureux, robustes et posés avec un dessin harmonieux."
       },
       "painting": {
         "title": "Peinture et Plâtrerie",
-        "description": "Services irréprochables de peinture et plâtrerie intérieure et extérieure."
+        "description": "Peintures intérieures et extérieures, enduits, lissages et préparation des surfaces par une seule équipe. Pour des murs lisses, des façades protégées et des espaces à l'aspect propre et haut de gamme."
       },
       "windows": {
         "title": "Pose de Fenêtres",
-        "description": "Pose de fenêtres de précision pour une isolation, une lumière et une esthétique optimales."
+        "description": "Fenêtres mesurées avec précision, posées dans les règles de l'art et raccordées de façon étanche à l'air. Une bonne pose améliore l'isolation thermique, le confort acoustique, la sécurité et le confort d'habitation dans le neuf comme en rénovation."
       },
       "renovation": {
         "title": "Rénovation et Transformation",
-        "description": "Projets complets de rénovation et transformation intérieure et extérieure."
+        "description": "Rénovations et transformations avec une coordination claire des corps de métier - de la démolition à l'aménagement intérieur jusqu'aux finitions. Le bâti existant est modernisé, valorisé et adapté à l'usage quotidien."
       },
       "shower": {
         "title": "Verre de douche & parois sur mesure",
-        "description": "Parois de douche sur mesure, douches à l'italienne et solutions en verre pour salles de bain, bureaux et intérieurs - incluant conseil, prise de mesures, commande, pose et service après-vente."
+        "description": "Verre de douche et parois de douche sur mesure pour niches, angles, solutions walk-in et dimensions spéciales. Nous assurons conseil, prise de mesures, commande, pose et service pour des salles de bain lumineuses et faciles à entretenir."
       }
     },
     "whatWeDo": "Ce que nous faisons",
@@ -75,24 +75,24 @@
   "about": {
     "title": "À propos de Martin Projekt Group",
     "subtitle": "L'artisanat suisse dès le premier jour.",
-    "body": "Martin Projekt Group est une entreprise suisse de construction et de rénovation fondée sur la qualité, la précision et la fiabilité. Avec une expertise couvrant la construction de façades, la finition intérieure et les rénovations complètes, nous livrons des projets qui résistent à l'épreuve du temps.",
+    "body": "Martin Projekt Group est une entreprise suisse de construction et de rénovation spécialisée dans les façades, les fenêtres, l'aménagement intérieur et les surfaces haut de gamme. Nous abordons chaque projet à partir de la substance du bâtiment : supports propres, raccords précis, matériaux adaptés et coordination fiable. Il en résulte des solutions pratiques au quotidien, visuellement soignées et capables de préserver durablement la valeur du bien.",
     "sectionLabel": "Qui Nous Sommes",
     "values": {
       "quality": {
         "title": "Qualité",
-        "description": "Nous utilisons uniquement les meilleurs matériaux et techniques éprouvées."
+        "description": "Les matériaux et systèmes sont choisis en fonction de l'usage, du support et des contraintes à supporter."
       },
       "precision": {
         "title": "Précision",
-        "description": "Chaque millimètre compte. Nous concevons la perfection."
+        "description": "Des mesures exactes, des raccords propres et des détails maîtrisés déterminent le résultat final."
       },
       "reliability": {
         "title": "Fiabilité",
-        "description": "Dans les délais, dans le budget, pour chaque projet."
+        "description": "Des processus clairs, une communication transparente et une exécution ponctuelle du premier rendez-vous à la remise."
       },
       "craftsmanship": {
         "title": "Savoir-faire",
-        "description": "Des décennies d'expertise sur chaque surface que nous touchons."
+        "description": "Un savoir-faire manuel expérimenté pour façades, sols, murs, fenêtres et solutions en verre - visible dans chaque détail."
       }
     },
     "learnMore": "En savoir plus",
@@ -147,7 +147,7 @@
     "sectionLabel": "Préférences"
   },
   "metaTitle": "Martin Projekt Group GmbH – Construction, Rénovations et Montage",
-  "metaDescription": "Construction de façades, pose de fenêtres et aménagement intérieur. Travaux fiables pour appartements et maisons.",
+  "metaDescription": "Construction, façades, pose de fenêtres, aménagement intérieur et rénovations en Suisse. Travaux précis pour appartements, maisons et locaux commerciaux.",
   "impressum": {
     "pageTitle": "Mentions légales",
     "sectionLabel": "Juridique",

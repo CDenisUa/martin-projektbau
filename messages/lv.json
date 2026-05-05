@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Celtniecības Izcilība,\nUzticība Pamatos",
-    "subheadline": "Celtniecība, fasādes, montāža un iekšdarbi",
+    "subheadline": "Celtniecība, fasādes, logi, interjeri un renovācijas Šveicē",
     "cta": "Skatīt Projektus",
     "ctaSecondary": "Mūsu Pakalpojumi",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Gadu pieredze",
     "stat2value": "200+",
     "stat2label": "Pabeigti projekti",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Galvenie pakalpojumi",
     "stat4value": "CH",
     "stat4label": "Šveices kvalitāte"
   },
   "services": {
     "title": "Mūsu Pakalpojumi",
-    "subtitle": "Visaptveroši celtniecības un renovācijas pakalpojumi ar precizitāti un kompetenci.",
+    "subtitle": "Mēs apvienojam ēkas apvalku, iekšējo apdari un virsmu darbus skaidri koordinētos celtniecības un renovācijas risinājumos dzīvokļiem, mājām un komerctelpām Šveicē.",
     "viewAll": "Skatīt visus pakalpojumus",
     "items": {
       "facade": {
         "title": "Fasāžu Celtniecība",
-        "description": "Profesionālas fasāžu sistēmas ilgtspējībai, estētikai un energoefektivitātei."
+        "description": "Plānojam un īstenojam fasādes jaunbūvēm un renovācijām: apakškonstrukciju, siltinājumu, apšuvumu un tīrus savienojumus. Tādējādi ēkas apvalks kļūst noturīgs pret laikapstākļiem, energoefektīvs un vizuāli vienots."
       },
       "tiling": {
         "title": "Flīžu un Akmens Klāšana",
-        "description": "Ekspertu premium flīžu un dabīgā akmens uzstādīšana grīdām un sienām."
+        "description": "Flīzes, porcelāna akmensmasa, dabīgais akmens un mozaīka vannas istabām, virtuvēm, dzīvojamām telpām, kāpnēm un āra zonām. Rūpējamies par pamatni, slīpumiem, hidroizolāciju, precīzām šuvēm un ilgtspējīgi tīru apdari."
       },
       "parquet": {
         "title": "Parketa Grīdas",
-        "description": "Augstvērtīga parketa uzstādīšana ar rūpīgu uzmanību rakstam un apdares kvalitātei."
+        "description": "Precīzi parketa darbi no pamatnes sagatavošanas līdz gala virsmai. Renovācijā, jaunā ieklāšanā vai atjaunošanā veidojam siltas un izturīgas koka grīdas ar mierīgu klājuma rakstu."
       },
       "painting": {
         "title": "Krāsošana un Apmetums",
-        "description": "Nevainojami iekštelpu un āra krāsošanas un apmetuma pakalpojumi."
+        "description": "Iekštelpu un āra krāsošana, apmetums, špaktelēšana un virsmu sagatavošana no vienas komandas. Gludām sienām, aizsargātām fasādēm un telpām, kas izskatās tīras un kvalitatīvas."
       },
       "windows": {
         "title": "Logu Uzstādīšana",
-        "description": "Precīza logu uzstādīšana optimālai siltumizolācijai, gaismai un estētikai."
+        "description": "Logi tiek precīzi izmērīti, profesionāli uzstādīti un hermētiski pieslēgti. Kvalitatīva montāža uzlabo siltumizolāciju, skaņas aizsardzību, drošību un dzīves komfortu jaunbūvēs un renovācijās."
       },
       "renovation": {
         "title": "Renovācija un Pārbūve",
-        "description": "Pilnīgas iekštelpu un āra renovācijas un pārbūves projekti."
+        "description": "Renovācijas un pārbūves ar skaidru darbu koordināciju - no demontāžas un iekšējās izbūves līdz gala virsmām. Esošā ēka tiek modernizēta, paaugstinot tās vērtību un pielāgojot ikdienas lietošanai."
       },
       "shower": {
         "title": "Dušas stikls un nodalījumi pēc pasūtījuma",
-        "description": "Pasūtījuma dušas nodalījumi, walk-in dušas un stikla risinājumi vannas istabām, birojiem un interjeriem - iekļaujot konsultāciju, mērīšanu, pasūtīšanu, montāžu un servisu."
+        "description": "Dušas stikls un nodalījumi pēc pasūtījuma nišām, stūriem, walk-in risinājumiem un nestandarta izmēriem. Nodrošinām konsultāciju, mērīšanu, pasūtīšanu, montāžu un servisu gaišām, viegli kopjamām vannas istabām."
       }
     },
     "whatWeDo": "Ko mēs darām",
@@ -75,24 +75,24 @@
   "about": {
     "title": "Par Martin Projekt Group",
     "subtitle": "Šveices amatniecība no pirmās dienas.",
-    "body": "Martin Projekt Group ir Šveices celtniecības un renovācijas uzņēmums, kas dibināts uz kvalitātes, precizitātes un uzticamības pamatiem.",
+    "body": "Martin Projekt Group ir Šveices celtniecības un renovācijas uzņēmums fasādēm, logiem, iekšējai apdarei un kvalitatīvām virsmām. Katru projektu vērtējam no ēkas pamata: tīra pamatne, precīzi savienojumi, piemēroti materiāli un uzticama koordinācija. Tā rodas risinājumi, kas darbojas ikdienā, izskatās rūpīgi un palīdz ilgtermiņā saglabāt īpašuma vērtību.",
     "sectionLabel": "Kas Mēs Esam",
     "values": {
       "quality": {
         "title": "Kvalitāte",
-        "description": "Mēs izmantojam tikai labākos materiālus un pārbaudītas tehnikas."
+        "description": "Materiāli un sistēmas tiek izvēlēti atbilstoši lietojumam, pamatnei un paredzētajai slodzei."
       },
       "precision": {
         "title": "Precizitāte",
-        "description": "Katrs milimetrs ir svarīgs. Mēs radām pilnību."
+        "description": "Precīzi mērījumi, tīri savienojumi un kontrolētas detaļas nosaka gala rezultātu."
       },
       "reliability": {
         "title": "Uzticamība",
-        "description": "Laikā, budžetā, katrā projektā."
+        "description": "Skaidri procesi, caurspīdīga komunikācija un termiņu ievērošana no pirmās tikšanās līdz nodošanai."
       },
       "craftsmanship": {
         "title": "Amatniecība",
-        "description": "Gadu desmitu pieredze katrā virsmā, ko mēs pietuvojamies."
+        "description": "Pieredzējis roku darbs fasādēm, grīdām, sienām, logiem un stikla risinājumiem - redzams katrā detaļā."
       }
     },
     "learnMore": "Uzzināt vairāk",
@@ -147,7 +147,7 @@
     "sectionLabel": "Preferences"
   },
   "metaTitle": "Martin Projekt Group GmbH – Celtniecība, Renovācijas un Montāža",
-  "metaDescription": "Fasādes darbi, logu montāža un iekšdarbi. Uzticami darbi dzīvokļiem un mājām.",
+  "metaDescription": "Celtniecība, fasādes, logu montāža, iekšējā apdare un renovācijas Šveicē. Precīzi darbi dzīvokļiem, mājām un komerctelpām.",
   "impressum": {
     "pageTitle": "Juridiskā informācija",
     "sectionLabel": "Juridiskais",

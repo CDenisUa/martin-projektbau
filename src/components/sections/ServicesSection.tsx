@@ -43,7 +43,7 @@ function ServiceRow({ serviceKey, index }: { serviceKey: ServiceKey; index: numb
         <h3 className="text-2xl xl:text-[1.75rem] font-light text-primary mb-4 leading-snug">
           {t(`items.${serviceKey}.title`)}
         </h3>
-        <p className="text-gray-400 text-sm leading-relaxed max-w-70">
+        <p className="text-gray-400 text-sm leading-relaxed max-w-md">
           {t(`items.${serviceKey}.description`)}
         </p>
       </motion.div>
@@ -138,7 +138,7 @@ export default function ServicesSection() {
                   <h3 className="text-base sm:text-lg font-medium text-white mb-2 leading-snug">
                     {t(`items.${key}.title`)}
                   </h3>
-                  <p className="text-white/65 text-xs sm:text-sm leading-relaxed line-clamp-2">
+                  <p className="text-white/65 text-xs sm:text-sm leading-relaxed line-clamp-4">
                     {t(`items.${key}.description`)}
                   </p>
                 </div>

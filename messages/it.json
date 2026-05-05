@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Eccellenza nelle Costruzioni,\nFiducia nelle Fondamenta",
-    "subheadline": "Costruzione, facciate, montaggio e lavori interni",
+    "subheadline": "Costruzioni, facciate, finestre, interni e ristrutturazioni in Svizzera",
     "cta": "Vedi i Progetti",
     "ctaSecondary": "I Nostri Servizi",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Anni di Esperienza",
     "stat2value": "200+",
     "stat2label": "Progetti Completati",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Servizi Principali",
     "stat4value": "CH",
     "stat4label": "Qualità Svizzera"
   },
   "services": {
     "title": "I Nostri Servizi",
-    "subtitle": "Servizi completi di costruzione e ristrutturazione con precisione ed esperienza.",
+    "subtitle": "Uniamo involucro edilizio, finiture interne e lavorazioni di superficie in soluzioni di costruzione e ristrutturazione coordinate con chiarezza per appartamenti, case e spazi commerciali in Svizzera.",
     "viewAll": "Vedi tutti i servizi",
     "items": {
       "facade": {
         "title": "Costruzione di Facciate",
-        "description": "Sistemi di facciate professionali progettati per durabilità, estetica ed efficienza energetica."
+        "description": "Progettiamo e realizziamo facciate per nuove costruzioni e risanamenti: sottostruttura, isolamento, rivestimento e raccordi puliti. L'involucro dell'edificio diventa così resistente agli agenti atmosferici, efficiente dal punto di vista energetico e coerente nell'aspetto."
       },
       "tiling": {
         "title": "Posa di Piastrelle e Pietra",
-        "description": "Installazione esperta di piastrelle premium e pietra naturale per pavimenti e pareti."
+        "description": "Piastrelle, gres porcellanato, pietra naturale e mosaico per bagni, cucine, ambienti abitativi, scale e spazi esterni. Prestiamo attenzione a sottofondo, pendenze, impermeabilizzazione, fughe precise e finitura pulita e durevole."
       },
       "parquet": {
         "title": "Parquet",
-        "description": "Installazione di parquet di alta qualità con attenzione meticolosa al motivo e alla finitura."
+        "description": "Lavori di parquet su misura, dalla preparazione del sottofondo al trattamento della superficie. Che si tratti di ristrutturazione, nuova posa o rinfresco, realizziamo pavimenti in legno caldi, robusti e con una posa armoniosa."
       },
       "painting": {
         "title": "Pittura e Intonacatura",
-        "description": "Servizi impeccabili di pittura e intonacatura interni ed esterni."
+        "description": "Tinteggiature interne ed esterne, intonaci, rasature e preparazione delle superfici da un unico team. Per pareti lisce, facciate protette e ambienti dall'aspetto pulito e di qualità."
       },
       "windows": {
         "title": "Installazione Finestre",
-        "description": "Posa di finestre di precisione per isolamento, luce ed estetica ottimali."
+        "description": "Finestre misurate con precisione, montate a regola d'arte e raccordate in modo ermetico. Una posa corretta migliora isolamento termico, protezione acustica, sicurezza e comfort abitativo in nuove costruzioni e ristrutturazioni."
       },
       "renovation": {
         "title": "Ristrutturazione e Conversione",
-        "description": "Progetti completi di ristrutturazione e conversione interni ed esterni."
+        "description": "Ristrutturazioni e trasformazioni con chiara coordinazione delle maestranze - dalla demolizione alle finiture, passando per l'allestimento interno. La sostanza edilizia esistente viene modernizzata, valorizzata e resa pratica per l'uso quotidiano."
       },
       "shower": {
         "title": "Vetro doccia & box su misura",
-        "description": "Box doccia su misura, docce walk-in e soluzioni in vetro per bagni, uffici e interni - inclusi consulenza, misurazione, ordine, posa in opera e assistenza."
+        "description": "Vetro doccia e pareti doccia su misura per nicchie, angoli, soluzioni walk-in e misure speciali. Ci occupiamo di consulenza, rilievo misure, ordine, montaggio e assistenza per bagni luminosi e facili da mantenere."
       }
     },
     "whatWeDo": "Cosa facciamo",
@@ -75,24 +75,24 @@
   "about": {
     "title": "Martin Projekt Group",
     "subtitle": "Artigianato svizzero sin dal primo giorno.",
-    "body": "Martin Projekt Group è un'azienda svizzera di costruzione e ristrutturazione fondata sulla qualità, la precisione e l'affidabilità. Con competenze che spaziano dalla costruzione di facciate alle finiture interne e alle ristrutturazioni complete, consegniamo progetti che resistono alla prova del tempo.",
+    "body": "Martin Projekt Group è un'azienda svizzera di costruzione e ristrutturazione per facciate, finestre, finiture interne e superfici di alta qualità. Affrontiamo ogni progetto partendo dalla sostanza dell'edificio: sottofondi puliti, raccordi precisi, materiali adatti e coordinazione affidabile. Nascono così soluzioni funzionali nella vita quotidiana, curate nell'aspetto e capaci di preservare nel tempo il valore dell'immobile.",
     "sectionLabel": "Chi Siamo",
     "values": {
       "quality": {
         "title": "Qualità",
-        "description": "Utilizziamo solo i migliori materiali e tecniche collaudate."
+        "description": "Materiali e sistemi vengono scelti in base all'uso, al sottofondo e al livello di sollecitazione previsto."
       },
       "precision": {
         "title": "Precisione",
-        "description": "Ogni millimetro conta. Progettiamo la perfezione."
+        "description": "Misure esatte, raccordi puliti e dettagli controllati determinano il risultato finale."
       },
       "reliability": {
         "title": "Affidabilità",
-        "description": "Nei tempi, nel budget, per ogni singolo progetto."
+        "description": "Processi chiari, comunicazione trasparente ed esecuzione puntuale dal primo appuntamento alla consegna."
       },
       "craftsmanship": {
         "title": "Artigianalità",
-        "description": "Decenni di esperienza su ogni superficie che tocchiamo."
+        "description": "Esperienza artigianale per facciate, pavimenti, pareti, finestre e soluzioni in vetro - visibile in ogni dettaglio."
       }
     },
     "learnMore": "Scopri di più",
@@ -147,7 +147,7 @@
     "sectionLabel": "Preferenze"
   },
   "metaTitle": "Martin Projekt Group GmbH – Costruzione, Ristrutturazioni e Montaggio",
-  "metaDescription": "Costruzione di facciate, montaggio finestre e lavori interni. Lavori affidabili per appartamenti e case.",
+  "metaDescription": "Costruzioni, facciate, montaggio finestre, finiture interne e ristrutturazioni in Svizzera. Lavori precisi per appartamenti, case e spazi commerciali.",
   "impressum": {
     "pageTitle": "Note legali",
     "sectionLabel": "Legale",

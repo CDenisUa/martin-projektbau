@@ -1,32 +1,32 @@
 'use client';
 
+// Core
 import { useRef, useEffect, useState } from 'react';
-import { useTranslations, useLocale } from 'next-intl';
-import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { motion, useInView } from 'framer-motion';
-import { ArrowRight, Award, Clock, Target, Wrench } from 'lucide-react';
+// Components
+import { Diamond, Crosshair, ShieldCheck, Hammer } from '@phosphor-icons/react';
 
 const VALUE_KEYS = ['quality', 'precision', 'reliability', 'craftsmanship'] as const;
-const VALUE_ICONS = {
-  quality: Award,
-  precision: Target,
-  reliability: Clock,
-  craftsmanship: Wrench,
+type ValueKey = typeof VALUE_KEYS[number];
+
+const VALUE_ICONS: Record<ValueKey, React.ElementType> = {
+  quality:       Diamond,
+  precision:     Crosshair,
+  reliability:   ShieldCheck,
+  craftsmanship: Hammer,
 };
 
 export default function AboutSection() {
   const t = useTranslations('about');
-  const locale = useLocale();
   const sectionRef = useRef<HTMLElement>(null);
   const videoRef = useRef<HTMLVideoElement>(null);
   const inView = useInView(sectionRef, { once: true, margin: '-80px' });
 
-  // 'idle' → waiting | 'playing' → video running | 'frozen' → poster
   const [videoState, setVideoState] = useState<'idle' | 'playing' | 'frozen'>('idle');
 
   // Slowdown is baked into the video file (interpolated 60fps, graduated slow-mo last 5s)
-  // No playbackRate manipulation needed
   useEffect(() => {
     if (!inView || videoState !== 'idle') return;
 
@@ -76,7 +76,6 @@ export default function AboutSection() {
                     zIndex: 2,
                   }}
                 />
-
                 <video
                   ref={videoRef}
                   muted
@@ -105,7 +104,7 @@ export default function AboutSection() {
             transition={{ duration: 0.75, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
             className="py-16 md:py-20 lg:py-0 lg:pl-2"
           >
-            <p className="text-accent text-xs uppercase mb-4 font-medium">
+            <p className="text-accent text-xs uppercase tracking-[0.2em] mb-4 font-medium">
               {t('sectionLabel')}
             </p>
             <h2 className="text-4xl lg:text-5xl font-light text-primary mb-5">
@@ -114,47 +113,51 @@ export default function AboutSection() {
             <p className="text-accent text-lg font-light italic leading-relaxed">
               {t('subtitle')}
             </p>
-            <p className="mt-7 max-w-2xl text-base leading-relaxed text-gray-500">{t('body')}</p>
+            <p className="mt-6 text-base leading-relaxed text-gray-500">
+              {t('body')}
+            </p>
 
-            {/* Values list */}
-            <div className="mt-10 border-y border-primary/10">
+            {/* Values */}
+            <div className="mt-10 space-y-1">
               {VALUE_KEYS.map((key, i) => {
                 const Icon = VALUE_ICONS[key];
-
                 return (
                   <motion.div
                     key={key}
-                    initial={{ opacity: 0, y: 16 }}
-                    animate={inView ? { opacity: 1, y: 0 } : {}}
-                    transition={{ duration: 0.55, delay: 0.36 + i * 0.08, ease: 'easeOut' }}
-                    className={`group relative grid grid-cols-[3.25rem_1fr] gap-4 py-5 transition-colors duration-300 hover:bg-white sm:grid-cols-[4.5rem_1fr] ${
-                      i > 0 ? 'border-t border-primary/10' : ''
-                    }`}
+                    initial={{ opacity: 0, x: -12 }}
+                    animate={inView ? { opacity: 1, x: 0 } : {}}
+                    transition={{ duration: 0.5, delay: 0.32 + i * 0.1, ease: 'easeOut' }}
+                    className="group grid grid-cols-[3rem_1fr] gap-4 py-3.5 cursor-default"
                   >
-                    <motion.span
-                      initial={{ scaleX: 0 }}
-                      animate={inView ? { scaleX: 1 } : {}}
-                      transition={{ duration: 0.65, delay: 0.48 + i * 0.08, ease: [0.22, 1, 0.36, 1] }}
-                      className="absolute left-0 top-0 h-px w-full origin-left bg-accent/35"
-                    />
-                    <motion.div
-                      initial={{ opacity: 0, scale: 0.92 }}
-                      animate={inView ? { opacity: 1, scale: 1 } : {}}
-                      transition={{ duration: 0.45, delay: 0.48 + i * 0.08, ease: 'easeOut' }}
-                      className="flex h-11 w-11 items-center justify-center bg-white text-accent ring-1 ring-primary/10 transition-colors duration-300 group-hover:bg-accent group-hover:text-white group-hover:ring-accent"
-                    >
-                      <Icon size={18} strokeWidth={1.8} aria-hidden="true" />
-                    </motion.div>
-                    <div className="pr-2">
-                      <div className="flex items-center gap-3">
-                        <span className="font-mono text-[11px] font-semibold leading-none text-accent">
-                          {String(i + 1).padStart(2, '0')}
-                        </span>
-                        <h3 className="text-base font-medium text-primary transition-colors duration-300 group-hover:text-accent">
-                          {t(`values.${key}.title`)}
-                        </h3>
-                      </div>
-                      <p className="mt-2 max-w-xl text-sm leading-relaxed text-gray-500">
+                    {/* Icon */}
+                    <div className="flex items-center justify-center">
+                      <motion.div
+                        whileHover={{ scale: 1.15, rotate: 5 }}
+                        transition={{ type: 'spring', stiffness: 300, damping: 18 }}
+                        className="relative"
+                      >
+                        {/* Glow ring behind icon */}
+                        <span
+                          className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-md"
+                          style={{ background: 'radial-gradient(circle, rgba(59,130,246,0.45) 0%, transparent 70%)' }}
+                        />
+                        <Icon
+                          size={30}
+                          weight="duotone"
+                          className="relative z-10 text-accent transition-all duration-300"
+                          style={{
+                            filter: 'drop-shadow(0 0 6px rgba(59,130,246,0.35))',
+                          }}
+                        />
+                      </motion.div>
+                    </div>
+
+                    {/* Text */}
+                    <div className="pt-0.5">
+                      <p className="text-[13px] font-semibold uppercase tracking-[0.12em] text-primary mb-1 group-hover:text-accent transition-colors duration-300">
+                        {t(`values.${key}.title`)}
+                      </p>
+                      <p className="text-sm leading-relaxed text-gray-500">
                         {t(`values.${key}.description`)}
                       </p>
                     </div>
@@ -162,25 +165,8 @@ export default function AboutSection() {
                 );
               })}
             </div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 12 }}
-              animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ duration: 0.55, delay: 0.78 }}
-              className="mt-9"
-            >
-              <Link
-                href={`/${locale}/about`}
-                className="group inline-flex items-center gap-3 text-sm font-medium text-primary transition-colors duration-200 hover:text-accent"
-              >
-                {t('learnMore')}
-                <span className="flex items-center gap-1">
-                  <span className="h-px w-8 bg-current transition-all duration-300 group-hover:w-12" />
-                  <ArrowRight size={13} />
-                </span>
-              </Link>
-            </motion.div>
           </motion.div>
+
         </div>
       </div>
     </section>

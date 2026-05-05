@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Bouwkundige Uitmuntendheid,\nVertrouwen in het Fundament",
-    "subheadline": "Bouw, gevels, montage en binnenafwerking",
+    "subheadline": "Bouw, gevels, ramen, interieurs en renovaties in Zwitserland",
     "cta": "Bekijk Projecten",
     "ctaSecondary": "Onze Diensten",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Jaar Ervaring",
     "stat2value": "200+",
     "stat2label": "Projecten Voltooid",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Kerndiensten",
     "stat4value": "CH",
     "stat4label": "Zwitserse Kwaliteit"
   },
   "services": {
     "title": "Onze Diensten",
-    "subtitle": "Uitgebreide bouw- en renovatiediensten met precisie en vakmanschap.",
+    "subtitle": "Wij combineren gebouwschil, interieurafwerking en oppervlakwerk tot helder gecoördineerde bouw- en renovatieoplossingen voor appartementen, woningen en commerciële ruimtes in Zwitserland.",
     "viewAll": "Alle diensten bekijken",
     "items": {
       "facade": {
         "title": "Gevelbouw",
-        "description": "Professionele gevelsystemen voor duurzaamheid, esthetiek en energie-efficiëntie."
+        "description": "Wij plannen en realiseren gevels voor nieuwbouw en renovatie: onderconstructie, isolatie, bekleding en nette aansluitingen. Zo wordt de gebouwschil weerbestendig, energiezuinig en visueel coherent."
       },
       "tiling": {
         "title": "Tegel- en Steenleggen",
-        "description": "Deskundige installatie van premium tegels en natuursteen voor vloeren en wanden."
+        "description": "Tegels, porcellanato, natuursteen en mozaïek voor badkamers, keukens, woonruimtes, trappen en buitenruimtes. We letten op ondergrond, afschot, waterdichting, precieze voegen en een blijvend nette afwerking."
       },
       "parquet": {
         "title": "Parketvloer",
-        "description": "Hoogwaardige parketinstallatie met zorgvuldige aandacht voor patroon en afwerking."
+        "description": "Parketwerk op maat, van ondergrondopbouw tot oppervlaktebehandeling. Of het nu gaat om renovatie, nieuwe plaatsing of opfrissing, wij maken warme, robuuste houten vloeren met een rustig legbeeld."
       },
       "painting": {
         "title": "Schilder- en Stucwerk",
-        "description": "Onberispelijke binnen- en buitenschilder- en stucwerkdiensten."
+        "description": "Binnen- en buitenschilderwerk, pleisterwerk, plamuurwerk en oppervlaktevoorbereiding door één team. Voor gladde muren, beschermde gevels en ruimtes die schoon en hoogwaardig aanvoelen."
       },
       "windows": {
         "title": "Raamplaatsing",
-        "description": "Nauwkeurige raamplaatsing voor optimale isolatie, licht en esthetiek."
+        "description": "Ramen nauwkeurig opgemeten, professioneel geplaatst en luchtdicht aangesloten. Goede raamplaatsing verbetert warmte-isolatie, geluidswering, veiligheid en wooncomfort bij nieuwbouw en renovaties."
       },
       "renovation": {
         "title": "Renovatie en Verbouwing",
-        "description": "Complete binnen- en buiten renovatie- en verbouwingsprojecten."
+        "description": "Renovaties en verbouwingen met duidelijke coördinatie van de vakgebieden - van sloop en interieurafbouw tot de eindafwerking. Bestaande bouw wordt gemoderniseerd, opgewaardeerd en geschikt gemaakt voor dagelijks gebruik."
       },
       "shower": {
         "title": "Doucheglas & wanden op maat",
-        "description": "Op maat gemaakte douchewanden, inloopdouches en glasoplossingen voor badkamers, kantoren en interieurs - inclusief advies, opmeting, bestelling, montage en service."
+        "description": "Doucheglas en douchewanden op maat voor nissen, hoeken, inloopoplossingen en speciale maten. Wij verzorgen advies, opmeting, bestelling, montage en service voor lichte, onderhoudsvriendelijke badkamers."
       }
     },
     "whatWeDo": "Wat we doen",
@@ -75,24 +75,24 @@
   "about": {
     "title": "Over Martin Projekt Group",
     "subtitle": "Zwitsers vakmanschap vanaf dag één.",
-    "body": "Martin Projekt Group is een Zwitsers bouw- en renovatiebedrijf gebouwd op kwaliteit, precisie en betrouwbaarheid. Met expertise in gevelbouw, binnenafwerking en grootschalige renovaties leveren we projecten die de tand des tijds doorstaan.",
+    "body": "Martin Projekt Group is een Zwitsers bouw- en renovatiebedrijf voor gevels, ramen, interieurafwerking en hoogwaardige oppervlakken. We benaderen elk project vanuit de bouwkundige basis: schone ondergronden, precieze aansluitingen, passende materialen en betrouwbare coördinatie. Zo ontstaan oplossingen die dagelijks goed werken, verzorgd ogen en de waarde van het vastgoed op lange termijn helpen beschermen.",
     "sectionLabel": "Wie Wij Zijn",
     "values": {
       "quality": {
         "title": "Kwaliteit",
-        "description": "Wij gebruiken alleen de beste materialen en bewezen technieken."
+        "description": "Materialen en systemen worden gekozen op basis van gebruik, ondergrond en de belasting die ze moeten doorstaan."
       },
       "precision": {
         "title": "Precisie",
-        "description": "Elke millimeter telt. Wij engineeren perfectie."
+        "description": "Exacte opmetingen, nette aansluitingen en gecontroleerde details bepalen het eindresultaat."
       },
       "reliability": {
         "title": "Betrouwbaarheid",
-        "description": "Op tijd, binnen budget, elk project."
+        "description": "Duidelijke processen, transparante communicatie en stipte uitvoering van eerste afspraak tot oplevering."
       },
       "craftsmanship": {
         "title": "Vakmanschap",
-        "description": "Decennia expertise op elk oppervlak dat wij aanraken."
+        "description": "Ervaren handwerk voor gevels, vloeren, muren, ramen en glasoplossingen - zichtbaar in elk detail."
       }
     },
     "learnMore": "Meer over ons",
@@ -147,7 +147,7 @@
     "sectionLabel": "Voorkeuren"
   },
   "metaTitle": "Martin Projekt Group GmbH – Bouw, Renovaties en Montage",
-  "metaDescription": "Gevelconstructie, raaminstallatie en binnenafwerking. Betrouwbaar werk voor appartementen en huizen.",
+  "metaDescription": "Bouw, gevelwerk, raamplaatsing, interieurafwerking en renovaties in Zwitserland. Precies werk voor appartementen, woningen en commerciële ruimtes.",
   "impressum": {
     "pageTitle": "Juridische informatie",
     "sectionLabel": "Juridisch",

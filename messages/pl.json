@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Doskonałość w Budowie,\nZaufanie w Fundamentach",
-    "subheadline": "Budownictwo, elewacje, montaż i wykończenia wnętrz",
+    "subheadline": "Budownictwo, elewacje, okna, wnętrza i remonty w Szwajcarii",
     "cta": "Zobacz Projekty",
     "ctaSecondary": "Nasze Usługi",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Lat Doświadczenia",
     "stat2value": "200+",
     "stat2label": "Ukończonych Projektów",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Głównych Usług",
     "stat4value": "CH",
     "stat4label": "Szwajcarska Jakość"
   },
   "services": {
     "title": "Nasze Usługi",
-    "subtitle": "Kompleksowe usługi budowlane i remontowe z precyzją i fachowością.",
+    "subtitle": "Łączymy prace przy obudowie budynku, wykończeniach wnętrz i powierzchniach w jasno skoordynowane rozwiązania budowlane i remontowe dla mieszkań, domów i lokali komercyjnych w Szwajcarii.",
     "viewAll": "Zobacz wszystkie usługi",
     "items": {
       "facade": {
         "title": "Budowa Elewacji",
-        "description": "Profesjonalne systemy elewacyjne zaprojektowane dla trwałości, estetyki i efektywności energetycznej."
+        "description": "Planujemy i realizujemy elewacje dla nowych budynków i remontów: podkonstrukcję, izolację, okładzinę i czyste połączenia. Dzięki temu obudowa budynku jest odporna na warunki pogodowe, energooszczędna i spójna wizualnie."
       },
       "tiling": {
         "title": "Układanie Płytek i Kamienia",
-        "description": "Profesjonalna instalacja płytek premium i kamienia naturalnego na podłogi i ściany."
+        "description": "Płytki, gres porcelanowy, kamień naturalny i mozaika do łazienek, kuchni, salonów, schodów i przestrzeni zewnętrznych. Dbamy o podłoże, spadki, hydroizolację, precyzyjne fugi i trwałe, czyste wykończenie."
       },
       "parquet": {
         "title": "Parkiet",
-        "description": "Wysokiej jakości instalacja parkietu z drobiazgową uwagą na wzór i wykończenie."
+        "description": "Dokładne prace parkieciarskie od przygotowania podłoża po wykończenie powierzchni. Przy renowacji, nowym montażu lub odświeżeniu tworzymy ciepłe, solidne drewniane podłogi o spokojnym układzie."
       },
       "painting": {
         "title": "Malowanie i Tynkowanie",
-        "description": "Nienaganne usługi malarskie i tynkarskie wewnętrzne i zewnętrzne."
+        "description": "Malowanie wewnętrzne i zewnętrzne, tynki, szpachlowanie oraz przygotowanie powierzchni przez jeden zespół. Dla gładkich ścian, chronionych elewacji i pomieszczeń, które wyglądają czysto i solidnie."
       },
       "windows": {
         "title": "Montaż Okien",
-        "description": "Precyzyjny montaż okien dla optymalnej izolacji, światła i estetyki."
+        "description": "Okna dokładnie mierzone, fachowo montowane i szczelnie połączone z konstrukcją. Dobra instalacja poprawia izolację cieplną, ochronę akustyczną, bezpieczeństwo i komfort w nowych budynkach oraz remontach."
       },
       "renovation": {
         "title": "Renowacja i Przebudowa",
-        "description": "Kompleksowe projekty renowacji i przebudowy wewnętrznej i zewnętrznej."
+        "description": "Remonty i przebudowy z jasną koordynacją branż - od rozbiórki przez wykończenie wnętrz po finalne powierzchnie. Istniejąca zabudowa jest modernizowana, podnoszona w wartości i dostosowywana do codziennego użytku."
       },
       "shower": {
         "title": "Szkło prysznicowe i kabiny na wymiar",
-        "description": "Kabiny prysznicowe na wymiar, prysznice walk-in i rozwiązania szklane do łazienek, biur i wnętrz - w tym doradztwo, pomiar, zamówienie, montaż i serwis."
+        "description": "Szkło prysznicowe i kabiny na wymiar do wnęk, narożników, rozwiązań walk-in i niestandardowych wymiarów. Zapewniamy doradztwo, pomiar, zamówienie, montaż i serwis dla jasnych, łatwych w utrzymaniu łazienek."
       }
     },
     "whatWeDo": "Co robimy",
@@ -75,24 +75,24 @@
   "about": {
     "title": "O Martin Projekt Group",
     "subtitle": "Szwajcarskie rzemiosło od pierwszego dnia.",
-    "body": "Martin Projekt Group to szwajcarska firma budowlana i remontowa zbudowana na fundamentach jakości, precyzji i niezawodności. Dostarczamy projekty, które wytrzymują próbę czasu.",
+    "body": "Martin Projekt Group to szwajcarska firma budowlana i remontowa zajmująca się elewacjami, oknami, wykończeniami wnętrz i wysokiej jakości powierzchniami. Patrzymy na każdy projekt od strony konstrukcji budynku: czyste podłoże, precyzyjne połączenia, odpowiednie materiały i niezawodna koordynacja. Dzięki temu powstają rozwiązania wygodne na co dzień, estetyczne i chroniące długoterminową wartość nieruchomości.",
     "sectionLabel": "Kim Jesteśmy",
     "values": {
       "quality": {
         "title": "Jakość",
-        "description": "Używamy tylko najlepszych materiałów i sprawdzonych technik."
+        "description": "Materiały i systemy dobieramy do sposobu użytkowania, podłoża i przewidywanego obciążenia."
       },
       "precision": {
         "title": "Precyzja",
-        "description": "Każdy milimetr ma znaczenie. Inżynierujemy doskonałość."
+        "description": "Dokładne pomiary, czyste połączenia i kontrolowane detale decydują o końcowym efekcie."
       },
       "reliability": {
         "title": "Niezawodność",
-        "description": "Na czas, w budżecie, przy każdym projekcie."
+        "description": "Jasne procesy, przejrzysta komunikacja i terminowa realizacja od pierwszego spotkania do odbioru."
       },
       "craftsmanship": {
         "title": "Rzemiosło",
-        "description": "Dekady doświadczenia na każdej powierzchni, której dotykamy."
+        "description": "Doświadczona praca rzemieślnicza przy elewacjach, podłogach, ścianach, oknach i rozwiązaniach szklanych - widoczna w każdym detalu."
       }
     },
     "learnMore": "Dowiedz się więcej",
@@ -147,7 +147,7 @@
     "sectionLabel": "Preferencje"
   },
   "metaTitle": "Martin Projekt Group GmbH – Budownictwo, Remonty i Montaż",
-  "metaDescription": "Budowa elewacji, montaż okien i prace wewnętrzne. Niezawodne usługi dla mieszkań i domów.",
+  "metaDescription": "Budownictwo, elewacje, montaż okien, wykończenia wnętrz i remonty w Szwajcarii. Precyzyjne prace dla mieszkań, domów i lokali komercyjnych.",
   "impressum": {
     "pageTitle": "Informacje prawne",
     "sectionLabel": "Prawne",

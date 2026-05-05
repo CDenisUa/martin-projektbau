@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Kiválóság az Építészetben,\nBizalom az Alapokon",
-    "subheadline": "Építés, homlokzatok, szerelés és belső munkák",
+    "subheadline": "Építés, homlokzatok, ablakok, belső terek és felújítások Svájcban",
     "cta": "Projektek Megtekintése",
     "ctaSecondary": "Szolgáltatásaink",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Év tapasztalat",
     "stat2value": "200+",
     "stat2label": "Befejezett projektek",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Alapszolgáltatás",
     "stat4value": "CH",
     "stat4label": "Svájci minőség"
   },
   "services": {
     "title": "Szolgáltatásaink",
-    "subtitle": "Átfogó építési és felújítási szolgáltatások precizitással és szakértelemmel.",
+    "subtitle": "Az épületburkot, a belső befejezést és a felületi munkákat világosan összehangolt építési és felújítási megoldásokká kapcsoljuk össze lakások, házak és kereskedelmi terek számára Svájcban.",
     "viewAll": "Összes szolgáltatás megtekintése",
     "items": {
       "facade": {
         "title": "Homlokzatépítés",
-        "description": "Professzionális homlokzati rendszerek tartósságra, esztétikára és energiahatékonyságra tervezve."
+        "description": "Homlokzatokat tervezünk és valósítunk meg új építéshez és felújításhoz: alépítményt, szigetelést, burkolatot és tiszta csatlakozásokat. Így az épületburok időjárásálló, energiahatékony és vizuálisan egységes lesz."
       },
       "tiling": {
         "title": "Csempe és Kőburkolat",
-        "description": "Prémium csempék és természetes kő szakszerű beépítése padlókra és falakra."
+        "description": "Csempe, greslap, természetes kő és mozaik fürdőszobákba, konyhákba, lakóterekbe, lépcsőkre és kültéri felületekre. Figyelünk az alapra, lejtésekre, vízszigetelésre, pontos fugákra és tartósan tiszta kivitelre."
       },
       "parquet": {
         "title": "Parkettázás",
-        "description": "Kiváló minőségű parkettabeépítés a mintára és a felületre fordított gondos figyelemmel."
+        "description": "Pontos parkettamunkák az aljzat előkészítésétől a végső felületig. Felújítás, új lerakás vagy felfrissítés esetén is meleg, masszív fa padlókat készítünk nyugodt lerakási képpel."
       },
       "painting": {
         "title": "Festés és Vakolás",
-        "description": "Kifogástalan bel- és kültéri festési és vakolási szolgáltatások."
+        "description": "Belső és külső festés, vakolás, glettelés és felület-előkészítés egy kézből. Sima falakhoz, védett homlokzatokhoz és tiszta, minőségi hatású terekhez."
       },
       "windows": {
         "title": "Ablakbeépítés",
-        "description": "Pontos ablakbeépítés az optimális szigetelés, fény és esztétika érdekében."
+        "description": "Az ablakokat pontosan felmérjük, szakszerűen beépítjük és légzáróan csatlakoztatjuk. A jó beépítés javítja a hőszigetelést, hangvédelmet, biztonságot és lakókomfortot új építésnél és felújításnál."
       },
       "renovation": {
         "title": "Felújítás és Átalakítás",
-        "description": "Teljes körű bel- és kültéri felújítási és átalakítási projektek."
+        "description": "Felújítások és átalakítások a szakmák egyértelmű koordinálásával - a bontástól és belső kiépítéstől a végső felületekig. A meglévő épület korszerűbbé, értékesebbé és a mindennapi használatra alkalmasabbá válik."
       },
       "shower": {
         "title": "Zuhanyzó üveg és válaszfalak méretre",
-        "description": "Méretre készített zuhanyzófalak, walk-in zuhanyzók és üvegmegoldások fürdőszobákhoz, irodákhoz és belsőterekhez - tanácsadással, méréssel, rendeléssel, beépítéssel és szervizzel együtt."
+        "description": "Méretre készített zuhanyüveg és zuhanyfalak fülkékhez, sarkokhoz, walk-in megoldásokhoz és egyedi méretekhez. Vállaljuk a tanácsadást, felmérést, rendelést, beépítést és szervizt világos, könnyen karbantartható fürdőszobákhoz."
       }
     },
     "whatWeDo": "Amit csinálunk",
@@ -75,24 +75,24 @@
   "about": {
     "title": "A Martin Projekt Group-ról",
     "subtitle": "Svájci kézművesség az első naptól.",
-    "body": "A Martin Projekt Group egy svájci építési és felújítási vállalat, amely a minőség, a precizitás és a megbízhatóság alapjaira épül.",
+    "body": "A Martin Projekt Group svájci építési és felújítási vállalat homlokzatokhoz, ablakokhoz, belső befejező munkákhoz és magas minőségű felületekhez. Minden projektet az épület szerkezetéből kiindulva kezelünk: tiszta alap, pontos csatlakozások, megfelelő anyagok és megbízható koordináció. Így olyan megoldások születnek, amelyek a mindennapokban működnek, igényes megjelenésűek és hosszú távon védik az ingatlan értékét.",
     "sectionLabel": "Kik Vagyunk",
     "values": {
       "quality": {
         "title": "Minőség",
-        "description": "Csak a legjobb anyagokat és bevált technikákat használjuk."
+        "description": "Az anyagokat és rendszereket a használat, az alap és a várható igénybevétel szerint választjuk ki."
       },
       "precision": {
         "title": "Precizitás",
-        "description": "Minden milliméter számít. A tökéletességet mérnökösítjük."
+        "description": "A pontos felmérés, a tiszta csatlakozások és az ellenőrzött részletek határozzák meg a végeredményt."
       },
       "reliability": {
         "title": "Megbízhatóság",
-        "description": "Időre, büdzsén belül, minden egyes projektnél."
+        "description": "Világos folyamatok, átlátható kommunikáció és pontos kivitelezés az első találkozótól az átadásig."
       },
       "craftsmanship": {
         "title": "Kézművesség",
-        "description": "Évtizedes tapasztalat minden felületen, amelyhez hozzányúlunk."
+        "description": "Tapasztalt kézi munka homlokzatokon, padlókon, falakon, ablakokon és üvegmegoldásokon - minden részletben láthatóan."
       }
     },
     "learnMore": "Tudjon meg többet",
@@ -147,7 +147,7 @@
     "sectionLabel": "Beállítások"
   },
   "metaTitle": "Martin Projekt Group GmbH – Építkezés, Felújítás és Szerelés",
-  "metaDescription": "Homlokzatépítés, ablakszerelés és belső munkák. Megbízható munkák lakásokhoz és házakhoz.",
+  "metaDescription": "Építés, homlokzatok, ablakbeépítés, belső befejezés és felújítások Svájcban. Precíz munkák lakásokhoz, házakhoz és kereskedelmi terekhez.",
   "impressum": {
     "pageTitle": "Jogi nyilatkozat",
     "sectionLabel": "Jogi",

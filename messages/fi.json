@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Rakentamisen Huippuosaaminen,\nLuottamus Perustuksissa",
-    "subheadline": "Rakentaminen, julkisivut, asennus ja sisustustyöt",
+    "subheadline": "Rakentaminen, julkisivut, ikkunat, sisätilat ja saneeraukset Sveitsissä",
     "cta": "Katso Projektit",
     "ctaSecondary": "Palvelumme",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Vuoden kokemus",
     "stat2value": "200+",
     "stat2label": "Valmistunutta projektia",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Ydinpalvelua",
     "stat4value": "CH",
     "stat4label": "Sveitsiläinen laatu"
   },
   "services": {
     "title": "Palvelumme",
-    "subtitle": "Kattavat rakennus- ja saneerauspalvelut tarkkuudella ja asiantuntemuksella.",
+    "subtitle": "Yhdistämme rakennuksen vaipan, sisäviimeistelyn ja pintatyöt selkeästi koordinoiduiksi rakennus- ja saneerausratkaisuiksi asuntoihin, taloihin ja liiketiloihin Sveitsissä.",
     "viewAll": "Katso kaikki palvelut",
     "items": {
       "facade": {
         "title": "Julkisivurakentaminen",
-        "description": "Ammattimaiset julkisivujärjestelmät kestävyyttä, estetiikkaa ja energiatehokkuutta varten."
+        "description": "Suunnittelemme ja toteutamme julkisivuja uudisrakentamiseen ja saneeraukseen: alusrakenteet, eristykset, verhoukset ja siistit liittymät. Näin rakennuksen vaipasta tulee säänkestävä, energiatehokas ja visuaalisesti yhtenäinen."
       },
       "tiling": {
         "title": "Laatta- ja Kivilattiat",
-        "description": "Asiantunteva premium-laattojen ja luonnonkiven asennus lattioille ja seinille."
+        "description": "Laatat, porcellanato, luonnonkivi ja mosaiikki kylpyhuoneisiin, keittiöihin, oleskelutiloihin, portaisiin ja ulkoalueille. Huolehdimme alustasta, kaadoista, vedeneristyksestä, tarkoista saumoista ja kestävästä siististä viimeistelystä."
       },
       "parquet": {
         "title": "Parketti",
-        "description": "Korkealaatuinen parketin asennus huolellisella huomiolla kuvioon ja pintakäsittelyyn."
+        "description": "Tarkkaa parkettityötä alustan rakentamisesta pintakäsittelyyn. Olipa kyse saneerauksesta, uudesta asennuksesta tai kunnostuksesta, luomme lämpimiä ja kestäviä puulattioita rauhallisella ladontakuvalla."
       },
       "painting": {
         "title": "Maalaus ja Rappaus",
-        "description": "Moitteeton sisä- ja ulkomaalaus ja rappauspalvelut."
+        "description": "Sisä- ja ulkomaalaus, rappaus, tasoitus ja pintojen valmistelu yhdeltä tiimiltä. Sileisiin seiniin, suojattuihin julkisivuihin ja tiloihin, jotka tuntuvat siisteiltä ja laadukkailta."
       },
       "windows": {
         "title": "Ikkunoiden Asennus",
-        "description": "Tarkka ikkunoiden asennus optimaalista eristystä, valoa ja estetiikkaa varten."
+        "description": "Ikkunat mitataan tarkasti, asennetaan ammattimaisesti ja liitetään ilmatiiviisti. Hyvä asennus parantaa lämmöneristystä, äänisuojaa, turvallisuutta ja asumismukavuutta uudisrakennuksissa ja saneerauksissa."
       },
       "renovation": {
         "title": "Saneeraus ja Muutos",
-        "description": "Täydelliset sisä- ja ulkosaneeraus- ja muutosprojektit."
+        "description": "Saneeraukset ja muutostyöt selkeällä eri työvaiheiden koordinoinnilla - purkutöistä sisärakentamiseen ja lopullisiin pintoihin. Olemassa oleva rakennus modernisoidaan, sen arvoa nostetaan ja se mukautetaan arjen käyttöön."
       },
       "shower": {
         "title": "Suihkulasi ja -seinät mittatilaustyönä",
-        "description": "Mittatilaustyönä valmistetut suihkuseinät, walk-in suihkut ja lasiratkaisut kylpyhuoneisiin, toimistoihin ja sisätiloihin - sisältäen neuvonnan, mittauksen, tilauksen, asennuksen ja huollon."
+        "description": "Suihkulasi ja suihkuseinät mittatilaustyönä syvennyksiin, kulmiin, walk-in-ratkaisuihin ja erikoismittoihin. Hoidamme neuvonnan, mittauksen, tilauksen, asennuksen ja huollon valoisiin, helposti hoidettaviin kylpyhuoneisiin."
       }
     },
     "whatWeDo": "Mitä teemme",
@@ -73,26 +73,26 @@
     "sectionLabel": "Työmme"
   },
   "about": {
-    "title": "Martin Projekt Groupsta",
+    "title": "Martin Projekt Groupista",
     "subtitle": "Sveitsiläistä käsityötä ensimmäisestä päivästä.",
-    "body": "Martin Projekt Group on sveitsiläinen rakennus- ja saneerausyritys, joka on rakennettu laadun, tarkkuuden ja luotettavuuden perustalle.",
+    "body": "Martin Projekt Group on sveitsiläinen rakennus- ja saneerausyritys julkisivuihin, ikkunoihin, sisäviimeistelyyn ja korkealaatuisiin pintoihin. Lähestymme jokaista projektia rakennuksen perustasta käsin: puhtaat alustat, tarkat liittymät, sopivat materiaalit ja luotettava koordinointi. Näin syntyy ratkaisuja, jotka toimivat arjessa, näyttävät viimeistellyiltä ja auttavat säilyttämään kiinteistön arvon pitkällä aikavälillä.",
     "sectionLabel": "Keitä Olemme",
     "values": {
       "quality": {
         "title": "Laatu",
-        "description": "Käytämme vain parhaita materiaaleja ja todistettuja tekniikoita."
+        "description": "Materiaalit ja järjestelmät valitaan käyttötarkoituksen, alustan ja odotetun rasituksen mukaan."
       },
       "precision": {
         "title": "Tarkkuus",
-        "description": "Jokainen millimetri on tärkeä. Rakennustekninen täydellisyys."
+        "description": "Tarkat mittaukset, siistit liittymät ja hallitut yksityiskohdat määrittävät lopputuloksen."
       },
       "reliability": {
         "title": "Luotettavuus",
-        "description": "Ajallaan, budjetissa, jokaisessa projektissa."
+        "description": "Selkeät prosessit, läpinäkyvä viestintä ja aikataulussa pysyvä toteutus ensimmäisestä tapaamisesta luovutukseen."
       },
       "craftsmanship": {
         "title": "Käsityötaito",
-        "description": "Vuosikymmenien asiantuntemus jokaisella pinnalla, johon koskemme."
+        "description": "Kokenutta käsityötä julkisivuihin, lattioihin, seiniin, ikkunoihin ja lasiratkaisuihin - näkyvissä jokaisessa yksityiskohdassa."
       }
     },
     "learnMore": "Lue lisää meistä",
@@ -147,7 +147,7 @@
     "sectionLabel": "Asetukset"
   },
   "metaTitle": "Martin Projekt Group GmbH – Rakentaminen, Remontit ja Asennus",
-  "metaDescription": "Julkisivurakentaminen, ikkunaasennus ja sisätyöt. Luotettavat työt asunnoille ja taloille.",
+  "metaDescription": "Rakentaminen, julkisivut, ikkuna-asennus, sisäviimeistely ja saneeraukset Sveitsissä. Tarkkaa työtä asuntoihin, taloihin ja liiketiloihin.",
   "impressum": {
     "pageTitle": "Oikeudellinen tiedote",
     "sectionLabel": "Oikeudellinen",

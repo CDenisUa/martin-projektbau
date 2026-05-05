@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Building Excellence,\nEngineering Trust",
-    "subheadline": "Construction, Facades, Installation and Interior Work",
+    "subheadline": "Construction, facades, windows, interiors and renovations across Switzerland",
     "cta": "View Projects",
     "ctaSecondary": "Our Services",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Years Experience",
     "stat2value": "200+",
     "stat2label": "Projects Completed",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Core Services",
     "stat4value": "CH",
     "stat4label": "Swiss Quality"
   },
   "services": {
     "title": "Our Services",
-    "subtitle": "Comprehensive construction and renovation services delivered with precision and expertise.",
+    "subtitle": "We combine building envelope work, interior finishing and surface craftsmanship into clearly coordinated construction and renovation solutions for homes, apartments and commercial spaces in Switzerland.",
     "viewAll": "View all services",
     "items": {
       "facade": {
         "title": "Facade Construction",
-        "description": "Professional facade systems designed for durability, aesthetics and energy efficiency."
+        "description": "We plan and build facades for new construction and renovation: substructure, insulation, cladding and clean junctions. The result is a weather-resistant, energy-conscious building envelope with a precise architectural finish."
       },
       "tiling": {
         "title": "Tile & Stone Laying",
-        "description": "Expert installation of premium tiles and natural stone for floors and walls."
+        "description": "Ceramic tiles, porcelain stoneware, natural stone and mosaics for bathrooms, kitchens, living areas, stairs and outdoor spaces. We focus on substrate preparation, falls, waterproofing, exact joints and a durable clean finish."
       },
       "parquet": {
         "title": "Parquet Flooring",
-        "description": "High-quality parquet installation with meticulous attention to pattern and finish."
+        "description": "Precise parquet work from substrate build-up to final surface treatment. Whether renovation, new installation or refresh, we create warm and robust timber floors with calm patterns and careful detailing."
       },
       "painting": {
         "title": "Painting & Plastering",
-        "description": "Flawless interior and exterior painting and plastering services."
+        "description": "Interior and exterior painting, plastering, skim coating and surface preparation from one team. For smooth walls, protected facades and rooms that feel clean, refined and professionally finished."
       },
       "windows": {
         "title": "Window Installation",
-        "description": "Precision window fitting for optimal insulation, light and aesthetics."
+        "description": "Windows measured precisely, installed professionally and connected airtight. High-quality window installation improves thermal insulation, sound protection, security and comfort in both new builds and renovations."
       },
       "renovation": {
         "title": "Renovation & Conversion",
-        "description": "Complete interior and exterior renovation and conversion projects."
+        "description": "Renovations and conversions with clear coordination of trades - from demolition and interior build-out to final surfaces. Existing buildings are modernised, upgraded and made practical for everyday use."
       },
       "shower": {
         "title": "Custom Shower Glass & Enclosures",
-        "description": "Custom shower enclosures, walk-in showers, and glass solutions for bathrooms, offices, and interiors - including consultation, measurement, ordering, installation, and service."
+        "description": "Custom shower glass and enclosures for niches, corners, walk-in solutions and special dimensions. We handle consultation, measurement, ordering, installation and service for bright, low-maintenance bathrooms."
       }
     },
     "whatWeDo": "What We Do",
@@ -75,24 +75,24 @@
   "about": {
     "title": "About Martin Projekt Group",
     "subtitle": "Swiss craftsmanship since day one.",
-    "body": "Martin Projekt Group is a Swiss construction and renovation company built on the foundations of quality, precision and reliability. With expertise spanning facade construction, interior finishing and full-scale renovations, we deliver projects that stand the test of time. Every detail is engineered with care - from the first sketch to the final finish.",
+    "body": "Martin Projekt Group is a Swiss construction and renovation company for facades, windows, interior finishing and high-quality surfaces. We approach every project from the substance of the building: clean substrates, precise junctions, suitable materials and reliable coordination. This creates solutions that work in daily use, look refined and help protect the long-term value of the property.",
     "sectionLabel": "Who We Are",
     "values": {
       "quality": {
         "title": "Quality",
-        "description": "We use only the finest materials and proven techniques."
+        "description": "Materials and systems are selected for the use case, the substrate and the level of wear they need to withstand."
       },
       "precision": {
         "title": "Precision",
-        "description": "Every millimetre matters. We engineer perfection."
+        "description": "Exact measurements, clean junctions and controlled details define the final result."
       },
       "reliability": {
         "title": "Reliability",
-        "description": "On time, on budget, every single project."
+        "description": "Clear processes, transparent communication and punctual execution from first appointment to handover."
       },
       "craftsmanship": {
         "title": "Craftsmanship",
-        "description": "Decades of expertise in every surface we touch."
+        "description": "Experienced hands for facades, floors, walls, windows and glass solutions - visible in every detail."
       }
     },
     "learnMore": "Learn More About Us",
@@ -147,7 +147,7 @@
     "sectionLabel": "Preferences"
   },
   "metaTitle": "Martin Projekt Group GmbH – Construction, Renovations and Installation",
-  "metaDescription": "Facade construction, window installation and interior work. Reliable services for apartments and houses.",
+  "metaDescription": "Construction, facade work, window installation, interior finishing and renovations in Switzerland. Precise work for apartments, houses and commercial spaces.",
   "impressum": {
     "pageTitle": "Legal Notice",
     "sectionLabel": "Legal",

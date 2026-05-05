@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Byggnadsexcellens,\nFörtroende i Grunderna",
-    "subheadline": "Byggnation, fasader, montage och inredningsarbeten",
+    "subheadline": "Bygg, fasader, fönster, interiörer och renoveringar i Schweiz",
     "cta": "Se Projekt",
     "ctaSecondary": "Våra Tjänster",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Års erfarenhet",
     "stat2value": "200+",
     "stat2label": "Avslutade projekt",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Kärntjänster",
     "stat4value": "CH",
     "stat4label": "Schweizisk kvalitet"
   },
   "services": {
     "title": "Våra Tjänster",
-    "subtitle": "Heltäckande bygg- och renoveringstjänster med precision och kompetens.",
+    "subtitle": "Vi kombinerar klimatskal, invändig finish och ytarbeten till tydligt samordnade bygg- och renoveringslösningar för lägenheter, hus och kommersiella lokaler i Schweiz.",
     "viewAll": "Se alla tjänster",
     "items": {
       "facade": {
         "title": "Fasadbyggnad",
-        "description": "Professionella fasadsystem för hållbarhet, estetik och energieffektivitet."
+        "description": "Vi planerar och utför fasader för nybyggnad och renovering: underkonstruktion, isolering, beklädnad och rena anslutningar. Resultatet blir ett vädertåligt, energieffektivt och visuellt sammanhållet klimatskal."
       },
       "tiling": {
         "title": "Plattsättning och Sten",
-        "description": "Expertinstallation av premiumplattor och natursten för golv och väggar."
+        "description": "Kakel, klinker, natursten och mosaik för badrum, kök, bostadsrum, trappor och utomhusytor. Vi fokuserar på underlag, fall, tätskikt, precisa fogar och en hållbar ren finish."
       },
       "parquet": {
         "title": "Parkettgolv",
-        "description": "Högkvalitativ parkettinstallation med noggrann uppmärksamhet på mönster och finish."
+        "description": "Exakta parkettarbeten från underlagsuppbyggnad till färdig yta. Vid renovering, nyläggning eller uppfräschning skapar vi varma och robusta trägolv med ett lugnt läggningsmönster."
       },
       "painting": {
         "title": "Målning och Puts",
-        "description": "Fläckfria inomhus- och utomhusmålnings- och putstjänster."
+        "description": "Invändig och utvändig målning, puts, spackling och ytberedning från ett och samma team. För släta väggar, skyddade fasader och rum som känns rena och välgjorda."
       },
       "windows": {
         "title": "Fönsterinstallation",
-        "description": "Precisionsmontage av fönster för optimal isolering, ljus och estetik."
+        "description": "Fönster mäts exakt, monteras professionellt och ansluts lufttätt. Bra fönstermontage förbättrar värmeisolering, ljudkomfort, säkerhet och boendekomfort vid både nybyggnad och renovering."
       },
       "renovation": {
         "title": "Renovering och Ombyggnad",
-        "description": "Fullständiga in- och utomhusrenoveringar och ombyggnadsprojekt."
+        "description": "Renoveringar och ombyggnader med tydlig samordning av yrkesgrupperna - från rivning och invändig utbyggnad till slutliga ytor. Befintlig byggnad moderniseras, höjs i värde och anpassas till vardagens användning."
       },
       "shower": {
         "title": "Duschdörrar & glas efter mått",
-        "description": "Skräddarsydda duschväggar, walk-in duschar och glaslösningar för badrum, kontor och interiörer - inklusive rådgivning, mätning, beställning, montering och service."
+        "description": "Duschglas och duschväggar efter mått för nischer, hörn, walk-in-lösningar och specialmått. Vi sköter rådgivning, mätning, beställning, montering och service för ljusa badrum som är enkla att underhålla."
       }
     },
     "whatWeDo": "Vad vi gör",
@@ -75,24 +75,24 @@
   "about": {
     "title": "Om Martin Projekt Group",
     "subtitle": "Schweiziskt hantverk från dag ett.",
-    "body": "Martin Projekt Group är ett schweiziskt bygg- och renoveringsföretag byggt på kvalitet, precision och pålitlighet.",
+    "body": "Martin Projekt Group är ett schweiziskt bygg- och renoveringsföretag för fasader, fönster, invändig finish och högkvalitativa ytor. Vi utgår från byggnadens substans: rena underlag, precisa anslutningar, lämpliga material och tillförlitlig samordning. Det skapar lösningar som fungerar i vardagen, ser välgjorda ut och hjälper till att skydda fastighetens långsiktiga värde.",
     "sectionLabel": "Vilka Vi Är",
     "values": {
       "quality": {
         "title": "Kvalitet",
-        "description": "Vi använder bara de bästa materialen och beprövade tekniker."
+        "description": "Material och system väljs efter användning, underlag och den belastning de ska tåla."
       },
       "precision": {
         "title": "Precision",
-        "description": "Varje millimeter räknas. Vi konstruerar perfektion."
+        "description": "Exakta mätningar, rena anslutningar och kontrollerade detaljer avgör slutresultatet."
       },
       "reliability": {
         "title": "Pålitlighet",
-        "description": "I tid, inom budget, varje projekt."
+        "description": "Tydliga processer, transparent kommunikation och punktligt utförande från första möte till överlämning."
       },
       "craftsmanship": {
         "title": "Hantverk",
-        "description": "Decennier av expertis på varje yta vi rör vid."
+        "description": "Erfaret hantverk för fasader, golv, väggar, fönster och glaslösningar - synligt i varje detalj."
       }
     },
     "learnMore": "Läs mer om oss",
@@ -147,7 +147,7 @@
     "sectionLabel": "Inställningar"
   },
   "metaTitle": "Martin Projekt Group GmbH – Bygg, Renoveringar och Montage",
-  "metaDescription": "Fasadbyggnad, fönstermontage och inredningsarbeten. Pålitliga arbeten för lägenheter och hus.",
+  "metaDescription": "Bygg, fasader, fönstermontage, invändig finish och renoveringar i Schweiz. Precist arbete för lägenheter, hus och kommersiella lokaler.",
   "impressum": {
     "pageTitle": "Juridisk information",
     "sectionLabel": "Juridiskt",

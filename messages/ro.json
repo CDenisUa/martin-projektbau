@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Excelență în Construcții,\nÎncredere în Fundații",
-    "subheadline": "Construcții, fațade, montaj și amenajări interioare",
+    "subheadline": "Construcții, fațade, ferestre, interioare și renovări în Elveția",
     "cta": "Vezi Proiectele",
     "ctaSecondary": "Serviciile Noastre",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Ani de experiență",
     "stat2value": "200+",
     "stat2label": "Proiecte finalizate",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Servicii principale",
     "stat4value": "CH",
     "stat4label": "Calitate elvețiană"
   },
   "services": {
     "title": "Serviciile Noastre",
-    "subtitle": "Servicii complete de construcție și renovare cu precizie și expertiză.",
+    "subtitle": "Combinăm anvelopa clădirii, finisajele interioare și lucrările de suprafață în soluții de construcție și renovare clar coordonate pentru apartamente, case și spații comerciale în Elveția.",
     "viewAll": "Vezi toate serviciile",
     "items": {
       "facade": {
         "title": "Construcții Fațade",
-        "description": "Sisteme profesionale de fațade pentru durabilitate, estetică și eficiență energetică."
+        "description": "Planificăm și realizăm fațade pentru construcții noi și renovări: substructură, izolație, placare și racorduri curate. Astfel, anvelopa clădirii devine rezistentă la intemperii, eficientă energetic și coerentă vizual."
       },
       "tiling": {
         "title": "Montaj Gresie și Piatră",
-        "description": "Instalare expertă de gresie premium și piatră naturală pentru pardoseli și pereți."
+        "description": "Gresie, porțelan, piatră naturală și mozaic pentru băi, bucătării, spații de locuit, scări și exterior. Acordăm atenție suportului, pantelor, hidroizolației, rosturilor precise și unui finisaj curat și durabil."
       },
       "parquet": {
         "title": "Parchet",
-        "description": "Instalare parchet de înaltă calitate cu atenție meticuloasă la model și finisaj."
+        "description": "Lucrări precise de parchet, de la pregătirea suportului până la finisarea suprafeței. Fie că este renovare, montaj nou sau reîmprospătare, creăm pardoseli calde și robuste din lemn, cu un model de montaj echilibrat."
       },
       "painting": {
         "title": "Zugrăveli și Tencuieli",
-        "description": "Servicii impecabile de zugrăvit și tencuit interior și exterior."
+        "description": "Zugrăveli interioare și exterioare, tencuieli, gleturi și pregătirea suprafețelor dintr-o singură echipă. Pentru pereți netezi, fațade protejate și spații care arată curat și de calitate."
       },
       "windows": {
         "title": "Montaj Ferestre",
-        "description": "Montaj precis de ferestre pentru izolație, lumină și estetică optimă."
+        "description": "Ferestre măsurate precis, montate profesional și racordate etanș. Un montaj bun îmbunătățește izolația termică, protecția fonică, siguranța și confortul în construcții noi și renovări."
       },
       "renovation": {
         "title": "Renovare și Conversie",
-        "description": "Proiecte complete de renovare și conversie interior și exterior."
+        "description": "Renovări și transformări cu coordonarea clară a meseriilor - de la demolare și amenajări interioare până la suprafețele finale. Structura existentă este modernizată, valorizată și adaptată utilizării zilnice."
       },
       "shower": {
         "title": "Sticlă duș & cabine la comandă",
-        "description": "Cabine de duș la comandă, dușuri walk-in și soluții din sticlă pentru băi, birouri și interioare - inclusiv consultanță, măsurare, comandă, montaj și service."
+        "description": "Sticlă de duș și cabine la comandă pentru nișe, colțuri, soluții walk-in și dimensiuni speciale. Ne ocupăm de consultanță, măsurare, comandă, montaj și service pentru băi luminoase și ușor de întreținut."
       }
     },
     "whatWeDo": "Ce facem",
@@ -75,24 +75,24 @@
   "about": {
     "title": "Despre Martin Projekt Group",
     "subtitle": "Meșteșug elvețian din prima zi.",
-    "body": "Martin Projekt Group este o companie elvețiană de construcții și renovări construită pe calitate, precizie și fiabilitate.",
+    "body": "Martin Projekt Group este o companie elvețiană de construcții și renovări pentru fațade, ferestre, finisaje interioare și suprafețe de calitate. Privim fiecare proiect pornind de la structura clădirii: suporturi curate, racorduri precise, materiale potrivite și coordonare fiabilă. Astfel apar soluții care funcționează în utilizarea zilnică, arată îngrijit și ajută la protejarea valorii proprietății pe termen lung.",
     "sectionLabel": "Cine Suntem",
     "values": {
       "quality": {
         "title": "Calitate",
-        "description": "Folosim doar cele mai bune materiale și tehnici dovedite."
+        "description": "Materialele și sistemele sunt alese în funcție de utilizare, suport și nivelul de solicitare."
       },
       "precision": {
         "title": "Precizie",
-        "description": "Fiecare milimetru contează. Proiectăm perfecțiunea."
+        "description": "Măsurătorile exacte, racordurile curate și detaliile controlate definesc rezultatul final."
       },
       "reliability": {
         "title": "Fiabilitate",
-        "description": "La timp, în buget, la fiecare proiect."
+        "description": "Procese clare, comunicare transparentă și execuție la termen de la prima întâlnire până la predare."
       },
       "craftsmanship": {
         "title": "Meșteșug",
-        "description": "Decenii de expertiză pe fiecare suprafață pe care o atingem."
+        "description": "Lucru manual experimentat pentru fațade, pardoseli, pereți, ferestre și soluții din sticlă - vizibil în fiecare detaliu."
       }
     },
     "learnMore": "Aflați mai multe",
@@ -147,7 +147,7 @@
     "sectionLabel": "Preferințe"
   },
   "metaTitle": "Martin Projekt Group GmbH – Construcții, Renovări și Montaj",
-  "metaDescription": "Construcția fațadelor, montaj ferestre și amenajări interioare. Lucrări de încredere pentru apartamente și case.",
+  "metaDescription": "Construcții, fațade, montaj ferestre, finisaje interioare și renovări în Elveția. Lucrări precise pentru apartamente, case și spații comerciale.",
   "impressum": {
     "pageTitle": "Mențiuni legale",
     "sectionLabel": "Legal",

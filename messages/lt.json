@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Statybos Meistriškumas,\nPasitikėjimas Pamatuose",
-    "subheadline": "Statyba, fasadai, montavimas ir vidaus darbai",
+    "subheadline": "Statyba, fasadai, langai, interjerai ir renovacijos Šveicarijoje",
     "cta": "Žiūrėti Projektus",
     "ctaSecondary": "Mūsų Paslaugos",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Metų patirtis",
     "stat2value": "200+",
     "stat2label": "Užbaigtų projektų",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Pagrindinių paslaugų",
     "stat4value": "CH",
     "stat4label": "Šveicarijos kokybė"
   },
   "services": {
     "title": "Mūsų Paslaugos",
-    "subtitle": "Visapusiškos statybos ir renovacijos paslaugos su tikslumu ir kompetencija.",
+    "subtitle": "Sujungiame pastato apvalkalą, vidaus apdailą ir paviršių darbus į aiškiai koordinuotus statybos ir renovacijos sprendimus butams, namams ir komercinėms patalpoms Šveicarijoje.",
     "viewAll": "Žiūrėti visas paslaugas",
     "items": {
       "facade": {
         "title": "Fasadų Statyba",
-        "description": "Profesionalios fasadų sistemos ilgaamžiškumui, estetikai ir energijos efektyvumui."
+        "description": "Planuojame ir įrengiame fasadus naujai statybai ir renovacijai: pagrindo konstrukciją, izoliaciją, apdailą ir švarius sujungimus. Taip pastato apvalkalas tampa atsparus orui, energiškai efektyvus ir vizualiai vientisas."
       },
       "tiling": {
         "title": "Plytelių ir Akmens Klojimas",
-        "description": "Ekspertų premium plytelių ir natūralaus akmens įrengimas grindims ir sienoms."
+        "description": "Plytelės, porceliano akmens masė, natūralus akmuo ir mozaika vonioms, virtuvėms, gyvenamosioms erdvėms, laiptams ir lauko zonoms. Rūpinamės pagrindu, nuolydžiais, hidroizoliacija, tiksliomis siūlėmis ir ilgalaike švaria apdaila."
       },
       "parquet": {
         "title": "Parketinės Grindys",
-        "description": "Aukštos kokybės parketo įrengimas su kruopščiu dėmesiu raštui ir apdailai."
+        "description": "Tikslūs parketo darbai nuo pagrindo paruošimo iki galutinio paviršiaus. Renovacijos, naujo klojimo ar atnaujinimo metu kuriame šiltas ir tvirtas medines grindis su ramiu klojimo raštu."
       },
       "painting": {
         "title": "Dažymas ir Tinko Darbai",
-        "description": "Nepriekaištingos vidaus ir išorės dažymo ir tinko paslaugos."
+        "description": "Vidaus ir išorės dažymas, tinkavimas, glaistymas ir paviršių paruošimas iš vienos komandos. Lygioms sienoms, apsaugotiems fasadams ir patalpoms, kurios atrodo švariai ir kokybiškai."
       },
       "windows": {
         "title": "Langų Montavimas",
-        "description": "Tikslus langų montavimas optimaliai izoliacijai, šviesai ir estetikai."
+        "description": "Langai tiksliai išmatuojami, profesionaliai sumontuojami ir sandariai prijungiami. Geras montavimas pagerina šilumos izoliaciją, garso apsaugą, saugumą ir gyvenimo komfortą naujoje statyboje bei renovacijoje."
       },
       "renovation": {
         "title": "Renovacija ir Rekonstrukcija",
-        "description": "Išsamūs vidaus ir išorės renovacijos ir rekonstrukcijos projektai."
+        "description": "Renovacijos ir pertvarkymai su aiškia darbų koordinacija - nuo demontavimo ir vidaus įrengimo iki galutinių paviršių. Esamas pastatas modernizuojamas, jo vertė didinama ir jis pritaikomas kasdieniam naudojimui."
       },
       "shower": {
         "title": "Dušo stiklas ir pertvaros pagal matmenis",
-        "description": "Individualiai pagamintos dušo pertvaros, walk-in dušai ir stiklo sprendimai vonios kambariams, biurams ir interjerams - su konsultacija, matavimais, užsakymu, montavimu ir aptarnavimu."
+        "description": "Dušo stiklas ir pertvaros pagal matmenis nišoms, kampams, walk-in sprendimams ir nestandartiniams dydžiams. Pasirūpiname konsultacija, matavimu, užsakymu, montavimu ir aptarnavimu šviesiems, lengvai prižiūrimiems vonios kambariams."
       }
     },
     "whatWeDo": "Ką mes darome",
@@ -75,24 +75,24 @@
   "about": {
     "title": "Apie Martin Projekt Group",
     "subtitle": "Šveicarijos amatininkystė nuo pirmosios dienos.",
-    "body": "Martin Projekt Group – Šveicarijos statybos ir renovacijos įmonė, pastatyta ant kokybės, tikslumo ir patikimumo pagrindų.",
+    "body": "Martin Projekt Group – Šveicarijos statybos ir renovacijos įmonė fasadams, langams, vidaus apdailai ir kokybiškiems paviršiams. Į kiekvieną projektą žiūrime nuo pastato pagrindo: švarus pagrindas, tikslūs sujungimai, tinkamos medžiagos ir patikima koordinacija. Taip atsiranda sprendimai, kurie veikia kasdien, atrodo tvarkingai ir padeda ilgainiui išsaugoti nekilnojamojo turto vertę.",
     "sectionLabel": "Kas Mes Esame",
     "values": {
       "quality": {
         "title": "Kokybė",
-        "description": "Naudojame tik geriausias medžiagas ir patikrintas technologijas."
+        "description": "Medžiagos ir sistemos parenkamos pagal naudojimą, pagrindą ir numatomą apkrovą."
       },
       "precision": {
         "title": "Tikslumas",
-        "description": "Kiekvienas milimetras svarbus. Projektuojame tobulumą."
+        "description": "Tikslūs matavimai, švarūs sujungimai ir kontroliuojamos detalės lemia galutinį rezultatą."
       },
       "reliability": {
         "title": "Patikimumas",
-        "description": "Laiku, pagal biudžetą, kiekviename projekte."
+        "description": "Aiškūs procesai, skaidri komunikacija ir terminų laikymasis nuo pirmo susitikimo iki perdavimo."
       },
       "craftsmanship": {
         "title": "Amatininkystė",
-        "description": "Dešimtmečių patirtis kiekviename paviršiuje, kurio liečiame."
+        "description": "Patyręs rankų darbas fasadams, grindims, sienoms, langams ir stiklo sprendimams - matomas kiekvienoje detalėje."
       }
     },
     "learnMore": "Sužinoti daugiau",
@@ -106,7 +106,7 @@
   },
   "contact": {
     "title": "Susisiekite su Mumis",
-    "subtitle": "Pasiruošę pradėti projektą? Mielai jus išgirsime.",
+    "subtitle": "Pasiruošę pradėti projektą? Mielai jus išklausysime.",
     "name": "Pilnas Vardas",
     "email": "El. Pašto Adresas",
     "phone": "Telefono Numeris",
@@ -147,7 +147,7 @@
     "sectionLabel": "Nuostatos"
   },
   "metaTitle": "Martin Projekt Group GmbH – Statyba, Renovacijos ir Montavimas",
-  "metaDescription": "Fasado darbai, langų montavimas ir vidaus apdaila. Patikimi darbai butams ir namams.",
+  "metaDescription": "Statyba, fasadai, langų montavimas, vidaus apdaila ir renovacijos Šveicarijoje. Tikslūs darbai butams, namams ir komercinėms patalpoms.",
   "impressum": {
     "pageTitle": "Teisinė informacija",
     "sectionLabel": "Teisinė",

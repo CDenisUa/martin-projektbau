@@ -1,7 +1,7 @@
 export const legalInfo = {
   companyName: 'Martin Projekt Group GmbH',
   websiteHost: 'martinprojektgroup.ch',
-  websiteUrl: 'https://martinprojektgroup.ch',
+  websiteUrl: 'https://www.martinprojektgroup.ch',
   country: 'Switzerland',
   contactEmail: 'info@martinprojektgroup.ch',
   phone: null as string | null,

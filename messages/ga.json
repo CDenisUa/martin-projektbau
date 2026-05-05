@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Barr Feabhais sa Tógáil,\nMuinín sna Bunúis",
-    "subheadline": "Tógáil, aghaidheanna, suiteáil agus obair inmheánach",
+    "subheadline": "Tógáil, aghaidheanna, fuinneoga, taobh istigh agus athchóirithe san Eilvéis",
     "cta": "Féach ar Thionscadail",
     "ctaSecondary": "Ár Seirbhísí",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Bliana taithí",
     "stat2value": "200+",
     "stat2label": "Tionscadal críochnaithe",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Príomhsheirbhísí",
     "stat4value": "CH",
     "stat4label": "Caighdeán Eilvéiseach"
   },
   "services": {
     "title": "Ár Seirbhísí",
-    "subtitle": "Seirbhísí cuimsitheacha tógála agus athnuachana le cruinneas agus saineolas.",
+    "subtitle": "Cuirimid obair ar chlúdach an fhoirgnimh, críochnú inmheánach agus obair dromchla le chéile i réitigh thógála agus athchóirithe atá comhordaithe go soiléir d'árasáin, tithe agus spásanna tráchtála san Eilvéis.",
     "viewAll": "Féach ar na seirbhísí go léir",
     "items": {
       "facade": {
-        "title": "Tógáil Façade",
-        "description": "Córais façade gairmiúla do mharthanacht, aeistéitic agus éifeachtúlacht fuinnimh."
+        "title": "Tógáil Aghaidheanna",
+        "description": "Déanaimid aghaidheanna a phleanáil agus a chur i gcrích do thógáil nua agus d'athchóiriú: fo-struchtúr, insliú, clúdach agus nascanna glana. Mar sin bíonn clúdach an fhoirgnimh seasmhach in aghaidh aimsire, tíosach ar fhuinneamh agus aonfhoirmeach ó thaobh cuma de."
       },
       "tiling": {
         "title": "Leagan Tíleanna agus Cloiche",
-        "description": "Suiteáil saineolach tíleanna ardchaighdeáin agus cloiche nádúrtha."
+        "description": "Tíleanna, earraí cloiche poircealláin, cloch nádúrtha agus mósáic do sheomraí folctha, cistineacha, spásanna maireachtála, staighrí agus limistéir lasmuigh. Tugaimid aire don bhonn, don fhána, don uiscedhíonadh, do na hailt chruinne agus do chríoch ghlan bhuan."
       },
       "parquet": {
         "title": "Urlár Parquet",
-        "description": "Suiteáil parquet ardchaighdeáin le haird chúramach ar phatrún agus críoch."
+        "description": "Obair pharquet chruinn ón mbonn a ullmhú go dtí an dromchla deiridh. Cibé acu athchóiriú, suiteáil nua nó athnuachan atá i gceist, cruthaímid urláir adhmaid thea agus láidre le patrún leagain socair."
       },
       "painting": {
         "title": "Péinteáil agus Plástráil",
-        "description": "Seirbhísí péinteála agus plástrála inmheánacha agus seachtracha gan locht."
+        "description": "Péinteáil inmheánach agus sheachtrach, plástráil, líontóireacht agus ullmhú dromchlaí ó fhoireann amháin. Do bhallaí míne, aghaidheanna cosanta agus spásanna a bhfuil cuma ghlan agus ardchaighdeáin orthu."
       },
       "windows": {
         "title": "Suiteáil Fuinneog",
-        "description": "Suiteáil cruinn fuinneog le haghaidh insliú, solas agus aeistéitic is fearr."
+        "description": "Tomhaistear fuinneoga go cruinn, suiteáiltear iad go gairmiúil agus ceanglaítear iad go haerdhíonach. Feabhsaíonn suiteáil mhaith insliú teasa, cosaint fuaime, slándáil agus compord cónaithe i dtógáil nua agus in athchóiriú."
       },
       "renovation": {
         "title": "Athnuachan agus Tiontú",
-        "description": "Tionscadail athnuachana agus tiontaithe inmheánacha agus seachtracha iomlána."
+        "description": "Athchóirithe agus athruithe le comhordú soiléir na gceirdeanna - ó bhaint agus obair inmheánach go dtí na dromchlaí deiridh. Déantar an foirgneamh atá ann a nuachóiriú, a ardú i luach agus a oiriúnú don úsáid laethúil."
       },
       "shower": {
         "title": "Gloine cithfholctha & rannóirí ar mhéid",
-        "description": "Rannóirí cithfholctha déanta ar mhéid, cithfholcthaí walk-in agus réitigh ghloine do sheomraí folctha, oifigí agus intí - lena n-áirítear comhairliúchán, tomhas, ordú, suiteáil agus seirbhís."
+        "description": "Gloine cithfholctha agus rannóirí ar mhéid do nideoga, cúinní, réitigh walk-in agus toisí speisialta. Déanaimid comhairliúchán, tomhas, ordú, suiteáil agus seirbhís do sheomraí folctha geala atá éasca a chothabháil."
       }
     },
     "whatWeDo": "Cad a dhéanaimid",
@@ -75,24 +75,24 @@
   "about": {
     "title": "Faoi Martin Projekt Group",
     "subtitle": "Ceardaíocht Eilvéiseach ón gcéad lá.",
-    "body": "Is comhlacht tógála agus athnuachana Eilvéiseach í Martin Projekt Group atá tógtha ar bhunúis cáilíochta, cruinnis agus iontaofachta.",
+    "body": "Is comhlacht tógála agus athchóirithe Eilvéiseach í Martin Projekt Group d'aghaidheanna, fuinneoga, críochnú inmheánach agus dromchlaí ardchaighdeáin. Féachaimid ar gach tionscadal ó shubstaint an fhoirgnimh amach: bunáiteanna glana, nascanna cruinne, ábhair oiriúnacha agus comhordú iontaofa. Cruthaíonn sé seo réitigh a oibríonn sa ghnáthúsáid, a bhfuil cuma néata orthu agus a chuidíonn le luach fadtéarmach na maoine a chosaint.",
     "sectionLabel": "Cé Sinn",
     "values": {
       "quality": {
         "title": "Cáilíocht",
-        "description": "Ní úsáidimid ach na hábhair is fearr agus teicníochtaí cruthaithe."
+        "description": "Roghnaítear ábhair agus córais de réir úsáide, bonn agus an ualaigh a chaithfidh siad a sheasamh."
       },
       "precision": {
         "title": "Cruinneas",
-        "description": "Tá gach milliméadar tábhachtach. Innealtóireacht na foirfeachta."
+        "description": "Socraíonn tomhais chruinne, nascanna glana agus sonraí rialaithe an toradh deiridh."
       },
       "reliability": {
         "title": "Iontaofacht",
-        "description": "In am, faoin mbuiséad, gach tionscadal aonair."
+        "description": "Próisis shoiléire, cumarsáid thrédhearcach agus cur i gcrích in am ón gcéad chruinniú go dtí an seachadadh."
       },
       "craftsmanship": {
         "title": "Ceardaíocht",
-        "description": "Deich mbliana de shaineolas ar gach dromchla a dtéimid i dteagmháil leis."
+        "description": "Ceardaíocht oilte d'aghaidheanna, urláir, ballaí, fuinneoga agus réitigh ghloine - le feiceáil i ngach mionsonra."
       }
     },
     "learnMore": "Foghlaim tuilleadh fúinn",
@@ -147,7 +147,7 @@
     "sectionLabel": "Socruithe"
   },
   "metaTitle": "Martin Projekt Group GmbH – Tógáil, Athchóiriú agus Suiteáil",
-  "metaDescription": "Tógáil éadan, suiteáil fuinneog agus oibreacha inmheánacha. Obair iontaofa d'árasáin agus tithe.",
+  "metaDescription": "Tógáil, aghaidheanna, suiteáil fuinneog, críochnú inmheánach agus athchóirithe san Eilvéis. Obair chruinn d'árasáin, tithe agus spásanna tráchtála.",
   "impressum": {
     "pageTitle": "Fógra Dlíthiúil",
     "sectionLabel": "Dlíthiúil",

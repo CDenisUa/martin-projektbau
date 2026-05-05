@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Izvrsnost u Gradnji,\nPovjerenje u Temeljima",
-    "subheadline": "Gradnja, fasade, montaža i unutarnji radovi",
+    "subheadline": "Gradnja, fasade, prozori, interijeri i renovacije u Švicarskoj",
     "cta": "Pogledaj Projekte",
     "ctaSecondary": "Naše Usluge",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Godina iskustva",
     "stat2value": "200+",
     "stat2label": "Završenih projekata",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Ključnih usluga",
     "stat4value": "CH",
     "stat4label": "Švicarska kvaliteta"
   },
   "services": {
     "title": "Naše Usluge",
-    "subtitle": "Sveobuhvatne građevinske i renovacijske usluge s preciznošću i stručnošću.",
+    "subtitle": "Povezujemo ovojnicu zgrade, unutarnje završne radove i obrade površina u jasno koordinirana građevinska i renovacijska rješenja za stanove, kuće i poslovne prostore u Švicarskoj.",
     "viewAll": "Pogledaj sve usluge",
     "items": {
       "facade": {
         "title": "Gradnja Fasada",
-        "description": "Profesionalni fasadni sustavi za trajnost, estetiku i energetsku učinkovitost."
+        "description": "Planiramo i izvodimo fasade za novogradnju i renovaciju: potkonstrukciju, izolaciju, oblogu i čiste spojeve. Tako ovojnica zgrade postaje otporna na vremenske utjecaje, energetski učinkovita i vizualno skladna."
       },
       "tiling": {
         "title": "Polaganje Pločica i Kamena",
-        "description": "Stručna ugradnja premium pločica i prirodnog kamena."
+        "description": "Pločice, porculanski gres, prirodni kamen i mozaik za kupaonice, kuhinje, stambene prostore, stepenice i vanjske površine. Pazimo na podlogu, padove, hidroizolaciju, precizne fuge i trajno čist završetak."
       },
       "parquet": {
         "title": "Parket",
-        "description": "Visokokvalitetna ugradnja parketa s pažljivom pozornošću."
+        "description": "Precizni parketarski radovi od pripreme podloge do završne obrade. Bilo da je riječ o renovaciji, novom polaganju ili osvježenju, stvaramo tople i robusne drvene podove s mirnim uzorkom polaganja."
       },
       "painting": {
         "title": "Bojanje i Žbukanje",
-        "description": "Besprijekorne unutarnje i vanjske usluge bojanja i žbukanja."
+        "description": "Unutarnje i vanjsko bojanje, žbukanje, gletanje i priprema površina iz jedne ruke. Za glatke zidove, zaštićene fasade i prostore koji izgledaju čisto i kvalitetno."
       },
       "windows": {
         "title": "Ugradnja Prozora",
-        "description": "Precizna ugradnja prozora za optimalnu izolaciju i estetiku."
+        "description": "Prozore precizno mjerimo, stručno ugrađujemo i zrakonepropusno spajamo. Dobra ugradnja poboljšava toplinsku izolaciju, zvučnu zaštitu, sigurnost i komfor u novogradnji i renovacijama."
       },
       "renovation": {
         "title": "Renovacija i Preinaka",
-        "description": "Kompletni unutarnji i vanjski projekti renovacije i preinake."
+        "description": "Renovacije i preinake s jasnom koordinacijom radova - od uklanjanja i unutarnje izgradnje do završnih površina. Postojeća građevina se modernizira, povećava joj se vrijednost i prilagođava svakodnevnoj uporabi."
       },
       "shower": {
         "title": "Tuš staklo i pregrade po mjeri",
-        "description": "Pregrade za tuš izrađene po mjeri, walk-in tuševi i staklena rješenja za kupaonice, urede i interijere - uključujući savjetovanje, mjerenje, narudžbu, montažu i servis."
+        "description": "Tuš staklo i pregrade po mjeri za niše, kutove, walk-in rješenja i posebne dimenzije. Preuzimamo savjetovanje, mjerenje, narudžbu, montažu i servis za svijetle kupaonice jednostavne za održavanje."
       }
     },
     "whatWeDo": "Što radimo",
@@ -75,24 +75,24 @@
   "about": {
     "title": "O Martin Projekt Group",
     "subtitle": "Švicarska obrtnost od prvog dana.",
-    "body": "Martin Projekt Group je švicarska građevinska i renovacijska tvrtka temeljena na kvaliteti, preciznosti i pouzdanosti.",
+    "body": "Martin Projekt Group je švicarska građevinska i renovacijska tvrtka za fasade, prozore, unutarnje završne radove i visokokvalitetne površine. Svakom projektu pristupamo od osnove zgrade: čista podloga, precizni spojevi, prikladni materijali i pouzdana koordinacija. Tako nastaju rješenja koja funkcioniraju u svakodnevnoj uporabi, izgledaju dotjerano i dugoročno čuvaju vrijednost nekretnine.",
     "sectionLabel": "Tko Smo",
     "values": {
       "quality": {
         "title": "Kvaliteta",
-        "description": "Koristimo samo najbolje materijale i provjerene tehnike."
+        "description": "Materijali i sustavi biraju se prema namjeni, podlozi i očekivanom opterećenju."
       },
       "precision": {
         "title": "Preciznost",
-        "description": "Svaki milimetar je važan. Projektiramo savršenstvo."
+        "description": "Točna mjerenja, čisti spojevi i kontrolirani detalji određuju završni rezultat."
       },
       "reliability": {
         "title": "Pouzdanost",
-        "description": "Na vrijeme, u proračunu, na svakom projektu."
+        "description": "Jasni procesi, transparentna komunikacija i poštivanje rokova od prvog sastanka do predaje."
       },
       "craftsmanship": {
         "title": "Obrtništvo",
-        "description": "Desetljeća iskustva na svakoj površini kojom se bavimo."
+        "description": "Iskusan ručni rad za fasade, podove, zidove, prozore i staklena rješenja - vidljiv u svakom detalju."
       }
     },
     "learnMore": "Saznaj više",
@@ -106,7 +106,7 @@
   },
   "contact": {
     "title": "Kontaktirajte nas",
-    "subtitle": "Spremi za početak projekta? Voljeli bismo čuti od vas.",
+    "subtitle": "Spremni za početak projekta? Voljeli bismo čuti od vas.",
     "name": "Puno Ime",
     "email": "Email Adresa",
     "phone": "Broj Telefona",
@@ -147,7 +147,7 @@
     "sectionLabel": "Postavke"
   },
   "metaTitle": "Martin Projekt Group GmbH – Gradnja, Renovacije i Montaža",
-  "metaDescription": "Fasadni radovi, montaža prozora i unutarnji radovi. Pouzdani radovi za stanove i kuće.",
+  "metaDescription": "Gradnja, fasade, montaža prozora, unutarnji završni radovi i renovacije u Švicarskoj. Precizni radovi za stanove, kuće i poslovne prostore.",
   "impressum": {
     "pageTitle": "Pravne informacije",
     "sectionLabel": "Pravno",

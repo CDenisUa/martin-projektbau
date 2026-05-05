@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Ehituse Tipptase,\nUsaldus Vundamentides",
-    "subheadline": "Ehitus, fassaadid, paigaldus ja siseviimistlus",
+    "subheadline": "Ehitus, fassaadid, aknad, sisetööd ja renoveerimine Šveitsis",
     "cta": "Vaata Projekte",
     "ctaSecondary": "Meie Teenused",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Aastat kogemust",
     "stat2value": "200+",
     "stat2label": "Lõpetatud projekti",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Põhiteenust",
     "stat4value": "CH",
     "stat4label": "Šveitsi kvaliteet"
   },
   "services": {
     "title": "Meie Teenused",
-    "subtitle": "Terviklikud ehitus- ja renoveerimisteenus täpsuse ja asjatundlikkusega.",
+    "subtitle": "Ühendame hoone välispiirde, siseviimistluse ja pinnatööd selgelt koordineeritud ehitus- ja renoveerimislahendusteks korteritele, majadele ja äripindadele Šveitsis.",
     "viewAll": "Vaata kõiki teenuseid",
     "items": {
       "facade": {
         "title": "Fassaadiehitus",
-        "description": "Professionaalsed fassaadisüsteemid vastupidavuse, esteetika ja energiatõhususe jaoks."
+        "description": "Planeerime ja teostame fassaade uusehitistele ja renoveerimisele: aluskonstruktsioon, soojustus, vooder ja puhtad ühendused. Nii muutub hoone välispiire ilmastikukindlaks, energiatõhusaks ja visuaalselt ühtseks."
       },
       "tiling": {
         "title": "Plaatide ja Kivi Laomine",
-        "description": "Ekspertpaigaldus premium plaatidele ja looduskivile põrandatele ja seintele."
+        "description": "Plaadid, portselanplaat, looduskivi ja mosaiik vannitubadesse, köökidesse, eluruumidesse, treppidele ja välialadele. Pöörame tähelepanu aluspinnale, kallakutele, hüdroisolatsioonile, täpsetele vuukidele ja püsivalt puhtale viimistlusele."
       },
       "parquet": {
         "title": "Parkett",
-        "description": "Kõrgekvaliteediline parketi paigaldus hoolika tähelepanuga mustri ja viimistluse suhtes."
+        "description": "Täpne parketitöö aluspinna ettevalmistusest lõppviimistluseni. Olgu tegu renoveerimise, uue paigalduse või värskendusega, loome soojad ja vastupidavad puitpõrandad rahuliku paigaldusmustriga."
       },
       "painting": {
         "title": "Värvimine ja Krohvimine",
-        "description": "Laitmatu sise- ja välisvärvimine ning krohvimisteenus."
+        "description": "Sise- ja välisvärvimine, krohvimine, pahteldamine ja pindade ettevalmistus ühelt meeskonnalt. Siledate seinte, kaitstud fassaadide ja puhta ning kvaliteetse üldmuljega ruumide jaoks."
       },
       "windows": {
         "title": "Akende Paigaldus",
-        "description": "Täpne akende paigaldus optimaalse soojustuse, valguse ja esteetika jaoks."
+        "description": "Aknad mõõdetakse täpselt, paigaldatakse professionaalselt ja ühendatakse õhutihedalt. Hea paigaldus parandab soojusisolatsiooni, helikaitset, turvalisust ja elumugavust nii uusehitistes kui renoveerimisel."
       },
       "renovation": {
         "title": "Renoveerimine ja Ümberehitus",
-        "description": "Terviklikud sise- ja välisrenoveerimis- ning ümberehitusprojektid."
+        "description": "Renoveerimine ja ümberehitus selge tööde koordineerimisega - lammutamisest ja sisetöödest lõplike pindadeni. Olemasolev hoone moderniseeritakse, selle väärtust tõstetakse ja see kohandatakse igapäevaseks kasutuseks."
       },
       "shower": {
         "title": "Dušiklaas ja dušikabiinid mõõtu",
-        "description": "Tellimustööna valmistatud dušikabiinid, walk-in dušid ja klaasillahendused vannitubadesse, kontoritesse ja interjööridesse - sh nõustamine, mõõtmine, tellimine, paigaldus ja hooldus."
+        "description": "Dušiklaas ja dušiseinad mõõdu järgi niššidele, nurkadele, walk-in-lahendustele ja erimõõtudele. Tegeleme nõustamise, mõõtmise, tellimise, paigalduse ja hooldusega heledate ning kergesti hooldatavate vannitubade jaoks."
       }
     },
     "whatWeDo": "Mida me teeme",
@@ -61,7 +61,7 @@
   },
   "projects": {
     "title": "Valitud Projektid",
-    "subtitle": "Valitud seltskond meie parimaid ehitus- ja renoveerimistöid.",
+    "subtitle": "Valik meie parimatest ehitus- ja renoveerimistöödest.",
     "viewProject": "Vaata Projekti",
     "viewAll": "Vaata Kõiki Projekte",
     "back": "Tagasi Projektide Juurde",
@@ -73,26 +73,26 @@
     "sectionLabel": "Meie Töö"
   },
   "about": {
-    "title": "Martin Projekt Groupst",
+    "title": "Martin Projekt Groupist",
     "subtitle": "Šveitsi käsitöö esimesest päevast.",
-    "body": "Martin Projekt Group on Šveitsi ehitus- ja renoveerimisettevõte, mis on üles ehitatud kvaliteedi, täpsuse ja usaldusväärsuse alustele.",
+    "body": "Martin Projekt Group on Šveitsi ehitus- ja renoveerimisettevõte fassaadide, akende, siseviimistluse ja kvaliteetsete pindade jaoks. Lähtume igas projektis hoone olemusest: puhas aluspind, täpsed ühendused, sobivad materjalid ja usaldusväärne koordineerimine. Nii sünnivad lahendused, mis toimivad igapäevases kasutuses, näevad viimistletud välja ja aitavad hoida kinnisvara pikaajalist väärtust.",
     "sectionLabel": "Kes Me Oleme",
     "values": {
       "quality": {
         "title": "Kvaliteet",
-        "description": "Kasutame ainult parimaid materjale ja tõestatud tehnikaid."
+        "description": "Materjalid ja süsteemid valitakse kasutuse, aluspinna ja eeldatava koormuse järgi."
       },
       "precision": {
         "title": "Täpsus",
-        "description": "Iga millimeeter loeb. Ehitame täiuslikkust."
+        "description": "Täpsed mõõtmised, puhtad ühendused ja kontrollitud detailid määravad lõpptulemuse."
       },
       "reliability": {
         "title": "Usaldusväärsus",
-        "description": "Õigeaegselt, eelarves, igas projektis."
+        "description": "Selged protsessid, läbipaistev suhtlus ja tähtaegne teostus esimesest kohtumisest üleandmiseni."
       },
       "craftsmanship": {
         "title": "Käsitöö",
-        "description": "Kümnete aastate kogemus igal pinnal, mida puudutame."
+        "description": "Kogenud käsitöö fassaadidele, põrandatele, seintele, akendele ja klaasilahendustele - nähtav igas detailis."
       }
     },
     "learnMore": "Loe lisaks",
@@ -147,7 +147,7 @@
     "sectionLabel": "Seaded"
   },
   "metaTitle": "Martin Projekt Group GmbH – Ehitus, Renoveerimine ja Paigaldus",
-  "metaDescription": "Fassaaditööd, akende paigaldus ja siseviimistlus. Usaldusväärsed tööd korteritele ja majadele.",
+  "metaDescription": "Ehitus, fassaadid, akende paigaldus, siseviimistlus ja renoveerimine Šveitsis. Täpne töö korteritele, majadele ja äripindadele.",
   "impressum": {
     "pageTitle": "Juriidiline teave",
     "sectionLabel": "Juriidiline",

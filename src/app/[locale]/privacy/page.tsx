@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import LegalPageFrame from '@/components/legal/LegalPageFrame';
 import { getLegalCopy } from '@/lib/legalContent';
+import { buildPageMetadata } from '@/lib/seo';
 
 export async function generateMetadata({
   params,
@@ -10,10 +11,12 @@ export async function generateMetadata({
   const { locale } = await params;
   const copy = await getLegalCopy(locale);
 
-  return {
-    title: `${copy.privacy.title} | Martin Projekt Group`,
+  return buildPageMetadata({
+    locale,
+    path: '/privacy',
+    title: `${copy.privacy.title} | Martin Projekt Group GmbH`,
     description: copy.privacy.description,
-  };
+  });
 }
 
 export default async function PrivacyPage({

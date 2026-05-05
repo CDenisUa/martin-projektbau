@@ -9,10 +9,16 @@ import { Mail, MapPin, ArrowRight, CheckCircle, AlertCircle, Loader2 } from 'luc
 // Utils
 import { validate, type FormState, type ValidationErrors as Errors } from '@/lib/contactValidation';
 
-export default function ContactSection({ className }: { className?: string }) {
+type ContactSectionProps = {
+  className?: string;
+  headingLevel?: 'h1' | 'h2';
+};
+
+export default function ContactSection({ className, headingLevel = 'h2' }: ContactSectionProps) {
   const t = useTranslations('contact');
   const locale = useLocale();
   const ref = useRef<HTMLElement>(null);
+  const HeadingTag = headingLevel;
   const inView = useInView(ref, { once: true, margin: '-80px' });
   const [submitted, setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
@@ -69,7 +75,7 @@ export default function ContactSection({ className }: { className?: string }) {
     }`;
 
   return (
-    <section ref={ref} className={`py-6 md:py-5 text-white w-full ${className ?? 'bg-primary'}`}>
+    <section ref={ref} className={`py-8.5 md:py-7.5 text-white w-full ${className ?? 'bg-primary'}`}>
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-10 lg:gap-20">
           {/* Left: info */}
@@ -81,7 +87,9 @@ export default function ContactSection({ className }: { className?: string }) {
             <p className="text-accent text-xs tracking-[0.3em] uppercase mb-4 font-medium">
               {t('sectionLabel')}
             </p>
-            <h2 className="text-4xl lg:text-5xl font-light tracking-tight mb-4">{t('title')}</h2>
+            <HeadingTag className="text-4xl lg:text-5xl font-light tracking-tight mb-4">
+              {t('title')}
+            </HeadingTag>
             <p className="text-white/50 text-lg leading-relaxed mb-4">{t('subtitle')}</p>
 
             <div className="space-y-3">

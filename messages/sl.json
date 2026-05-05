@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Odličnost v Gradnji,\nZaupanje v Temeljih",
-    "subheadline": "Gradnja, fasade, montaža in notranja dela",
+    "subheadline": "Gradnja, fasade, okna, notranjost in prenove v Švici",
     "cta": "Oglejte si Projekte",
     "ctaSecondary": "Naše Storitve",
     "badge": "martinprojektgroup.ch",
@@ -17,43 +17,43 @@
     "stat1label": "Let izkušenj",
     "stat2value": "200+",
     "stat2label": "Dokončanih projektov",
-    "stat3value": "6",
+    "stat3value": "7",
     "stat3label": "Osnovnih storitev",
     "stat4value": "CH",
     "stat4label": "Švicarska kakovost"
   },
   "services": {
     "title": "Naše Storitve",
-    "subtitle": "Celovite gradbene in renovacijske storitve z natančnostjo in strokovnostjo.",
+    "subtitle": "Združujemo stavbni ovoj, notranja zaključna dela in obdelave površin v jasno usklajene gradbene in prenovitvene rešitve za stanovanja, hiše in poslovne prostore v Švici.",
     "viewAll": "Oglejte si vse storitve",
     "items": {
       "facade": {
         "title": "Gradnja Fasad",
-        "description": "Profesionalni fasadni sistemi za trajnost, estetiko in energijsko učinkovitost."
+        "description": "Načrtujemo in izvedemo fasade za novogradnje in prenove: podkonstrukcijo, izolacijo, oblogo in čiste priključke. Tako stavbni ovoj postane odporen na vremenske vplive, energijsko učinkovit in vizualno usklajen."
       },
       "tiling": {
         "title": "Polaganje Ploščic in Kamna",
-        "description": "Strokovna vgradnja premium ploščic in naravnega kamna."
+        "description": "Ploščice, porcelanski gres, naravni kamen in mozaik za kopalnice, kuhinje, bivalne prostore, stopnice in zunanje površine. Pazimo na podlago, naklone, hidroizolacijo, natančne fuge in trajno čist zaključek."
       },
       "parquet": {
         "title": "Parket",
-        "description": "Visokokakovostna vgradnja parketa s skrbno pozornostjo."
+        "description": "Natančna parketarska dela od priprave podlage do končne obdelave površine. Pri prenovi, novi vgradnji ali osvežitvi ustvarimo topla in trpežna lesena tla z umirjenim vzorcem polaganja."
       },
       "painting": {
-        "title": "Slikopleskarska in Klesarska dela",
-        "description": "Brezhibne notranje in zunanje slikopleskarske in ometne storitve."
+        "title": "Slikopleskarska in ometna dela",
+        "description": "Notranje in zunanje barvanje, ometi, glajenje in priprava površin iz ene roke. Za gladke stene, zaščitene fasade in prostore, ki delujejo čisto in kakovostno."
       },
       "windows": {
         "title": "Montaža Oken",
-        "description": "Natančna montaža oken za optimalno izolacijo in estetiko."
+        "description": "Okna natančno izmerimo, strokovno vgradimo in zrakotesno priključimo. Dobra montaža izboljša toplotno izolacijo, zvočno zaščito, varnost in bivalno udobje pri novogradnjah in prenovah."
       },
       "renovation": {
         "title": "Renovacije in Preureditve",
-        "description": "Celoviti notranji in zunanji renovacijski in preuredbeni projekti."
+        "description": "Prenove in preureditve z jasno koordinacijo del - od odstranjevanja in notranje izvedbe do končnih površin. Obstoječa gradnja se posodobi, pridobi vrednost in prilagodi vsakodnevni uporabi."
       },
       "shower": {
         "title": "Tuš steklo in predelne stene po meri",
-        "description": "Predelne stene za tuš po meri, walk-in tuši in steklene rešitve za kopalnice, pisarne in interiere - vključno s svetovanjem, merjenjem, naročilom, montažo in servisom."
+        "description": "Tuš steklo in predelne stene po meri za niše, kote, walk-in rešitve in posebne mere. Prevzamemo svetovanje, meritev, naročilo, montažo in servis za svetle kopalnice z enostavnim vzdrževanjem."
       }
     },
     "whatWeDo": "Kaj počnemo",
@@ -75,24 +75,24 @@
   "about": {
     "title": "O Martin Projekt Group",
     "subtitle": "Švicarska obrtnost od prvega dne.",
-    "body": "Martin Projekt Group je švicarsko gradbeno in renovacijsko podjetje, zgrajeno na temeljih kakovosti, natančnosti in zanesljivosti.",
+    "body": "Martin Projekt Group je švicarsko gradbeno in prenovitveno podjetje za fasade, okna, notranja zaključna dela in kakovostne površine. Vsak projekt obravnavamo iz osnove stavbe: čista podlaga, natančni priključki, ustrezni materiali in zanesljiva koordinacija. Tako nastanejo rešitve, ki delujejo v vsakdanji uporabi, so estetsko dovršene in dolgoročno varujejo vrednost nepremičnine.",
     "sectionLabel": "Kdo Smo",
     "values": {
       "quality": {
         "title": "Kakovost",
-        "description": "Uporabljamo le najboljše materiale in preizkušene tehnike."
+        "description": "Materiale in sisteme izbiramo glede na uporabo, podlago in pričakovano obremenitev."
       },
       "precision": {
         "title": "Natančnost",
-        "description": "Vsak milimeter šteje. Projektiramo popolnost."
+        "description": "Natančne meritve, čisti priključki in nadzorovani detajli določajo končni rezultat."
       },
       "reliability": {
         "title": "Zanesljivost",
-        "description": "Pravočasno, v proračunu, pri vsakem projektu."
+        "description": "Jasni procesi, pregledna komunikacija in pravočasna izvedba od prvega sestanka do predaje."
       },
       "craftsmanship": {
         "title": "Obrtništvo",
-        "description": "Desetletja izkušenj na vsaki površini, ki se je dotaknemo."
+        "description": "Izkušeno ročno delo za fasade, tla, stene, okna in steklene rešitve - vidno v vsaki podrobnosti."
       }
     },
     "learnMore": "Izvedi več",
@@ -147,7 +147,7 @@
     "sectionLabel": "Nastavitve"
   },
   "metaTitle": "Martin Projekt Group GmbH – Gradnja, Obnova in Montaža",
-  "metaDescription": "Fasadna dela, montaža oken in notranja dela. Zanesljiva dela za stanovanja in hiše.",
+  "metaDescription": "Gradnja, fasade, montaža oken, notranja zaključna dela in prenove v Švici. Natančna dela za stanovanja, hiše in poslovne prostore.",
   "impressum": {
     "pageTitle": "Pravne informacije",
     "sectionLabel": "Pravno",
