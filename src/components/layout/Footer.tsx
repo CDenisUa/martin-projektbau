@@ -32,7 +32,7 @@ export default function Footer() {
             className="opacity-90 inline-block"
           >
             <Image
-              src="/images/martin_logo_white.png"
+              src="/images/logo/martin_white.png"
               alt="Martin Projekt Group"
               width={300}
               height={231}

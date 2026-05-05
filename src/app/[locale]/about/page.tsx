@@ -163,7 +163,7 @@ export default function AboutPage() {
           className="mt-24 relative aspect-[21/9] overflow-hidden"
         >
           <Image
-            src="/images/about_build.webp"
+            src="/images/about/build.webp"
             alt="Construction site"
             fill
             className="object-cover"

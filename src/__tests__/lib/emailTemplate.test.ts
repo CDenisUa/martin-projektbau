@@ -39,8 +39,8 @@ describe('buildContactEmail', () => {
   });
 
   test('uses the current production domain for branded assets', () => {
-    expect(html).toContain('https://martinprojektgroup.ch/images/martin_logo_white.png');
-    expect(html).not.toContain('vercel.app/images/martin_logo_white.png');
+    expect(html).toContain('https://martinprojektgroup.ch/images/logo/martin_white.png');
+    expect(html).not.toContain('vercel.app/images/logo/martin_white.png');
   });
 
   test('is valid HTML with DOCTYPE', () => {

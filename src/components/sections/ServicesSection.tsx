@@ -10,13 +10,13 @@ const SERVICE_KEYS = ['facade', 'tiling', 'parquet', 'painting', 'windows', 'ren
 type ServiceKey = typeof SERVICE_KEYS[number];
 
 const SERVICE_IMAGES: Record<ServiceKey, string> = {
-  facade:     '/images/services/webp/facade_сonstruction.webp',
-  tiling:     '/images/services/webp/tile_stone_saying.webp',
-  parquet:    '/images/services/webp/parquet_flooring.webp',
-  painting:   '/images/services/webp/painting_plastering.webp',
-  windows:    '/images/services/webp/window_installation.webp',
-  renovation: '/images/services/webp/renovation_conversion.webp',
-  shower:     '/images/services/webp/duschglas_duschabtrennungen.webp',
+  facade:     '/images/services/cards/facade_сonstruction.webp',
+  tiling:     '/images/services/cards/tile_stone_saying.webp',
+  parquet:    '/images/services/cards/parquet_flooring.webp',
+  painting:   '/images/services/cards/painting_plastering.webp',
+  windows:    '/images/services/cards/window_installation.webp',
+  renovation: '/images/services/cards/renovation_conversion.webp',
+  shower:     '/images/services/cards/duschglas_duschabtrennungen.webp',
 };
 
 function ServiceRow({ serviceKey, index }: { serviceKey: ServiceKey; index: number }) {

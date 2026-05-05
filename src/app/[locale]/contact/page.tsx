@@ -5,9 +5,9 @@ import Image from 'next/image';
 import { useEffect, useState } from 'react';
 
 const BANNERS = [
-  '/images/our-services-banner/banner_1.webp',
-  '/images/our-services-banner/banner_2.webp',
-  '/images/our-services-banner/banner_3.webp',
+  '/images/services/banners/banner_1.webp',
+  '/images/services/banners/banner_2.webp',
+  '/images/services/banners/banner_3.webp',
 ];
 
 export default function ContactPage() {
@@ -52,7 +52,7 @@ export default function ContactPage() {
       />
 
       {/* Content - centered H+V within the flex-1 block, offset for fixed header */}
-      <div className="relative z-10 w-full pt-20 lg:pt-0 lg:flex lg:items-center lg:justify-center lg:h-[calc(100vh-280px)]">
+      <div className="relative z-10 w-full pt-20 lg:pt-0 lg:flex lg:items-center lg:justify-center lg:h-[calc(100vh-280px)] lg:translate-y-[30px]">
         <ContactSection className="bg-transparent w-full" />
       </div>
     </div>

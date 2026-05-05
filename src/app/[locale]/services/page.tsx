@@ -8,9 +8,9 @@ import { Building2, Layers, TreePine, Paintbrush2, AppWindow, Hammer, Bath } fro
 import { useEffect, useState } from 'react';
 
 const BANNERS = [
-  '/images/our-services-banner/banner_1.webp',
-  '/images/our-services-banner/banner_2.webp',
-  '/images/our-services-banner/banner_3.webp',
+  '/images/services/banners/banner_1.webp',
+  '/images/services/banners/banner_2.webp',
+  '/images/services/banners/banner_3.webp',
 ];
 
 const SERVICE_KEYS = ['facade', 'tiling', 'parquet', 'painting', 'windows', 'renovation', 'shower'] as const;
@@ -27,13 +27,13 @@ const SERVICE_ICONS: Record<ServiceKey, React.ElementType> = {
 };
 
 const SERVICE_IMAGES: Record<ServiceKey, string> = {
-  facade:     '/images/our-services/Facade_Construction.webp',
-  tiling:     '/images/our-services/Tile_and_Stone_Laying.webp',
-  parquet:    '/images/our-services/Parquet_Flooring.webp',
-  painting:   '/images/our-services/Painting_and_Plastering.webp',
-  windows:    '/images/our-services/Window_Installation.webp',
-  renovation: '/images/our-services/Renovation_and_Conversion.webp',
-  shower:     '/images/our-services/Duschglas_Duschabtrennungen.webp',
+  facade:     '/images/services/detail/Facade_Construction.webp',
+  tiling:     '/images/services/detail/Tile_and_Stone_Laying.webp',
+  parquet:    '/images/services/detail/Parquet_Flooring.webp',
+  painting:   '/images/services/detail/Painting_and_Plastering.webp',
+  windows:    '/images/services/detail/Window_Installation.webp',
+  renovation: '/images/services/detail/Renovation_and_Conversion.webp',
+  shower:     '/images/services/detail/Duschglas_Duschabtrennungen.webp',
 };
 
 export default function ServicesPage() {
