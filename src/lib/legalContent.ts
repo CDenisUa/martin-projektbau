@@ -155,15 +155,7 @@ export async function getLegalCopy(locale: string): Promise<LegalCopy> {
           label: messages.impressum.registerLabel,
           value: getValue(legalInfo.commercialRegister, messages.impressum.register),
         },
-        {
-          label: messages.impressum.uidLabel,
-          value: getValue(legalInfo.uidNumber, messages.impressum.uid),
-        },
         { label: messages.impressum.emailLabel, value: legalInfo.contactEmail },
-        {
-          label: messages.impressum.phoneLabel,
-          value: getValue(legalInfo.phone, messages.impressum.phone),
-        },
         {
           label: messages.impressum.responsibleLabel,
           value: getValue(legalInfo.responsiblePerson, messages.impressum.responsible),
