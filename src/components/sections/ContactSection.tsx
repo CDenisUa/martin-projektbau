@@ -117,7 +117,7 @@ export default function ContactSection({ className, headingLevel = 'h2' }: Conta
                   <div className="text-[10px] text-white/30 uppercase tracking-[0.2em] mb-1.5">
                     {t('address')}
                   </div>
-                  <div className="text-sm text-white/70">Switzerland</div>
+                  <div className="text-sm text-white/70">Im Fennen 1, 8867 Niederurnen, Schweiz</div>
                 </div>
               </div>
             </div>

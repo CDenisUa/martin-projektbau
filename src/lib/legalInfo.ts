@@ -9,7 +9,7 @@ export const legalInfo = {
   commercialRegister: 'CHE-143.218.393',
   uidNumber: null as string | null,
   responsiblePerson: 'Martin Zborovancik',
-  lastUpdatedIso: '2026-04-19',
+  lastUpdatedIso: '2026-05-14',
 };
 
 export function isGermanLocale(locale: string) {
