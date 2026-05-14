@@ -187,7 +187,7 @@
     "s6h": "6. Teie õigused (nDSG / GDPR)",
     "s6p": "Läbivaadatud Šveitsi föderaalse andmekaitseseaduse (nDSG) kohaselt on teil õigus juurdepääsule, parandamisele, kustutamisele, töötlemise piiramisele, andmete ülekandmisele ja vastuväidete esitamisele. Kontakt: info@martinprojektgroup.ch. Teil on ka õigus esitada kaebus föderaalsele andmekaitse- ja avalikustamisvolinikule (EDÖB, edoeb.admin.ch). Kui teie suhtes kehtib GDPR, võite pöörduda ka oma EL-i liikmesriigi andmekaitsejärelevalveasutuse poole.",
     "s7h": "7. Majutus ja infrastruktuur",
-    "s7p": "Seda veebisaiti majutab Vercel Inc. (vercel.com). Iga lehe laadimisel salvestatakse automaatselt tehnilised juurdepääsuandmed: IP-aadress, ajatempel, nõutud URL, HTTP-meetod ning brauseri ja seadme teave. Vercel töötleb neid andmeid majutusinfrastruktuuri raames ning need alluvad Verceli privaatsuspoliitikale ja andmetöötluslepingule.",
+    "s7p": "Seda veebisaiti majutab Vercel Inc. (vercel.com). Iga lehe laadimisel salvestatakse automaatselt tehnilised juurdepääsuandmed: IP-aadress, ajatempel, nõutud URL, HTTP-meetod ning brauseri ja seadme teave. Kasutame ka Vercel Speed Insightsi anonüümsete jõudlusmõõdikute kogumiseks, nagu marsruut/URL, Web Vitalsi väärtused, võrgu kiirus, brauser, seadme tüüp, operatsioonisüsteem, riik, SDK teave ja sündmuse serverisse jõudmise aeg. Vercel töötleb neid andmeid hostingu ja jõudluse jälgimise osana ning need alluvad Verceli privaatsuspoliitikale ja andmetöötluslepingule.",
     "s8h": "8. Andmekaitse kontakt",
     "s8p": "Andmekaitsega seotud küsimusteks: info@martinprojektgroup.ch",
     "s9h": "9. Õiguslikud alused GDPR-i järgi",

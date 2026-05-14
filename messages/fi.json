@@ -187,7 +187,7 @@
     "s6h": "6. Oikeutesi (nDSG / GDPR)",
     "s6p": "Uudistetun Sveitsin liittovaltion tietosuojalain (nDSG) nojalla sinulla on oikeus saada tietoja, oikaista, poistaa, rajoittaa käsittelyä, siirtää tietoja ja vastustaa käsittelyä. Yhteydenotot: info@martinprojektgroup.ch. Sinulla on myös oikeus tehdä valitus liittovaltion tietosuoja- ja julkisuusvaltuutetulle (EDÖB, edoeb.admin.ch). Jos GDPR soveltuu sinuun, voit lisäksi ottaa yhteyttä oman EU-jäsenvaltiosi tietosuojavalvontaviranomaiseen.",
     "s7h": "7. Hosting ja infrastruktuuri",
-    "s7p": "Tämä verkkosivusto on isännöity Vercel Inc.:n (vercel.com) palvelimilla. Jokaisella sivulatauksella tallennetaan automaattisesti tekniset käyttötiedot: IP-osoite, aikaleima, pyydetty URL, HTTP-menetelmä sekä selain- ja laitetiedot. Vercel käsittelee näitä tietoja osana hosting-infrastruktuuriaan, ja ne ovat Vercelin tietosuojakäytännön ja tietojenkäsittelysopimuksen alaisia.",
+    "s7p": "Tämä verkkosivusto on isännöity Vercel Inc.:n (vercel.com) palvelimilla. Jokaisella sivulatauksella tallennetaan automaattisesti tekniset käyttötiedot: IP-osoite, aikaleima, pyydetty URL, HTTP-menetelmä sekä selain- ja laitetiedot. Käytämme myös Vercel Speed Insightsia anonyymien suorituskykymittareiden keräämiseen, kuten reitti/URL, Web Vitals -arvot, verkon nopeus, selain, laitetyyppi, käyttöjärjestelmä, maa, SDK-tiedot ja tapahtuman palvelimelle vastaanoton ajankohta. Vercel käsittelee näitä tietoja hostingin ja suorituskyvyn seurannan yhteydessä, ja ne ovat Vercelin tietosuojakäytännön ja tietojenkäsittelysopimuksen alaisia.",
     "s8h": "8. Tietosuojan yhteystiedot",
     "s8p": "Tietosuojaa koskeviin kysymyksiin: info@martinprojektgroup.ch",
     "s9h": "9. Oikeusperusteet GDPR:n mukaan",

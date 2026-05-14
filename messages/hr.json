@@ -187,7 +187,7 @@
     "s6h": "6. Vaša prava (nDSG / GDPR)",
     "s6p": "Prema revidiranom Švicarskom saveznom zakonu o zaštiti podataka (nDSG) imate pravo na pristup, ispravak, brisanje, ograničenje obrade, prenosivost podataka i prigovor. Kontakt: info@martinprojektgroup.ch. Također imate pravo podnijeti pritužbu Saveznom povjereniku za zaštitu podataka i informacije (EDÖB, edoeb.admin.ch). Ako se na vas primjenjuje GDPR, možete se obratiti i nadzornom tijelu za zaštitu podataka vaše države članice EU-a.",
     "s7h": "7. Hosting i infrastruktura",
-    "s7p": "Ova web stranica hostirana je kod Vercel Inc. (vercel.com). Pri svakom učitavanju stranice automatski se bilježe tehnički podaci o pristupu: IP adresa, vremenska oznaka, traženi URL, HTTP metoda te informacije o pregledniku i uređaju. Te podatke obrađuje Vercel u okviru hostinga i podliježu Vercelovoj politici privatnosti i ugovoru o obradi podataka.",
+    "s7p": "Ova web stranica hostirana je kod Vercel Inc. (vercel.com). Pri svakom učitavanju stranice automatski se bilježe tehnički podaci o pristupu: IP adresa, vremenska oznaka, traženi URL, HTTP metoda te informacije o pregledniku i uređaju. Koristimo i Vercel Speed Insights za prikupljanje anonimnih metrika izvedbe, kao što su ruta/URL, vrijednosti Web Vitals, brzina mreže, preglednik, vrsta uređaja, operativni sustav, država, SDK informacije i vrijeme kada je poslužitelj primio događaj. Te podatke obrađuje Vercel u okviru hostinga i praćenja izvedbe te podliježu Vercelovoj politici privatnosti i ugovoru o obradi podataka.",
     "s8h": "8. Kontakt za zaštitu podataka",
     "s8p": "Za pitanja o zaštiti podataka: info@martinprojektgroup.ch",
     "s9h": "9. Pravne osnove prema GDPR-u",

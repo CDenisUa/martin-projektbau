@@ -187,7 +187,7 @@
     "s6h": "6. Your Rights (nDSG / GDPR)",
     "s6p": "Under the revised Swiss Federal Act on Data Protection (nDSG) you have the right to access, correction, deletion, restriction of processing, data portability, and objection. Contact: info@martinprojektgroup.ch. You also have the right to lodge a complaint with the Federal Data Protection and Information Commissioner (FDPIC, edoeb.admin.ch). If the GDPR applies to you, you may additionally contact the data protection supervisory authority of your EU member state.",
     "s7h": "7. Hosting & Infrastructure",
-    "s7p": "This website is hosted by Vercel Inc. (vercel.com). Each page request automatically generates technical access logs: IP address, timestamp, requested URL, HTTP method, and browser/device information. These logs are processed by Vercel as part of the hosting infrastructure and are subject to Vercel's privacy policy and data processing agreement.",
+    "s7p": "This website is hosted by Vercel Inc. (vercel.com). Each page request automatically generates technical access logs: IP address, timestamp, requested URL, HTTP method, and browser/device information. We also use Vercel Speed Insights to collect anonymous performance metrics such as route/URL, Web Vitals values, network speed, browser, device type, operating system, country, SDK information, and server-received event time. These data are processed by Vercel as part of hosting and performance monitoring and are subject to Vercel's privacy policy and data processing agreement.",
     "s8h": "8. Data Protection Contact",
     "s8p": "For all data protection inquiries: info@martinprojektgroup.ch",
     "s9h": "9. Legal Bases Under the GDPR",

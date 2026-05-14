@@ -187,7 +187,7 @@
     "s6h": "6. Dine rettigheder (nDSG / GDPR)",
     "s6p": "I henhold til den reviderede schweiziske forbundsdatalov (nDSG) har du ret til adgang, berigtigelse, sletning, begrænsning af behandling, dataportabilitet og indsigelse. Kontakt: info@martinprojektgroup.ch. Du har også ret til at indgive en klage til den forbundsansvarlige for databeskyttelse og information (EDÖB, edoeb.admin.ch). Hvis GDPR gælder for dig, kan du desuden kontakte databeskyttelsestilsynsmyndigheden i din EU-medlemsstat.",
     "s7h": "7. Hosting og Infrastruktur",
-    "s7p": "Dette websted hostes af Vercel Inc. (vercel.com). Ved hvert sideindlæsning registreres tekniske adgangsdata automatisk: IP-adresse, tidsstempel, anmodet URL, HTTP-metode samt browser- og enhedsoplysninger. Disse data behandles af Vercel som en del af hostinginfrastrukturen og er underlagt Vercels privatlivspolitik og databehandleraftale.",
+    "s7p": "Dette websted hostes af Vercel Inc. (vercel.com). Ved hvert sideindlæsning registreres tekniske adgangsdata automatisk: IP-adresse, tidsstempel, anmodet URL, HTTP-metode samt browser- og enhedsoplysninger. Vi bruger også Vercel Speed Insights til at indsamle anonyme ydeevnemålinger, såsom rute/URL, Web Vitals-værdier, netværkshastighed, browser, enhedstype, operativsystem, land, SDK-oplysninger og tidspunktet for serverens modtagelse af hændelsen. Disse data behandles af Vercel som en del af hosting og ydeevneovervågning og er underlagt Vercels privatlivspolitik og databehandleraftale.",
     "s8h": "8. Kontakt for databeskyttelse",
     "s8p": "For spørgsmål om databeskyttelse: info@martinprojektgroup.ch",
     "s9h": "9. Retsgrundlag efter GDPR",

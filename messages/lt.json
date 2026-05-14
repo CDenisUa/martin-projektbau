@@ -187,7 +187,7 @@
     "s6h": "6. Jūsų teisės (nDSG / BDAR)",
     "s6p": "Pagal patikslintą Šveicarijos federalinį asmens duomenų apsaugos įstatymą (nDSG) turite teisę į prieigą, taisymą, ištrynimą, tvarkymo apribojimą, duomenų perkeliamumą ir nesutikimą. Kontaktas: info@martinprojektgroup.ch. Taip pat turite teisę pateikti skundą Federaliniam duomenų apsaugos ir informacijos komisarui (EDÖB, edoeb.admin.ch). Jei jums taikomas BDAR, galite kreiptis ir į savo ES valstybės narės duomenų apsaugos priežiūros instituciją.",
     "s7h": "7. Prieglobstis ir infrastruktūra",
-    "s7p": "Šią svetainę talpina Vercel Inc. (vercel.com). Kiekvieną kartą įkraunant puslapį automatiškai įrašomi techniniai prieigos duomenys: IP adresas, laiko žyma, prašomas URL, HTTP metodas bei naršyklės ir įrenginio informacija. Šiuos duomenis Vercel tvarko kaip prieglobos infrastruktūros dalį; jiems taikoma Vercel privatumo politika ir duomenų tvarkymo sutartis.",
+    "s7p": "Šią svetainę talpina Vercel Inc. (vercel.com). Kiekvieną kartą įkraunant puslapį automatiškai įrašomi techniniai prieigos duomenys: IP adresas, laiko žyma, prašomas URL, HTTP metodas bei naršyklės ir įrenginio informacija. Taip pat naudojame Vercel Speed Insights anoniminiams našumo rodikliams rinkti, pvz., maršrutui/URL, Web Vitals reikšmėms, tinklo greičiui, naršyklei, įrenginio tipui, operacinei sistemai, šaliai, SDK informacijai ir įvykio gavimo serveryje laikui. Šiuos duomenis Vercel tvarko kaip prieglobos ir našumo stebėsenos dalį; jiems taikoma Vercel privatumo politika ir duomenų tvarkymo sutartis.",
     "s8h": "8. Kontaktas duomenų apsaugos klausimais",
     "s8p": "Duomenų apsaugos klausimais: info@martinprojektgroup.ch",
     "s9h": "9. Teisiniai pagrindai pagal GDPR",

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import { NextIntlClientProvider, hasLocale } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
@@ -54,6 +55,7 @@ export default async function LocaleLayout({
             <main className="flex-1 flex flex-col">{children}</main>
             <Footer />
             <CookieNotice />
+            <SpeedInsights />
           </div>
         </NextIntlClientProvider>
       </body>
