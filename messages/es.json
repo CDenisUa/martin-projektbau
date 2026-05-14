@@ -8,10 +8,10 @@
     "language": "Idioma"
   },
   "hero": {
-    "headline": "Excelencia en Construcción,\nConfianza en los Cimientos",
+    "headline": "Excelencia en construcción,\nconfianza en los cimientos",
     "subheadline": "Construcción, fachadas, ventanas, interiores y renovaciones en Suiza",
-    "cta": "Ver Proyectos",
-    "ctaSecondary": "Nuestros Servicios",
+    "cta": "Ver proyectos",
+    "ctaSecondary": "Nuestros servicios",
     "badge": "martinprojektgroup.ch",
     "stat1value": "15+",
     "stat1label": "Años de Experiencia",
@@ -23,7 +23,7 @@
     "stat4label": "Calidad Suiza"
   },
   "services": {
-    "title": "Nuestros Servicios",
+    "title": "Nuestros servicios",
     "subtitle": "Unimos envolvente del edificio, acabados interiores y trabajos de superficie en soluciones de construcción y renovación claramente coordinadas para viviendas, apartamentos y espacios comerciales en Suiza.",
     "viewAll": "Ver todos los servicios",
     "items": {
@@ -48,7 +48,7 @@
         "description": "Ventanas medidas con precisión, instaladas profesionalmente y conectadas de forma hermética. Una buena instalación mejora el aislamiento térmico, la protección acústica, la seguridad y el confort en obra nueva y reformas."
       },
       "renovation": {
-        "title": "Renovación y Conversión",
+        "title": "Renovación y reforma",
         "description": "Renovaciones y reformas con coordinación clara de los oficios - desde la demolición hasta los acabados, pasando por la construcción interior. La estructura existente se moderniza, se revaloriza y se adapta al uso diario."
       },
       "shower": {
@@ -107,11 +107,11 @@
   "contact": {
     "title": "Contáctanos",
     "subtitle": "¿Listo para iniciar tu proyecto? Nos encantaría escucharte.",
-    "name": "Nombre Completo",
-    "email": "Correo Electrónico",
-    "phone": "Número de Teléfono",
-    "message": "Descripción del Proyecto",
-    "send": "Enviar Mensaje",
+    "name": "Nombre completo",
+    "email": "Correo electrónico",
+    "phone": "Número de teléfono",
+    "message": "Descripción del proyecto",
+    "send": "Enviar mensaje",
     "address": "Suiza",
     "emailLabel": "Correo",
     "phoneLabel": "Teléfono",
@@ -127,16 +127,16 @@
     "errorMessage": "Describe tu consulta",
     "errorServer": "Error al enviar. Inténtalo de nuevo.",
     "phoneOptional": "(opcional)",
-    "privacyPre": "Al enviar el formulario, acepto el tratamiento de mis datos conforme a la",
+    "privacyPre": "Al enviar el formulario, tomo conocimiento del tratamiento de mis datos conforme a la",
     "privacyLink": "Política de privacidad",
     "privacySuf": "."
   },
   "footer": {
     "tagline": "Excelencia con precisión suiza.",
     "rights": "Todos los derechos reservados.",
-    "links": "Enlaces Rápidos",
+    "links": "Enlaces rápidos",
     "legal": "Legal",
-    "privacy": "Política de Privacidad",
+    "privacy": "Política de privacidad",
     "imprint": "Aviso Legal"
   },
   "settings": {
@@ -155,7 +155,7 @@
     "companyLabel": "Empresa",
     "addressLabel": "Dirección",
     "address": "-",
-    "registerLabel": "Registro mercantil",
+    "registerLabel": "N.º de registro mercantil",
     "register": "-",
     "uidLabel": "Número UID",
     "uid": "-",
@@ -165,7 +165,9 @@
     "responsibleLabel": "Director General",
     "responsible": "-",
     "disclaimer": "Limitación de responsabilidad",
-    "disclaimerText": "El contenido de este sitio ha sido creado con el mayor cuidado. No garantizamos la exactitud, integridad o actualidad de los contenidos. El uso del sitio es bajo responsabilidad propia del usuario."
+    "disclaimerText": "El contenido de este sitio ha sido creado con el mayor cuidado. No garantizamos la exactitud, integridad o actualidad de los contenidos. El uso del sitio es bajo responsabilidad propia del usuario.",
+    "registerOfficeLabel": "Oficina del registro mercantil",
+    "vatLabel": "IVA/MWST ID"
   },
   "privacy": {
     "pageTitle": "Política de privacidad",
@@ -179,24 +181,24 @@
     "s3h": "3. Finalidad del tratamiento",
     "s3p": "Sus datos se utilizan exclusivamente para responder a su consulta y establecer una relación comercial. No se utilizan con fines publicitarios ni se ceden a terceros sin su consentimiento.",
     "s4h": "4. Encargados del tratamiento",
-    "s4p": "Para el envío de correos electrónicos utilizamos Resend Inc. (resend.com). Este servicio recibe los datos del formulario para enviárnoslos, en base a un acuerdo de tratamiento de datos.",
+    "s4p": "Para el envío de correos electrónicos utilizamos Plus Five Five, Inc. (Resend, resend.com) como encargado del tratamiento. Este servicio recibe los datos del formulario para reenviárnoslos, sobre la base de un acuerdo de tratamiento de datos.",
     "s5h": "5. Conservación de datos",
-    "s5p": "Las solicitudes de contacto se eliminan tras su procesamiento completo, a más tardar a los 12 meses. Si de una solicitud surge una relación contractual, se aplican los plazos legales, en particular 10 años para documentos contables (art. 958f CO).",
-    "s6h": "6. Sus derechos (LPD suiza)",
-    "s6p": "Conforme a la ley federal suiza de protección de datos (nLPD), tiene derecho de acceso, rectificación, supresión, limitación, portabilidad y oposición. Contacto: info@martinprojektgroup.ch",
-    "s7h": "7. Alojamiento e infraestructura",
-    "s7p": "Este sitio está alojado por Vercel Inc. (vercel.com). Todas las transmisiones de datos están cifradas mediante HTTPS/TLS.",
+    "s5p": "Las consultas de contacto se conservan por regla general hasta 12 meses después de su gestión final y luego se eliminan, salvo que se establezca una relación comercial o que obligaciones legales exijan una conservación más prolongada.",
+    "s6h": "6. Sus derechos (LPD / RGPD)",
+    "s6p": "De conformidad con la Ley Federal Suiza de Protección de Datos (LPD), usted tiene derecho de acceso, rectificación, supresión, limitación del tratamiento, portabilidad y oposición. Contacto: info@martinprojektgroup.ch. Además, tiene derecho a presentar una reclamación ante el Encargado Federal de Protección de Datos y Transparencia (EDÖB, edoeb.admin.ch). Si le resulta aplicable el RGPD, también puede dirigirse a la autoridad de control de protección de datos de su Estado miembro de la UE.",
+    "s7h": "7. Alojamiento e Infraestructura",
+    "s7p": "Este sitio web está alojado por Vercel Inc. (vercel.com). Con cada carga de página se recopilan automáticamente datos técnicos de acceso: dirección IP, marca de tiempo, URL solicitada, método HTTP e información del navegador y del dispositivo. Estos datos son tratados por Vercel en el marco de la operación de alojamiento y están sujetos a la política de privacidad y al acuerdo de tratamiento de datos de Vercel.",
     "s8h": "8. Contacto para protección de datos",
     "s8p": "Para consultas sobre protección de datos: info@martinprojektgroup.ch",
-    "s9h": "9. Base jurídica del tratamiento",
-    "s9p": "El tratamiento de sus datos de contacto se basa en el art. 6 de la ley de protección de datos para la ejecución de medidas precontractuales. El alojamiento y el tratamiento técnico de los datos de acceso se basan en nuestro interés legítimo en un sitio web seguro y funcional.",
+    "s9h": "9. Bases jurídicas conforme al RGPD",
+    "s9p": "Cuando el RGPD sea aplicable, las consultas de contacto se tratan para adoptar medidas precontractuales o responder a su solicitud conforme al art. 6.1.b RGPD. El funcionamiento seguro del sitio y la documentación de consultas se basan en intereses legítimos conforme al art. 6.1.f RGPD. Si se solicita consentimiento, puede retirarse en cualquier momento con efecto futuro.",
     "s10h": "10. Transferencias internacionales de datos",
-    "s10p": "Utilizamos Vercel Inc. (EE.UU.) como proveedor de alojamiento y Resend Inc. (EE.UU.) para el envío de correos electrónicos. Estas transferencias a EE.UU. se realizan sobre la base de Cláusulas Contractuales Estándar (CCE). Ambos proveedores garantizan un nivel adecuado de protección de datos.",
-    "s11h": "11. Datos de acceso al servidor",
-    "s11p": "En cada visita, Vercel Inc. registra automáticamente datos técnicos: dirección IP, marca de tiempo, URL solicitada, código HTTP, navegador y sistema operativo. Estos datos sirven para el funcionamiento seguro del sitio web y no se vinculan a otros datos personales.",
-    "s12h": "12. Revocación y derecho de reclamación",
-    "s12p": "Puede revocar cualquier consentimiento otorgado en cualquier momento con efecto de futuro: info@martinprojektgroup.ch. También tiene derecho a presentar una reclamación ante el Comisionado Federal de Protección de Datos (FDPIC, edoeb.admin.ch) si sospecha una infracción.",
-    "s13h": "13. Elaboración de perfiles y cambios",
-    "s13p": "No realizamos elaboración de perfiles automatizada. Los cambios en esta política de privacidad se publicarán en esta página. La fecha de la última actualización se indica en consecuencia."
+    "s10p": "Para el alojamiento y la entrega de correos electrónicos, los datos personales pueden ser tratados en Estados Unidos por Vercel Inc. y Plus Five Five, Inc. (Resend). Las transferencias se basan en acuerdos de tratamiento de datos y, cuando sea necesario, en garantías adecuadas como cláusulas contractuales tipo o mecanismos de adecuación reconocidos.",
+    "s11h": "11. Información obligatoria del formulario de contacto",
+    "s11p": "El nombre, la dirección de correo electrónico y la descripción del proyecto son necesarios para revisar y responder a su consulta. El número de teléfono es opcional. Sin la información obligatoria, la consulta no puede procesarse mediante el formulario.",
+    "s12h": "12. Sin elaboración de perfiles ni decisiones automatizadas",
+    "s12p": "Este sitio no realiza elaboración de perfiles ni toma de decisiones exclusivamente automatizada con efectos jurídicos.",
+    "s13h": "13. Delegado de protección de datos y representante en la UE",
+    "s13p": "Actualmente no se indica en este sitio un delegado de protección de datos separado ni un representante en la UE. Las solicitudes de privacidad pueden enviarse a info@martinprojektgroup.ch."
   }
 }

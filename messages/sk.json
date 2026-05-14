@@ -8,10 +8,10 @@
     "language": "Jazyk"
   },
   "hero": {
-    "headline": "Dokonalosť v Stavebníctve,\nDôvera v Základoch",
+    "headline": "Dokonalosť v stavebníctve,\ndôvera v základoch",
     "subheadline": "Stavba, fasády, okná, interiéry a rekonštrukcie vo Švajčiarsku",
-    "cta": "Zobraziť Projekty",
-    "ctaSecondary": "Naše Služby",
+    "cta": "Zobraziť projekty",
+    "ctaSecondary": "Naše služby",
     "badge": "martinprojektgroup.ch",
     "stat1value": "15+",
     "stat1label": "Rokov skúseností",
@@ -23,16 +23,16 @@
     "stat4label": "Švajčiarska kvalita"
   },
   "services": {
-    "title": "Naše Služby",
+    "title": "Naše služby",
     "subtitle": "Spájame obálku budovy, interiérové dokončovacie práce a povrchové úpravy do jasne koordinovaných stavebných a rekonštrukčných riešení pre byty, domy a komerčné priestory vo Švajčiarsku.",
     "viewAll": "Zobraziť všetky služby",
     "items": {
       "facade": {
-        "title": "Fasádne Stavby",
+        "title": "Fasádne stavby",
         "description": "Navrhujeme a realizujeme fasády pre novostavby aj rekonštrukcie: podkonštrukciu, izoláciu, obklad a čisté napojenia. Obálka budovy je tak odolná voči počasiu, energeticky úsporná a vizuálne jednotná."
       },
       "tiling": {
-        "title": "Kladenie Dlaždíc a Kameňa",
+        "title": "Kladenie dlaždíc a kameňa",
         "description": "Dlažba, porcelánová kamenina, prírodný kameň a mozaika pre kúpeľne, kuchyne, obytné priestory, schody aj exteriéry. Dbáme na podklad, spád, hydroizoláciu, presné škáry a trvalo čisté prevedenie."
       },
       "parquet": {
@@ -44,11 +44,11 @@
         "description": "Interiérové aj exteriérové nátery, omietky, stierky a príprava povrchov z jednej ruky. Pre hladké steny, chránené fasády a priestory, ktoré pôsobia čisto a kvalitne."
       },
       "windows": {
-        "title": "Montáž Okien",
+        "title": "Montáž okien",
         "description": "Okná presne zameriame, odborne namontujeme a vzduchotesne napojíme. Kvalitná montáž zlepšuje tepelnú izoláciu, akustický komfort, bezpečnosť aj pohodlie pri novostavbách a rekonštrukciách."
       },
       "renovation": {
-        "title": "Rekonštrukcie a Prestavby",
+        "title": "Rekonštrukcie a prestavby",
         "description": "Rekonštrukcie a prestavby s jasnou koordináciou profesií - od búracích prác cez interiérovú výstavbu až po finálne povrchy. Existujúca stavba sa modernizuje, zhodnocuje a prispôsobuje každodennému používaniu."
       },
       "shower": {
@@ -60,7 +60,7 @@
     "whatWeOffer": "Čo ponúkame"
   },
   "projects": {
-    "title": "Vybrané Projekty",
+    "title": "Vybrané projekty",
     "subtitle": "Starostlivý výber našich najlepších stavebných a rekonštrukčných prác.",
     "viewProject": "Zobraziť Projekt",
     "viewAll": "Zobraziť Všetky Projekty",
@@ -106,12 +106,12 @@
   },
   "contact": {
     "title": "Kontaktujte nás",
-    "subtitle": "Pripravení začať projekt? Radi vás vypočujeme.",
-    "name": "Celé Meno",
-    "email": "E-mailová Adresa",
-    "phone": "Telefónne Číslo",
-    "message": "Popis Projektu",
-    "send": "Odoslať Správu",
+    "subtitle": "Pripravení začať projekt? Radi si vypočujeme vaše plány.",
+    "name": "Celé meno",
+    "email": "E-mailová adresa",
+    "phone": "Telefónne číslo",
+    "message": "Popis projektu",
+    "send": "Odoslať správu",
     "address": "Švajčiarsko",
     "emailLabel": "E-mail",
     "phoneLabel": "Telefón",
@@ -127,8 +127,8 @@
     "errorMessage": "Prosím, opíšte svoju požiadavku",
     "errorServer": "Odoslanie zlyhalo. Skúste to neskôr.",
     "phoneOptional": "(voliteľne)",
-    "privacyPre": "Odoslaním formulára súhlasím so spracovaním svojich údajov v súlade so",
-    "privacyLink": "Zásadami ochrany osobných údajov",
+    "privacyPre": "Odoslaním formulára beriem na vedomie spracovanie svojich údajov v súlade so",
+    "privacyLink": "zásadami ochrany osobných údajov",
     "privacySuf": "."
   },
   "footer": {
@@ -155,7 +155,7 @@
     "companyLabel": "Spoločnosť",
     "addressLabel": "Adresa",
     "address": "-",
-    "registerLabel": "Obchodný register",
+    "registerLabel": "Číslo obchodného registra",
     "register": "-",
     "uidLabel": "UID číslo",
     "uid": "-",
@@ -165,7 +165,9 @@
     "responsibleLabel": "Konateľ",
     "responsible": "-",
     "disclaimer": "Vylúčenie zodpovednosti",
-    "disclaimerText": "Obsah tejto webovej stránky bol vytvorený s maximálnou starostlivosťou. Nezaručujeme presnosť, úplnosť ani aktuálnosť poskytnutého obsahu. Používanie stránky je na vlastné riziko."
+    "disclaimerText": "Obsah tejto webovej stránky bol vytvorený s maximálnou starostlivosťou. Nezaručujeme presnosť, úplnosť ani aktuálnosť poskytnutého obsahu. Používanie stránky je na vlastné riziko.",
+    "registerOfficeLabel": "Úrad obchodného registra",
+    "vatLabel": "IČ DPH/MWST"
   },
   "privacy": {
     "pageTitle": "Zásady ochrany osobných údajov",
@@ -179,24 +181,24 @@
     "s3h": "3. Účel spracovania",
     "s3p": "Vaše údaje slúžia výhradne na odpoveď na vašu požiadavku a nadviazanie obchodného vzťahu. Nepoužívajú sa na reklamné účely ani nie sú poskytované tretím stranám bez súhlasu.",
     "s4h": "4. Sprostredkovatelia",
-    "s4p": "Na odosielanie e-mailov využívame Resend Inc. (resend.com). Táto služba prijíma údaje z formulára na ich preposlanie nám, na základe zmluvy o spracovaní údajov.",
+    "s4p": "Na odosielanie e-mailov používame Plus Five Five, Inc. (Resend, resend.com) ako sprostredkovateľa. Táto služba prijíma údaje z formulára, aby nám ich preposlala, na základe zmluvy o spracovaní údajov.",
     "s5h": "5. Doba uchovávania",
-    "s5p": "Kontaktné žiadosti sú po úplnom spracovaní vymazané, najneskôr do 12 mesiacov. Ak zo žiadosti vznikne zmluvný vzťah, platia zákonné lehoty, najmä 10 rokov pre účtovné doklady (čl. 958f CO).",
-    "s6h": "6. Vaše práva (švajčiarský DSG)",
-    "s6p": "Podľa švajčiarskeho zákona o ochrane osobných údajov (nDSG) máte právo na prístup, opravu, vymazanie, obmedzenie spracovania, prenosnosť a námietku. Kontakt: info@martinprojektgroup.ch",
-    "s7h": "7. Hosting & Infraštruktúra",
-    "s7p": "Táto stránka je hostovaná u Vercel Inc. (vercel.com). Prenos dát je šifrovaný cez HTTPS/TLS.",
+    "s5p": "Kontaktné žiadosti sa spravidla uchovávajú najviac 12 mesiacov po konečnom vybavení a potom sa vymažú, pokiaľ nevznikne obchodný vzťah alebo zákonné lehoty uchovávania nevyžadujú dlhšie uloženie.",
+    "s6h": "6. Vaše práva (nDSG / GDPR)",
+    "s6p": "Podľa revidovaného švajčiarskeho federálneho zákona o ochrane osobných údajov (nDSG) máte právo na prístup, opravu, výmaz, obmedzenie spracovania, prenosnosť údajov a námietku. Kontakt: info@martinprojektgroup.ch. Máte tiež právo podať sťažnosť u Federálneho komisára pre ochranu osobných údajov a informácií (EDÖB, edoeb.admin.ch). Ak sa na vás vzťahuje GDPR, môžete sa obrátiť aj na dozorný orgán pre ochranu osobných údajov vo vašom členskom štáte EÚ.",
+    "s7h": "7. Hosting a infraštruktúra",
+    "s7p": "Táto webová stránka je hostovaná spoločnosťou Vercel Inc. (vercel.com). Pri každom načítaní stránky sa automaticky zaznamenávajú technické prístupové údaje: IP adresa, časová pečiatka, požadovaná URL, metóda HTTP a informácie o prehliadači a zariadení. Tieto údaje spracúva spoločnosť Vercel v rámci prevádzky hostingu a podliehajú zásadám ochrany osobných údajov a zmluve o spracovaní údajov spoločnosti Vercel.",
     "s8h": "8. Kontakt pre ochranu údajov",
     "s8p": "V otázkach ochrany osobných údajov: info@martinprojektgroup.ch",
-    "s9h": "9. Právny základ spracúvania",
-    "s9p": "Spracúvanie vašich kontaktných údajov prebieha na základe čl. 6 DSG za účelom vykonávania predzmluvných opatrení. Hosting a technické spracúvanie prístupových údajov sa uskutočňuje na základe nášho oprávneného záujmu na bezpečnej a funkčnej webovej prezentácii.",
-    "s10h": "10. Medzinárodný prenos údajov",
-    "s10p": "Využívame Vercel Inc. (USA) ako poskytovateľa hostingu a Resend Inc. (USA) na odosielanie e-mailov. Tieto prenosy do USA prebiehajú na základe štandardných zmluvných doložiek (SCC) podľa čl. 16 DSG. Obaja poskytovatelia zabezpečujú primeranú úroveň ochrany údajov.",
-    "s11h": "11. Údaje o prístupe k serveru",
-    "s11p": "Pri každom prístupe na web Vercel Inc. automaticky zaznamenáva technické prístupové údaje: IP adresu, časovú pečiatku, požadovanú URL, HTTP kód, prehliadač a operačný systém. Tieto údaje slúžia na bezpečnú prevádzku webu a nie sú prepojené s inými osobnými údajmi.",
-    "s12h": "12. Odvolanie súhlasu a právo na sťažnosť",
-    "s12p": "Udelený súhlas môžete kedykoľvek odvolať s účinnosťou do budúcnosti: info@martinprojektgroup.ch. Máte tiež právo podať sťažnosť federálnemu splnomocnencovi pre ochranu údajov (FDPIC, edoeb.admin.ch), ak máte podozrenie na porušenie DSG.",
-    "s13h": "13. Profilovanie a zmeny",
-    "s13p": "Nevykonávame automatizované profilovanie. Zmeny týchto zásad ochrany osobných údajov budú zverejnené na tejto stránke. Dátum poslednej aktualizácie je vždy uvedený."
+    "s9h": "9. Právne základy podľa GDPR",
+    "s9p": "Ak sa uplatňuje GDPR, kontaktné žiadosti sa spracúvajú na predzmluvné opatrenia alebo odpoveď na vašu žiadosť podľa čl. 6 ods. 1 písm. b GDPR. Bezpečná prevádzka webu a dokumentácia žiadostí sú založené na oprávnených záujmoch podľa čl. 6 ods. 1 písm. f GDPR. Ak sa vyžaduje súhlas, možno ho kedykoľvek odvolať do budúcnosti.",
+    "s10h": "10. Medzinárodné prenosy údajov",
+    "s10p": "Pri hostingu a doručovaní e-mailov môžu osobné údaje spracúvať v USA spoločnosti Vercel Inc. a Plus Five Five, Inc. (Resend). Prenosy sú založené na zmluvách o spracovaní údajov a, ak je to potrebné, na vhodných zárukách, ako sú štandardné zmluvné doložky alebo uznané mechanizmy primeranosti.",
+    "s11h": "11. Povinné údaje v kontaktnom formulári",
+    "s11p": "Meno, e-mailová adresa a opis projektu sú potrebné, aby sme mohli vašu žiadosť posúdiť a odpovedať na ňu. Telefónne číslo je voliteľné. Bez povinných údajov nie je možné žiadosť spracovať cez formulár.",
+    "s12h": "12. Žiadne profilovanie ani automatizované rozhodnutia",
+    "s12p": "Táto webová stránka nevykonáva profilovanie ani výlučne automatizované rozhodovanie s právnymi účinkami.",
+    "s13h": "13. Zodpovedná osoba a zástupca v EÚ",
+    "s13p": "Na tejto webovej stránke nie je v súčasnosti uvedená samostatná zodpovedná osoba pre ochranu údajov ani zástupca v EÚ. Žiadosti týkajúce sa súkromia môžete posielať na info@martinprojektgroup.ch."
   }
 }

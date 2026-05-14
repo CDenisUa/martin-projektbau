@@ -8,10 +8,10 @@
     "language": "Keel"
   },
   "hero": {
-    "headline": "Ehituse Tipptase,\nUsaldus Vundamentides",
+    "headline": "Ehituse tipptase,\nusaldus vundamendis",
     "subheadline": "Ehitus, fassaadid, aknad, sisetööd ja renoveerimine Šveitsis",
-    "cta": "Vaata Projekte",
-    "ctaSecondary": "Meie Teenused",
+    "cta": "Vaata projekte",
+    "ctaSecondary": "Meie teenused",
     "badge": "martinprojektgroup.ch",
     "stat1value": "15+",
     "stat1label": "Aastat kogemust",
@@ -23,7 +23,7 @@
     "stat4label": "Šveitsi kvaliteet"
   },
   "services": {
-    "title": "Meie Teenused",
+    "title": "Meie teenused",
     "subtitle": "Ühendame hoone välispiirde, siseviimistluse ja pinnatööd selgelt koordineeritud ehitus- ja renoveerimislahendusteks korteritele, majadele ja äripindadele Šveitsis.",
     "viewAll": "Vaata kõiki teenuseid",
     "items": {
@@ -32,7 +32,7 @@
         "description": "Planeerime ja teostame fassaade uusehitistele ja renoveerimisele: aluskonstruktsioon, soojustus, vooder ja puhtad ühendused. Nii muutub hoone välispiire ilmastikukindlaks, energiatõhusaks ja visuaalselt ühtseks."
       },
       "tiling": {
-        "title": "Plaatide ja Kivi Laomine",
+        "title": "Plaatide ja kivi ladumine",
         "description": "Plaadid, portselanplaat, looduskivi ja mosaiik vannitubadesse, köökidesse, eluruumidesse, treppidele ja välialadele. Pöörame tähelepanu aluspinnale, kallakutele, hüdroisolatsioonile, täpsetele vuukidele ja püsivalt puhtale viimistlusele."
       },
       "parquet": {
@@ -40,15 +40,15 @@
         "description": "Täpne parketitöö aluspinna ettevalmistusest lõppviimistluseni. Olgu tegu renoveerimise, uue paigalduse või värskendusega, loome soojad ja vastupidavad puitpõrandad rahuliku paigaldusmustriga."
       },
       "painting": {
-        "title": "Värvimine ja Krohvimine",
+        "title": "Värvimine ja krohvimine",
         "description": "Sise- ja välisvärvimine, krohvimine, pahteldamine ja pindade ettevalmistus ühelt meeskonnalt. Siledate seinte, kaitstud fassaadide ja puhta ning kvaliteetse üldmuljega ruumide jaoks."
       },
       "windows": {
-        "title": "Akende Paigaldus",
+        "title": "Akende paigaldus",
         "description": "Aknad mõõdetakse täpselt, paigaldatakse professionaalselt ja ühendatakse õhutihedalt. Hea paigaldus parandab soojusisolatsiooni, helikaitset, turvalisust ja elumugavust nii uusehitistes kui renoveerimisel."
       },
       "renovation": {
-        "title": "Renoveerimine ja Ümberehitus",
+        "title": "Renoveerimine ja ümberehitus",
         "description": "Renoveerimine ja ümberehitus selge tööde koordineerimisega - lammutamisest ja sisetöödest lõplike pindadeni. Olemasolev hoone moderniseeritakse, selle väärtust tõstetakse ja see kohandatakse igapäevaseks kasutuseks."
       },
       "shower": {
@@ -60,7 +60,7 @@
     "whatWeOffer": "Mida pakume"
   },
   "projects": {
-    "title": "Valitud Projektid",
+    "title": "Valitud projektid",
     "subtitle": "Valik meie parimatest ehitus- ja renoveerimistöödest.",
     "viewProject": "Vaata Projekti",
     "viewAll": "Vaata Kõiki Projekte",
@@ -105,13 +105,13 @@
     }
   },
   "contact": {
-    "title": "Võtke Ühendust",
+    "title": "Võtke ühendust",
     "subtitle": "Valmis projekti alustama? Soovime teist kuulda.",
     "name": "Täisnimi",
-    "email": "E-posti Aadress",
+    "email": "E-posti aadress",
     "phone": "Telefoninumber",
-    "message": "Projekti Kirjeldus",
-    "send": "Saada Sõnum",
+    "message": "Projekti kirjeldus",
+    "send": "Saada sõnum",
     "address": "Šveits",
     "emailLabel": "E-post",
     "phoneLabel": "Telefon",
@@ -127,7 +127,7 @@
     "errorMessage": "Kirjeldage oma päringut",
     "errorServer": "Saatmine ebaõnnestus. Proovige uuesti.",
     "phoneOptional": "(valikuline)",
-    "privacyPre": "Vormi esitamisega nõustun oma andmete töötlemisega vastavalt",
+    "privacyPre": "Vormi esitamisega kinnitan, et minu andmeid töödeldakse vastavalt",
     "privacyLink": "privaatsuspoliitikale",
     "privacySuf": "."
   },
@@ -142,8 +142,8 @@
   "settings": {
     "title": "Keeleseaded",
     "subtitle": "Valige veebisaidi jaoks eelistatud keel.",
-    "current": "Praegune Keel",
-    "select": "Vali Keel",
+    "current": "Praegune keel",
+    "select": "Vali keel",
     "sectionLabel": "Seaded"
   },
   "metaTitle": "Martin Projekt Group GmbH – Ehitus, Renoveerimine ja Paigaldus",
@@ -155,7 +155,7 @@
     "companyLabel": "Ettevõte",
     "addressLabel": "Aadress",
     "address": "-",
-    "registerLabel": "Äriregister",
+    "registerLabel": "Äriregistri nr",
     "register": "-",
     "uidLabel": "UID-number",
     "uid": "-",
@@ -165,7 +165,9 @@
     "responsibleLabel": "Tegevdirektor",
     "responsible": "-",
     "disclaimer": "Vastutuse välistamine",
-    "disclaimerText": "Selle veebisaidi sisu on koostatud suurima hoolikusega. Me ei garanteeri sisu täpsust, täielikkust ega ajakohasust. Veebisaidi kasutamine toimub omal vastutusel."
+    "disclaimerText": "Selle veebisaidi sisu on koostatud suurima hoolikusega. Me ei garanteeri sisu täpsust, täielikkust ega ajakohasust. Veebisaidi kasutamine toimub omal vastutusel.",
+    "registerOfficeLabel": "Äriregistri amet",
+    "vatLabel": "KM/MWST ID"
   },
   "privacy": {
     "pageTitle": "Privaatsuspoliitika",
@@ -179,24 +181,24 @@
     "s3h": "3. Töötlemise eesmärk",
     "s3p": "Teie andmeid kasutatakse ainult teie päringule vastamiseks ja ärisuhte loomiseks. Neid ei kasutata turunduslikel eesmärkidel ega jagata kolmandate osapooltega ilma nõusolekuta.",
     "s4h": "4. Volitatud töötlejad",
-    "s4p": "E-posti saatmiseks kasutame Resend Inc. (resend.com). See teenus saab vormiandmed meile edastamiseks andmetöötluslepingu alusel.",
+    "s4p": "E-posti saatmiseks kasutame volitatud töötlejana Plus Five Five, Inc. (Resend, resend.com) teenust. See teenus saab vormiandmed meile edastamiseks andmetöötluslepingu alusel.",
     "s5h": "5. Säilitustähtaeg",
-    "s5p": "Kontaktipäringud kustutatakse pärast täielikku menetlemist, hiljemalt 12 kuu pärast. Kui päringust tekib lepinguline suhe, kehtivad seadusjärgsed säilitustähtajad, eelkõige 10 aastat raamatupidamisdokumentide jaoks (art. 958f CO).",
-    "s6h": "6. Teie õigused (Šveitsi DSG)",
-    "s6p": "Šveitsi isikuandmete kaitse seaduse (nDSG) alusel on teil õigus andmetele juurdepääsuks, parandamiseks, kustutamiseks, töötlemise piiramiseks, ülekantavuseks ja vastuväiteks. Kontakt: info@martinprojektgroup.ch",
-    "s7h": "7. Hosting & Infrastruktuur",
-    "s7p": "Seda veebisaiti majutab Vercel Inc. (vercel.com). Kõik andmeedastused on krüpteeritud HTTPS/TLS-ga.",
+    "s5p": "Kontaktipäringuid säilitatakse üldjuhul kuni 12 kuud pärast lõplikku käsitlemist ja seejärel kustutatakse, välja arvatud juhul, kui tekib ärisuhe või seadusest tulenevad säilitamiskohustused nõuavad pikemat säilitamist.",
+    "s6h": "6. Teie õigused (nDSG / GDPR)",
+    "s6p": "Läbivaadatud Šveitsi föderaalse andmekaitseseaduse (nDSG) kohaselt on teil õigus juurdepääsule, parandamisele, kustutamisele, töötlemise piiramisele, andmete ülekandmisele ja vastuväidete esitamisele. Kontakt: info@martinprojektgroup.ch. Teil on ka õigus esitada kaebus föderaalsele andmekaitse- ja avalikustamisvolinikule (EDÖB, edoeb.admin.ch). Kui teie suhtes kehtib GDPR, võite pöörduda ka oma EL-i liikmesriigi andmekaitsejärelevalveasutuse poole.",
+    "s7h": "7. Majutus ja infrastruktuur",
+    "s7p": "Seda veebisaiti majutab Vercel Inc. (vercel.com). Iga lehe laadimisel salvestatakse automaatselt tehnilised juurdepääsuandmed: IP-aadress, ajatempel, nõutud URL, HTTP-meetod ning brauseri ja seadme teave. Vercel töötleb neid andmeid majutusinfrastruktuuri raames ning need alluvad Verceli privaatsuspoliitikale ja andmetöötluslepingule.",
     "s8h": "8. Andmekaitse kontakt",
     "s8p": "Andmekaitsega seotud küsimusteks: info@martinprojektgroup.ch",
-    "s9h": "9. Töötlemise õiguslik alus",
-    "s9p": "Teie kontaktandmete töötlemine toimub DSG artikli 6 alusel lepingueelsete meetmete rakendamiseks. Hostimine ja juurdepääsuandmete tehniline töötlemine põhineb meie õigustatud huvil turvalise ja toimiva veebisaidi vastu.",
+    "s9h": "9. Õiguslikud alused GDPR-i järgi",
+    "s9p": "Kui GDPR kohaldub, töödeldakse kontaktipäringuid lepingueelsete meetmete võtmiseks või teie päringule vastamiseks GDPR artikli 6 lõike 1 punkti b alusel. Veebisaidi turvaline toimimine ja päringute dokumenteerimine põhinevad õigustatud huvidel GDPR artikli 6 lõike 1 punkti f järgi. Kui küsitakse nõusolekut, saab selle igal ajal edaspidiseks tagasi võtta.",
     "s10h": "10. Rahvusvahelised andmeedastused",
-    "s10p": "Kasutame Vercel Inc.-i (USA) hostinguteenuse pakkujana ja Resend Inc.-i (USA) e-kirjade saatmiseks. Need USA-sse suunatud edastused toimuvad DSG artikli 16 kohaste standardlepingutingimuste (SCC) alusel. Mõlemad teenusepakkujad tagavad andmekaitse piisava taseme.",
-    "s11h": "11. Serveri juurdepääsuandmed",
-    "s11p": "Iga külastuse korral registreerib Vercel Inc. automaatselt tehnilised juurdepääsuandmed: IP-aadress, ajatempel, küsitud URL, HTTP-kood, brauser ja operatsioonisüsteem. Need andmed teenivad veebisaidi turvalist toimimist ega seostata muude isikuandmetega.",
-    "s12h": "12. Tagasivõtmine ja kaebuse esitamise õigus",
-    "s12p": "Antud nõusoleku saate igal ajal tuleviku suhtes tagasi võtta: info@martinprojektgroup.ch. Samuti on teil õigus esitada kaebus föderaalsele andmekaitse volinikule (FDPIC, edoeb.admin.ch), kui kahtlustate DSG rikkumist.",
-    "s13h": "13. Profiilimine ja muudatused",
-    "s13p": "Me ei tee automatiseeritud profileerimist. Selle privaatsuspoliitika muudatused avaldatakse sellel lehel. Viimase uuenduse kuupäev on alati märgitud."
+    "s10p": "Majutuse ja e-posti kohaletoimetamise jaoks võivad Vercel Inc. ja Plus Five Five, Inc. (Resend) töödelda isikuandmeid USA-s. Edastused põhinevad andmetöötluslepingutel ja vajaduse korral asjakohastel kaitsemeetmetel, nagu standardsed lepingutingimused või tunnustatud piisavuse mehhanismid.",
+    "s11h": "11. Kohustuslikud andmed kontaktivormis",
+    "s11p": "Nimi, e-posti aadress ja projekti kirjeldus on vajalikud, et saaksime teie päringut hinnata ja sellele vastata. Telefoninumber on valikuline. Ilma kohustuslike andmeteta ei saa päringut vormi kaudu töödelda.",
+    "s12h": "12. Profiliseerimist ega automatiseeritud otsuseid ei tehta",
+    "s12p": "See veebisait ei tee profiliseerimist ega üksnes automatiseeritud otsuseid, millel on õiguslik mõju.",
+    "s13h": "13. Andmekaitseametnik ja EL-i esindaja",
+    "s13p": "Sellel veebisaidil ei ole praegu nimetatud eraldi andmekaitseametnikku ega EL-i esindajat. Privaatsuspäringud saab saata aadressile info@martinprojektgroup.ch."
   }
 }

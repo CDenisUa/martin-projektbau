@@ -8,10 +8,10 @@
     "language": "Jezik"
   },
   "hero": {
-    "headline": "Izvrsnost u Gradnji,\nPovjerenje u Temeljima",
+    "headline": "Izvrsnost u gradnji,\npovjerenje u temeljima",
     "subheadline": "Gradnja, fasade, prozori, interijeri i renovacije u Švicarskoj",
-    "cta": "Pogledaj Projekte",
-    "ctaSecondary": "Naše Usluge",
+    "cta": "Pogledaj projekte",
+    "ctaSecondary": "Naše usluge",
     "badge": "martinprojektgroup.ch",
     "stat1value": "15+",
     "stat1label": "Godina iskustva",
@@ -23,16 +23,16 @@
     "stat4label": "Švicarska kvaliteta"
   },
   "services": {
-    "title": "Naše Usluge",
+    "title": "Naše usluge",
     "subtitle": "Povezujemo ovojnicu zgrade, unutarnje završne radove i obrade površina u jasno koordinirana građevinska i renovacijska rješenja za stanove, kuće i poslovne prostore u Švicarskoj.",
     "viewAll": "Pogledaj sve usluge",
     "items": {
       "facade": {
-        "title": "Gradnja Fasada",
+        "title": "Gradnja fasada",
         "description": "Planiramo i izvodimo fasade za novogradnju i renovaciju: potkonstrukciju, izolaciju, oblogu i čiste spojeve. Tako ovojnica zgrade postaje otporna na vremenske utjecaje, energetski učinkovita i vizualno skladna."
       },
       "tiling": {
-        "title": "Polaganje Pločica i Kamena",
+        "title": "Polaganje pločica i kamena",
         "description": "Pločice, porculanski gres, prirodni kamen i mozaik za kupaonice, kuhinje, stambene prostore, stepenice i vanjske površine. Pazimo na podlogu, padove, hidroizolaciju, precizne fuge i trajno čist završetak."
       },
       "parquet": {
@@ -44,11 +44,11 @@
         "description": "Unutarnje i vanjsko bojanje, žbukanje, gletanje i priprema površina iz jedne ruke. Za glatke zidove, zaštićene fasade i prostore koji izgledaju čisto i kvalitetno."
       },
       "windows": {
-        "title": "Ugradnja Prozora",
+        "title": "Ugradnja prozora",
         "description": "Prozore precizno mjerimo, stručno ugrađujemo i zrakonepropusno spajamo. Dobra ugradnja poboljšava toplinsku izolaciju, zvučnu zaštitu, sigurnost i komfor u novogradnji i renovacijama."
       },
       "renovation": {
-        "title": "Renovacija i Preinaka",
+        "title": "Renovacija i preinaka",
         "description": "Renovacije i preinake s jasnom koordinacijom radova - od uklanjanja i unutarnje izgradnje do završnih površina. Postojeća građevina se modernizira, povećava joj se vrijednost i prilagođava svakodnevnoj uporabi."
       },
       "shower": {
@@ -60,7 +60,7 @@
     "whatWeOffer": "Što nudimo"
   },
   "projects": {
-    "title": "Odabrani Projekti",
+    "title": "Odabrani projekti",
     "subtitle": "Pažljivi odabir naših najljepših građevinskih radova.",
     "viewProject": "Pogledaj Projekt",
     "viewAll": "Svi Projekti",
@@ -107,13 +107,13 @@
   "contact": {
     "title": "Kontaktirajte nas",
     "subtitle": "Spremni za početak projekta? Voljeli bismo čuti od vas.",
-    "name": "Puno Ime",
-    "email": "Email Adresa",
-    "phone": "Broj Telefona",
-    "message": "Opis Projekta",
-    "send": "Pošalji Poruku",
+    "name": "Puno ime",
+    "email": "E-mail adresa",
+    "phone": "Broj telefona",
+    "message": "Opis projekta",
+    "send": "Pošalji poruku",
     "address": "Švicarska",
-    "emailLabel": "Email",
+    "emailLabel": "E-pošta",
     "phoneLabel": "Telefon",
     "successMessage": "Hvala! Uskoro ćemo vas kontaktirati.",
     "namePlaceholder": "Vaše puno ime",
@@ -127,16 +127,16 @@
     "errorMessage": "Opišite svoj upit",
     "errorServer": "Slanje neuspješno. Pokušajte ponovo.",
     "phoneOptional": "(opcionalno)",
-    "privacyPre": "Slanjem obrasca pristajemo na obradu mojih podataka sukladno",
-    "privacyLink": "Politici privatnosti",
+    "privacyPre": "Slanjem obrasca potvrđujem obradu svojih podataka u skladu s",
+    "privacyLink": "politikom privatnosti",
     "privacySuf": "."
   },
   "footer": {
     "tagline": "Izvrsnost sa švicarskom preciznošću.",
     "rights": "Sva prava zadržana.",
-    "links": "Brzi Linkovi",
+    "links": "Brzi linkovi",
     "legal": "Pravno",
-    "privacy": "Politika Privatnosti",
+    "privacy": "Politika privatnosti",
     "imprint": "Impresum"
   },
   "settings": {
@@ -155,7 +155,7 @@
     "companyLabel": "Tvrtka",
     "addressLabel": "Adresa",
     "address": "-",
-    "registerLabel": "Trgovački registar",
+    "registerLabel": "Broj trgovačkog registra",
     "register": "-",
     "uidLabel": "UID broj",
     "uid": "-",
@@ -165,7 +165,9 @@
     "responsibleLabel": "Direktor",
     "responsible": "-",
     "disclaimer": "Odricanje od odgovornosti",
-    "disclaimerText": "Sadržaj ove web stranice izrađen je s najvećom pažnjom. Ne jamčimo točnost, potpunost ni ažurnost sadržaja. Korištenje stranice odvija se na vlastitu odgovornost."
+    "disclaimerText": "Sadržaj ove web stranice izrađen je s najvećom pažnjom. Ne jamčimo točnost, potpunost ni ažurnost sadržaja. Korištenje stranice odvija se na vlastitu odgovornost.",
+    "registerOfficeLabel": "Ured trgovačkog registra",
+    "vatLabel": "PDV/MWST ID"
   },
   "privacy": {
     "pageTitle": "Politika privatnosti",
@@ -179,24 +181,24 @@
     "s3h": "3. Svrha obrade",
     "s3p": "Podaci se koriste isključivo za odgovaranje na upit i uspostavljanje poslovnog odnosa. Ne koriste se u reklamne svrhe niti se dijele s trećim stranama bez pristanka.",
     "s4h": "4. Izvršitelji obrade",
-    "s4p": "Za slanje e-pošte koristimo Resend Inc. (resend.com). Ova usluga prima podatke obrasca radi prosljeđivanja nama, na temelju ugovora o obradi podataka.",
+    "s4p": "Za slanje e-pošte koristimo Plus Five Five, Inc. (Resend, resend.com) kao izvršitelja obrade. Ova usluga prima podatke obrasca radi prosljeđivanja nama, na temelju ugovora o obradi podataka.",
     "s5h": "5. Rok pohrane",
-    "s5p": "Kontaktni upiti brišu se nakon potpune obrade, najkasnije nakon 12 mjeseci. Ako iz upita nastane ugovorni odnos, primjenjuju se zakonski rokovi, posebno 10 godina za računovodstvene dokumente (čl. 958f CO).",
-    "s6h": "6. Vaša prava (švicarski DSG)",
-    "s6p": "Prema švicarskom zakonu o zaštiti podataka (nDSG) imate pravo na pristup, ispravak, brisanje, ograničenje, prenosivost i prigovor. Kontakt: info@martinprojektgroup.ch",
-    "s7h": "7. Hosting & Infrastruktura",
-    "s7p": "Ova stranica hostirana je kod Vercel Inc. (vercel.com). Prijenos podataka šifriran je putem HTTPS/TLS.",
+    "s5p": "Kontaktni upiti u pravilu se čuvaju do 12 mjeseci nakon konačne obrade, a zatim brišu, osim ako nastane poslovni odnos ili zakonske obveze čuvanja zahtijevaju dulje čuvanje.",
+    "s6h": "6. Vaša prava (nDSG / GDPR)",
+    "s6p": "Prema revidiranom Švicarskom saveznom zakonu o zaštiti podataka (nDSG) imate pravo na pristup, ispravak, brisanje, ograničenje obrade, prenosivost podataka i prigovor. Kontakt: info@martinprojektgroup.ch. Također imate pravo podnijeti pritužbu Saveznom povjereniku za zaštitu podataka i informacije (EDÖB, edoeb.admin.ch). Ako se na vas primjenjuje GDPR, možete se obratiti i nadzornom tijelu za zaštitu podataka vaše države članice EU-a.",
+    "s7h": "7. Hosting i infrastruktura",
+    "s7p": "Ova web stranica hostirana je kod Vercel Inc. (vercel.com). Pri svakom učitavanju stranice automatski se bilježe tehnički podaci o pristupu: IP adresa, vremenska oznaka, traženi URL, HTTP metoda te informacije o pregledniku i uređaju. Te podatke obrađuje Vercel u okviru hostinga i podliježu Vercelovoj politici privatnosti i ugovoru o obradi podataka.",
     "s8h": "8. Kontakt za zaštitu podataka",
     "s8p": "Za pitanja o zaštiti podataka: info@martinprojektgroup.ch",
-    "s9h": "9. Pravna osnova obrade",
-    "s9p": "Obrada vaših kontaktnih podataka temelji se na čl. 6 DSZ-a za provedbu predugovornih mjera. Hosting i tehnička obrada podataka o pristupu temelje se na našem legitimnom interesu za sigurnom i funkcionalnom web stranicom.",
-    "s10h": "10. Međunarodni prijenos podataka",
-    "s10p": "Koristimo Vercel Inc. (SAD) kao pružatelja usluga hostinga i Resend Inc. (SAD) za slanje e-pošte. Ovi prijenosi u SAD temelje se na Standardnim ugovornim klauzulama (SCC) prema čl. 16 DSZ-a. Oba pružatelja osiguravaju odgovarajuću razinu zaštite podataka.",
-    "s11h": "11. Podaci o pristupu poslužitelju",
-    "s11p": "Pri svakom pristupu Vercel Inc. automatski bilježi tehničke podatke: IP adresu, vremensku oznaku, traženi URL, HTTP kod, preglednik i operacijski sustav. Ovi podaci služe sigurnom radu web stranice i ne povezuju se s drugim osobnim podacima.",
-    "s12h": "12. Opoziv i pravo na pritužbu",
-    "s12p": "Dani pristanak možete povući u bilo kojem trenutku s učinkom za budućnost: info@martinprojektgroup.ch. Imate i pravo podnijeti pritužbu Saveznom povjereniku za zaštitu podataka (FDPIC, edoeb.admin.ch) ako sumnjate na kršenje DSZ-a.",
-    "s13h": "13. Profiliranje i promjene",
-    "s13p": "Ne provodimo automatizirano profiliranje. Promjene ove politike privatnosti bit će objavljene na ovoj stranici. Datum posljednjeg ažuriranja uvijek je naznačen."
+    "s9h": "9. Pravne osnove prema GDPR-u",
+    "s9p": "Ako se primjenjuje GDPR, kontaktni upiti obrađuju se radi poduzimanja predugovornih mjera ili odgovora na vaš upit prema čl. 6. st. 1. toč. b GDPR-a. Siguran rad web stranice i dokumentiranje upita temelje se na legitimnim interesima prema čl. 6. st. 1. toč. f GDPR-a. Ako se traži privola, može se u bilo kojem trenutku povući za budućnost.",
+    "s10h": "10. Međunarodni prijenosi podataka",
+    "s10p": "Za hosting i dostavu e-pošte osobni podaci mogu se obrađivati u SAD-u od strane Vercel Inc. i Plus Five Five, Inc. (Resend). Prijenosi se temelje na ugovorima o obradi podataka i, gdje je potrebno, odgovarajućim zaštitnim mjerama kao što su standardne ugovorne klauzule ili priznati mehanizmi primjerenosti.",
+    "s11h": "11. Obvezni podaci u kontaktnom obrascu",
+    "s11p": "Ime, adresa e-pošte i opis projekta potrebni su kako bismo mogli pregledati i odgovoriti na upit. Telefonski broj je opcionalan. Bez obveznih podataka upit se ne može obraditi putem obrasca.",
+    "s12h": "12. Bez profiliranja i automatiziranih odluka",
+    "s12p": "Ova web stranica ne provodi profiliranje niti isključivo automatizirano odlučivanje s pravnim učinkom.",
+    "s13h": "13. Službenik za zaštitu podataka i predstavnik u EU",
+    "s13p": "Na ovoj web stranici trenutačno nije naveden poseban službenik za zaštitu podataka ni predstavnik u EU. Zahtjevi za privatnost mogu se poslati na info@martinprojektgroup.ch."
   }
 }

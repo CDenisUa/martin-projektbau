@@ -8,10 +8,10 @@
     "language": "Valoda"
   },
   "hero": {
-    "headline": "Celtniecības Izcilība,\nUzticība Pamatos",
+    "headline": "Izcilība būvniecībā,\nuzticība pamatos",
     "subheadline": "Celtniecība, fasādes, logi, interjeri un renovācijas Šveicē",
-    "cta": "Skatīt Projektus",
-    "ctaSecondary": "Mūsu Pakalpojumi",
+    "cta": "Skatīt projektus",
+    "ctaSecondary": "Mūsu pakalpojumi",
     "badge": "martinprojektgroup.ch",
     "stat1value": "15+",
     "stat1label": "Gadu pieredze",
@@ -23,32 +23,32 @@
     "stat4label": "Šveices kvalitāte"
   },
   "services": {
-    "title": "Mūsu Pakalpojumi",
+    "title": "Mūsu pakalpojumi",
     "subtitle": "Mēs apvienojam ēkas apvalku, iekšējo apdari un virsmu darbus skaidri koordinētos celtniecības un renovācijas risinājumos dzīvokļiem, mājām un komerctelpām Šveicē.",
     "viewAll": "Skatīt visus pakalpojumus",
     "items": {
       "facade": {
-        "title": "Fasāžu Celtniecība",
+        "title": "Fasāžu būvniecība",
         "description": "Plānojam un īstenojam fasādes jaunbūvēm un renovācijām: apakškonstrukciju, siltinājumu, apšuvumu un tīrus savienojumus. Tādējādi ēkas apvalks kļūst noturīgs pret laikapstākļiem, energoefektīvs un vizuāli vienots."
       },
       "tiling": {
-        "title": "Flīžu un Akmens Klāšana",
+        "title": "Flīžu un akmens ieklāšana",
         "description": "Flīzes, porcelāna akmensmasa, dabīgais akmens un mozaīka vannas istabām, virtuvēm, dzīvojamām telpām, kāpnēm un āra zonām. Rūpējamies par pamatni, slīpumiem, hidroizolāciju, precīzām šuvēm un ilgtspējīgi tīru apdari."
       },
       "parquet": {
-        "title": "Parketa Grīdas",
+        "title": "Parketa grīdas",
         "description": "Precīzi parketa darbi no pamatnes sagatavošanas līdz gala virsmai. Renovācijā, jaunā ieklāšanā vai atjaunošanā veidojam siltas un izturīgas koka grīdas ar mierīgu klājuma rakstu."
       },
       "painting": {
-        "title": "Krāsošana un Apmetums",
+        "title": "Krāsošana un apmetums",
         "description": "Iekštelpu un āra krāsošana, apmetums, špaktelēšana un virsmu sagatavošana no vienas komandas. Gludām sienām, aizsargātām fasādēm un telpām, kas izskatās tīras un kvalitatīvas."
       },
       "windows": {
-        "title": "Logu Uzstādīšana",
+        "title": "Logu uzstādīšana",
         "description": "Logi tiek precīzi izmērīti, profesionāli uzstādīti un hermētiski pieslēgti. Kvalitatīva montāža uzlabo siltumizolāciju, skaņas aizsardzību, drošību un dzīves komfortu jaunbūvēs un renovācijās."
       },
       "renovation": {
-        "title": "Renovācija un Pārbūve",
+        "title": "Renovācija un pārbūve",
         "description": "Renovācijas un pārbūves ar skaidru darbu koordināciju - no demontāžas un iekšējās izbūves līdz gala virsmām. Esošā ēka tiek modernizēta, paaugstinot tās vērtību un pielāgojot ikdienas lietošanai."
       },
       "shower": {
@@ -60,7 +60,7 @@
     "whatWeOffer": "Ko mēs piedāvājam"
   },
   "projects": {
-    "title": "Atlasīti Projekti",
+    "title": "Atlasīti projekti",
     "subtitle": "Rūpīgi atlasīti mūsu labākie celtniecības un renovācijas darbi.",
     "viewProject": "Skatīt Projektu",
     "viewAll": "Skatīt Visus Projektus",
@@ -105,13 +105,13 @@
     }
   },
   "contact": {
-    "title": "Sazināties ar Mums",
+    "title": "Sazināties ar mums",
     "subtitle": "Gatavs sākt projektu? Mēs labprāt no jums dzirdēsim.",
-    "name": "Pilns Vārds",
-    "email": "E-pasta Adrese",
-    "phone": "Tālruņa Numurs",
-    "message": "Projekta Apraksts",
-    "send": "Nosūtīt Ziņojumu",
+    "name": "Pilns vārds",
+    "email": "E-pasta adrese",
+    "phone": "Tālruņa numurs",
+    "message": "Projekta apraksts",
+    "send": "Nosūtīt ziņojumu",
     "address": "Šveice",
     "emailLabel": "E-pasts",
     "phoneLabel": "Tālrunis",
@@ -127,23 +127,23 @@
     "errorMessage": "Lūdzu, aprakstiet savu jautājumu",
     "errorServer": "Nosūtīšana neizdevās. Mēģiniet vēlreiz.",
     "phoneOptional": "(neobligāti)",
-    "privacyPre": "Iesniedzot veidlapu, piekrītu savu datu apstrādei saskaņā ar",
+    "privacyPre": "Iesniedzot veidlapu, es apliecinu, ka mani dati tiek apstrādāti saskaņā ar",
     "privacyLink": "Privātuma politiku",
     "privacySuf": "."
   },
   "footer": {
     "tagline": "Izcilība ar Šveices precizitāti.",
     "rights": "Visas tiesības aizsargātas.",
-    "links": "Ātrās Saites",
-    "legal": "Juridisks",
-    "privacy": "Privātuma Politika",
+    "links": "Ātrās saites",
+    "legal": "Juridiskā informācija",
+    "privacy": "Privātuma politika",
     "imprint": "Impressum"
   },
   "settings": {
     "title": "Valodas Iestatījumi",
     "subtitle": "Izvēlieties vēlamo valodu vietnē.",
-    "current": "Pašreizējā Valoda",
-    "select": "Izvēlēties Valodu",
+    "current": "Pašreizējā valoda",
+    "select": "Izvēlēties valodu",
     "sectionLabel": "Preferences"
   },
   "metaTitle": "Martin Projekt Group GmbH – Celtniecība, Renovācijas un Montāža",
@@ -155,7 +155,7 @@
     "companyLabel": "Uzņēmums",
     "addressLabel": "Adrese",
     "address": "-",
-    "registerLabel": "Komercreģistrs",
+    "registerLabel": "Komercreģistra Nr.",
     "register": "-",
     "uidLabel": "UID numurs",
     "uid": "-",
@@ -165,7 +165,9 @@
     "responsibleLabel": "Direktors",
     "responsible": "-",
     "disclaimer": "Atbildības atruna",
-    "disclaimerText": "Šīs vietnes saturs ir izveidots ar vislielāko rūpību. Mēs negarantējam satura precizitāti, pilnīgumu vai aktualitāti. Vietnes izmantošana notiek uz paša risku."
+    "disclaimerText": "Šīs vietnes saturs ir izveidots ar vislielāko rūpību. Mēs negarantējam satura precizitāti, pilnīgumu vai aktualitāti. Vietnes izmantošana notiek uz paša risku.",
+    "registerOfficeLabel": "Komercreģistra iestāde",
+    "vatLabel": "PVN/MWST ID"
   },
   "privacy": {
     "pageTitle": "Privātuma politika",
@@ -177,26 +179,26 @@
     "s2h": "2. Apkopotie dati",
     "s2p": "Caur mūsu kontakta veidlapu apkopojam: pilnu vārdu, e-pasta adresi, tālruņa numuru (neobligāti) un projekta aprakstu. Dati tiek izmantoti tikai jūsu pieprasījuma apstrādei.",
     "s3h": "3. Apstrādes mērķis",
-    "s3p": "Jūsu dati tiek izmantoti tikai jūsu pieprasījumam atbildei un biznesa attiecību nodibināšanai. Tie netiek izmantoti mārketinga nolūkos un netiek nodoti trešajām pusēm bez piekrišanas.",
+    "s3p": "Jūsu dati tiek izmantoti tikai, lai atbildētu uz jūsu pieprasījumu un nodibinātu darījuma attiecības. Tie netiek izmantoti mārketinga nolūkos un netiek nodoti trešajām pusēm bez piekrišanas.",
     "s4h": "4. Apstrādātāji",
-    "s4p": "E-pasta sūtīšanai izmantojam Resend Inc. (resend.com). Šis pakalpojums saņem veidlapas datus, lai tos pārsūtītu mums, pamatojoties uz datu apstrādes līgumu.",
+    "s4p": "E-pasta sūtīšanai mēs izmantojam Plus Five Five, Inc. (Resend, resend.com) kā datu apstrādātāju. Šis pakalpojums saņem veidlapas datus, lai tos pārsūtītu mums, pamatojoties uz datu apstrādes līgumu.",
     "s5h": "5. Glabāšanas termiņš",
-    "s5p": "Kontaktpieprasījumi tiek dzēsti pēc pilnīgas apstrādes, vēlākais pēc 12 mēnešiem. Ja no pieprasījuma rodas līgumiskas attiecības, piemēro likumīgos glabāšanas termiņus, jo īpaši 10 gadus grāmatvedības dokumentiem (958.f pants CO).",
-    "s6h": "6. Jūsu tiesības (Šveices DSG)",
-    "s6p": "Saskaņā ar Šveices datu aizsardzības likumu (nDSG) jums ir tiesības uz piekļuvi, labošanu, dzēšanu, apstrādes ierobežošanu, pārnesamību un iebildumu. Kontakts: info@martinprojektgroup.ch",
-    "s7h": "7. Hostings & Infrastruktūra",
-    "s7p": "Šo vietni mitina Vercel Inc. (vercel.com). Visi datu pārsūtījumi ir šifrēti ar HTTPS/TLS.",
+    "s5p": "Kontaktpieprasījumi parasti tiek glabāti līdz 12 mēnešiem pēc galīgās apstrādes un pēc tam dzēsti, ja vien nerodas darījuma attiecības vai likumā noteiktie glabāšanas pienākumi neprasa ilgāku glabāšanu.",
+    "s6h": "6. Jūsu tiesības (nDSG / VDAR)",
+    "s6p": "Saskaņā ar pārskatīto Šveices Federālo datu aizsardzības likumu (nDSG) jums ir tiesības uz piekļuvi, labošanu, dzēšanu, apstrādes ierobežošanu, datu pārnesamību un iebildumiem. Kontakts: info@martinprojektgroup.ch. Jums ir arī tiesības iesniegt sūdzību Federālajam datu aizsardzības un informācijas komisāram (EDÖB, edoeb.admin.ch). Ja uz jums attiecas VDAR, varat sazināties arī ar datu aizsardzības uzraudzības iestādi savā ES dalībvalstī.",
+    "s7h": "7. Hostings un infrastruktūra",
+    "s7p": "Šo tīmekļa vietni mitina Vercel Inc. (vercel.com). Katras lapas ielādēšanas laikā automātiski tiek reģistrēti tehniskie piekļuves dati: IP adrese, laikspiedols, pieprasītais URL, HTTP metode un informācija par pārlūkprogrammu un ierīci. Vercel apstrādā šos datus hostinga infrastruktūras ietvaros, un uz tiem attiecas Vercel privātuma politika un datu apstrādes līgums.",
     "s8h": "8. Datu aizsardzības kontakts",
     "s8p": "Jautājumiem par datu aizsardzību: info@martinprojektgroup.ch",
-    "s9h": "9. Apstrādes juridiskais pamats",
-    "s9p": "Jūsu kontaktdatu apstrāde notiek saskaņā ar DSG 6. pantu pirmslīguma pasākumu veikšanai. Hostings un tehniskā piekļuves datu apstrāde notiek, pamatojoties uz mūsām likumīgajām interesēm attiecībā uz drošu un funkcionālu tīmekļa vietni.",
-    "s10h": "10. Starptautiskie datu nosūtījumi",
-    "s10p": "Mēs izmantojam Vercel Inc. (ASV) kā hostinga pakalpojumu sniedzēju un Resend Inc. (ASV) e-pasta sūtīšanai. Šie nosūtījumi uz ASV notiek, pamatojoties uz Standarta līguma klauzulām (SCC) saskaņā ar DSG 16. pantu. Abi pakalpojumu sniedzēji nodrošina pietiekamu datu aizsardzības līmeni.",
-    "s11h": "11. Servera piekļuves dati",
-    "s11p": "Katras apmeklējuma reizes laikā Vercel Inc. automātiski reģistrē tehniskos piekļuves datus: IP adresi, laika zīmogu, pieprasīto URL, HTTP kodu, pārlūkprogrammu un operētājsistēmu. Šie dati kalpo tīmekļa vietnes drošai darbībai un netiek saistīti ar citiem personas datiem.",
-    "s12h": "12. Atsaukšana un tiesības iesniegt sūdzību",
-    "s12p": "Jūs varat jebkurā laikā atsaukt sniegto piekrišanu ar iedarbību nākotnē: info@martinprojektgroup.ch. Jums ir arī tiesības iesniegt sūdzību Federālajam datu aizsardzības komisāram (FDPIC, edoeb.admin.ch), ja jūs aizdomājaties par DSG pārkāpumu.",
-    "s13h": "13. Profilēšana un izmaiņas",
-    "s13p": "Mēs neveicam automatizētu profilēšanu. Šīs privātuma politikas izmaiņas tiks publicētas šajā lapā. Pēdējās atjaunināšanas datums vienmēr ir norādīts."
+    "s9h": "9. Juridiskie pamati saskaņā ar GDPR",
+    "s9p": "Ja GDPR ir piemērojams, kontaktpieprasījumi tiek apstrādāti pirmslīguma pasākumu veikšanai vai atbildes sniegšanai uz pieprasījumu saskaņā ar GDPR 6. panta 1. punkta b) apakšpunktu. Vietnes droša darbība un pieprasījumu dokumentēšana balstās uz leģitīmām interesēm saskaņā ar GDPR 6. panta 1. punkta f) apakšpunktu. Ja tiek prasīta piekrišana, to jebkurā laikā var atsaukt attiecībā uz nākotni.",
+    "s10h": "10. Starptautiska datu pārsūtīšana",
+    "s10p": "Hostinga un e-pasta piegādes vajadzībām personas datus ASV var apstrādāt Vercel Inc. un Plus Five Five, Inc. (Resend). Pārsūtīšana balstās uz datu apstrādes līgumiem un, ja nepieciešams, piemērotām garantijām, piemēram, standarta līguma klauzulām vai atzītiem pietiekamības mehānismiem.",
+    "s11h": "11. Obligātā informācija kontaktformā",
+    "s11p": "Vārds, e-pasta adrese un projekta apraksts ir nepieciešami, lai mēs varētu izvērtēt pieprasījumu un atbildēt uz to. Tālruņa numurs nav obligāts. Bez obligātās informācijas pieprasījumu nevar apstrādāt, izmantojot veidlapu.",
+    "s12h": "12. Nav profilēšanas vai automatizētu lēmumu",
+    "s12p": "Šī vietne neveic profilēšanu un nepieņem tikai automatizētus lēmumus ar juridisku ietekmi.",
+    "s13h": "13. Datu aizsardzības speciālists un ES pārstāvis",
+    "s13p": "Šajā vietnē pašlaik nav norādīts atsevišķs datu aizsardzības speciālists vai ES pārstāvis. Privātuma pieprasījumus var sūtīt uz info@martinprojektgroup.ch."
   }
 }

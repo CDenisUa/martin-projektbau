@@ -8,10 +8,10 @@
     "language": "Kalba"
   },
   "hero": {
-    "headline": "Statybos Meistriškumas,\nPasitikėjimas Pamatuose",
+    "headline": "Statybos meistriškumas,\npasitikėjimas pamatuose",
     "subheadline": "Statyba, fasadai, langai, interjerai ir renovacijos Šveicarijoje",
-    "cta": "Žiūrėti Projektus",
-    "ctaSecondary": "Mūsų Paslaugos",
+    "cta": "Žiūrėti projektus",
+    "ctaSecondary": "Mūsų paslaugos",
     "badge": "martinprojektgroup.ch",
     "stat1value": "15+",
     "stat1label": "Metų patirtis",
@@ -23,32 +23,32 @@
     "stat4label": "Šveicarijos kokybė"
   },
   "services": {
-    "title": "Mūsų Paslaugos",
+    "title": "Mūsų paslaugos",
     "subtitle": "Sujungiame pastato apvalkalą, vidaus apdailą ir paviršių darbus į aiškiai koordinuotus statybos ir renovacijos sprendimus butams, namams ir komercinėms patalpoms Šveicarijoje.",
     "viewAll": "Žiūrėti visas paslaugas",
     "items": {
       "facade": {
-        "title": "Fasadų Statyba",
+        "title": "Fasadų statyba",
         "description": "Planuojame ir įrengiame fasadus naujai statybai ir renovacijai: pagrindo konstrukciją, izoliaciją, apdailą ir švarius sujungimus. Taip pastato apvalkalas tampa atsparus orui, energiškai efektyvus ir vizualiai vientisas."
       },
       "tiling": {
-        "title": "Plytelių ir Akmens Klojimas",
+        "title": "Plytelių ir akmens klojimas",
         "description": "Plytelės, porceliano akmens masė, natūralus akmuo ir mozaika vonioms, virtuvėms, gyvenamosioms erdvėms, laiptams ir lauko zonoms. Rūpinamės pagrindu, nuolydžiais, hidroizoliacija, tiksliomis siūlėmis ir ilgalaike švaria apdaila."
       },
       "parquet": {
-        "title": "Parketinės Grindys",
+        "title": "Parketinės grindys",
         "description": "Tikslūs parketo darbai nuo pagrindo paruošimo iki galutinio paviršiaus. Renovacijos, naujo klojimo ar atnaujinimo metu kuriame šiltas ir tvirtas medines grindis su ramiu klojimo raštu."
       },
       "painting": {
-        "title": "Dažymas ir Tinko Darbai",
+        "title": "Dažymas ir tinko darbai",
         "description": "Vidaus ir išorės dažymas, tinkavimas, glaistymas ir paviršių paruošimas iš vienos komandos. Lygioms sienoms, apsaugotiems fasadams ir patalpoms, kurios atrodo švariai ir kokybiškai."
       },
       "windows": {
-        "title": "Langų Montavimas",
+        "title": "Langų montavimas",
         "description": "Langai tiksliai išmatuojami, profesionaliai sumontuojami ir sandariai prijungiami. Geras montavimas pagerina šilumos izoliaciją, garso apsaugą, saugumą ir gyvenimo komfortą naujoje statyboje bei renovacijoje."
       },
       "renovation": {
-        "title": "Renovacija ir Rekonstrukcija",
+        "title": "Renovacija ir rekonstrukcija",
         "description": "Renovacijos ir pertvarkymai su aiškia darbų koordinacija - nuo demontavimo ir vidaus įrengimo iki galutinių paviršių. Esamas pastatas modernizuojamas, jo vertė didinama ir jis pritaikomas kasdieniam naudojimui."
       },
       "shower": {
@@ -60,7 +60,7 @@
     "whatWeOffer": "Ką siūlome"
   },
   "projects": {
-    "title": "Atrinkti Projektai",
+    "title": "Atrinkti projektai",
     "subtitle": "Kruopščiai atrinkti geriausi mūsų statybos ir renovacijos darbai.",
     "viewProject": "Žiūrėti Projektą",
     "viewAll": "Žiūrėti Visus Projektus",
@@ -105,18 +105,18 @@
     }
   },
   "contact": {
-    "title": "Susisiekite su Mumis",
+    "title": "Susisiekite su mumis",
     "subtitle": "Pasiruošę pradėti projektą? Mielai jus išklausysime.",
-    "name": "Pilnas Vardas",
-    "email": "El. Pašto Adresas",
-    "phone": "Telefono Numeris",
-    "message": "Projekto Aprašymas",
-    "send": "Siųsti Žinutę",
+    "name": "Vardas ir pavardė",
+    "email": "El. pašto adresas",
+    "phone": "Telefono numeris",
+    "message": "Projekto aprašymas",
+    "send": "Siųsti žinutę",
     "address": "Šveicarija",
     "emailLabel": "El. paštas",
     "phoneLabel": "Telefonas",
     "successMessage": "Ačiū! Netrukus su jumis susisieksime.",
-    "namePlaceholder": "Jūsų pilnas vardas",
+    "namePlaceholder": "Jūsų vardas ir pavardė",
     "emailPlaceholder": "jusu@email.lt",
     "phonePlaceholder": "+41 ...",
     "messagePlaceholder": "Papasakokite apie savo projektą...",
@@ -127,23 +127,23 @@
     "errorMessage": "Aprašykite savo užklausą",
     "errorServer": "Nepavyko išsiųsti. Bandykite dar kartą.",
     "phoneOptional": "(neprivaloma)",
-    "privacyPre": "Pateikdamas formą sutinku, kad mano duomenys būtų tvarkomi pagal",
+    "privacyPre": "Pateikdamas formą patvirtinu, kad mano duomenys tvarkomi pagal",
     "privacyLink": "Privatumo politiką",
     "privacySuf": "."
   },
   "footer": {
     "tagline": "Meistriškumas su Šveicarijos tikslumu.",
     "rights": "Visos teisės saugomos.",
-    "links": "Greitos Nuorodos",
-    "legal": "Teisinė",
-    "privacy": "Privatumo Politika",
+    "links": "Greitos nuorodos",
+    "legal": "Teisinė informacija",
+    "privacy": "Privatumo politika",
     "imprint": "Impressum"
   },
   "settings": {
     "title": "Kalbos Nustatymai",
     "subtitle": "Pasirinkite pageidaujamą svetainės kalbą.",
-    "current": "Dabartinė Kalba",
-    "select": "Pasirinkti Kalbą",
+    "current": "Dabartinė kalba",
+    "select": "Pasirinkti kalbą",
     "sectionLabel": "Nuostatos"
   },
   "metaTitle": "Martin Projekt Group GmbH – Statyba, Renovacijos ir Montavimas",
@@ -155,7 +155,7 @@
     "companyLabel": "Įmonė",
     "addressLabel": "Adresas",
     "address": "-",
-    "registerLabel": "Verslo registras",
+    "registerLabel": "Komercinio registro Nr.",
     "register": "-",
     "uidLabel": "UID numeris",
     "uid": "-",
@@ -165,7 +165,9 @@
     "responsibleLabel": "Direktorius",
     "responsible": "-",
     "disclaimer": "Atsakomybės apribojimas",
-    "disclaimerText": "Šios svetainės turinys sukurtas su didžiausiu rūpestingumu. Mes negarantuojame turinio tikslumo, išsamumo ar aktualumo. Svetainės naudojimas yra jūsų pačių atsakomybė."
+    "disclaimerText": "Šios svetainės turinys sukurtas su didžiausiu rūpestingumu. Mes negarantuojame turinio tikslumo, išsamumo ar aktualumo. Svetainės naudojimas yra jūsų pačių atsakomybė.",
+    "registerOfficeLabel": "Komercinio registro įstaiga",
+    "vatLabel": "PVM/MWST ID"
   },
   "privacy": {
     "pageTitle": "Privatumo politika",
@@ -179,24 +181,24 @@
     "s3h": "3. Tvarkymo tikslas",
     "s3p": "Jūsų duomenys naudojami tik atsakymui į jūsų užklausą ir verslo santykių užmezgimui. Jie nenaudojami rinkodaros tikslais ir neperduodami trečiosioms šalims be sutikimo.",
     "s4h": "4. Duomenų tvarkytojai",
-    "s4p": "El. laiškų siuntimui naudojame Resend Inc. (resend.com). Ši paslauga gauna formos duomenis, kad persiųstų juos mums, remdamasi duomenų tvarkymo sutartimi.",
+    "s4p": "El. laiškų siuntimui naudojame Plus Five Five, Inc. (Resend, resend.com) kaip duomenų tvarkytoją. Ši paslauga gauna formos duomenis, kad persiųstų juos mums, remdamasi duomenų tvarkymo sutartimi.",
     "s5h": "5. Saugojimo trukmė",
-    "s5p": "Kontaktiniai prašymai ištrinami po visiško apdorojimo, ne vėliau kaip per 12 mėnesių. Jei iš prašymo atsiranda sutartiniai santykiai, taikomi įstatyminiai saugojimo terminai, ypač 10 metų apskaitos dokumentams (958f str. CO).",
-    "s6h": "6. Jūsų teisės (Šveicarijos DSG)",
-    "s6p": "Pagal Šveicarijos duomenų apsaugos įstatymą (nDSG) turite teisę į prieigą, ištaisymą, ištrynimą, tvarkymo apribojimą, perkeliamumą ir prieštaravimą. Kontaktas: info@martinprojektgroup.ch",
-    "s7h": "7. Prieglobstis & Infrastruktūra",
-    "s7p": "Šią svetainę talpina Vercel Inc. (vercel.com). Visi duomenų perdavimai yra šifruoti per HTTPS/TLS.",
+    "s5p": "Kontaktinės užklausos paprastai saugomos iki 12 mėnesių po galutinio išnagrinėjimo ir tada ištrinamos, nebent atsiranda verslo santykiai arba teisės aktų saugojimo pareigos reikalauja ilgesnio saugojimo.",
+    "s6h": "6. Jūsų teisės (nDSG / BDAR)",
+    "s6p": "Pagal patikslintą Šveicarijos federalinį asmens duomenų apsaugos įstatymą (nDSG) turite teisę į prieigą, taisymą, ištrynimą, tvarkymo apribojimą, duomenų perkeliamumą ir nesutikimą. Kontaktas: info@martinprojektgroup.ch. Taip pat turite teisę pateikti skundą Federaliniam duomenų apsaugos ir informacijos komisarui (EDÖB, edoeb.admin.ch). Jei jums taikomas BDAR, galite kreiptis ir į savo ES valstybės narės duomenų apsaugos priežiūros instituciją.",
+    "s7h": "7. Prieglobstis ir infrastruktūra",
+    "s7p": "Šią svetainę talpina Vercel Inc. (vercel.com). Kiekvieną kartą įkraunant puslapį automatiškai įrašomi techniniai prieigos duomenys: IP adresas, laiko žyma, prašomas URL, HTTP metodas bei naršyklės ir įrenginio informacija. Šiuos duomenis Vercel tvarko kaip prieglobos infrastruktūros dalį; jiems taikoma Vercel privatumo politika ir duomenų tvarkymo sutartis.",
     "s8h": "8. Kontaktas duomenų apsaugos klausimais",
     "s8p": "Duomenų apsaugos klausimais: info@martinprojektgroup.ch",
-    "s9h": "9. Tvarkymo teisinis pagrindas",
-    "s9p": "Jūsų kontaktinių duomenų tvarkymas grindžiamas DSG 6 str. ikisutartinių priemonių vykdymui. Priegloba ir techninis prieigos duomenų tvarkymas grindžiamas mūsų teisėtu interesu turėti saugią ir veikiančią svetainę.",
-    "s10h": "10. Tarptautiniai duomenų perdavimai",
-    "s10p": "Naudojame Vercel Inc. (JAV) kaip prieglobos paslaugų teikėją ir Resend Inc. (JAV) el. laiškų siuntimui. Šie perdavimai į JAV vykdomi remiantis Standartinėmis sutartinėmis sąlygomis (SCC) pagal DSG 16 str. Abu paslaugų teikėjai užtikrina tinkamą duomenų apsaugos lygį.",
-    "s11h": "11. Serverio prieigos duomenys",
-    "s11p": "Kiekvieno apsilankymo metu Vercel Inc. automatiškai fiksuoja techninius prieigos duomenis: IP adresą, laiko žymą, prašomą URL, HTTP kodą, naršyklę ir operacinę sistemą. Šie duomenys tarnauja saugiam svetainės veikimui ir nėra siejami su kitais asmens duomenimis.",
-    "s12h": "12. Atšaukimas ir teisė skųstis",
-    "s12p": "Duotą sutikimą galite bet kada atšaukti su poveikiu ateičiai: info@martinprojektgroup.ch. Taip pat turite teisę pateikti skundą Federaliniam duomenų apsaugos komisarui (FDPIC, edoeb.admin.ch), jei įtariate DSG pažeidimą.",
-    "s13h": "13. Profiliavimas ir pakeitimai",
-    "s13p": "Nevykdome automatizuoto profiliavimo. Šios privatumo politikos pakeitimai bus skelbiami šiame puslapyje. Paskutinio atnaujinimo data visada nurodyta."
+    "s9h": "9. Teisiniai pagrindai pagal GDPR",
+    "s9p": "Kai taikomas GDPR, kontaktinės užklausos tvarkomos siekiant imtis ikisutartinių veiksmų arba atsakyti į jūsų užklausą pagal GDPR 6 straipsnio 1 dalies b punktą. Saugus svetainės veikimas ir užklausų dokumentavimas grindžiami teisėtais interesais pagal GDPR 6 straipsnio 1 dalies f punktą. Jei prašoma sutikimo, jį galima bet kada atšaukti ateičiai.",
+    "s10h": "10. Tarptautinis duomenų perdavimas",
+    "s10p": "Dėl prieglobos ir el. pašto pristatymo asmens duomenys gali būti tvarkomi JAV bendrovių Vercel Inc. ir Plus Five Five, Inc. (Resend). Perdavimai grindžiami duomenų tvarkymo sutartimis ir, kai reikia, tinkamomis garantijomis, tokiomis kaip standartinės sutarčių sąlygos ar pripažinti tinkamumo mechanizmai.",
+    "s11h": "11. Privaloma informacija kontaktinėje formoje",
+    "s11p": "Vardas, el. pašto adresas ir projekto aprašymas reikalingi, kad galėtume peržiūrėti ir atsakyti į jūsų užklausą. Telefono numeris neprivalomas. Be privalomos informacijos užklausa negali būti apdorota per formą.",
+    "s12h": "12. Jokio profiliavimo ar automatizuotų sprendimų",
+    "s12p": "Ši svetainė nevykdo profiliavimo ir nepriima vien automatizuotų sprendimų, sukeliančių teisines pasekmes.",
+    "s13h": "13. Duomenų apsaugos pareigūnas ir ES atstovas",
+    "s13p": "Šioje svetainėje šiuo metu nenurodytas atskiras duomenų apsaugos pareigūnas ar ES atstovas. Privatumo užklausas galima siųsti adresu info@martinprojektgroup.ch."
   }
 }

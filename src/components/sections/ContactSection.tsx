@@ -24,6 +24,7 @@ export default function ContactSection({ className, headingLevel = 'h2' }: Conta
   const [loading, setLoading] = useState(false);
   const [serverError, setServerError] = useState('');
   const [form, setForm] = useState<FormState>({ name: '', email: '', phone: '', message: '' });
+  const [honeypot, setHoneypot] = useState('');
   const [errors, setErrors] = useState<Errors>({});
   const [touched, setTouched] = useState<Partial<Record<keyof FormState, boolean>>>({})
 
@@ -56,7 +57,7 @@ export default function ContactSection({ className, headingLevel = 'h2' }: Conta
       const res = await fetch('/api/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(form),
+        body: JSON.stringify({ ...form, _hp: honeypot }),
       });
       if (!res.ok) throw new Error();
       setSubmitted(true);
@@ -142,6 +143,17 @@ export default function ContactSection({ className, headingLevel = 'h2' }: Conta
               </div>
             ) : (
               <form onSubmit={handleSubmit} noValidate className="space-y-2">
+                {/* honeypot — hidden from humans, filled only by bots */}
+                <input
+                  type="text"
+                  name="website"
+                  value={honeypot}
+                  onChange={(e) => setHoneypot(e.target.value)}
+                  tabIndex={-1}
+                  autoComplete="off"
+                  aria-hidden="true"
+                  style={{ position: 'absolute', left: '-9999px', opacity: 0, height: 0, width: 0 }}
+                />
                 <div className="grid sm:grid-cols-2 gap-4">
                   <div>
                     <label className="block text-[10px] text-white/30 uppercase tracking-[0.2em] mb-2">

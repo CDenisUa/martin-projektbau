@@ -127,9 +127,9 @@
     "errorMessage": "Bitte beschreiben Sie Ihr Anliegen",
     "errorServer": "Fehler beim Senden. Bitte versuchen Sie es später erneut.",
     "phoneOptional": "(optional)",
-    "privacyPre": "Mit dem Absenden stimme ich der Verarbeitung meiner Daten gemäss der",
+    "privacyPre": "Mit dem Absenden nehme ich die Verarbeitung meiner Daten gemäss der",
     "privacyLink": "Datenschutzerklärung",
-    "privacySuf": "zu."
+    "privacySuf": "zur Kenntnis."
   },
   "footer": {
     "tagline": "Qualität mit Schweizer Präzision.",
@@ -155,7 +155,7 @@
     "companyLabel": "Firma",
     "addressLabel": "Adresse",
     "address": "-",
-    "registerLabel": "Handelsregister",
+    "registerLabel": "Handelsregister-Nr.",
     "register": "-",
     "uidLabel": "UID-Nummer",
     "uid": "-",
@@ -165,7 +165,9 @@
     "responsibleLabel": "Geschäftsführer",
     "responsible": "-",
     "disclaimer": "Haftungsausschluss",
-    "disclaimerText": "Die Inhalte dieser Website wurden mit größter Sorgfalt erstellt. Wir übernehmen keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte. Die Nutzung der Website erfolgt auf eigene Gefahr."
+    "disclaimerText": "Die Inhalte dieser Website wurden mit grösster Sorgfalt erstellt. Wir übernehmen keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte. Die Nutzung der Website erfolgt auf eigene Gefahr.",
+    "registerOfficeLabel": "Handelsregisteramt",
+    "vatLabel": "MWST/VAT ID"
   },
   "privacy": {
     "pageTitle": "Datenschutzerklärung",
@@ -179,24 +181,24 @@
     "s3h": "3. Zweck der Verarbeitung",
     "s3p": "Ihre Daten dienen ausschliesslich der Beantwortung Ihrer Anfrage und der Anbahnung einer Geschäftsbeziehung. Eine Nutzung zu Werbezwecken oder Weitergabe an Dritte ohne Einwilligung findet nicht statt.",
     "s4h": "4. Auftragsverarbeiter",
-    "s4p": "Für den E-Mail-Versand setzen wir Resend Inc. (resend.com) als Auftragsverarbeiter ein. Dieser Dienst erhält die Formulardaten zur Weiterleitung an uns. Die Zusammenarbeit erfolgt auf Basis eines Auftragsverarbeitungsvertrags.",
+    "s4p": "Für den E-Mail-Versand setzen wir Plus Five Five, Inc. (Resend, resend.com) als Auftragsverarbeiter ein. Dieser Dienst erhält die Formulardaten zur Weiterleitung an uns. Die Zusammenarbeit erfolgt auf Basis eines Auftragsverarbeitungsvertrags.",
     "s5h": "5. Speicherdauer",
-    "s5p": "Kontaktanfragen werden nach vollständiger Bearbeitung gelöscht, spätestens nach 12 Monaten. Entsteht aus einer Anfrage ein Vertragsverhältnis, gelten die gesetzlichen Fristen, insbesondere 10 Jahre für buchhalterisch relevante Unterlagen (Art. 958f OR).",
-    "s6h": "6. Ihre Rechte (nDSG)",
-    "s6p": "Gemäss dem revidierten Schweizer Datenschutzgesetz (nDSG) haben Sie das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenportabilität und Widerspruch. Anfragen: info@martinprojektgroup.ch",
+    "s5p": "Kontaktanfragen werden grundsätzlich bis zu 12 Monate nach abschliessender Bearbeitung aufbewahrt und danach gelöscht, sofern keine Geschäftsbeziehung entsteht und keine gesetzlichen Aufbewahrungspflichten entgegenstehen.",
+    "s6h": "6. Ihre Rechte (nDSG / DSGVO)",
+    "s6p": "Gemäss dem revidierten Schweizer Datenschutzgesetz (nDSG) haben Sie das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenportabilität und Widerspruch. Anfragen richten Sie an: info@martinprojektgroup.ch. Zusätzlich haben Sie das Recht, eine Beschwerde beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB, edoeb.admin.ch) einzureichen. Sofern die DSGVO anwendbar ist, können Sie sich ausserdem an die zuständige Datenschutzaufsichtsbehörde Ihres EU-Wohnsitzstaates wenden.",
     "s7h": "7. Hosting & Infrastruktur",
-    "s7p": "Diese Website wird bei Vercel Inc. (vercel.com) gehostet. Die Datenübertragung erfolgt verschlüsselt über HTTPS/TLS.",
+    "s7p": "Diese Website wird bei Vercel Inc. (vercel.com) gehostet. Bei jedem Seitenaufruf werden technische Zugriffsdaten automatisch erfasst: IP-Adresse, Zeitstempel, aufgerufene URL, HTTP-Methode sowie Browser- und Geräteinformationen. Diese Daten werden von Vercel im Rahmen des Hosting-Betriebs verarbeitet und unterliegen Vercels Datenschutzrichtlinie sowie einem Auftragsverarbeitungsvertrag.",
     "s8h": "8. Kontakt für Datenschutzfragen",
     "s8p": "Bei Fragen zum Datenschutz: info@martinprojektgroup.ch",
-    "s9h": "9. Rechtsgrundlage der Verarbeitung",
-    "s9p": "Die Verarbeitung Ihrer Kontaktdaten erfolgt auf Grundlage von Art. 6 DSG zur Durchführung vorvertraglicher Massnahmen. Das Hosting und die technische Verarbeitung von Zugriffsdaten erfolgen auf Basis unseres berechtigten Interesses an einem sicheren und funktionsfähigen Webauftritt.",
+    "s9h": "9. Rechtsgrundlagen nach DSGVO",
+    "s9p": "Soweit die DSGVO anwendbar ist, erfolgt die Bearbeitung von Kontaktanfragen zur Durchführung vorvertraglicher Massnahmen oder zur Beantwortung Ihrer Anfrage gemäss Art. 6 Abs. 1 lit. b DSGVO. Der sichere Betrieb der Website und die Dokumentation von Anfragen beruhen auf berechtigten Interessen gemäss Art. 6 Abs. 1 lit. f DSGVO. Falls eine Einwilligung abgefragt wird, kann diese jederzeit mit Wirkung für die Zukunft widerrufen werden.",
     "s10h": "10. Internationale Datenübermittlung",
-    "s10p": "Wir nutzen Vercel Inc. (USA) als Hosting-Anbieter und Resend Inc. (USA) für den E-Mail-Versand. Diese Datenübermittlungen in die USA erfolgen auf Grundlage von Standardvertragsklauseln (SCCs) gemäss Art. 16 DSG. Beide Anbieter gewährleisten ein angemessenes Datenschutzniveau.",
-    "s11h": "11. Serverzugriffsdaten",
-    "s11p": "Bei jedem Seitenaufruf erfasst Vercel Inc. automatisch technische Zugriffsdaten: IP-Adresse, Zeitstempel, aufgerufene URL, HTTP-Statuscode sowie Browser und Betriebssystem. Diese Daten dienen dem sicheren Betrieb der Website und werden nicht mit anderen personenbezogenen Daten verknüpft.",
-    "s12h": "12. Widerruf und Beschwerderecht",
-    "s12p": "Eine erteilte Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen: info@martinprojektgroup.ch. Zudem haben Sie das Recht, beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB, edoeb.admin.ch) Beschwerde einzureichen, wenn Sie eine Verletzung des DSG vermuten.",
-    "s13h": "13. Profiling und Änderungen",
-    "s13p": "Wir führen kein automatisiertes Profiling durch. Änderungen dieser Datenschutzerklärung werden auf dieser Seite veröffentlicht. Das Datum der letzten Aktualisierung ist jeweils angegeben."
+    "s10p": "Für Hosting und E-Mail-Zustellung können personenbezogene Daten durch Vercel Inc. und Plus Five Five, Inc. (Resend) in den USA verarbeitet werden. Die Übermittlung erfolgt auf Grundlage von Auftragsverarbeitungsverträgen und, soweit erforderlich, geeigneten Garantien wie Standardvertragsklauseln oder anerkannten Angemessenheitsmechanismen.",
+    "s11h": "11. Pflichtangaben im Kontaktformular",
+    "s11p": "Name, E-Mail-Adresse und Projektbeschreibung sind erforderlich, damit wir Ihre Anfrage prüfen und beantworten können. Die Telefonnummer ist optional. Ohne die erforderlichen Angaben kann die Anfrage nicht über das Formular bearbeitet werden.",
+    "s12h": "12. Kein Profiling und keine automatisierten Entscheidungen",
+    "s12p": "Über diese Website findet kein Profiling und keine ausschliesslich automatisierte Entscheidungsfindung mit rechtlicher Wirkung statt.",
+    "s13h": "13. Datenschutzbeauftragter und EU-Vertreter",
+    "s13p": "Ein separater Datenschutzbeauftragter oder EU-Vertreter ist derzeit auf dieser Website nicht benannt. Datenschutzanfragen können an info@martinprojektgroup.ch gerichtet werden."
   }
 }

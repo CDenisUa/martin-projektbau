@@ -8,10 +8,10 @@
     "language": "Sprog"
   },
   "hero": {
-    "headline": "Byggeriets Ekspertise,\nTillid i Fundamentet",
+    "headline": "Ekspertise i byggeri,\ntillid i fundamentet",
     "subheadline": "Byggeri, facader, vinduer, interiør og renoveringer i Schweiz",
-    "cta": "Se Projekter",
-    "ctaSecondary": "Vores Tjenester",
+    "cta": "Se projekter",
+    "ctaSecondary": "Vores tjenester",
     "badge": "martinprojektgroup.ch",
     "stat1value": "15+",
     "stat1label": "Års erfaring",
@@ -23,7 +23,7 @@
     "stat4label": "Schweizisk kvalitet"
   },
   "services": {
-    "title": "Vores Tjenester",
+    "title": "Vores tjenester",
     "subtitle": "Vi kombinerer klimaskærm, indvendig finish og overfladearbejde i klart koordinerede bygge- og renoveringsløsninger til lejligheder, huse og erhvervslokaler i Schweiz.",
     "viewAll": "Se alle tjenester",
     "items": {
@@ -32,7 +32,7 @@
         "description": "Vi planlægger og udfører facader til nybyggeri og renovering: underkonstruktion, isolering, beklædning og rene tilslutninger. Resultatet er en vejrbestandig, energieffektiv og visuelt afstemt klimaskærm."
       },
       "tiling": {
-        "title": "Flise- og Stenlægning",
+        "title": "Flise- og stenlægning",
         "description": "Fliser, porcelænsfliser, natursten og mosaik til badeværelser, køkkener, opholdsrum, trapper og udendørsarealer. Vi fokuserer på underlag, fald, vådrumssikring, præcise fuger og en varigt ren finish."
       },
       "parquet": {
@@ -40,7 +40,7 @@
         "description": "Præcist parketarbejde fra opbygning af underlag til den færdige overflade. Ved renovering, ny lægning eller opfriskning skaber vi varme og robuste trægulve med et roligt læggemønster."
       },
       "painting": {
-        "title": "Maling og Puds",
+        "title": "Maling og puds",
         "description": "Indvendig og udvendig maling, puds, spartling og overfladeforberedelse fra ét team. Til glatte vægge, beskyttede facader og rum, der fremstår rene og eksklusive."
       },
       "windows": {
@@ -48,7 +48,7 @@
         "description": "Vinduer måles præcist, monteres fagligt korrekt og tilsluttes lufttæt. God vinduesmontering forbedrer varmeisolering, lydkomfort, sikkerhed og boligkomfort i både nybyggeri og renovering."
       },
       "renovation": {
-        "title": "Renovering og Ombygning",
+        "title": "Renovering og ombygning",
         "description": "Renoveringer og ombygninger med klar koordinering af fagene - fra nedrivning og indvendig opbygning til de endelige overflader. Den eksisterende bygningsmasse moderniseres, opgraderes og gøres praktisk i hverdagen."
       },
       "shower": {
@@ -60,7 +60,7 @@
     "whatWeOffer": "Hvad vi tilbyder"
   },
   "projects": {
-    "title": "Udvalgte Projekter",
+    "title": "Udvalgte projekter",
     "subtitle": "Et kurateret udvalg af vores fineste bygge- og renoveringsarbejde.",
     "viewProject": "Se Projekt",
     "viewAll": "Se Alle Projekter",
@@ -105,13 +105,13 @@
     }
   },
   "contact": {
-    "title": "Kontakt Os",
+    "title": "Kontakt os",
     "subtitle": "Klar til at starte dit projekt? Vi vil meget gerne høre fra dig.",
-    "name": "Fuldt Navn",
+    "name": "Fuldt navn",
     "email": "E-mailadresse",
     "phone": "Telefonnummer",
     "message": "Projektbeskrivelse",
-    "send": "Send Besked",
+    "send": "Send besked",
     "address": "Schweiz",
     "emailLabel": "E-mail",
     "phoneLabel": "Telefon",
@@ -127,14 +127,14 @@
     "errorMessage": "Beskriv din forespørgsel",
     "errorServer": "Afsendelse mislykkedes. Prøv igen.",
     "phoneOptional": "(valgfrit)",
-    "privacyPre": "Ved at indsende formularen accepterer jeg behandlingen af mine data i overensstemmelse med",
-    "privacyLink": "Privatlivspolitikken",
-    "privacySuf": "."
+    "privacyPre": "Ved at sende formularen tager jeg behandlingen af mine data i henhold til",
+    "privacyLink": "privatlivspolitikken",
+    "privacySuf": "til efterretning."
   },
   "footer": {
     "tagline": "Ekspertise med schweizisk præcision.",
     "rights": "Alle rettigheder forbeholdes.",
-    "links": "Hurtige Links",
+    "links": "Hurtige links",
     "legal": "Juridisk",
     "privacy": "Privatlivspolitik",
     "imprint": "Impressum"
@@ -155,7 +155,7 @@
     "companyLabel": "Virksomhed",
     "addressLabel": "Adresse",
     "address": "-",
-    "registerLabel": "Handelsregister",
+    "registerLabel": "Handelsregisternr.",
     "register": "-",
     "uidLabel": "UID-nummer",
     "uid": "-",
@@ -165,7 +165,9 @@
     "responsibleLabel": "Administrerende direktør",
     "responsible": "-",
     "disclaimer": "Ansvarsfraskrivelse",
-    "disclaimerText": "Indholdet på denne hjemmeside er udarbejdet med størst mulig omhu. Vi garanterer ikke for nøjagtigheden, fuldstændigheden eller aktualiteten af indholdet. Brug af hjemmesiden sker på eget ansvar."
+    "disclaimerText": "Indholdet på denne hjemmeside er udarbejdet med størst mulig omhu. Vi garanterer ikke for nøjagtigheden, fuldstændigheden eller aktualiteten af indholdet. Brug af hjemmesiden sker på eget ansvar.",
+    "registerOfficeLabel": "Handelsregistermyndighed",
+    "vatLabel": "Moms/MWST ID"
   },
   "privacy": {
     "pageTitle": "Privatlivspolitik",
@@ -179,24 +181,24 @@
     "s3h": "3. Formål med behandling",
     "s3p": "Dine data bruges udelukkende til at besvare din henvendelse og etablere et forretningsforhold. De bruges ikke til markedsføring og deles ikke med tredjeparter uden dit samtykke.",
     "s4h": "4. Databehandlere",
-    "s4p": "Til e-mailudsendelse bruger vi Resend Inc. (resend.com). Denne tjeneste modtager formulardata for at videresende dem til os, baseret på en databehandleraftale.",
+    "s4p": "Til e-mailudsendelse bruger vi Plus Five Five, Inc. (Resend, resend.com) som databehandler. Denne tjeneste modtager formulardata for at videresende dem til os, baseret på en databehandleraftale.",
     "s5h": "5. Opbevaringsperiode",
-    "s5p": "Kontaktanmodninger slettes efter fuldstændig behandling, senest efter 12 måneder. Hvis en anmodning fører til et kontraktforhold, gælder de lovpligtige opbevaringsfrister, især 10 år for regnskabsmæssige dokumenter (art. 958f CO).",
-    "s6h": "6. Dine rettigheder (schweizisk DSG)",
-    "s6p": "I henhold til schweizisk databeskyttelseslov (nDSG) har du ret til indsigt, berigtigelse, sletning, begrænsning, dataportabilitet og indsigelse. Kontakt: info@martinprojektgroup.ch",
-    "s7h": "7. Hosting & Infrastruktur",
-    "s7p": "Denne hjemmeside hostes af Vercel Inc. (vercel.com). Al dataoverførsel er krypteret via HTTPS/TLS.",
+    "s5p": "Kontaktforespørgsler opbevares som udgangspunkt i op til 12 måneder efter endelig behandling og slettes derefter, medmindre der opstår et forretningsforhold, eller lovbestemte opbevaringspligter kræver længere opbevaring.",
+    "s6h": "6. Dine rettigheder (nDSG / GDPR)",
+    "s6p": "I henhold til den reviderede schweiziske forbundsdatalov (nDSG) har du ret til adgang, berigtigelse, sletning, begrænsning af behandling, dataportabilitet og indsigelse. Kontakt: info@martinprojektgroup.ch. Du har også ret til at indgive en klage til den forbundsansvarlige for databeskyttelse og information (EDÖB, edoeb.admin.ch). Hvis GDPR gælder for dig, kan du desuden kontakte databeskyttelsestilsynsmyndigheden i din EU-medlemsstat.",
+    "s7h": "7. Hosting og Infrastruktur",
+    "s7p": "Dette websted hostes af Vercel Inc. (vercel.com). Ved hvert sideindlæsning registreres tekniske adgangsdata automatisk: IP-adresse, tidsstempel, anmodet URL, HTTP-metode samt browser- og enhedsoplysninger. Disse data behandles af Vercel som en del af hostinginfrastrukturen og er underlagt Vercels privatlivspolitik og databehandleraftale.",
     "s8h": "8. Kontakt for databeskyttelse",
     "s8p": "For spørgsmål om databeskyttelse: info@martinprojektgroup.ch",
-    "s9h": "9. Retsgrundlag for behandling",
-    "s9p": "Behandling af dine kontaktdata sker på grundlag af art. 6 DSG til gennemførelse af forudgående kontraktmæssige foranstaltninger. Hosting og teknisk behandling af adgangsdata sker på grundlag af vores legitime interesse i en sikker og funktionel hjemmeside.",
+    "s9h": "9. Retsgrundlag efter GDPR",
+    "s9p": "Når GDPR finder anvendelse, behandles kontaktforespørgsler for at træffe foranstaltninger forud for en kontrakt eller besvare din forespørgsel i henhold til artikel 6, stk. 1, litra b GDPR. Sikker drift af webstedet og dokumentation af forespørgsler er baseret på legitime interesser i henhold til artikel 6, stk. 1, litra f GDPR. Hvis samtykke indhentes, kan det til enhver tid trækkes tilbage med fremadrettet virkning.",
     "s10h": "10. Internationale dataoverførsler",
-    "s10p": "Vi bruger Vercel Inc. (USA) som hostingudbyder og Resend Inc. (USA) til e-maillevering. Disse overførsler til USA sker på grundlag af standardkontraktbestemmelser (SCC) i henhold til art. 16 DSG. Begge udbydere sikrer et tilstrækkeligt databeskyttelsesniveau.",
-    "s11h": "11. Serveradgangsdata",
-    "s11p": "Ved hvert besøg registrerer Vercel Inc. automatisk tekniske adgangsdata: IP-adresse, tidsstempel, anmodet URL, HTTP-statuskode, browser og operativsystem. Disse data tjener sikker drift af hjemmesiden og knyttes ikke til andre personoplysninger.",
-    "s12h": "12. Tilbagekaldelse og klageret",
-    "s12p": "Et givet samtykke kan til enhver tid tilbagekaldes med fremtidig virkning: info@martinprojektgroup.ch. Du har også ret til at indgive en klage til den føderale databeskyttelseskommissær (FDPIC, edoeb.admin.ch), hvis du mistænker en overtrædelse af DSG.",
-    "s13h": "13. Profilering og ændringer",
-    "s13p": "Vi foretager ingen automatiseret profilering. Ændringer i denne privatlivspolitik vil blive offentliggjort på denne side. Datoen for seneste opdatering er altid angivet."
+    "s10p": "Til hosting og e-maillevering kan personoplysninger behandles i USA af Vercel Inc. og Plus Five Five, Inc. (Resend). Overførsler er baseret på databehandleraftaler og, hvor det kræves, passende garantier såsom standardkontraktbestemmelser eller anerkendte tilstrækkelighedsmekanismer.",
+    "s11h": "11. Obligatoriske oplysninger i kontaktformularen",
+    "s11p": "Navn, e-mailadresse og projektbeskrivelse er nødvendige, så vi kan vurdere og besvare din forespørgsel. Telefonnummer er valgfrit. Uden de obligatoriske oplysninger kan forespørgslen ikke behandles via formularen.",
+    "s12h": "12. Ingen profilering eller automatiserede afgørelser",
+    "s12p": "Dette websted foretager ikke profilering eller udelukkende automatiserede afgørelser med retsvirkning.",
+    "s13h": "13. Databeskyttelsesrådgiver og EU-repræsentant",
+    "s13p": "Der er i øjeblikket ikke angivet en separat databeskyttelsesrådgiver eller EU-repræsentant på dette websted. Privatlivsanmodninger kan sendes til info@martinprojektgroup.ch."
   }
 }

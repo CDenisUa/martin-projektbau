@@ -21,7 +21,6 @@ export const SEO_KEYWORDS = [
   'Innenausbau',
   'Bauunternehmen Schweiz',
   'Construction Switzerland',
-  'Renovation Europe',
 ];
 
 export const SITEMAP_ROUTES = [
@@ -119,6 +118,7 @@ export function buildLocalBusinessJsonLd(locale: string) {
     email: legalInfo.contactEmail,
     telephone: legalInfo.phone,
     taxID: legalInfo.uidNumber,
+    vatID: legalInfo.vatNumber,
     address: legalInfo.postalAddress
       ? {
           '@type': 'PostalAddress',
@@ -126,10 +126,7 @@ export function buildLocalBusinessJsonLd(locale: string) {
           addressCountry: legalInfo.country,
         }
       : null,
-    areaServed: [
-      { '@type': 'Country', name: 'Switzerland' },
-      { '@type': 'Continent', name: 'Europe' },
-    ],
+    areaServed: [{ '@type': 'Country', name: 'Switzerland' }],
     priceRange: '$$',
     inLanguage: locale,
   });

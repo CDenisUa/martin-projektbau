@@ -75,10 +75,12 @@ type ImpressumMessages = {
   companyLabel: string;
   addressLabel: string;
   address: string;
+  registerOfficeLabel?: string;
   registerLabel: string;
   register: string;
   uidLabel: string;
   uid: string;
+  vatLabel?: string;
   emailLabel: string;
   phoneLabel: string;
   phone: string;
@@ -120,10 +122,17 @@ function getAddressValue(fallback: string) {
 }
 
 function buildPrivacySections(messages: PrivacyMessages): LegalSection[] {
-  return PRIVACY_SECTIONS.map((sectionKey) => ({
-    title: messages[`${sectionKey}h` as keyof PrivacyMessages] as string,
-    paragraphs: [messages[`${sectionKey}p` as keyof PrivacyMessages] as string],
-  }));
+  return PRIVACY_SECTIONS.flatMap((sectionKey) => {
+    const title = messages[`${sectionKey}h` as keyof PrivacyMessages] as string | undefined;
+    const paragraph = messages[`${sectionKey}p` as keyof PrivacyMessages] as string | undefined;
+
+    if (!title || !paragraph) return [];
+
+    return {
+      title: interpolateLegalText(title),
+      paragraphs: [interpolateLegalText(paragraph)],
+    };
+  });
 }
 
 function interpolateLegalText(value: string) {
@@ -138,6 +147,14 @@ function buildLocalizedSections(sections: readonly SectionTuple[]): LegalSection
     title,
     paragraphs: [interpolateLegalText(paragraph)],
   }));
+}
+
+function compactFacts(facts: Array<LegalFact | null>): LegalFact[] {
+  return facts.filter((fact): fact is LegalFact => Boolean(fact));
+}
+
+function getLabel(value: string | undefined, fallback: string) {
+  return value && value.trim().length > 0 ? value : fallback;
 }
 
 export async function getLegalCopy(locale: string): Promise<LegalCopy> {
@@ -155,22 +172,46 @@ export async function getLegalCopy(locale: string): Promise<LegalCopy> {
       eyebrow: messages.impressum.sectionLabel,
       title: messages.impressum.heading,
       description: messages.impressum.disclaimerText,
-      facts: [
+      lastUpdatedLabel: messages.privacy.lastUpdated,
+      lastUpdatedValue,
+      facts: compactFacts([
         { label: messages.impressum.companyLabel, value: legalInfo.companyName },
         {
           label: messages.impressum.addressLabel,
           value: getAddressValue(messages.impressum.address),
         },
+        legalInfo.commercialRegisterOffice
+          ? {
+              label: getLabel(messages.impressum.registerOfficeLabel, 'Handelsregisteramt'),
+              value: legalInfo.commercialRegisterOffice,
+            }
+          : null,
         {
           label: messages.impressum.registerLabel,
           value: getValue(legalInfo.commercialRegister, messages.impressum.register),
         },
+        {
+          label: messages.impressum.uidLabel,
+          value: getValue(legalInfo.uidNumber, messages.impressum.uid),
+        },
+        legalInfo.vatNumber
+          ? {
+              label: getLabel(messages.impressum.vatLabel, 'MWST/VAT ID'),
+              value: legalInfo.vatNumber,
+            }
+          : null,
         { label: messages.impressum.emailLabel, value: legalInfo.contactEmail },
+        legalInfo.phone
+          ? {
+              label: messages.impressum.phoneLabel,
+              value: legalInfo.phone,
+            }
+          : null,
         {
           label: messages.impressum.responsibleLabel,
           value: getValue(legalInfo.responsiblePerson, messages.impressum.responsible),
         },
-      ],
+      ]),
       noteTitle: messages.impressum.disclaimer,
       noteParagraphs: [messages.impressum.disclaimerText],
     },

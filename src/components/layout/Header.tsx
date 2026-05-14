@@ -13,6 +13,7 @@ import { getFooterLegalCopy } from '@/lib/legalClientCopy';
 
 export default function Header() {
   const t = useTranslations('nav');
+  const tf = useTranslations('footer');
   const locale = useLocale();
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
@@ -178,7 +179,9 @@ export default function Header() {
                   transition={{ delay: navItems.length * 0.05 + 0.05 }}
                   className="mt-auto pt-5 border-t border-gray-100 w-full text-right"
                 >
-                  <p className="text-[9px] text-gray-400 uppercase tracking-[0.2em] mb-3">Legal</p>
+                  <p className="text-[9px] text-gray-400 uppercase tracking-[0.2em] mb-3">
+                    {tf('legal')}
+                  </p>
                   <div className="flex flex-col gap-3 items-end">
                     {legalItems.map((item) => (
                       <Link

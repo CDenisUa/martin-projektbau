@@ -8,13 +8,13 @@
     "language": "Kieli"
   },
   "hero": {
-    "headline": "Rakentamisen Huippuosaaminen,\nLuottamus Perustuksissa",
+    "headline": "Rakentamisen huippuosaamista,\nluottamusta perustuksissa",
     "subheadline": "Rakentaminen, julkisivut, ikkunat, sisätilat ja saneeraukset Sveitsissä",
-    "cta": "Katso Projektit",
+    "cta": "Katso projektit",
     "ctaSecondary": "Palvelumme",
     "badge": "martinprojektgroup.ch",
     "stat1value": "15+",
-    "stat1label": "Vuoden kokemus",
+    "stat1label": "Vuotta kokemusta",
     "stat2value": "200+",
     "stat2label": "Valmistunutta projektia",
     "stat3value": "7",
@@ -32,7 +32,7 @@
         "description": "Suunnittelemme ja toteutamme julkisivuja uudisrakentamiseen ja saneeraukseen: alusrakenteet, eristykset, verhoukset ja siistit liittymät. Näin rakennuksen vaipasta tulee säänkestävä, energiatehokas ja visuaalisesti yhtenäinen."
       },
       "tiling": {
-        "title": "Laatta- ja Kivilattiat",
+        "title": "Laatta- ja kivityöt",
         "description": "Laatat, porcellanato, luonnonkivi ja mosaiikki kylpyhuoneisiin, keittiöihin, oleskelutiloihin, portaisiin ja ulkoalueille. Huolehdimme alustasta, kaadoista, vedeneristyksestä, tarkoista saumoista ja kestävästä siististä viimeistelystä."
       },
       "parquet": {
@@ -40,15 +40,15 @@
         "description": "Tarkkaa parkettityötä alustan rakentamisesta pintakäsittelyyn. Olipa kyse saneerauksesta, uudesta asennuksesta tai kunnostuksesta, luomme lämpimiä ja kestäviä puulattioita rauhallisella ladontakuvalla."
       },
       "painting": {
-        "title": "Maalaus ja Rappaus",
+        "title": "Maalaus ja rappaus",
         "description": "Sisä- ja ulkomaalaus, rappaus, tasoitus ja pintojen valmistelu yhdeltä tiimiltä. Sileisiin seiniin, suojattuihin julkisivuihin ja tiloihin, jotka tuntuvat siisteiltä ja laadukkailta."
       },
       "windows": {
-        "title": "Ikkunoiden Asennus",
+        "title": "Ikkunoiden asennus",
         "description": "Ikkunat mitataan tarkasti, asennetaan ammattimaisesti ja liitetään ilmatiiviisti. Hyvä asennus parantaa lämmöneristystä, äänisuojaa, turvallisuutta ja asumismukavuutta uudisrakennuksissa ja saneerauksissa."
       },
       "renovation": {
-        "title": "Saneeraus ja Muutos",
+        "title": "Saneeraus ja muutostyöt",
         "description": "Saneeraukset ja muutostyöt selkeällä eri työvaiheiden koordinoinnilla - purkutöistä sisärakentamiseen ja lopullisiin pintoihin. Olemassa oleva rakennus modernisoidaan, sen arvoa nostetaan ja se mukautetaan arjen käyttöön."
       },
       "shower": {
@@ -60,7 +60,7 @@
     "whatWeOffer": "Mitä tarjoamme"
   },
   "projects": {
-    "title": "Valitut Projektit",
+    "title": "Valitut projektit",
     "subtitle": "Valikoitu otos parhaimmista rakennus- ja saneeraustöistämme.",
     "viewProject": "Katso Projekti",
     "viewAll": "Katso Kaikki Projektit",
@@ -107,11 +107,11 @@
   "contact": {
     "title": "Ota Yhteyttä",
     "subtitle": "Valmis aloittamaan projektin? Kuulemme mielellämme sinusta.",
-    "name": "Koko Nimi",
+    "name": "Koko nimi",
     "email": "Sähköpostiosoite",
     "phone": "Puhelinnumero",
-    "message": "Projektin Kuvaus",
-    "send": "Lähetä Viesti",
+    "message": "Projektin kuvaus",
+    "send": "Lähetä viesti",
     "address": "Sveitsi",
     "emailLabel": "Sähköposti",
     "phoneLabel": "Puhelin",
@@ -127,7 +127,7 @@
     "errorMessage": "Kuvaile kyselysi",
     "errorServer": "Lähetys epäonnistui. Yritä uudelleen.",
     "phoneOptional": "(valinnainen)",
-    "privacyPre": "Lähettämällä lomakkeen hyväksyn tietojeni käsittelyn",
+    "privacyPre": "Lähettämällä lomakkeen hyväksyn, että tietojani käsitellään",
     "privacyLink": "Tietosuojakäytännön",
     "privacySuf": "mukaisesti."
   },
@@ -142,8 +142,8 @@
   "settings": {
     "title": "Kieliasetukset",
     "subtitle": "Valitse haluamasi kieli verkkosivustolle.",
-    "current": "Nykyinen Kieli",
-    "select": "Valitse Kieli",
+    "current": "Nykyinen kieli",
+    "select": "Valitse kieli",
     "sectionLabel": "Asetukset"
   },
   "metaTitle": "Martin Projekt Group GmbH – Rakentaminen, Remontit ja Asennus",
@@ -155,7 +155,7 @@
     "companyLabel": "Yritys",
     "addressLabel": "Osoite",
     "address": "-",
-    "registerLabel": "Kaupparekisteri",
+    "registerLabel": "Kaupparekisterinumero",
     "register": "-",
     "uidLabel": "UID-numero",
     "uid": "-",
@@ -165,7 +165,9 @@
     "responsibleLabel": "Toimitusjohtaja",
     "responsible": "-",
     "disclaimer": "Vastuuvapauslauseke",
-    "disclaimerText": "Tämän verkkosivuston sisältö on luotu suurimmalla huolellisuudella. Emme takaa sisällön tarkkuutta, täydellisyyttä tai ajantasaisuutta. Verkkosivuston käyttö tapahtuu omalla vastuulla."
+    "disclaimerText": "Tämän verkkosivuston sisältö on luotu suurimmalla huolellisuudella. Emme takaa sisällön tarkkuutta, täydellisyyttä tai ajantasaisuutta. Verkkosivuston käyttö tapahtuu omalla vastuulla.",
+    "registerOfficeLabel": "Kaupparekisteriviranomainen",
+    "vatLabel": "ALV/MWST ID"
   },
   "privacy": {
     "pageTitle": "Tietosuojakäytäntö",
@@ -179,24 +181,24 @@
     "s3h": "3. Käsittelyn tarkoitus",
     "s3p": "Tietojasi käytetään vain yhteydenottosi vastaamiseen ja liikesuhteen luomiseen. Niitä ei käytetä markkinointitarkoituksiin eikä luovuteta kolmansille osapuolille ilman suostumustasi.",
     "s4h": "4. Alihankkijat",
-    "s4p": "Sähköpostilähetystä varten käytämme Resend Inc. (resend.com). Palvelu vastaanottaa lomakkeen tiedot välittääkseen ne meille tietojenkäsittelysopimuksen perusteella.",
+    "s4p": "Sähköpostien lähettämiseen käytämme Plus Five Five, Inc. (Resend, resend.com) -palvelua henkilötietojen käsittelijänä. Palvelu vastaanottaa lomaketiedot välittääkseen ne meille tietojenkäsittelysopimuksen perusteella.",
     "s5h": "5. Säilytysaika",
-    "s5p": "Yhteydenottopyynnöt poistetaan täydellisen käsittelyn jälkeen, viimeistään 12 kuukauden kuluessa. Jos pyyntö johtaa sopimusuhteeseen, lakisääteiset säilytysajat ovat voimassa, erityisesti 10 vuotta kirjanpitoasiakirjoille (art. 958f CO).",
-    "s6h": "6. Oikeutesi (Sveitsin DSG)",
-    "s6p": "Sveitsin tietosuojalain (nDSG) mukaan sinulla on oikeus tietojen saamiseen, oikaisemiseen, poistamiseen, käsittelyn rajoittamiseen, siirrettävyyteen ja vastalauseeseen. Yhteystiedot: info@martinprojektgroup.ch",
-    "s7h": "7. Hosting & Infrastruktuuri",
-    "s7p": "Tätä verkkosivustoa isännöi Vercel Inc. (vercel.com). Kaikki tiedonsiirrot on salattu HTTPS/TLS:llä.",
+    "s5p": "Yhteydenottopyyntöjä säilytetään yleensä enintään 12 kuukautta lopullisen käsittelyn jälkeen ja poistetaan sen jälkeen, ellei liikesuhdetta synny tai lakisääteiset säilytysvelvoitteet edellytä pidempää säilytystä.",
+    "s6h": "6. Oikeutesi (nDSG / GDPR)",
+    "s6p": "Uudistetun Sveitsin liittovaltion tietosuojalain (nDSG) nojalla sinulla on oikeus saada tietoja, oikaista, poistaa, rajoittaa käsittelyä, siirtää tietoja ja vastustaa käsittelyä. Yhteydenotot: info@martinprojektgroup.ch. Sinulla on myös oikeus tehdä valitus liittovaltion tietosuoja- ja julkisuusvaltuutetulle (EDÖB, edoeb.admin.ch). Jos GDPR soveltuu sinuun, voit lisäksi ottaa yhteyttä oman EU-jäsenvaltiosi tietosuojavalvontaviranomaiseen.",
+    "s7h": "7. Hosting ja infrastruktuuri",
+    "s7p": "Tämä verkkosivusto on isännöity Vercel Inc.:n (vercel.com) palvelimilla. Jokaisella sivulatauksella tallennetaan automaattisesti tekniset käyttötiedot: IP-osoite, aikaleima, pyydetty URL, HTTP-menetelmä sekä selain- ja laitetiedot. Vercel käsittelee näitä tietoja osana hosting-infrastruktuuriaan, ja ne ovat Vercelin tietosuojakäytännön ja tietojenkäsittelysopimuksen alaisia.",
     "s8h": "8. Tietosuojan yhteystiedot",
     "s8p": "Tietosuojaa koskeviin kysymyksiin: info@martinprojektgroup.ch",
-    "s9h": "9. Käsittelyn oikeusperusta",
-    "s9p": "Yhteystietojenne käsittely perustuu DSG:n 6 artiklaan esisopimustoimenpiteiden toteuttamiseksi. Hosting ja tekninen käyttötietojen käsittely perustuu oikeutettuun etuumme pitää verkkosivusto turvallisena ja toimivana.",
+    "s9h": "9. Oikeusperusteet GDPR:n mukaan",
+    "s9p": "Kun GDPR soveltuu, yhteydenottopyyntöjä käsitellään sopimusta edeltävien toimenpiteiden toteuttamiseksi tai pyyntöön vastaamiseksi GDPR:n 6 artiklan 1 kohdan b alakohdan perusteella. Sivuston turvallinen toiminta ja pyyntöjen dokumentointi perustuvat oikeutettuihin etuihin GDPR:n 6 artiklan 1 kohdan f alakohdan mukaisesti. Jos suostumusta pyydetään, sen voi peruuttaa milloin tahansa tulevaisuutta varten.",
     "s10h": "10. Kansainväliset tiedonsiirrot",
-    "s10p": "Käytämme Vercel Inc.:tä (USA) hosting-palveluntarjoajana ja Resend Inc.:tä (USA) sähköpostin lähettämiseen. Nämä siirrot Yhdysvaltoihin perustuvat DSG:n 16 artiklan mukaisiin vakiosopimuslausekkeisiin (SCC). Molemmat palveluntarjoajat varmistavat asianmukaisen tietosuojan tason.",
-    "s11h": "11. Palvelimen käyttötiedot",
-    "s11p": "Jokaisen sivuvierailun yhteydessä Vercel Inc. tallentaa automaattisesti tekniset käyttötiedot: IP-osoitteen, aikaleiman, pyydetyn URL:n, HTTP-statuskoodin, selaimen ja käyttöjärjestelmän. Nämä tiedot palvelevat verkkosivuston turvallista toimintaa eikä niitä yhdistetä muihin henkilötietoihin.",
-    "s12h": "12. Peruuttaminen ja valitusoikeus",
-    "s12p": "Voit peruuttaa antamasi suostumuksen milloin tahansa tulevaisuuteen vaikuttavalla tavalla: info@martinprojektgroup.ch. Sinulla on myös oikeus tehdä valitus liittovaltioiden tietosuojavaltuutetulle (FDPIC, edoeb.admin.ch), jos epäilet DSG:n rikkomista.",
-    "s13h": "13. Profilointi ja muutokset",
-    "s13p": "Emme suorita automatisoitua profilointia. Tämän tietosuojakäytännön muutokset julkaistaan tällä sivulla. Viimeisimmän päivityksen päivämäärä on aina merkitty."
+    "s10p": "Hosting- ja sähköpostipalvelujen yhteydessä henkilötietoja voidaan käsitellä Yhdysvalloissa Vercel Inc:n ja Plus Five Five, Inc:n (Resend) toimesta. Siirrot perustuvat tietojenkäsittelysopimuksiin ja tarvittaessa asianmukaisiin suojatoimiin, kuten vakiosopimuslausekkeisiin tai tunnustettuihin riittävyyttä koskeviin mekanismeihin.",
+    "s11h": "11. Pakolliset tiedot yhteydenottolomakkeessa",
+    "s11p": "Nimi, sähköpostiosoite ja projektikuvaus tarvitaan, jotta voimme käsitellä pyyntösi ja vastata siihen. Puhelinnumero on valinnainen. Ilman pakollisia tietoja pyyntöä ei voida käsitellä lomakkeen kautta.",
+    "s12h": "12. Ei profilointia tai automatisoituja päätöksiä",
+    "s12p": "Tällä sivustolla ei tehdä profilointia eikä yksinomaan automatisoituja päätöksiä, joilla on oikeusvaikutuksia.",
+    "s13h": "13. Tietosuojavastaava ja EU-edustaja",
+    "s13p": "Tällä sivustolla ei tällä hetkellä nimetä erillistä tietosuojavastaavaa tai EU-edustajaa. Tietosuojapyynnöt voi lähettää osoitteeseen info@martinprojektgroup.ch."
   }
 }

@@ -84,7 +84,7 @@ describe('ContactSection', () => {
   test('renders contact info (email and address)', () => {
     renderSection();
     expect(screen.getByRole('link', { name: /info@martinprojektgroup\.ch/i })).toBeInTheDocument();
-    expect(screen.getByText('Switzerland')).toBeInTheDocument();
+    expect(screen.getByText(/Im Fennen 1, 8867 Niederurnen, Schweiz/i)).toBeInTheDocument();
   });
 
   // ── Validation ─────────────────────────────────────────────────────────────

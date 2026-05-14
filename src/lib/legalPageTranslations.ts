@@ -58,7 +58,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Externe Links und anwendbares Recht',
-        'Für verlinkte Websites Dritter sind ausschließlich deren Betreiber verantwortlich. Es gilt das Recht von {{country}}.',
+        'Für verlinkte Websites Dritter sind ausschließlich deren Betreiber verantwortlich. Es gilt das Recht von {{country}}. Gerichtsstand für Streitigkeiten aus oder im Zusammenhang mit dieser Website ist Glarus, {{country}}.',
+      ],
+      [
+        'Massgebende Fassung',
+        'Bei Widersprüchen zwischen verschiedenen Sprachversionen dieser Website ist die deutsche Fassung massgebend.',
+      ],
+      [
+        'Streitbeilegung',
+        'Die EU-Kommission stellt unter https://ec.europa.eu/consumers/odr eine Plattform zur Online-Streitbeilegung bereit. Wir sind weder verpflichtet noch bereit, an einem Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.',
       ],
     ],
     cookies: [
@@ -108,7 +116,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'External Links and Governing Law',
-        'Linked third-party websites remain the responsibility of their respective operators. These terms are governed by the laws of {{country}}.',
+        'Linked third-party websites are the sole responsibility of their respective operators. These terms are governed by the laws of {{country}}. The courts of Glarus, {{country}} shall have exclusive jurisdiction for any disputes arising from or in connection with this website.',
+      ],
+      [
+        'Governing Language',
+        'In case of discrepancies between language versions of this website, the German version shall prevail.',
+      ],
+      [
+        'Dispute Resolution',
+        'The European Commission provides an online dispute resolution (ODR) platform at https://ec.europa.eu/consumers/odr. We are neither obliged nor willing to participate in dispute resolution proceedings before a consumer arbitration board.',
       ],
     ],
     cookies: [
@@ -158,7 +174,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Externé odkazy a rozhodné právo',
-        'Za obsah prepojených webových stránok tretích strán zodpovedajú výlučne ich prevádzkovatelia. Tieto podmienky sa riadia právom štátu {{country}}.',
+        'Za obsah prepojených webových stránok tretích strán sú výlučne zodpovední ich prevádzkovatelia. Tieto podmienky sa riadia právom {{country}}. Miestom súdnej príslušnosti pre spory súvisiace s touto webovou stránkou je Glarus, {{country}}.',
+      ],
+      [
+        'Rozhodujúce znenie',
+        'V prípade nezrovnalostí medzi jazykovými verziami tejto webovej stránky je záväzné nemecké znenie.',
+      ],
+      [
+        'Riešenie sporov',
+        'Európska komisia poskytuje platformu na riešenie sporov online (ODR) na https://ec.europa.eu/consumers/odr. Nie sme povinní ani ochotní zúčastňovať sa na konaní o riešení sporov pred spotrebiteľskou arbitrážnou inštitúciou.',
       ],
     ],
     cookies: [
@@ -208,7 +232,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Externí odkazy a rozhodné právo',
-        'Za obsah odkazovaných webů třetích stran odpovídají výhradně jejich provozovatelé. Tyto podmínky se řídí právem státu {{country}}.',
+        'Za obsah propojených webových stránek třetích stran jsou výhradně zodpovědní jejich provozovatelé. Tyto podmínky se řídí právem {{country}}. Místem soudní příslušnosti pro spory týkající se těchto webových stránek je Glarus, {{country}}.',
+      ],
+      [
+        'Závazné znění',
+        'V případě rozporů mezi jazykovými verzemi těchto webových stránek je rozhodující německé znění.',
+      ],
+      [
+        'Řešení sporů',
+        'Evropská komise poskytuje platformu pro online řešení sporů (ODR) na adrese https://ec.europa.eu/consumers/odr. Nejsme povinni ani ochotni účastnit se řízení o řešení sporů před spotřebitelskou arbitrážní institucí.',
       ],
     ],
     cookies: [
@@ -258,7 +290,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Зовнішні посилання та застосовне право',
-        'За вміст сторонніх сайтів, на які ведуть посилання, відповідають виключно їхні оператори. Ці умови регулюються законодавством {{country}}.',
+        'За зміст пов\'язаних сайтів третіх осіб відповідають виключно їхні оператори. Ці умови регулюються правом {{country}}. Місцем судового розгляду спорів, пов\'язаних із цим сайтом, є Гларус, {{country}}.',
+      ],
+      [
+        'Авторитетна версія',
+        'У разі розбіжностей між мовними версіями цього сайту визначальною є німецька версія.',
+      ],
+      [
+        'Вирішення спорів',
+        'Європейська комісія надає платформу для онлайн-вирішення спорів (ODR) за адресою https://ec.europa.eu/consumers/odr. Ми не зобов\'язані та не готові брати участь у процедурах вирішення спорів перед арбітражними органами захисту споживачів.',
       ],
     ],
     cookies: [
@@ -308,7 +348,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Linki zewnętrzne i prawo właściwe',
-        'Za treści na stronach podmiotów trzecich, do których prowadzą linki, odpowiadają wyłącznie ich operatorzy. Niniejsze warunki podlegają prawu {{country}}.',
+        'Za treść powiązanych stron internetowych osób trzecich odpowiadają wyłącznie ich operatorzy. Niniejsze warunki podlegają prawu {{country}}. Właściwość sądu dla sporów związanych z tą stroną internetową ustala się w Glarus, {{country}}.',
+      ],
+      [
+        'Wiążąca wersja',
+        'W przypadku rozbieżności między wersjami językowymi niniejszej strony wiążąca jest wersja niemiecka.',
+      ],
+      [
+        'Rozstrzyganie sporów',
+        'Komisja Europejska udostępnia platformę do internetowego rozstrzygania sporów (ODR) pod adresem https://ec.europa.eu/consumers/odr. Nie jesteśmy zobowiązani ani gotowi do uczestniczenia w postępowaniu w sprawie rozstrzygania sporów przed konsumencką instytucją arbitrażową.',
       ],
     ],
     cookies: [
@@ -358,7 +406,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Внешние ссылки и применимое право',
-        'За содержание сторонних сайтов, на которые ведут ссылки, отвечают исключительно их владельцы. Настоящие условия регулируются законодательством {{country}}.',
+        'За содержание связанных сайтов третьих лиц несут ответственность исключительно их операторы. Настоящие условия регулируются правом {{country}}. Местом рассмотрения споров, связанных с данным сайтом, является Гларус, {{country}}.',
+      ],
+      [
+        'Официальная версия',
+        'В случае расхождения между языковыми версиями данного сайта определяющей является немецкая версия.',
+      ],
+      [
+        'Разрешение споров',
+        'Европейская комиссия предоставляет платформу для онлайн-разрешения споров (ODR) по адресу https://ec.europa.eu/consumers/odr. Мы не обязаны и не готовы участвовать в процедурах разрешения споров перед арбитражными органами по защите прав потребителей.',
       ],
     ],
     cookies: [
@@ -408,7 +464,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Liens externes et droit applicable',
-        'Le contenu des sites tiers liés relève exclusivement de la responsabilité de leurs exploitants. Les présentes conditions sont régies par le droit de {{country}}.',
+        'Le contenu des sites web tiers liés relève de la seule responsabilité de leurs opérateurs. Les présentes conditions sont régies par le droit de {{country}}. Le for judiciaire pour tout litige lié à ce site est Glaris, {{country}}.',
+      ],
+      [
+        'Version faisant foi',
+        'En cas de divergence entre les versions linguistiques de ce site, la version allemande prévaut.',
+      ],
+      [
+        'Règlement des litiges',
+        'La Commission européenne met à disposition une plateforme de règlement en ligne des litiges (RLL) à l\'adresse https://ec.europa.eu/consumers/odr. Nous ne sommes ni obligés ni disposés à participer à une procédure de règlement des litiges devant une commission d\'arbitrage de consommation.',
       ],
     ],
     cookies: [
@@ -458,7 +522,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Link esterni e legge applicabile',
-        'I siti di terzi collegati restano sotto la responsabilità dei rispettivi gestori. Le presenti condizioni sono regolate dalle leggi di {{country}}.',
+        'Il contenuto dei siti web di terze parti collegati è di esclusiva responsabilità dei rispettivi gestori. Le presenti condizioni sono regolate dal diritto di {{country}}. Il foro competente per le controversie relative a questo sito è Glarona, {{country}}.',
+      ],
+      [
+        'Versione facente fede',
+        'In caso di discrepanze tra le versioni linguistiche di questo sito, fa fede la versione tedesca.',
+      ],
+      [
+        'Risoluzione delle controversie',
+        'La Commissione europea mette a disposizione una piattaforma per la risoluzione alternativa delle controversie online (ODR) all\'indirizzo https://ec.europa.eu/consumers/odr. Non siamo obbligati né disposti a partecipare a procedure di risoluzione delle controversie dinanzi a un organo arbitrale per i consumatori.',
       ],
     ],
     cookies: [
@@ -508,7 +580,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Enlaces externos y ley aplicable',
-        'Los sitios web de terceros enlazados siguen siendo responsabilidad exclusiva de sus respectivos operadores. Estas condiciones se rigen por las leyes de {{country}}.',
+        'El contenido de los sitios web de terceros enlazados es responsabilidad exclusiva de sus operadores. Las presentes condiciones se rigen por el derecho de {{country}}. El fuero competente para los litigios relacionados con este sitio web es Glaris, {{country}}.',
+      ],
+      [
+        'Versión vinculante',
+        'En caso de discrepancias entre las versiones lingüísticas de este sitio, prevalecerá la versión alemana.',
+      ],
+      [
+        'Resolución de litigios',
+        'La Comisión Europea pone a disposición una plataforma de resolución de litigios en línea (ODR) en https://ec.europa.eu/consumers/odr. No estamos obligados ni dispuestos a participar en procedimientos de resolución de litigios ante una junta de arbitraje de consumo.',
       ],
     ],
     cookies: [
@@ -558,7 +638,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Links externos e lei aplicável',
-        'Os websites de terceiros associados permanecem sob a responsabilidade exclusiva dos respetivos operadores. Estes termos regem-se pelas leis de {{country}}.',
+        'O conteúdo de sites de terceiros vinculados é da responsabilidade exclusiva dos respetivos operadores. Estas condições são regidas pelo direito de {{country}}. O foro competente para litígios relacionados com este site é Glarus, {{country}}.',
+      ],
+      [
+        'Versão vinculativa',
+        'Em caso de discrepâncias entre versões linguísticas deste site, prevalece a versão alemã.',
+      ],
+      [
+        'Resolução de litígios',
+        'A Comissão Europeia disponibiliza uma plataforma de resolução de litígios em linha (ODR) em https://ec.europa.eu/consumers/odr. Não somos obrigados nem estamos dispostos a participar em procedimentos de resolução de litígios perante uma instância arbitral de consumidores.',
       ],
     ],
     cookies: [
@@ -608,7 +696,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Externe links en toepasselijk recht',
-        'Voor gelinkte websites van derden zijn uitsluitend hun respectieve beheerders verantwoordelijk. Op deze voorwaarden is het recht van {{country}} van toepassing.',
+        'De inhoud van gelinkte websites van derden valt uitsluitend onder de verantwoordelijkheid van hun beheerders. Op deze voorwaarden is het recht van {{country}} van toepassing. De bevoegde rechtbank voor geschillen in verband met deze website is Glarus, {{country}}.',
+      ],
+      [
+        'Bindende versie',
+        'Bij discrepanties tussen de taalversies van deze website is de Duitse versie doorslaggevend.',
+      ],
+      [
+        'Geschillenbeslechting',
+        'De Europese Commissie biedt een platform voor online geschillenbeslechting (ODR) aan op https://ec.europa.eu/consumers/odr. Wij zijn niet verplicht en niet bereid deel te nemen aan een geschillenbeslechtingsprocedure voor een consumentenarbitragecommissie.',
       ],
     ],
     cookies: [
@@ -658,7 +754,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Külső hivatkozások és alkalmazandó jog',
-        'A hivatkozott harmadik fél weboldalaiért kizárólag azok üzemeltetői felelnek. Ezekre a feltételekre {{country}} joga alkalmazandó.',
+        'A hivatkozott harmadik fél weboldalak tartalma kizárólag azok üzemeltetőinek felelőssége. Jelen feltételekre {{country}} joga irányadó. A jelen weboldallal kapcsolatos jogviták elbírálására Glarus, {{country}} bíróságai rendelkeznek kizárólagos illetékességgel.',
+      ],
+      [
+        'Irányadó változat',
+        'Jelen weboldal nyelvi verziói közötti ellentmondás esetén a német változat az irányadó.',
+      ],
+      [
+        'Vitarendezés',
+        'Az Európai Bizottság online vitarendezési (ODR) platformot biztosít a https://ec.europa.eu/consumers/odr címen. Nem vagyunk kötelesek és nem kívánunk részt venni fogyasztói döntőbizottság előtti vitarendezési eljárásban.',
       ],
     ],
     cookies: [
@@ -708,7 +812,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Linkuri externe și lege aplicabilă',
-        'Site-urile terților către care există linkuri rămân în responsabilitatea exclusivă a operatorilor lor. Acești termeni sunt guvernați de legile din {{country}}.',
+        'Conținutul site-urilor web terțe legate este responsabilitatea exclusivă a operatorilor acestora. Prezentele condiții sunt reglementate de legea {{country}}. Instanța competentă pentru litigiile legate de acest site web este Glarus, {{country}}.',
+      ],
+      [
+        'Versiunea de referință',
+        'În cazul unor discrepanțe între versiunile lingvistice ale acestui site, versiunea germană este cea care prevalează.',
+      ],
+      [
+        'Soluționarea litigiilor',
+        'Comisia Europeană pune la dispoziție o platformă pentru soluționarea online a litigiilor (ODR) la adresa https://ec.europa.eu/consumers/odr. Nu suntem obligați și nici nu dorim să participăm la proceduri de soluționare a litigiilor în fața unui organ de arbitraj al consumatorilor.',
       ],
     ],
     cookies: [
@@ -758,7 +870,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Външни връзки и приложимо право',
-        'Съдържанието на свързаните сайтове на трети страни остава изцяло отговорност на техните оператори. Тези условия се уреждат от законите на {{country}}.',
+        'Съдържанието на свързаните уебсайтове на трети страни е изключителна отговорност на техните оператори. Настоящите условия се регулират от правото на {{country}}. Компетентният съд за спорове, свързани с този уебсайт, е в Гларус, {{country}}.',
+      ],
+      [
+        'Меродавна версия',
+        'При противоречия между езиковите версии на този уебсайт меродавна е немската версия.',
+      ],
+      [
+        'Разрешаване на спорове',
+        'Европейската комисия предоставя платформа за онлайн разрешаване на спорове (ОРС) на адрес https://ec.europa.eu/consumers/odr. Ние не сме задължени и не желаем да участваме в производства за разрешаване на спорове пред потребителски арбитражен орган.',
       ],
     ],
     cookies: [
@@ -808,7 +928,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Vanjske poveznice i mjerodavno pravo',
-        'Za sadržaj povezanih web-stranica trećih strana isključivo odgovaraju njihovi operatori. Ovi uvjeti uređeni su pravom države {{country}}.',
+        'Sadržaj povezanih web-mjesta trećih strana isključiva je odgovornost njihovih operatora. Ovi uvjeti uređeni su pravom {{country}}. Nadležni sud za sporove koji se odnose na ovo web-mjesto je u Glarusu, {{country}}.',
+      ],
+      [
+        'Mjerodavna verzija',
+        'U slučaju nesukladnosti između jezičnih verzija ovog web-mjesta, mjerodavna je njemačka verzija.',
+      ],
+      [
+        'Rješavanje sporova',
+        'Europska komisija pruža platformu za online rješavanje sporova (ODR) na adresi https://ec.europa.eu/consumers/odr. Nismo obvezni niti voljni sudjelovati u postupcima rješavanja sporova pred potrošačkim arbitražnim tijelom.',
       ],
     ],
     cookies: [
@@ -858,7 +986,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Zunanje povezave in veljavno pravo',
-        'Za vsebino povezanih spletnih mest tretjih oseb so odgovorni izključno njihovi upravljavci. Ti pogoji se presojajo po pravu države {{country}}.',
+        'Za vsebino povezanih spletnih mest tretjih oseb so izključno odgovorni njihovi upravljavci. Ti pogoji se urejajo s pravom {{country}}. Pristojno sodišče za spore v zvezi s tem spletnim mestom je v Glarusu, {{country}}.',
+      ],
+      [
+        'Merodajna različica',
+        'V primeru neskladij med jezikovnimi različicami tega spletnega mesta je merodajna nemška različica.',
+      ],
+      [
+        'Reševanje sporov',
+        'Evropska komisija zagotavlja platformo za spletno reševanje sporov (ODR) na naslovu https://ec.europa.eu/consumers/odr. Nismo dolžni in ne želimo sodelovati v postopkih reševanja sporov pred potrošniškim arbitražnim organom.',
       ],
     ],
     cookies: [
@@ -908,7 +1044,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Externa länkar och tillämplig lag',
-        'Innehållet på länkade tredjepartswebbplatser är respektive operatörs ansvar. Dessa villkor regleras av lagarna i {{country}}.',
+        'Innehållet på länkade tredjepartswebbplatser är uteslutande deras operatörers ansvar. Dessa villkor regleras av lagstiftningen i {{country}}. Behörig domstol för tvister som rör denna webbplats är i Glarus, {{country}}.',
+      ],
+      [
+        'Bindande version',
+        'Vid avvikelser mellan språkversionerna av denna webbplats är den tyska versionen bestämmande.',
+      ],
+      [
+        'Tvistlösning',
+        'EU-kommissionen tillhandahåller en plattform för tvistlösning online (ODR) på https://ec.europa.eu/consumers/odr. Vi är varken skyldiga eller villiga att delta i tvistlösningsförfaranden inför ett konsumentskiljemål.',
       ],
     ],
     cookies: [
@@ -958,7 +1102,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Eksterne links og gældende ret',
-        'Indholdet på linkede tredjepartswebsites er de respektive operatørers ansvar. Disse vilkår er underlagt lovgivningen i {{country}}.',
+        'Indholdet på linkede tredjeparts websteder er udelukkende de respektive operatørers ansvar. Disse betingelser er underlagt lovgivningen i {{country}}. Den kompetente domstol for tvister vedrørende dette websted er i Glarus, {{country}}.',
+      ],
+      [
+        'Bindende version',
+        'Ved uoverensstemmelser mellem sprogversionerne af dette websted er den tyske version bestemmende.',
+      ],
+      [
+        'Tvistløsning',
+        'EU-Kommissionen stiller en platform til onlinetvistløsning (ODR) til rådighed på https://ec.europa.eu/consumers/odr. Vi er hverken forpligtet til eller villige til at deltage i tvistløsningsprocedurer ved et forbrugernævn.',
       ],
     ],
     cookies: [
@@ -1008,7 +1160,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Ulkoiset linkit ja sovellettava laki',
-        'Linkitettyjen kolmansien osapuolten verkkosivustojen sisällöstä vastaavat yksinomaan niiden ylläpitäjät. Näihin ehtoihin sovelletaan {{country}}:n lakia.',
+        'Linkitettyjen kolmannen osapuolen verkkosivustojen sisältö on yksinomaan niiden operaattoreiden vastuulla. Näihin ehtoihin sovelletaan {{country}}:n lainsäädäntöä. Toimivaltainen tuomioistuin tähän verkkosivustoon liittyviä riitoja varten sijaitsee Glarusissa, {{country}}.',
+      ],
+      [
+        'Sitova versio',
+        'Tämän verkkosivuston eri kieliversioiden välisessä ristiriidassa saksankielinen versio on määräävä.',
+      ],
+      [
+        'Riidanratkaisu',
+        'Euroopan komissio tarjoaa verkkovälitteistä riidanratkaisua (ODR) varten alustan osoitteessa https://ec.europa.eu/consumers/odr. Emme ole velvollisia emmekä halukkaita osallistumaan kuluttajariitojen ratkaisumenettelyihin kuluttaja-asiamiehen tai vastaavan elimen edessä.',
       ],
     ],
     cookies: [
@@ -1058,7 +1218,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Välised lingid ja kohaldatav õigus',
-        'Lingitud kolmandate osapoolte veebisaitide sisu eest vastutavad üksnes nende haldajad. Nendele tingimustele kohaldatakse {{country}} õigust.',
+        'Lingitud kolmandate osapoolte veebisaitide sisu eest vastutavad ainuisikuliselt nende operaatorid. Käesolevaid tingimusi reguleerib {{country}} õigus. Selle veebisaidiga seotud vaidluste lahendamiseks pädev kohus asub Glarusis, {{country}}.',
+      ],
+      [
+        'Kehtiv versioon',
+        'Selle veebisaidi keeleversioonide vaheliste lahknevuste korral on määrav saksakeelne versioon.',
+      ],
+      [
+        'Vaidluste lahendamine',
+        'Euroopa Komisjon pakub veebipõhise vaidluste lahendamise platvormi (ODR) aadressil https://ec.europa.eu/consumers/odr. Me ei ole kohustatud ega soovi osaleda tarbijavaidluste lahendamise menetlustes tarbijavaidluste komisjoni ees.',
       ],
     ],
     cookies: [
@@ -1108,7 +1276,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Ārējās saites un piemērojamie tiesību akti',
-        'Par saistīto trešo personu vietņu saturu atbild tikai to operatori. Uz šiem noteikumiem attiecas {{country}} tiesību akti.',
+        'Par saistīto trešo pušu tīmekļa vietņu saturu atbildību nes tikai to operatori. Šie noteikumi ir pakļauti {{country}} tiesību aktiem. Kompetentā tiesa strīdiem, kas saistīti ar šo tīmekļa vietni, atrodas Glarusā, {{country}}.',
+      ],
+      [
+        'Noteicošā versija',
+        'Pretrunu gadījumā starp šīs tīmekļa vietnes valodu versijām noteicošā ir vācu versija.',
+      ],
+      [
+        'Strīdu izšķiršana',
+        'Eiropas Komisija nodrošina tiešsaistes strīdu izšķiršanas (ODR) platformu vietnē https://ec.europa.eu/consumers/odr. Mēs neesam pienākuši un nevēlamies piedalīties strīdu izšķiršanas procedūrās patērētāju šķīrējtiesā.',
       ],
     ],
     cookies: [
@@ -1158,7 +1334,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Išorinės nuorodos ir taikoma teisė',
-        'Už susietų trečiųjų šalių svetainių turinį atsako tik jų operatoriai. Šioms sąlygoms taikoma {{country}} teisė.',
+        'Susietų trečiųjų šalių svetainių turinys yra išimtinai jų operatorių atsakomybė. Šioms sąlygoms taikoma {{country}} teisė. Kompetentingas teismas dėl ginčų, susijusių su šia svetaine, yra Glarusas, {{country}}.',
+      ],
+      [
+        'Galiojanti versija',
+        'Esant prieštaravimų tarp šios svetainės kalbinių versijų, pirmenybė teikiama vokiečių kalbos versijai.',
+      ],
+      [
+        'Ginčų sprendimas',
+        'Europos Komisija teikia internetinį ginčų sprendimo (OGS) platformą adresu https://ec.europa.eu/consumers/odr. Mes nesame įpareigoti ir neketinome dalyvauti ginčų sprendimo procedūrose vartotojų arbitražo institucijoje.',
       ],
     ],
     cookies: [
@@ -1208,7 +1392,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Εξωτερικοί σύνδεσμοι και εφαρμοστέο δίκαιο',
-        'Το περιεχόμενο των συνδεδεμένων ιστοσελίδων τρίτων παραμένει αποκλειστική ευθύνη των αντίστοιχων διαχειριστών τους. Οι παρόντες όροι διέπονται από τους νόμους της {{country}}.',
+        'Το περιεχόμενο των συνδεδεμένων ιστοτόπων τρίτων αποτελεί αποκλειστική ευθύνη των αντίστοιχων διαχειριστών τους. Οι παρόντες όροι διέπονται από το δίκαιο της {{country}}. Αρμόδιο δικαστήριο για διαφορές που σχετίζονται με τον παρόντα ιστότοπο είναι αυτό του Γκλάρους, {{country}}.',
+      ],
+      [
+        'Δεσμευτική έκδοση',
+        'Σε περίπτωση αντιφάσεων μεταξύ των γλωσσικών εκδόσεων αυτού του ιστότοπου, υπερισχύει η γερμανική έκδοση.',
+      ],
+      [
+        'Επίλυση διαφορών',
+        'Η Ευρωπαϊκή Επιτροπή παρέχει πλατφόρμα ηλεκτρονικής επίλυσης διαφορών (ΗΕΔ) στη διεύθυνση https://ec.europa.eu/consumers/odr. Δεν είμαστε υποχρεωμένοι ούτε πρόθυμοι να συμμετέχουμε σε διαδικασίες επίλυσης διαφορών ενώπιον επιτροπής καταναλωτικής διαιτησίας.',
       ],
     ],
     cookies: [
@@ -1258,7 +1450,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Links esterni u liġi applikabbli',
-        'Il-kontenut ta’ websajts ta’ partijiet terzi marbuta jibqa’ r-responsabbiltà esklużiva tal-operaturi rispettivi tagħhom. Dawn it-termini huma rregolati mil-liġijiet ta’ {{country}}.',
+        'Il-kontenut ta\' websajts ta\' partijiet terzi marbuta jibqa\' r-responsabbiltà esklużiva tal-operaturi rispettivi tagħhom. Dawn it-termini huma rregolati mil-liġijiet ta\' {{country}}. Il-qorti kompetenti għat-tilwim relatat ma\' dan il-websajt hi f\'Glarus, {{country}}.',
+      ],
+      [
+        'Verżjoni awtoritattiva',
+        'F\'każ ta\' diskrepanzi bejn il-verżjonijiet lingwistiċi ta\' dan il-websajt, il-verżjoni Ġermaniża hija dik deċiżiva.',
+      ],
+      [
+        'Riżoluzzjoni tat-tilwim',
+        'Il-Kummissjoni Ewropea tipprovdi pjattaforma għar-riżoluzzjoni online tat-tilwim (ODR) fuq https://ec.europa.eu/consumers/odr. Aħna m\'aħniex obbligati u ma rridux nipparteċipaw f\'proċedimenti ta\' riżoluzzjoni ta\' tilwim quddiem bord ta\' arbitraġġ għall-konsumaturi.',
       ],
     ],
     cookies: [
@@ -1308,7 +1508,15 @@ export const legalPageTranslations: Record<LegalLocale, LocalizedLegalPages> = {
       ],
       [
         'Naisc sheachtracha agus an dlí is infheidhme',
-        'Fanann ábhar suíomhanna gréasáin tríú páirtí atá nasctha faoi fhreagracht a n-oibreoirí féin amháin. Tá na téarmaí seo faoi réir dhlíthe {{country}}.',
+        'Fanann ábhar suíomhanna gréasáin tríú páirtí atá nasctha faoi fhreagracht a n-oibreoirí féin amháin. Tá na téarmaí seo faoi réir dhlíthe {{country}}. Is í cúirt Glarus, {{country}} an chúirt inniúil chun díospóidí a bhaineann leis an suíomh gréasáin seo a réiteach.',
+      ],
+      [
+        'An leagan údarásach',
+        'I gcás neamhréireachtaí idir leaganacha teanga an tsuímh ghréasáin seo, is é an leagan Gearmánach is ceartaithe.',
+      ],
+      [
+        'Réiteach díospóidí',
+        'Cuireann an Coimisiún Eorpach ardán ar fáil chun díospóidí a réiteach ar líne (ODR) ag https://ec.europa.eu/consumers/odr. Níl orainn agus ní mian linn páirt a ghlacadh i gcaingne réitigh díospóide os comhair boird eadrána tomhaltóirí.',
       ],
     ],
     cookies: [

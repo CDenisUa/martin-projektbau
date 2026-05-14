@@ -116,12 +116,12 @@ const LEGAL_CLIENT_COPY = {
       privacy: 'Informativa sulla privacy',
       imprint: 'Note legali',
       terms: 'Condizioni d’uso',
-      cookies: 'Cookie Policy',
+      cookies: 'Informativa sui cookie',
     },
     cookieNotice: {
       body:
         'Questo sito utilizza solo cookie essenziali per le preferenze linguistiche e la funzionalità di base del sito.',
-      learnMore: 'Cookie Policy',
+      learnMore: 'Informativa sui cookie',
       dismiss: 'Ho capito',
     },
   },
@@ -141,15 +141,15 @@ const LEGAL_CLIENT_COPY = {
   },
   pt: {
     footer: {
-      privacy: 'Política de Privacidade',
+      privacy: 'Política de privacidade',
       imprint: 'Aviso legal',
-      terms: 'Termos de Utilização',
-      cookies: 'Política de Cookies',
+      terms: 'Termos de utilização',
+      cookies: 'Política de cookies',
     },
     cookieNotice: {
       body:
         'Este website utiliza apenas cookies essenciais para as preferências de idioma e a funcionalidade básica do site.',
-      learnMore: 'Política de Cookies',
+      learnMore: 'Política de cookies',
       dismiss: 'Entendi',
     },
   },
@@ -172,12 +172,12 @@ const LEGAL_CLIENT_COPY = {
       privacy: 'Adatvédelmi tájékoztató',
       imprint: 'Jogi információk',
       terms: 'Használati feltételek',
-      cookies: 'Cookie szabályzat',
+      cookies: 'Sütiszabályzat',
     },
     cookieNotice: {
       body:
         'Ez a weboldal kizárólag a nyelvi beállításokhoz és az alapvető működéshez szükséges sütiket használ.',
-      learnMore: 'Cookie szabályzat',
+      learnMore: 'Sütiszabályzat',
       dismiss: 'Megértettem',
     },
   },
@@ -284,12 +284,12 @@ const LEGAL_CLIENT_COPY = {
       privacy: 'Privaatsuspoliitika',
       imprint: 'Õigusteave',
       terms: 'Kasutustingimused',
-      cookies: 'Küpsiste poliitika',
+      cookies: 'Küpsisepoliitika',
     },
     cookieNotice: {
       body:
         'See veebisait kasutab ainult hädavajalikke küpsiseid keele-eelistuste ja saidi põhifunktsioonide jaoks.',
-      learnMore: 'Küpsiste poliitika',
+      learnMore: 'Küpsisepoliitika',
       dismiss: 'Sain aru',
     },
   },
@@ -352,14 +352,14 @@ const LEGAL_CLIENT_COPY = {
   ga: {
     footer: {
       privacy: 'Polasaí Príobháideachais',
-      imprint: 'Faisnéis Dlí',
-      terms: 'Téarmaí Úsáide',
-      cookies: 'Polasaí Fianán',
+      imprint: 'Faisnéis dhlíthiúil',
+      terms: 'Téarmaí úsáide',
+      cookies: 'Polasaí fianán',
     },
     cookieNotice: {
       body:
         'Ní úsáideann an suíomh seo ach fianáin riachtanacha le haghaidh roghanna teanga agus feidhmiúlacht bhunúsach an tsuímh.',
-      learnMore: 'Polasaí Fianán',
+      learnMore: 'Polasaí fianán',
       dismiss: 'Tuigim',
     },
   },

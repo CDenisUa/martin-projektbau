@@ -8,13 +8,13 @@
     "language": "Nyelv"
   },
   "hero": {
-    "headline": "Kiválóság az Építészetben,\nBizalom az Alapokon",
+    "headline": "Kiválóság az építésben,\nbizalom az alapokban",
     "subheadline": "Építés, homlokzatok, ablakok, belső terek és felújítások Svájcban",
-    "cta": "Projektek Megtekintése",
+    "cta": "Projektek megtekintése",
     "ctaSecondary": "Szolgáltatásaink",
     "badge": "martinprojektgroup.ch",
     "stat1value": "15+",
-    "stat1label": "Év tapasztalat",
+    "stat1label": "évnyi tapasztalat",
     "stat2value": "200+",
     "stat2label": "Befejezett projektek",
     "stat3value": "7",
@@ -32,7 +32,7 @@
         "description": "Homlokzatokat tervezünk és valósítunk meg új építéshez és felújításhoz: alépítményt, szigetelést, burkolatot és tiszta csatlakozásokat. Így az épületburok időjárásálló, energiahatékony és vizuálisan egységes lesz."
       },
       "tiling": {
-        "title": "Csempe és Kőburkolat",
+        "title": "Csempe- és kőburkolat",
         "description": "Csempe, greslap, természetes kő és mozaik fürdőszobákba, konyhákba, lakóterekbe, lépcsőkre és kültéri felületekre. Figyelünk az alapra, lejtésekre, vízszigetelésre, pontos fugákra és tartósan tiszta kivitelre."
       },
       "parquet": {
@@ -60,7 +60,7 @@
     "whatWeOffer": "Mit kínálunk"
   },
   "projects": {
-    "title": "Kiválasztott Projektek",
+    "title": "Kiválasztott projektek",
     "subtitle": "Válogatás legjobb építési és felújítási munkáinkból.",
     "viewProject": "Projekt Megtekintése",
     "viewAll": "Összes Projekt",
@@ -76,7 +76,7 @@
     "title": "A Martin Projekt Group-ról",
     "subtitle": "Svájci kézművesség az első naptól.",
     "body": "A Martin Projekt Group svájci építési és felújítási vállalat homlokzatokhoz, ablakokhoz, belső befejező munkákhoz és magas minőségű felületekhez. Minden projektet az épület szerkezetéből kiindulva kezelünk: tiszta alap, pontos csatlakozások, megfelelő anyagok és megbízható koordináció. Így olyan megoldások születnek, amelyek a mindennapokban működnek, igényes megjelenésűek és hosszú távon védik az ingatlan értékét.",
-    "sectionLabel": "Kik Vagyunk",
+    "sectionLabel": "Kik vagyunk",
     "values": {
       "quality": {
         "title": "Minőség",
@@ -98,22 +98,22 @@
     "learnMore": "Tudjon meg többet",
     "ourValues": "Értékeink",
     "stats": {
-      "yearsInBusiness": "Év tapasztalat",
+      "yearsInBusiness": "Évnyi tapasztalat",
       "projectsCompleted": "Befejezett projekt",
-      "clientSatisfaction": "Vásárlói elégedettség",
+      "clientSatisfaction": "Ügyfél-elégedettség",
       "swissQuality": "Svájci minőség"
     }
   },
   "contact": {
-    "title": "Lépjen Kapcsolatba",
+    "title": "Lépjen kapcsolatba velünk",
     "subtitle": "Készen áll a projektje elindítására? Szívesen meghallgatjuk.",
-    "name": "Teljes Név",
-    "email": "Email Cím",
+    "name": "Teljes név",
+    "email": "E-mail-cím",
     "phone": "Telefonszám",
-    "message": "Projekt Leírása",
-    "send": "Üzenet Küldése",
+    "message": "Projekt leírása",
+    "send": "Üzenet küldése",
     "address": "Svájc",
-    "emailLabel": "Email",
+    "emailLabel": "E-mail",
     "phoneLabel": "Telefon",
     "successMessage": "Köszönjük! Hamarosan felvesszük Önnel a kapcsolatot.",
     "namePlaceholder": "Teljes neve",
@@ -127,8 +127,8 @@
     "errorMessage": "Kérjük, írja le kérdését",
     "errorServer": "Küldés sikertelen. Kérjük, próbálja újra.",
     "phoneOptional": "(opcionális)",
-    "privacyPre": "Az űrlap elküldésével elfogadom az adataim kezelését az",
-    "privacyLink": "Adatvédelmi tájékoztató",
+    "privacyPre": "Az űrlap elküldésével tudomásul veszem adataim kezelését az",
+    "privacyLink": "adatvédelmi tájékoztató",
     "privacySuf": "szerint."
   },
   "footer": {
@@ -155,7 +155,7 @@
     "companyLabel": "Vállalat",
     "addressLabel": "Cím",
     "address": "-",
-    "registerLabel": "Kereskedelmi nyilvántartás",
+    "registerLabel": "Cégjegyzékszám",
     "register": "-",
     "uidLabel": "UID szám",
     "uid": "-",
@@ -165,7 +165,9 @@
     "responsibleLabel": "Ügyvezető",
     "responsible": "-",
     "disclaimer": "Felelősségkizárás",
-    "disclaimerText": "Ennek a weboldalnak a tartalma a legnagyobb gondossággal készült. Nem vállalunk felelősséget a tartalom pontosságáért, teljességéért és aktualitásáért. A weboldal használata saját felelősségre történik."
+    "disclaimerText": "Ennek a weboldalnak a tartalma a legnagyobb gondossággal készült. Nem vállalunk felelősséget a tartalom pontosságáért, teljességéért és aktualitásáért. A weboldal használata saját felelősségre történik.",
+    "registerOfficeLabel": "Cégnyilvántartó hivatal",
+    "vatLabel": "ÁFA/MWST azonosító"
   },
   "privacy": {
     "pageTitle": "Adatvédelmi tájékoztató",
@@ -179,24 +181,24 @@
     "s3h": "3. Az adatkezelés célja",
     "s3p": "Az adatokat kizárólag az Ön kérésének megválaszolására és üzleti kapcsolat kialakítására használjuk. Nem használjuk reklámcélokra, és hozzájárulás nélkül nem adjuk át harmadik feleknek.",
     "s4h": "4. Adatfeldolgozók",
-    "s4p": "Az e-mailek küldéséhez a Resend Inc. (resend.com) szolgáltatást vesszük igénybe. Ez a szolgáltatás megkapja az űrlapadatokat, hogy továbbítsa azokat nekünk, adatfeldolgozási megállapodás alapján.",
+    "s4p": "Az e-mailek küldéséhez a Plus Five Five, Inc. (Resend, resend.com) szolgáltatást adatfeldolgozóként vesszük igénybe. Ez a szolgáltatás megkapja az űrlapadatokat, hogy továbbítsa azokat nekünk, adatfeldolgozási megállapodás alapján.",
     "s5h": "5. Adatmegőrzési idő",
-    "s5p": "A kapcsolatfelvételi kérelmek a teljes feldolgozást követően, legkésőbb 12 hónapon belül törlésre kerülnek. Ha egy kérelemből szerződéses jogviszony keletkezik, a törvényes megőrzési határidők érvényesek, különösen a számviteli dokumentumokra vonatkozó 10 év (Art. 958f CO).",
-    "s6h": "6. Az Ön jogai (svájci DSG)",
-    "s6p": "A svájci adatvédelmi törvény (nDSG) alapján Önnek joga van a hozzáféréshez, helyesbítéshez, törléshez, korlátozáshoz, adathordozhatósághoz és tiltakozáshoz. Kapcsolat: info@martinprojektgroup.ch",
-    "s7h": "7. Hosting & Infrastruktúra",
-    "s7p": "Ez a weboldal a Vercel Inc. (vercel.com) szerverein üzemel. Az adatátvitel HTTPS/TLS titkosítással zajlik.",
+    "s5p": "A kapcsolatfelvételi megkereséseket általában a végleges ügyintézést követően legfeljebb 12 hónapig őrizzük meg, majd töröljük, kivéve ha üzleti kapcsolat jön létre, vagy jogszabályi megőrzési kötelezettség hosszabb tárolást ír elő.",
+    "s6h": "6. Az Ön jogai (nDSG / GDPR)",
+    "s6p": "A felülvizsgált svájci szövetségi adatvédelmi törvény (nDSG) értelmében Önnek joga van a hozzáféréshez, helyesbítéshez, törléshez, az adatkezelés korlátozásához, az adathordozhatósághoz és a tiltakozáshoz. Kapcsolat: info@martinprojektgroup.ch. Emellett panaszt nyújthat be a Szövetségi Adatvédelmi és Tájékoztatási Biztoshoz (EDÖB, edoeb.admin.ch). Ha Önre a GDPR vonatkozik, az EU-tagállamának adatvédelmi felügyeleti hatóságához is fordulhat.",
+    "s7h": "7. Tárhely és infrastruktúra",
+    "s7p": "Ez a weboldal a Vercel Inc. (vercel.com) tárhelyén fut. Minden oldalletöltéskor automatikusan technikai hozzáférési adatok kerülnek rögzítésre: IP-cím, időbélyeg, kért URL, HTTP-metódus, valamint böngésző- és eszközinformációk. Ezeket az adatokat a Vercel a tárhelyszolgáltatás keretében kezeli, és a Vercel adatvédelmi szabályzatának, valamint adatfeldolgozói szerződésének hatálya alá esnek.",
     "s8h": "8. Adatvédelmi kapcsolat",
     "s8p": "Adatvédelmi kérdésekkel: info@martinprojektgroup.ch",
-    "s9h": "9. Az adatkezelés jogalapja",
-    "s9p": "Kapcsolatfelvételi adatainak kezelése a DSG 6. cikke alapján, előszerződéses intézkedések végrehajtása céljából történik. A hosting és a hozzáférési adatok technikai kezelése biztonságos és működőképes weboldalhoz fűződő jogos érdekünkön alapul.",
-    "s10h": "10. Nemzetközi adattovábbítás",
-    "s10p": "A Vercel Inc.-t (USA) használjuk hosting szolgáltatóként, a Resend Inc.-t (USA) pedig e-mail küldéshez. Ezek az USA-ba irányuló adattovábbítások a DSG 16. cikke szerinti általános szerződési feltételeken (SCC) alapulnak. Mindkét szolgáltató megfelelő adatvédelmi szintet biztosít.",
-    "s11h": "11. Szerver-hozzáférési adatok",
-    "s11p": "Minden egyes látogatáskor a Vercel Inc. automatikusan technikai hozzáférési adatokat rögzít: IP-cím, időbélyeg, kért URL, HTTP-állapotkód, böngésző és operációs rendszer. Ezek az adatok a weboldal biztonságos működését szolgálják, és nem kerülnek összekapcsolásra más személyes adatokkal.",
-    "s12h": "12. Visszavonás és panasztételi jog",
-    "s12p": "Az adott hozzájárulást bármikor visszavonhatja jövőbeli hatállyal: info@martinprojektgroup.ch. Joga van panaszt benyújtani a Szövetségi Adatvédelmi Biztoshoz (FDPIC, edoeb.admin.ch) is, ha a DSG megsértését gyanítja.",
-    "s13h": "13. Profilalkotás és változások",
-    "s13p": "Nem végzünk automatizált profilalkotást. Az adatvédelmi szabályzat módosításai ezen az oldalon kerülnek közzétételre. A legutóbbi frissítés dátuma mindig feltüntetésre kerül."
+    "s9h": "9. Jogalapok a GDPR szerint",
+    "s9p": "Amennyiben a GDPR alkalmazandó, a kapcsolatfelvételi megkereséseket szerződéskötést megelőző lépések megtétele vagy a megkeresés megválaszolása céljából kezeljük a GDPR 6. cikk (1) bekezdés b) pontja alapján. A weboldal biztonságos működése és a megkeresések dokumentálása jogos érdekeken alapul a GDPR 6. cikk (1) bekezdés f) pontja szerint. Ha hozzájárulást kérünk, az bármikor visszavonható a jövőre nézve.",
+    "s10h": "10. Nemzetközi adattovábbítások",
+    "s10p": "Tárhelyszolgáltatás és e-mail kézbesítés céljából személyes adatok feldolgozására az Egyesült Államokban is sor kerülhet a Vercel Inc. és a Plus Five Five, Inc. (Resend) által. Az adattovábbítás adatfeldolgozási megállapodásokon és szükség esetén megfelelő garanciákon, például általános szerződési feltételeken vagy elismert megfelelőségi mechanizmusokon alapul.",
+    "s11h": "11. Kötelező adatok a kapcsolatfelvételi űrlapon",
+    "s11p": "A név, az e-mail-cím és a projekt leírása szükséges ahhoz, hogy megkeresését megvizsgáljuk és megválaszoljuk. A telefonszám megadása opcionális. A kötelező adatok nélkül a megkeresés nem dolgozható fel az űrlapon keresztül.",
+    "s12h": "12. Nincs profilalkotás vagy automatizált döntéshozatal",
+    "s12p": "Ez a weboldal nem végez profilalkotást és nem alkalmaz kizárólag automatizált, joghatással járó döntéshozatalt.",
+    "s13h": "13. Adatvédelmi tisztviselő és EU-képviselő",
+    "s13p": "A weboldalon jelenleg nincs megnevezve külön adatvédelmi tisztviselő vagy EU-képviselő. Adatvédelmi kérések az info@martinprojektgroup.ch címre küldhetők."
   }
 }

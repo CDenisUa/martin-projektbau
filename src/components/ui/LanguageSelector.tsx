@@ -2,7 +2,7 @@
 
 // Core
 import { useState, useRef, useEffect } from 'react';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { useRouter, usePathname } from 'next/navigation';
 import { ChevronDown, Globe, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -40,6 +40,7 @@ export const LANGUAGES = [
 
 export default function LanguageSelector({ transparent }: { transparent?: boolean }) {
   const locale = useLocale();
+  const t = useTranslations('nav');
   const router = useRouter();
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
@@ -84,7 +85,7 @@ export default function LanguageSelector({ transparent }: { transparent?: boolea
         className={`flex items-center gap-1.5 text-sm transition-colors duration-300 ${
           transparent ? 'text-white/75 hover:text-white' : 'text-gray-600 hover:text-primary'
         }`}
-        aria-label="Select language"
+        aria-label={t('language')}
       >
         <Globe size={15} />
         <span className="hidden sm:inline font-medium uppercase tracking-wider text-xs">
@@ -149,7 +150,7 @@ export default function LanguageSelector({ transparent }: { transparent?: boolea
               <div className="flex items-center justify-between px-5 py-4 border-b border-gray-100 shrink-0">
                 <div className="flex items-center gap-2 text-gray-500">
                   <Globe size={15} />
-                  <span className="text-sm font-medium text-gray-900">Sprache / Language</span>
+                  <span className="text-sm font-medium text-gray-900">{t('language')}</span>
                 </div>
                 <button
                   onClick={() => setOpen(false)}

@@ -8,10 +8,10 @@
     "language": "Taal"
   },
   "hero": {
-    "headline": "Bouwkundige Uitmuntendheid,\nVertrouwen in het Fundament",
+    "headline": "Bouwkundige uitmuntendheid,\nvertrouwen in het fundament",
     "subheadline": "Bouw, gevels, ramen, interieurs en renovaties in Zwitserland",
-    "cta": "Bekijk Projecten",
-    "ctaSecondary": "Onze Diensten",
+    "cta": "Bekijk projecten",
+    "ctaSecondary": "Onze diensten",
     "badge": "martinprojektgroup.ch",
     "stat1value": "15+",
     "stat1label": "Jaar Ervaring",
@@ -23,7 +23,7 @@
     "stat4label": "Zwitserse Kwaliteit"
   },
   "services": {
-    "title": "Onze Diensten",
+    "title": "Onze diensten",
     "subtitle": "Wij combineren gebouwschil, interieurafwerking en oppervlakwerk tot helder gecoördineerde bouw- en renovatieoplossingen voor appartementen, woningen en commerciële ruimtes in Zwitserland.",
     "viewAll": "Alle diensten bekijken",
     "items": {
@@ -105,13 +105,13 @@
     }
   },
   "contact": {
-    "title": "Neem Contact Op",
+    "title": "Neem contact op",
     "subtitle": "Klaar om uw project te starten? We horen graag van u.",
-    "name": "Volledige Naam",
+    "name": "Volledige naam",
     "email": "E-mailadres",
     "phone": "Telefoonnummer",
     "message": "Projectomschrijving",
-    "send": "Bericht Versturen",
+    "send": "Bericht versturen",
     "address": "Zwitserland",
     "emailLabel": "E-mail",
     "phoneLabel": "Telefoon",
@@ -127,14 +127,14 @@
     "errorMessage": "Beschrijf uw verzoek",
     "errorServer": "Verzenden mislukt. Probeer het later opnieuw.",
     "phoneOptional": "(optioneel)",
-    "privacyPre": "Door dit formulier in te dienen, ga ik akkoord met de verwerking van mijn gegevens conform het",
-    "privacyLink": "Privacybeleid",
+    "privacyPre": "Door het formulier te verzenden neem ik kennis van de verwerking van mijn gegevens volgens het",
+    "privacyLink": "privacybeleid",
     "privacySuf": "."
   },
   "footer": {
     "tagline": "Uitmuntendheid met Zwitserse precisie.",
     "rights": "Alle rechten voorbehouden.",
-    "links": "Snelle Links",
+    "links": "Snelle links",
     "legal": "Juridisch",
     "privacy": "Privacybeleid",
     "imprint": "Impressum"
@@ -155,7 +155,7 @@
     "companyLabel": "Bedrijf",
     "addressLabel": "Adres",
     "address": "-",
-    "registerLabel": "Handelsregister",
+    "registerLabel": "Handelsregisternr.",
     "register": "-",
     "uidLabel": "UID-nummer",
     "uid": "-",
@@ -165,7 +165,9 @@
     "responsibleLabel": "Directeur",
     "responsible": "-",
     "disclaimer": "Aansprakelijkheidsuitsluiting",
-    "disclaimerText": "De inhoud van deze website is met de grootst mogelijke zorg samengesteld. Wij garanderen niet de juistheid, volledigheid of actualiteit van de inhoud. Het gebruik van de website geschiedt op eigen risico."
+    "disclaimerText": "De inhoud van deze website is met de grootst mogelijke zorg samengesteld. Wij garanderen niet de juistheid, volledigheid of actualiteit van de inhoud. Het gebruik van de website geschiedt op eigen risico.",
+    "registerOfficeLabel": "Handelsregisterkantoor",
+    "vatLabel": "BTW/MWST ID"
   },
   "privacy": {
     "pageTitle": "Privacybeleid",
@@ -179,24 +181,24 @@
     "s3h": "3. Doel van verwerking",
     "s3p": "Uw gegevens worden uitsluitend gebruikt om op uw aanvraag te reageren en een zakelijke relatie aan te knopen. Ze worden niet gebruikt voor marketingdoeleinden en niet gedeeld met derden zonder uw toestemming.",
     "s4h": "4. Verwerkers",
-    "s4p": "Voor het verzenden van e-mails gebruiken wij Resend Inc. (resend.com). Deze dienst ontvangt de formuliergegevens om ze aan ons door te sturen, op basis van een verwerkersovereenkomst.",
+    "s4p": "Voor het verzenden van e-mails gebruiken wij Plus Five Five, Inc. (Resend, resend.com) als verwerker. Deze dienst ontvangt de formuliergegevens om ze aan ons door te sturen, op basis van een verwerkersovereenkomst.",
     "s5h": "5. Bewaartermijn",
-    "s5p": "Contactverzoeken worden na volledige verwerking verwijderd, uiterlijk na 12 maanden. Als een verzoek leidt tot een contractuele relatie, gelden de wettelijke bewaartermijnen, met name 10 jaar voor boekhoudkundige documenten (art. 958f CO).",
-    "s6h": "6. Uw rechten (Zwitserse DSG)",
-    "s6p": "Op grond van de Zwitserse wet bescherming persoonsgegevens (nDSG) heeft u recht op inzage, rectificatie, verwijdering, beperking, overdraagbaarheid en bezwaar. Contact: info@martinprojektgroup.ch",
+    "s5p": "Contactaanvragen worden in de regel tot 12 maanden na definitieve afhandeling bewaard en daarna verwijderd, tenzij een zakelijke relatie ontstaat of wettelijke bewaarplichten een langere opslag vereisen.",
+    "s6h": "6. Uw rechten (AVG / FADP)",
+    "s6p": "Op grond van de herziene Zwitserse federale wet op de gegevensbescherming (FADP) heeft u recht op inzage, rectificatie, verwijdering, beperking van de verwerking, gegevensoverdraagbaarheid en bezwaar. Contact: info@martinprojektgroup.ch. U heeft bovendien het recht een klacht in te dienen bij de Federale Commissaris voor Gegevensbescherming en Informatie (EDÖB, edoeb.admin.ch). Als de AVG op u van toepassing is, kunt u zich ook wenden tot de toezichthoudende autoriteit voor gegevensbescherming van uw EU-lidstaat.",
     "s7h": "7. Hosting & Infrastructuur",
-    "s7p": "Deze website wordt gehost door Vercel Inc. (vercel.com). Alle gegevensoverdrachten zijn versleuteld via HTTPS/TLS.",
+    "s7p": "Deze website wordt gehost door Vercel Inc. (vercel.com). Bij elk laden van een pagina worden automatisch technische toegangsgegevens vastgelegd: IP-adres, tijdstempel, gevraagde URL, HTTP-methode en browser-/apparaatinformatie. Deze gegevens worden door Vercel verwerkt als onderdeel van de hostinginfrastructuur en zijn onderworpen aan het privacybeleid en de verwerkersovereenkomst van Vercel.",
     "s8h": "8. Contact gegevensbescherming",
     "s8p": "Voor vragen over gegevensbescherming: info@martinprojektgroup.ch",
-    "s9h": "9. Rechtsgrondslag voor verwerking",
-    "s9p": "De verwerking van uw contactgegevens is gebaseerd op art. 6 DSG voor de uitvoering van pre-contractuele maatregelen. Hosting en technische verwerking van toegangsgegevens zijn gebaseerd op ons legitiem belang bij een veilige en functionele website.",
-    "s10h": "10. Internationale gegevensoverdracht",
-    "s10p": "Wij gebruiken Vercel Inc. (VS) als hostingprovider en Resend Inc. (VS) voor e-mailverzending. Deze overdrachten naar de VS vinden plaats op basis van Standaard Contractuele Bepalingen (SCC's). Beide providers garanderen een adequaat niveau van gegevensbescherming.",
-    "s11h": "11. Servertoegangsgegeven",
-    "s11p": "Bij elk bezoek registreert Vercel Inc. automatisch technische toegangsgegevens: IP-adres, tijdstempel, gevraagde URL, HTTP-statuscode, browser en besturingssysteem. Deze gegevens dienen voor de veilige werking van de website en worden niet gekoppeld aan andere persoonsgegevens.",
-    "s12h": "12. Intrekking en klachtrecht",
-    "s12p": "U kunt een gegeven toestemming te allen tijde met toekomstige werking intrekken: info@martinprojektgroup.ch. U heeft ook het recht om een klacht in te dienen bij de Federale Gegevensbeschermingscommissaris (FDPIC, edoeb.admin.ch) als u een schending vermoedt.",
-    "s13h": "13. Profilering en wijzigingen",
-    "s13p": "Wij voeren geen geautomatiseerde profilering uit. Wijzigingen in dit privacybeleid worden op deze pagina gepubliceerd. De datum van de laatste update is dienovereenkomstig vermeld."
+    "s9h": "9. Rechtsgronden onder de AVG",
+    "s9p": "Waar de AVG van toepassing is, worden contactaanvragen verwerkt om precontractuele maatregelen te nemen of uw aanvraag te beantwoorden op grond van art. 6 lid 1 onder b AVG. De veilige werking van de website en documentatie van aanvragen berusten op gerechtvaardigde belangen op grond van art. 6 lid 1 onder f AVG. Wanneer toestemming wordt gevraagd, kan deze op elk moment voor de toekomst worden ingetrokken.",
+    "s10h": "10. Internationale gegevensdoorgiften",
+    "s10p": "Voor hosting en e-mailbezorging kunnen persoonsgegevens in de VS worden verwerkt door Vercel Inc. en Plus Five Five, Inc. (Resend). Doorgiften zijn gebaseerd op verwerkersovereenkomsten en, waar vereist, passende waarborgen zoals standaardcontractbepalingen of erkende adequaatheidsmechanismen.",
+    "s11h": "11. Verplichte gegevens in het contactformulier",
+    "s11p": "Naam, e-mailadres en projectbeschrijving zijn nodig om uw aanvraag te beoordelen en te beantwoorden. Het telefoonnummer is optioneel. Zonder de verplichte gegevens kan de aanvraag niet via het formulier worden verwerkt.",
+    "s12h": "12. Geen profilering of geautomatiseerde besluiten",
+    "s12p": "Deze website voert geen profilering uit en neemt geen uitsluitend geautomatiseerde besluiten met rechtsgevolgen.",
+    "s13h": "13. Functionaris gegevensbescherming en EU-vertegenwoordiger",
+    "s13p": "Op deze website wordt momenteel geen afzonderlijke functionaris voor gegevensbescherming of EU-vertegenwoordiger genoemd. Privacyverzoeken kunnen worden gestuurd naar info@martinprojektgroup.ch."
   }
 }

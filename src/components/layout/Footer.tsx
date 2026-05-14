@@ -104,7 +104,7 @@ export default function Footer() {
           {/* Contact */}
           <div>
             <h4 className="text-[9px] text-white/30 uppercase tracking-[0.2em] mb-3">
-              Contact
+              {tn('contact')}
             </h4>
             <a
               href="mailto:info@martinprojektgroup.ch"
@@ -119,7 +119,10 @@ export default function Footer() {
 
       {/* Developer credit strip */}
       <div className="bg-black/30 border-t border-white/5">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 py-3 flex justify-end">
+        <div className="max-w-7xl mx-auto px-6 lg:px-8 py-3 flex items-center justify-between">
+          <p className="text-[11px] text-white/25">
+            © {new Date().getFullYear()} Martin Projekt Group GmbH · {t('rights')}
+          </p>
           <a
             href="https://chepio.tech"
             target="_blank"
