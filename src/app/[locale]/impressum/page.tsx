@@ -32,6 +32,8 @@ export default async function ImpressumPage({
       eyebrow={copy.legalNotice.eyebrow}
       title={copy.legalNotice.title}
       description={copy.legalNotice.description}
+      lastUpdatedLabel={copy.legalNotice.lastUpdatedLabel}
+      lastUpdatedValue={copy.legalNotice.lastUpdatedValue}
       facts={copy.legalNotice.facts}
       noteTitle={copy.legalNotice.noteTitle}
       noteParagraphs={copy.legalNotice.noteParagraphs}
