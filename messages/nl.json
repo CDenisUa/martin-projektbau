@@ -181,12 +181,22 @@
     "s4h": "4. Verwerkers",
     "s4p": "Voor het verzenden van e-mails gebruiken wij Resend Inc. (resend.com). Deze dienst ontvangt de formuliergegevens om ze aan ons door te sturen, op basis van een verwerkersovereenkomst.",
     "s5h": "5. Bewaartermijn",
-    "s5p": "Uw aanvraaggegevens worden verwijderd na volledige afhandeling en het verstrijken van de wettelijke bewaartermijnen.",
+    "s5p": "Contactverzoeken worden na volledige verwerking verwijderd, uiterlijk na 12 maanden. Als een verzoek leidt tot een contractuele relatie, gelden de wettelijke bewaartermijnen, met name 10 jaar voor boekhoudkundige documenten (art. 958f CO).",
     "s6h": "6. Uw rechten (Zwitserse DSG)",
     "s6p": "Op grond van de Zwitserse wet bescherming persoonsgegevens (nDSG) heeft u recht op inzage, rectificatie, verwijdering, beperking, overdraagbaarheid en bezwaar. Contact: info@martinprojektgroup.ch",
     "s7h": "7. Hosting & Infrastructuur",
     "s7p": "Deze website wordt gehost door Vercel Inc. (vercel.com). Alle gegevensoverdrachten zijn versleuteld via HTTPS/TLS.",
     "s8h": "8. Contact gegevensbescherming",
-    "s8p": "Voor vragen over gegevensbescherming: info@martinprojektgroup.ch"
+    "s8p": "Voor vragen over gegevensbescherming: info@martinprojektgroup.ch",
+    "s9h": "9. Rechtsgrondslag voor verwerking",
+    "s9p": "De verwerking van uw contactgegevens is gebaseerd op art. 6 DSG voor de uitvoering van pre-contractuele maatregelen. Hosting en technische verwerking van toegangsgegevens zijn gebaseerd op ons legitiem belang bij een veilige en functionele website.",
+    "s10h": "10. Internationale gegevensoverdracht",
+    "s10p": "Wij gebruiken Vercel Inc. (VS) als hostingprovider en Resend Inc. (VS) voor e-mailverzending. Deze overdrachten naar de VS vinden plaats op basis van Standaard Contractuele Bepalingen (SCC's). Beide providers garanderen een adequaat niveau van gegevensbescherming.",
+    "s11h": "11. Servertoegangsgegeven",
+    "s11p": "Bij elk bezoek registreert Vercel Inc. automatisch technische toegangsgegevens: IP-adres, tijdstempel, gevraagde URL, HTTP-statuscode, browser en besturingssysteem. Deze gegevens dienen voor de veilige werking van de website en worden niet gekoppeld aan andere persoonsgegevens.",
+    "s12h": "12. Intrekking en klachtrecht",
+    "s12p": "U kunt een gegeven toestemming te allen tijde met toekomstige werking intrekken: info@martinprojektgroup.ch. U heeft ook het recht om een klacht in te dienen bij de Federale Gegevensbeschermingscommissaris (FDPIC, edoeb.admin.ch) als u een schending vermoedt.",
+    "s13h": "13. Profilering en wijzigingen",
+    "s13p": "Wij voeren geen geautomatiseerde profilering uit. Wijzigingen in dit privacybeleid worden op deze pagina gepubliceerd. De datum van de laatste update is dienovereenkomstig vermeld."
   }
 }

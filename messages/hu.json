@@ -181,12 +181,22 @@
     "s4h": "4. Adatfeldolgozók",
     "s4p": "Az e-mailek küldéséhez a Resend Inc. (resend.com) szolgáltatást vesszük igénybe. Ez a szolgáltatás megkapja az űrlapadatokat, hogy továbbítsa azokat nekünk, adatfeldolgozási megállapodás alapján.",
     "s5h": "5. Adatmegőrzési idő",
-    "s5p": "A kérés adatai a teljes feldolgozás után és a törvényes megőrzési idők lejártával törlésre kerülnek.",
+    "s5p": "A kapcsolatfelvételi kérelmek a teljes feldolgozást követően, legkésőbb 12 hónapon belül törlésre kerülnek. Ha egy kérelemből szerződéses jogviszony keletkezik, a törvényes megőrzési határidők érvényesek, különösen a számviteli dokumentumokra vonatkozó 10 év (Art. 958f CO).",
     "s6h": "6. Az Ön jogai (svájci DSG)",
     "s6p": "A svájci adatvédelmi törvény (nDSG) alapján Önnek joga van a hozzáféréshez, helyesbítéshez, törléshez, korlátozáshoz, adathordozhatósághoz és tiltakozáshoz. Kapcsolat: info@martinprojektgroup.ch",
     "s7h": "7. Hosting & Infrastruktúra",
     "s7p": "Ez a weboldal a Vercel Inc. (vercel.com) szerverein üzemel. Az adatátvitel HTTPS/TLS titkosítással zajlik.",
     "s8h": "8. Adatvédelmi kapcsolat",
-    "s8p": "Adatvédelmi kérdésekkel: info@martinprojektgroup.ch"
+    "s8p": "Adatvédelmi kérdésekkel: info@martinprojektgroup.ch",
+    "s9h": "9. Az adatkezelés jogalapja",
+    "s9p": "Kapcsolatfelvételi adatainak kezelése a DSG 6. cikke alapján, előszerződéses intézkedések végrehajtása céljából történik. A hosting és a hozzáférési adatok technikai kezelése biztonságos és működőképes weboldalhoz fűződő jogos érdekünkön alapul.",
+    "s10h": "10. Nemzetközi adattovábbítás",
+    "s10p": "A Vercel Inc.-t (USA) használjuk hosting szolgáltatóként, a Resend Inc.-t (USA) pedig e-mail küldéshez. Ezek az USA-ba irányuló adattovábbítások a DSG 16. cikke szerinti általános szerződési feltételeken (SCC) alapulnak. Mindkét szolgáltató megfelelő adatvédelmi szintet biztosít.",
+    "s11h": "11. Szerver-hozzáférési adatok",
+    "s11p": "Minden egyes látogatáskor a Vercel Inc. automatikusan technikai hozzáférési adatokat rögzít: IP-cím, időbélyeg, kért URL, HTTP-állapotkód, böngésző és operációs rendszer. Ezek az adatok a weboldal biztonságos működését szolgálják, és nem kerülnek összekapcsolásra más személyes adatokkal.",
+    "s12h": "12. Visszavonás és panasztételi jog",
+    "s12p": "Az adott hozzájárulást bármikor visszavonhatja jövőbeli hatállyal: info@martinprojektgroup.ch. Joga van panaszt benyújtani a Szövetségi Adatvédelmi Biztoshoz (FDPIC, edoeb.admin.ch) is, ha a DSG megsértését gyanítja.",
+    "s13h": "13. Profilalkotás és változások",
+    "s13p": "Nem végzünk automatizált profilalkotást. Az adatvédelmi szabályzat módosításai ezen az oldalon kerülnek közzétételre. A legutóbbi frissítés dátuma mindig feltüntetésre kerül."
   }
 }

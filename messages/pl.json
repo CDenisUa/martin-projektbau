@@ -181,12 +181,22 @@
     "s4h": "4. Podmioty przetwarzające",
     "s4p": "Do wysyłki wiadomości e-mail korzystamy z Resend Inc. (resend.com). Serwis otrzymuje dane formularza w celu ich przekazania nam, na podstawie umowy powierzenia przetwarzania danych.",
     "s5h": "5. Okres przechowywania",
-    "s5p": "Dane zapytania zostaną usunięte po pełnym rozpatrzeniu sprawy i upływie ustawowych terminów przechowywania.",
+    "s5p": "Zapytania kontaktowe są usuwane po pełnym przetworzeniu, najpóźniej po 12 miesiącach. Jeśli zapytanie prowadzi do stosunku umownego, obowiązują ustawowe okresy przechowywania, w szczególności 10 lat dla dokumentów księgowych (art. 958f CO).",
     "s6h": "6. Twoje prawa (szwajcarska ustawa DSG)",
     "s6p": "Zgodnie ze szwajcarską ustawą o ochronie danych osobowych (nDSG) przysługuje Ci prawo dostępu, sprostowania, usunięcia, ograniczenia przetwarzania, przenoszalności i sprzeciwu. Kontakt: info@martinprojektgroup.ch",
     "s7h": "7. Hosting i infrastruktura",
     "s7p": "Strona jest hostowana przez Vercel Inc. (vercel.com). Transmisja danych jest szyfrowana przez HTTPS/TLS.",
     "s8h": "8. Kontakt ds. ochrony danych",
-    "s8p": "W sprawach ochrony danych: info@martinprojektgroup.ch"
+    "s8p": "W sprawach ochrony danych: info@martinprojektgroup.ch",
+    "s9h": "9. Podstawa prawna przetwarzania",
+    "s9p": "Przetwarzanie danych kontaktowych odbywa się na podstawie art. 6 ustawy o ochronie danych w celu realizacji działań przedumownych. Hosting i techniczne przetwarzanie danych dostępowych opiera się na naszym uzasadnionym interesie w utrzymaniu bezpiecznej i funkcjonalnej strony internetowej.",
+    "s10h": "10. Międzynarodowy transfer danych",
+    "s10p": "Korzystamy z Vercel Inc. (USA) jako dostawcy hostingu oraz Resend Inc. (USA) do wysyłki e-maili. Transfery do USA odbywają się na podstawie Standardowych Klauzul Umownych (SCC). Obaj dostawcy zapewniają odpowiedni poziom ochrony danych.",
+    "s11h": "11. Dane dostępu do serwera",
+    "s11p": "Przy każdym odwiedzeniu strony Vercel Inc. automatycznie rejestruje dane techniczne: adres IP, znacznik czasu, żądany URL, kod HTTP, przeglądarkę i system operacyjny. Dane te służą do bezpiecznego działania witryny i nie są łączone z innymi danymi osobowymi.",
+    "s12h": "12. Cofnięcie zgody i prawo do skargi",
+    "s12p": "Udzieloną zgodę możesz cofnąć w dowolnym momencie ze skutkiem na przyszłość: info@martinprojektgroup.ch. Masz również prawo złożyć skargę do Federalnego Komisarza ds. Ochrony Danych (FDPIC, edoeb.admin.ch), jeśli podejrzewasz naruszenie przepisów.",
+    "s13h": "13. Profilowanie i zmiany",
+    "s13p": "Nie prowadzimy zautomatyzowanego profilowania. Zmiany niniejszej polityki prywatności będą publikowane na tej stronie. Data ostatniej aktualizacji jest odpowiednio wskazana."
   }
 }

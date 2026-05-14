@@ -181,12 +181,22 @@
     "s4h": "4. Apstrādātāji",
     "s4p": "E-pasta sūtīšanai izmantojam Resend Inc. (resend.com). Šis pakalpojums saņem veidlapas datus, lai tos pārsūtītu mums, pamatojoties uz datu apstrādes līgumu.",
     "s5h": "5. Glabāšanas termiņš",
-    "s5p": "Jūsu pieprasījuma dati tiks dzēsti pēc pilnīgas apstrādes un likumisko glabāšanas termiņu beigām.",
+    "s5p": "Kontaktpieprasījumi tiek dzēsti pēc pilnīgas apstrādes, vēlākais pēc 12 mēnešiem. Ja no pieprasījuma rodas līgumiskas attiecības, piemēro likumīgos glabāšanas termiņus, jo īpaši 10 gadus grāmatvedības dokumentiem (958.f pants CO).",
     "s6h": "6. Jūsu tiesības (Šveices DSG)",
     "s6p": "Saskaņā ar Šveices datu aizsardzības likumu (nDSG) jums ir tiesības uz piekļuvi, labošanu, dzēšanu, apstrādes ierobežošanu, pārnesamību un iebildumu. Kontakts: info@martinprojektgroup.ch",
     "s7h": "7. Hostings & Infrastruktūra",
     "s7p": "Šo vietni mitina Vercel Inc. (vercel.com). Visi datu pārsūtījumi ir šifrēti ar HTTPS/TLS.",
     "s8h": "8. Datu aizsardzības kontakts",
-    "s8p": "Jautājumiem par datu aizsardzību: info@martinprojektgroup.ch"
+    "s8p": "Jautājumiem par datu aizsardzību: info@martinprojektgroup.ch",
+    "s9h": "9. Apstrādes juridiskais pamats",
+    "s9p": "Jūsu kontaktdatu apstrāde notiek saskaņā ar DSG 6. pantu pirmslīguma pasākumu veikšanai. Hostings un tehniskā piekļuves datu apstrāde notiek, pamatojoties uz mūsām likumīgajām interesēm attiecībā uz drošu un funkcionālu tīmekļa vietni.",
+    "s10h": "10. Starptautiskie datu nosūtījumi",
+    "s10p": "Mēs izmantojam Vercel Inc. (ASV) kā hostinga pakalpojumu sniedzēju un Resend Inc. (ASV) e-pasta sūtīšanai. Šie nosūtījumi uz ASV notiek, pamatojoties uz Standarta līguma klauzulām (SCC) saskaņā ar DSG 16. pantu. Abi pakalpojumu sniedzēji nodrošina pietiekamu datu aizsardzības līmeni.",
+    "s11h": "11. Servera piekļuves dati",
+    "s11p": "Katras apmeklējuma reizes laikā Vercel Inc. automātiski reģistrē tehniskos piekļuves datus: IP adresi, laika zīmogu, pieprasīto URL, HTTP kodu, pārlūkprogrammu un operētājsistēmu. Šie dati kalpo tīmekļa vietnes drošai darbībai un netiek saistīti ar citiem personas datiem.",
+    "s12h": "12. Atsaukšana un tiesības iesniegt sūdzību",
+    "s12p": "Jūs varat jebkurā laikā atsaukt sniegto piekrišanu ar iedarbību nākotnē: info@martinprojektgroup.ch. Jums ir arī tiesības iesniegt sūdzību Federālajam datu aizsardzības komisāram (FDPIC, edoeb.admin.ch), ja jūs aizdomājaties par DSG pārkāpumu.",
+    "s13h": "13. Profilēšana un izmaiņas",
+    "s13p": "Mēs neveicam automatizētu profilēšanu. Šīs privātuma politikas izmaiņas tiks publicētas šajā lapā. Pēdējās atjaunināšanas datums vienmēr ir norādīts."
   }
 }

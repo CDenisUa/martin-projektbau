@@ -181,12 +181,22 @@
     "s4h": "4. Duomenų tvarkytojai",
     "s4p": "El. laiškų siuntimui naudojame Resend Inc. (resend.com). Ši paslauga gauna formos duomenis, kad persiųstų juos mums, remdamasi duomenų tvarkymo sutartimi.",
     "s5h": "5. Saugojimo trukmė",
-    "s5p": "Jūsų užklausos duomenys bus ištrinti po visiško apdorojimo ir pasibaigus teisiniams saugojimo terminams.",
+    "s5p": "Kontaktiniai prašymai ištrinami po visiško apdorojimo, ne vėliau kaip per 12 mėnesių. Jei iš prašymo atsiranda sutartiniai santykiai, taikomi įstatyminiai saugojimo terminai, ypač 10 metų apskaitos dokumentams (958f str. CO).",
     "s6h": "6. Jūsų teisės (Šveicarijos DSG)",
     "s6p": "Pagal Šveicarijos duomenų apsaugos įstatymą (nDSG) turite teisę į prieigą, ištaisymą, ištrynimą, tvarkymo apribojimą, perkeliamumą ir prieštaravimą. Kontaktas: info@martinprojektgroup.ch",
     "s7h": "7. Prieglobstis & Infrastruktūra",
     "s7p": "Šią svetainę talpina Vercel Inc. (vercel.com). Visi duomenų perdavimai yra šifruoti per HTTPS/TLS.",
     "s8h": "8. Kontaktas duomenų apsaugos klausimais",
-    "s8p": "Duomenų apsaugos klausimais: info@martinprojektgroup.ch"
+    "s8p": "Duomenų apsaugos klausimais: info@martinprojektgroup.ch",
+    "s9h": "9. Tvarkymo teisinis pagrindas",
+    "s9p": "Jūsų kontaktinių duomenų tvarkymas grindžiamas DSG 6 str. ikisutartinių priemonių vykdymui. Priegloba ir techninis prieigos duomenų tvarkymas grindžiamas mūsų teisėtu interesu turėti saugią ir veikiančią svetainę.",
+    "s10h": "10. Tarptautiniai duomenų perdavimai",
+    "s10p": "Naudojame Vercel Inc. (JAV) kaip prieglobos paslaugų teikėją ir Resend Inc. (JAV) el. laiškų siuntimui. Šie perdavimai į JAV vykdomi remiantis Standartinėmis sutartinėmis sąlygomis (SCC) pagal DSG 16 str. Abu paslaugų teikėjai užtikrina tinkamą duomenų apsaugos lygį.",
+    "s11h": "11. Serverio prieigos duomenys",
+    "s11p": "Kiekvieno apsilankymo metu Vercel Inc. automatiškai fiksuoja techninius prieigos duomenis: IP adresą, laiko žymą, prašomą URL, HTTP kodą, naršyklę ir operacinę sistemą. Šie duomenys tarnauja saugiam svetainės veikimui ir nėra siejami su kitais asmens duomenimis.",
+    "s12h": "12. Atšaukimas ir teisė skųstis",
+    "s12p": "Duotą sutikimą galite bet kada atšaukti su poveikiu ateičiai: info@martinprojektgroup.ch. Taip pat turite teisę pateikti skundą Federaliniam duomenų apsaugos komisarui (FDPIC, edoeb.admin.ch), jei įtariate DSG pažeidimą.",
+    "s13h": "13. Profiliavimas ir pakeitimai",
+    "s13p": "Nevykdome automatizuoto profiliavimo. Šios privatumo politikos pakeitimai bus skelbiami šiame puslapyje. Paskutinio atnaujinimo data visada nurodyta."
   }
 }

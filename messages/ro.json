@@ -181,12 +181,22 @@
     "s4h": "4. Operatori implicați",
     "s4p": "Pentru trimiterea e-mailurilor folosim Resend Inc. (resend.com). Serviciul primește datele din formular pentru a ni le transmite, pe baza unui acord de prelucrare a datelor.",
     "s5h": "5. Durata stocării",
-    "s5p": "Datele solicitării vor fi șterse după soluționarea completă și expirarea termenelor legale de păstrare.",
+    "s5p": "Solicitările de contact sunt șterse după procesarea completă, cel târziu după 12 luni. Dacă dintr-o solicitare ia naștere o relație contractuală, se aplică termenele legale, în special 10 ani pentru documentele contabile (art. 958f CO).",
     "s6h": "6. Drepturile dvs. (LPD elvețiană)",
     "s6p": "Conform legii elvețiene privind protecția datelor (nLPD), aveți dreptul la acces, rectificare, ștergere, restricționare, portabilitate și opoziție. Contact: info@martinprojektgroup.ch",
     "s7h": "7. Găzduire & Infrastructură",
     "s7p": "Site-ul este găzduit de Vercel Inc. (vercel.com). Transmiterea datelor este criptată prin HTTPS/TLS.",
     "s8h": "8. Contact pentru protecția datelor",
-    "s8p": "Pentru întrebări privind protecția datelor: info@martinprojektgroup.ch"
+    "s8p": "Pentru întrebări privind protecția datelor: info@martinprojektgroup.ch",
+    "s9h": "9. Temeiul juridic al prelucrării",
+    "s9p": "Prelucrarea datelor dvs. de contact se bazează pe art. 6 LPD pentru executarea măsurilor precontractuale. Găzduirea și prelucrarea tehnică a datelor de acces se bazează pe interesul nostru legitim de a menține un site web sigur și funcțional.",
+    "s10h": "10. Transferuri internaționale de date",
+    "s10p": "Utilizăm Vercel Inc. (SUA) ca furnizor de găzduire și Resend Inc. (SUA) pentru trimiterea de e-mailuri. Aceste transferuri către SUA se efectuează pe baza Clauzelor Contractuale Standard (CCS) conform art. 16 LPD. Ambii furnizori garantează un nivel adecvat de protecție a datelor.",
+    "s11h": "11. Date de acces la server",
+    "s11p": "La fiecare accesare, Vercel Inc. înregistrează automat date tehnice de acces: adresă IP, marcaj de timp, URL solicitat, cod HTTP, browser și sistem de operare. Aceste date servesc funcționării sigure a site-ului și nu sunt asociate cu alte date cu caracter personal.",
+    "s12h": "12. Retragere și dreptul de plângere",
+    "s12p": "Puteți retrage oricând consimțământul acordat cu efect pentru viitor: info@martinprojektgroup.ch. Aveți de asemenea dreptul de a depune o plângere la Comisarul Federal pentru Protecția Datelor (FDPIC, edoeb.admin.ch) dacă bănuiți o încălcare a LPD.",
+    "s13h": "13. Profilare și modificări",
+    "s13p": "Nu efectuăm profilare automată. Modificările acestei politici de confidențialitate vor fi publicate pe această pagină. Data ultimei actualizări este indicată în consecință."
   }
 }

@@ -181,12 +181,22 @@
     "s4h": "4. Proċessuri tad-Dejta",
     "s4p": "Għall-invio tal-emails nużaw Resend Inc. (resend.com). Dan is-servizz jirċievi d-dejta tal-formola biex jgħaddihielna, abbażi ta' ftehim tal-ipproċessar tad-dejta.",
     "s5h": "5. Perijodu ta' Żamma",
-    "s5p": "Id-dejta tat-talba tiegħek titħassar wara l-ipproċessar sħiħ u wara l-iskadenza tal-perijodi legali taż-żamma.",
+    "s5p": "It-talbiet tal-kuntatt jitħassru wara l-ipproċessar sħiħ, mhux aktar tard minn 12-il xahar. Jekk minn talba tinħoloq relazzjoni kuntrattwali, japplikaw il-perijodi ta' żamma legali, b'mod partikolari 10 snin għal dokumenti kontabilistiċi (Artikolu 958f CO).",
     "s6h": "6. Id-Drittijiet Tiegħek (DSG Svizzeru)",
     "s6p": "Skont il-liġi Svizzera dwar il-protezzjoni tad-dejta (nDSG) għandek dritt ta' aċċess, rettifika, tħassir, limitazzjoni, portabbiltà u oġġezzjoni. Kuntatt: info@martinprojektgroup.ch",
     "s7h": "7. Hosting & Infrastruttura",
     "s7p": "Dan is-sit jiġi ospitat minn Vercel Inc. (vercel.com). It-trażmissjonijiet kollha tad-dejta huma kriptati permezz ta' HTTPS/TLS.",
     "s8h": "8. Kuntatt għall-Protezzjoni tad-Dejta",
-    "s8p": "Għal mistoqsijiet dwar il-protezzjoni tad-dejta: info@martinprojektgroup.ch"
+    "s8p": "Għal mistoqsijiet dwar il-protezzjoni tad-dejta: info@martinprojektgroup.ch",
+    "s9h": "9. Bażi Legali għall-Ipproċessar",
+    "s9p": "L-ipproċessar tad-data ta' kuntatt tiegħek huwa bbażat fuq l-Art. 6 DSG għall-implimentazzjoni ta' miżuri pre-kuntrattwali. L-hosting u l-ipproċessar tekniku ta' data ta' aċċess huma bbażati fuq l-interess leġittimu tagħna f'sit web sigur u funzjonali.",
+    "s10h": "10. Trasferimenti Internazzjonali ta' Data",
+    "s10p": "Nużaw Vercel Inc. (USA) bħala fornitur ta' hosting u Resend Inc. (USA) għall-kunsinna tal-email. Dawn it-trasferimenti lejn l-USA jsiru abbażi ta' Klawżoli Kuntrattwali Standard (SCC) skont l-Art. 16 DSG. Iż-żewġ fornituri jiżguraw livell adegwat ta' protezzjoni tad-data.",
+    "s11h": "11. Data ta' Aċċess għas-Server",
+    "s11p": "F'kull żjara, Vercel Inc. tirreġistra awtomatikament data teknika ta' aċċess: indirizz IP, timestamp, URL mitlub, kodiċi HTTP, browser u sistema operattiva. Din id-data sservi għall-operazzjonijiet siguri tas-sit u mhix marbuta ma' data personali oħra.",
+    "s12h": "12. Rtirar u Dritt ta' Ilment",
+    "s12p": "Tista' tirrevoka kwalunkwe kunsens mogħti fi kwalunkwe ħin b'effett futur: info@martinprojektgroup.ch. Għandek ukoll id-dritt li tippreżenta ilment lill-Kummissarju Federali tal-Protezzjoni tad-Data (FDPIC, edoeb.admin.ch) jekk tissuspetta ksur tad-DSG.",
+    "s13h": "13. Profiling u Bidliet",
+    "s13p": "Ma nagħmlux profiling awtomatizzat. Bidliet f'din il-politika tal-privatezza jiġu ppubblikati fuq din il-paġna. Id-data tal-aħħar aġġornament hija dejjem indikata."
   }
 }

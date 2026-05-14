@@ -181,12 +181,22 @@
     "s4h": "4. Databehandlere",
     "s4p": "Til e-mailudsendelse bruger vi Resend Inc. (resend.com). Denne tjeneste modtager formulardata for at videresende dem til os, baseret på en databehandleraftale.",
     "s5h": "5. Opbevaringsperiode",
-    "s5p": "Dine data slettes efter fuldstændig behandling og udløb af lovpligtige opbevaringsperioder.",
+    "s5p": "Kontaktanmodninger slettes efter fuldstændig behandling, senest efter 12 måneder. Hvis en anmodning fører til et kontraktforhold, gælder de lovpligtige opbevaringsfrister, især 10 år for regnskabsmæssige dokumenter (art. 958f CO).",
     "s6h": "6. Dine rettigheder (schweizisk DSG)",
     "s6p": "I henhold til schweizisk databeskyttelseslov (nDSG) har du ret til indsigt, berigtigelse, sletning, begrænsning, dataportabilitet og indsigelse. Kontakt: info@martinprojektgroup.ch",
     "s7h": "7. Hosting & Infrastruktur",
     "s7p": "Denne hjemmeside hostes af Vercel Inc. (vercel.com). Al dataoverførsel er krypteret via HTTPS/TLS.",
     "s8h": "8. Kontakt for databeskyttelse",
-    "s8p": "For spørgsmål om databeskyttelse: info@martinprojektgroup.ch"
+    "s8p": "For spørgsmål om databeskyttelse: info@martinprojektgroup.ch",
+    "s9h": "9. Retsgrundlag for behandling",
+    "s9p": "Behandling af dine kontaktdata sker på grundlag af art. 6 DSG til gennemførelse af forudgående kontraktmæssige foranstaltninger. Hosting og teknisk behandling af adgangsdata sker på grundlag af vores legitime interesse i en sikker og funktionel hjemmeside.",
+    "s10h": "10. Internationale dataoverførsler",
+    "s10p": "Vi bruger Vercel Inc. (USA) som hostingudbyder og Resend Inc. (USA) til e-maillevering. Disse overførsler til USA sker på grundlag af standardkontraktbestemmelser (SCC) i henhold til art. 16 DSG. Begge udbydere sikrer et tilstrækkeligt databeskyttelsesniveau.",
+    "s11h": "11. Serveradgangsdata",
+    "s11p": "Ved hvert besøg registrerer Vercel Inc. automatisk tekniske adgangsdata: IP-adresse, tidsstempel, anmodet URL, HTTP-statuskode, browser og operativsystem. Disse data tjener sikker drift af hjemmesiden og knyttes ikke til andre personoplysninger.",
+    "s12h": "12. Tilbagekaldelse og klageret",
+    "s12p": "Et givet samtykke kan til enhver tid tilbagekaldes med fremtidig virkning: info@martinprojektgroup.ch. Du har også ret til at indgive en klage til den føderale databeskyttelseskommissær (FDPIC, edoeb.admin.ch), hvis du mistænker en overtrædelse af DSG.",
+    "s13h": "13. Profilering og ændringer",
+    "s13p": "Vi foretager ingen automatiseret profilering. Ændringer i denne privatlivspolitik vil blive offentliggjort på denne side. Datoen for seneste opdatering er altid angivet."
   }
 }

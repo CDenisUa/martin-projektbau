@@ -181,12 +181,22 @@
     "s4h": "4. Auftragsverarbeiter",
     "s4p": "Für den E-Mail-Versand setzen wir Resend Inc. (resend.com) als Auftragsverarbeiter ein. Dieser Dienst erhält die Formulardaten zur Weiterleitung an uns. Die Zusammenarbeit erfolgt auf Basis eines Auftragsverarbeitungsvertrags.",
     "s5h": "5. Speicherdauer",
-    "s5p": "Ihre Anfragedaten werden nach vollständiger Bearbeitung und unter Einhaltung gesetzlicher Aufbewahrungsfristen gelöscht.",
+    "s5p": "Kontaktanfragen werden nach vollständiger Bearbeitung gelöscht, spätestens nach 12 Monaten. Entsteht aus einer Anfrage ein Vertragsverhältnis, gelten die gesetzlichen Fristen, insbesondere 10 Jahre für buchhalterisch relevante Unterlagen (Art. 958f OR).",
     "s6h": "6. Ihre Rechte (nDSG)",
     "s6p": "Gemäss dem revidierten Schweizer Datenschutzgesetz (nDSG) haben Sie das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenportabilität und Widerspruch. Anfragen: info@martinprojektgroup.ch",
     "s7h": "7. Hosting & Infrastruktur",
     "s7p": "Diese Website wird bei Vercel Inc. (vercel.com) gehostet. Die Datenübertragung erfolgt verschlüsselt über HTTPS/TLS.",
     "s8h": "8. Kontakt für Datenschutzfragen",
-    "s8p": "Bei Fragen zum Datenschutz: info@martinprojektgroup.ch"
+    "s8p": "Bei Fragen zum Datenschutz: info@martinprojektgroup.ch",
+    "s9h": "9. Rechtsgrundlage der Verarbeitung",
+    "s9p": "Die Verarbeitung Ihrer Kontaktdaten erfolgt auf Grundlage von Art. 6 DSG zur Durchführung vorvertraglicher Massnahmen. Das Hosting und die technische Verarbeitung von Zugriffsdaten erfolgen auf Basis unseres berechtigten Interesses an einem sicheren und funktionsfähigen Webauftritt.",
+    "s10h": "10. Internationale Datenübermittlung",
+    "s10p": "Wir nutzen Vercel Inc. (USA) als Hosting-Anbieter und Resend Inc. (USA) für den E-Mail-Versand. Diese Datenübermittlungen in die USA erfolgen auf Grundlage von Standardvertragsklauseln (SCCs) gemäss Art. 16 DSG. Beide Anbieter gewährleisten ein angemessenes Datenschutzniveau.",
+    "s11h": "11. Serverzugriffsdaten",
+    "s11p": "Bei jedem Seitenaufruf erfasst Vercel Inc. automatisch technische Zugriffsdaten: IP-Adresse, Zeitstempel, aufgerufene URL, HTTP-Statuscode sowie Browser und Betriebssystem. Diese Daten dienen dem sicheren Betrieb der Website und werden nicht mit anderen personenbezogenen Daten verknüpft.",
+    "s12h": "12. Widerruf und Beschwerderecht",
+    "s12p": "Eine erteilte Einwilligung können Sie jederzeit mit Wirkung für die Zukunft widerrufen: info@martinprojektgroup.ch. Zudem haben Sie das Recht, beim Eidgenössischen Datenschutz- und Öffentlichkeitsbeauftragten (EDÖB, edoeb.admin.ch) Beschwerde einzureichen, wenn Sie eine Verletzung des DSG vermuten.",
+    "s13h": "13. Profiling und Änderungen",
+    "s13p": "Wir führen kein automatisiertes Profiling durch. Änderungen dieser Datenschutzerklärung werden auf dieser Seite veröffentlicht. Das Datum der letzten Aktualisierung ist jeweils angegeben."
   }
 }

@@ -181,12 +181,22 @@
     "s4h": "4. Personuppgiftsbiträden",
     "s4p": "För e-postutskick använder vi Resend Inc. (resend.com). Denna tjänst tar emot formulärdata för att vidarebefordra dem till oss, baserat på ett personuppgiftsbiträdesavtal.",
     "s5h": "5. Lagringstid",
-    "s5p": "Dina uppgifter raderas efter fullständig handläggning och när lagstadgade lagringstider har löpt ut.",
+    "s5p": "Kontaktförfrågningar raderas efter fullständig handläggning, senast efter 12 månader. Om en förfrågan leder till ett avtalsförhållande gäller lagstadgade lagringstider, särskilt 10 år för bokföringsdokument (art. 958f CO).",
     "s6h": "6. Dina rättigheter (schweizisk DSG)",
     "s6p": "Enligt schweizisk dataskyddslag (nDSG) har du rätt till tillgång, rättelse, radering, begränsning, dataportabilitet och invändning. Kontakt: info@martinprojektgroup.ch",
     "s7h": "7. Hosting & Infrastruktur",
     "s7p": "Denna webbplats driftas av Vercel Inc. (vercel.com). All dataöverföring krypteras via HTTPS/TLS.",
     "s8h": "8. Kontakt för dataskyddsfrågor",
-    "s8p": "För frågor om dataskydd: info@martinprojektgroup.ch"
+    "s8p": "För frågor om dataskydd: info@martinprojektgroup.ch",
+    "s9h": "9. Rättslig grund för behandling",
+    "s9p": "Behandling av dina kontaktuppgifter sker med stöd av art. 6 DSG för genomförande av åtgärder innan avtal ingås. Hosting och teknisk behandling av åtkomstdata sker med stöd av vårt legitima intresse av en säker och funktionell webbplats.",
+    "s10h": "10. Internationella dataöverföringar",
+    "s10p": "Vi använder Vercel Inc. (USA) som hostingleverantör och Resend Inc. (USA) för e-postutskick. Dessa överföringar till USA sker med stöd av standardavtalsklausuler (SCC) enligt art. 16 DSG. Båda leverantörerna säkerställer en adekvat nivå av dataskydd.",
+    "s11h": "11. Serveråtkomstdata",
+    "s11p": "Vid varje besök registrerar Vercel Inc. automatiskt tekniska åtkomstdata: IP-adress, tidsstämpel, begärd URL, HTTP-statuskod, webbläsare och operativsystem. Dessa data används för säker drift av webbplatsen och kopplas inte till andra personuppgifter.",
+    "s12h": "12. Återkallelse och klagorätt",
+    "s12p": "Du kan när som helst återkalla ett lämnat samtycke med framtida verkan: info@martinprojektgroup.ch. Du har också rätt att lämna in ett klagomål till Federala dataskyddsombudsmannen (FDPIC, edoeb.admin.ch) om du misstänker en överträdelse av DSG.",
+    "s13h": "13. Profilering och ändringar",
+    "s13p": "Vi utför ingen automatiserad profilering. Ändringar av denna integritetspolicy kommer att publiceras på denna sida. Datum för senaste uppdatering anges alltid."
   }
 }

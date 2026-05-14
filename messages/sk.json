@@ -181,12 +181,22 @@
     "s4h": "4. Sprostredkovatelia",
     "s4p": "Na odosielanie e-mailov využívame Resend Inc. (resend.com). Táto služba prijíma údaje z formulára na ich preposlanie nám, na základe zmluvy o spracovaní údajov.",
     "s5h": "5. Doba uchovávania",
-    "s5p": "Vaše údaje budú vymazané po úplnom vybavení požiadavky a uplynutí zákonných lehôt uchovávania.",
+    "s5p": "Kontaktné žiadosti sú po úplnom spracovaní vymazané, najneskôr do 12 mesiacov. Ak zo žiadosti vznikne zmluvný vzťah, platia zákonné lehoty, najmä 10 rokov pre účtovné doklady (čl. 958f CO).",
     "s6h": "6. Vaše práva (švajčiarský DSG)",
     "s6p": "Podľa švajčiarskeho zákona o ochrane osobných údajov (nDSG) máte právo na prístup, opravu, vymazanie, obmedzenie spracovania, prenosnosť a námietku. Kontakt: info@martinprojektgroup.ch",
     "s7h": "7. Hosting & Infraštruktúra",
     "s7p": "Táto stránka je hostovaná u Vercel Inc. (vercel.com). Prenos dát je šifrovaný cez HTTPS/TLS.",
     "s8h": "8. Kontakt pre ochranu údajov",
-    "s8p": "V otázkach ochrany osobných údajov: info@martinprojektgroup.ch"
+    "s8p": "V otázkach ochrany osobných údajov: info@martinprojektgroup.ch",
+    "s9h": "9. Právny základ spracúvania",
+    "s9p": "Spracúvanie vašich kontaktných údajov prebieha na základe čl. 6 DSG za účelom vykonávania predzmluvných opatrení. Hosting a technické spracúvanie prístupových údajov sa uskutočňuje na základe nášho oprávneného záujmu na bezpečnej a funkčnej webovej prezentácii.",
+    "s10h": "10. Medzinárodný prenos údajov",
+    "s10p": "Využívame Vercel Inc. (USA) ako poskytovateľa hostingu a Resend Inc. (USA) na odosielanie e-mailov. Tieto prenosy do USA prebiehajú na základe štandardných zmluvných doložiek (SCC) podľa čl. 16 DSG. Obaja poskytovatelia zabezpečujú primeranú úroveň ochrany údajov.",
+    "s11h": "11. Údaje o prístupe k serveru",
+    "s11p": "Pri každom prístupe na web Vercel Inc. automaticky zaznamenáva technické prístupové údaje: IP adresu, časovú pečiatku, požadovanú URL, HTTP kód, prehliadač a operačný systém. Tieto údaje slúžia na bezpečnú prevádzku webu a nie sú prepojené s inými osobnými údajmi.",
+    "s12h": "12. Odvolanie súhlasu a právo na sťažnosť",
+    "s12p": "Udelený súhlas môžete kedykoľvek odvolať s účinnosťou do budúcnosti: info@martinprojektgroup.ch. Máte tiež právo podať sťažnosť federálnemu splnomocnencovi pre ochranu údajov (FDPIC, edoeb.admin.ch), ak máte podozrenie na porušenie DSG.",
+    "s13h": "13. Profilovanie a zmeny",
+    "s13p": "Nevykonávame automatizované profilovanie. Zmeny týchto zásad ochrany osobných údajov budú zverejnené na tejto stránke. Dátum poslednej aktualizácie je vždy uvedený."
   }
 }

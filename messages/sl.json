@@ -181,12 +181,22 @@
     "s4h": "4. Obdelovalci podatkov",
     "s4p": "Za pošiljanje e-pošte uporabljamo Resend Inc. (resend.com). Ta storitev prejme podatke obrazca za posredovanje nam, na podlagi pogodbe o obdelavi podatkov.",
     "s5h": "5. Rok hrambe",
-    "s5p": "Podatki poizvedbe bodo izbrisani po popolni obdelavi in poteku zakonskih rokov hrambe.",
+    "s5p": "Kontaktne zahteve se izbrišejo po zaključku obdelave, najpozneje po 12 mesecih. Če iz zahteve nastane pogodbeno razmerje, veljajo zakonski roki, zlasti 10 let za računovodske dokumente (čl. 958f CO).",
     "s6h": "6. Vaše pravice (švicarski DSG)",
     "s6p": "V skladu s švicarskim zakonom o varstvu podatkov (nDSG) imate pravico do dostopa, popravka, izbrisa, omejitve, prenosljivosti in ugovora. Kontakt: info@martinprojektgroup.ch",
     "s7h": "7. Gostovanje & Infrastruktura",
     "s7p": "Ta spletna stran gostuje pri Vercel Inc. (vercel.com). Prenos podatkov je šifriran prek HTTPS/TLS.",
     "s8h": "8. Kontakt za varstvo podatkov",
-    "s8p": "Za vprašanja o varstvu podatkov: info@martinprojektgroup.ch"
+    "s8p": "Za vprašanja o varstvu podatkov: info@martinprojektgroup.ch",
+    "s9h": "9. Pravna podlaga obdelave",
+    "s9p": "Obdelava vaših kontaktnih podatkov temelji na 6. členu DSG za izvajanje predpogodbenih ukrepov. Gostovanje in tehnična obdelava podatkov o dostopu temeljita na našem zakonitem interesu za varno in funkcionalno spletno stran.",
+    "s10h": "10. Mednarodni prenosi podatkov",
+    "s10p": "Uporabljamo Vercel Inc. (ZDA) kot ponudnika gostovanja in Resend Inc. (ZDA) za pošiljanje e-pošte. Ti prenosi v ZDA potekajo na podlagi standardnih pogodbenih klavzul (SCC) v skladu s 16. členom DSG. Oba ponudnika zagotavljata ustrezno raven varstva podatkov.",
+    "s11h": "11. Podatki o dostopu do strežnika",
+    "s11p": "Ob vsakem obisku Vercel Inc. samodejno beleži tehnične podatke: naslov IP, časovni žig, zahtevano URL, kodo HTTP, brskalnik in operacijski sistem. Ti podatki služijo varnem delovanju spletne strani in se ne povezujejo z drugimi osebnimi podatki.",
+    "s12h": "12. Umik privolitve in pravica do pritožbe",
+    "s12p": "Podano privolitev lahko kadar koli umaknete z učinkom za prihodnost: info@martinprojektgroup.ch. Imate tudi pravico vložiti pritožbo pri Zveznem pooblaščencu za varstvo podatkov (FDPIC, edoeb.admin.ch), če sumite na kršitev DSG.",
+    "s13h": "13. Profiliranje in spremembe",
+    "s13p": "Ne izvajamo avtomatiziranega profiliranja. Spremembe te politike zasebnosti bodo objavljene na tej strani. Datum zadnje posodobitve je vedno naveden."
   }
 }

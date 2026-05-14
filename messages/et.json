@@ -181,12 +181,22 @@
     "s4h": "4. Volitatud töötlejad",
     "s4p": "E-posti saatmiseks kasutame Resend Inc. (resend.com). See teenus saab vormiandmed meile edastamiseks andmetöötluslepingu alusel.",
     "s5h": "5. Säilitustähtaeg",
-    "s5p": "Teie päringuandmed kustutatakse pärast täielikku töötlemist ja seadusjärgsete säilitustähtaegade möödumist.",
+    "s5p": "Kontaktipäringud kustutatakse pärast täielikku menetlemist, hiljemalt 12 kuu pärast. Kui päringust tekib lepinguline suhe, kehtivad seadusjärgsed säilitustähtajad, eelkõige 10 aastat raamatupidamisdokumentide jaoks (art. 958f CO).",
     "s6h": "6. Teie õigused (Šveitsi DSG)",
     "s6p": "Šveitsi isikuandmete kaitse seaduse (nDSG) alusel on teil õigus andmetele juurdepääsuks, parandamiseks, kustutamiseks, töötlemise piiramiseks, ülekantavuseks ja vastuväiteks. Kontakt: info@martinprojektgroup.ch",
     "s7h": "7. Hosting & Infrastruktuur",
     "s7p": "Seda veebisaiti majutab Vercel Inc. (vercel.com). Kõik andmeedastused on krüpteeritud HTTPS/TLS-ga.",
     "s8h": "8. Andmekaitse kontakt",
-    "s8p": "Andmekaitsega seotud küsimusteks: info@martinprojektgroup.ch"
+    "s8p": "Andmekaitsega seotud küsimusteks: info@martinprojektgroup.ch",
+    "s9h": "9. Töötlemise õiguslik alus",
+    "s9p": "Teie kontaktandmete töötlemine toimub DSG artikli 6 alusel lepingueelsete meetmete rakendamiseks. Hostimine ja juurdepääsuandmete tehniline töötlemine põhineb meie õigustatud huvil turvalise ja toimiva veebisaidi vastu.",
+    "s10h": "10. Rahvusvahelised andmeedastused",
+    "s10p": "Kasutame Vercel Inc.-i (USA) hostinguteenuse pakkujana ja Resend Inc.-i (USA) e-kirjade saatmiseks. Need USA-sse suunatud edastused toimuvad DSG artikli 16 kohaste standardlepingutingimuste (SCC) alusel. Mõlemad teenusepakkujad tagavad andmekaitse piisava taseme.",
+    "s11h": "11. Serveri juurdepääsuandmed",
+    "s11p": "Iga külastuse korral registreerib Vercel Inc. automaatselt tehnilised juurdepääsuandmed: IP-aadress, ajatempel, küsitud URL, HTTP-kood, brauser ja operatsioonisüsteem. Need andmed teenivad veebisaidi turvalist toimimist ega seostata muude isikuandmetega.",
+    "s12h": "12. Tagasivõtmine ja kaebuse esitamise õigus",
+    "s12p": "Antud nõusoleku saate igal ajal tuleviku suhtes tagasi võtta: info@martinprojektgroup.ch. Samuti on teil õigus esitada kaebus föderaalsele andmekaitse volinikule (FDPIC, edoeb.admin.ch), kui kahtlustate DSG rikkumist.",
+    "s13h": "13. Profiilimine ja muudatused",
+    "s13p": "Me ei tee automatiseeritud profileerimist. Selle privaatsuspoliitika muudatused avaldatakse sellel lehel. Viimase uuenduse kuupäev on alati märgitud."
   }
 }

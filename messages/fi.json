@@ -181,12 +181,22 @@
     "s4h": "4. Alihankkijat",
     "s4p": "Sähköpostilähetystä varten käytämme Resend Inc. (resend.com). Palvelu vastaanottaa lomakkeen tiedot välittääkseen ne meille tietojenkäsittelysopimuksen perusteella.",
     "s5h": "5. Säilytysaika",
-    "s5p": "Yhteydenottosi tiedot poistetaan täydellisen käsittelyn jälkeen lakisääteisten säilytysaikojen päätyttyä.",
+    "s5p": "Yhteydenottopyynnöt poistetaan täydellisen käsittelyn jälkeen, viimeistään 12 kuukauden kuluessa. Jos pyyntö johtaa sopimusuhteeseen, lakisääteiset säilytysajat ovat voimassa, erityisesti 10 vuotta kirjanpitoasiakirjoille (art. 958f CO).",
     "s6h": "6. Oikeutesi (Sveitsin DSG)",
     "s6p": "Sveitsin tietosuojalain (nDSG) mukaan sinulla on oikeus tietojen saamiseen, oikaisemiseen, poistamiseen, käsittelyn rajoittamiseen, siirrettävyyteen ja vastalauseeseen. Yhteystiedot: info@martinprojektgroup.ch",
     "s7h": "7. Hosting & Infrastruktuuri",
     "s7p": "Tätä verkkosivustoa isännöi Vercel Inc. (vercel.com). Kaikki tiedonsiirrot on salattu HTTPS/TLS:llä.",
     "s8h": "8. Tietosuojan yhteystiedot",
-    "s8p": "Tietosuojaa koskeviin kysymyksiin: info@martinprojektgroup.ch"
+    "s8p": "Tietosuojaa koskeviin kysymyksiin: info@martinprojektgroup.ch",
+    "s9h": "9. Käsittelyn oikeusperusta",
+    "s9p": "Yhteystietojenne käsittely perustuu DSG:n 6 artiklaan esisopimustoimenpiteiden toteuttamiseksi. Hosting ja tekninen käyttötietojen käsittely perustuu oikeutettuun etuumme pitää verkkosivusto turvallisena ja toimivana.",
+    "s10h": "10. Kansainväliset tiedonsiirrot",
+    "s10p": "Käytämme Vercel Inc.:tä (USA) hosting-palveluntarjoajana ja Resend Inc.:tä (USA) sähköpostin lähettämiseen. Nämä siirrot Yhdysvaltoihin perustuvat DSG:n 16 artiklan mukaisiin vakiosopimuslausekkeisiin (SCC). Molemmat palveluntarjoajat varmistavat asianmukaisen tietosuojan tason.",
+    "s11h": "11. Palvelimen käyttötiedot",
+    "s11p": "Jokaisen sivuvierailun yhteydessä Vercel Inc. tallentaa automaattisesti tekniset käyttötiedot: IP-osoitteen, aikaleiman, pyydetyn URL:n, HTTP-statuskoodin, selaimen ja käyttöjärjestelmän. Nämä tiedot palvelevat verkkosivuston turvallista toimintaa eikä niitä yhdistetä muihin henkilötietoihin.",
+    "s12h": "12. Peruuttaminen ja valitusoikeus",
+    "s12p": "Voit peruuttaa antamasi suostumuksen milloin tahansa tulevaisuuteen vaikuttavalla tavalla: info@martinprojektgroup.ch. Sinulla on myös oikeus tehdä valitus liittovaltioiden tietosuojavaltuutetulle (FDPIC, edoeb.admin.ch), jos epäilet DSG:n rikkomista.",
+    "s13h": "13. Profilointi ja muutokset",
+    "s13p": "Emme suorita automatisoitua profilointia. Tämän tietosuojakäytännön muutokset julkaistaan tällä sivulla. Viimeisimmän päivityksen päivämäärä on aina merkitty."
   }
 }

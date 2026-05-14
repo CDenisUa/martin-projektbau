@@ -181,12 +181,22 @@
     "s4h": "4. Encargados del tratamiento",
     "s4p": "Para el envío de correos electrónicos utilizamos Resend Inc. (resend.com). Este servicio recibe los datos del formulario para enviárnoslos, en base a un acuerdo de tratamiento de datos.",
     "s5h": "5. Conservación de datos",
-    "s5p": "Sus datos serán eliminados tras la resolución completa de su consulta y el vencimiento de los plazos legales de conservación.",
+    "s5p": "Las solicitudes de contacto se eliminan tras su procesamiento completo, a más tardar a los 12 meses. Si de una solicitud surge una relación contractual, se aplican los plazos legales, en particular 10 años para documentos contables (art. 958f CO).",
     "s6h": "6. Sus derechos (LPD suiza)",
     "s6p": "Conforme a la ley federal suiza de protección de datos (nLPD), tiene derecho de acceso, rectificación, supresión, limitación, portabilidad y oposición. Contacto: info@martinprojektgroup.ch",
     "s7h": "7. Alojamiento e infraestructura",
     "s7p": "Este sitio está alojado por Vercel Inc. (vercel.com). Todas las transmisiones de datos están cifradas mediante HTTPS/TLS.",
     "s8h": "8. Contacto para protección de datos",
-    "s8p": "Para consultas sobre protección de datos: info@martinprojektgroup.ch"
+    "s8p": "Para consultas sobre protección de datos: info@martinprojektgroup.ch",
+    "s9h": "9. Base jurídica del tratamiento",
+    "s9p": "El tratamiento de sus datos de contacto se basa en el art. 6 de la ley de protección de datos para la ejecución de medidas precontractuales. El alojamiento y el tratamiento técnico de los datos de acceso se basan en nuestro interés legítimo en un sitio web seguro y funcional.",
+    "s10h": "10. Transferencias internacionales de datos",
+    "s10p": "Utilizamos Vercel Inc. (EE.UU.) como proveedor de alojamiento y Resend Inc. (EE.UU.) para el envío de correos electrónicos. Estas transferencias a EE.UU. se realizan sobre la base de Cláusulas Contractuales Estándar (CCE). Ambos proveedores garantizan un nivel adecuado de protección de datos.",
+    "s11h": "11. Datos de acceso al servidor",
+    "s11p": "En cada visita, Vercel Inc. registra automáticamente datos técnicos: dirección IP, marca de tiempo, URL solicitada, código HTTP, navegador y sistema operativo. Estos datos sirven para el funcionamiento seguro del sitio web y no se vinculan a otros datos personales.",
+    "s12h": "12. Revocación y derecho de reclamación",
+    "s12p": "Puede revocar cualquier consentimiento otorgado en cualquier momento con efecto de futuro: info@martinprojektgroup.ch. También tiene derecho a presentar una reclamación ante el Comisionado Federal de Protección de Datos (FDPIC, edoeb.admin.ch) si sospecha una infracción.",
+    "s13h": "13. Elaboración de perfiles y cambios",
+    "s13p": "No realizamos elaboración de perfiles automatizada. Los cambios en esta política de privacidad se publicarán en esta página. La fecha de la última actualización se indica en consecuencia."
   }
 }

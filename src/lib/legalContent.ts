@@ -56,6 +56,16 @@ type PrivacyMessages = {
   s7p: string;
   s8h: string;
   s8p: string;
+  s9h: string;
+  s9p: string;
+  s10h: string;
+  s10p: string;
+  s11h: string;
+  s11p: string;
+  s12h: string;
+  s12p: string;
+  s13h: string;
+  s13p: string;
 };
 
 type ImpressumMessages = {
@@ -83,7 +93,7 @@ type LegalMessages = {
   privacy: PrivacyMessages;
 };
 
-const PRIVACY_SECTIONS = ['s1', 's2', 's3', 's4', 's5', 's6', 's7', 's8'] as const;
+const PRIVACY_SECTIONS = ['s1', 's2', 's3', 's4', 's5', 's6', 's7', 's8', 's9', 's10', 's11', 's12', 's13'] as const;
 const COOKIE_NOTICE_STORAGE_KEY = 'martin-cookie-notice-dismissed-v1';
 
 function resolveLocale(locale: string) {

@@ -181,12 +181,22 @@
     "s4h": "4. Third-Party Processors",
     "s4p": "For email delivery we use Resend Inc. (resend.com) as a data processor. This service receives the form data to forward it to us, based on a data processing agreement.",
     "s5h": "5. Data Retention",
-    "s5p": "Your inquiry data will be deleted after full resolution of the matter and expiry of any applicable statutory retention periods.",
+    "s5p": "Contact requests are deleted after full processing, no later than 12 months. If a request leads to a contractual relationship, statutory retention periods apply, in particular 10 years for accounting-relevant documents (Art. 958f CO).",
     "s6h": "6. Your Rights (Swiss nDSG)",
     "s6p": "Under the Swiss Federal Act on Data Protection (nDSG) you have the right to access, correction, deletion, restriction of processing, data portability, and objection. Contact: info@martinprojektgroup.ch",
     "s7h": "7. Hosting & Infrastructure",
     "s7p": "This website is hosted by Vercel Inc. (vercel.com). All data transmissions are encrypted via HTTPS/TLS.",
     "s8h": "8. Data Protection Contact",
-    "s8p": "For all data protection inquiries: info@martinprojektgroup.ch"
+    "s8p": "For all data protection inquiries: info@martinprojektgroup.ch",
+    "s9h": "9. Legal Basis for Processing",
+    "s9p": "Processing of your contact data is based on Art. 6 DSG for the performance of pre-contractual measures. Hosting and technical processing of access data are based on our legitimate interest in a secure and functional website.",
+    "s10h": "10. International Data Transfers",
+    "s10p": "We use Vercel Inc. (USA) as hosting provider and Resend Inc. (USA) for email delivery. These transfers to the USA are based on Standard Contractual Clauses (SCCs) pursuant to Art. 16 DSG. Both providers ensure an adequate level of data protection.",
+    "s11h": "11. Server Access Data",
+    "s11p": "Each time our website is accessed, Vercel Inc. automatically records technical access data: IP address, timestamp, requested URL, HTTP status code, browser and operating system. This data serves the secure operation of the website and is not linked to other personal data.",
+    "s12h": "12. Withdrawal and Right to Complain",
+    "s12p": "You may withdraw any given consent at any time with effect for the future: info@martinprojektgroup.ch. You also have the right to lodge a complaint with the Federal Data Protection and Information Commissioner (FDPIC, edoeb.admin.ch) if you suspect a violation of the DSG.",
+    "s13h": "13. Profiling and Changes",
+    "s13p": "We do not carry out automated profiling. Changes to this privacy policy will be published on this page. The date of the last update is indicated accordingly."
   }
 }
