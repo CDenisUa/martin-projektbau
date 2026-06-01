@@ -5,6 +5,9 @@ import Image from 'next/image';
 import { useTranslations, useLocale } from 'next-intl';
 import Link from 'next/link';
 import { Mail } from 'lucide-react';
+// Components
+import SocialLinks from '@/components/ui/SocialLinks';
+// Utils
 import { getFooterLegalCopy } from '@/lib/legalClientCopy';
 
 export default function Footer() {
@@ -113,6 +116,7 @@ export default function Footer() {
               <Mail size={12} className="text-accent shrink-0" />
               info@martinprojektgroup.ch
             </a>
+            <SocialLinks className="mt-4" size={20} />
           </div>
         </div>
       </div>

@@ -89,3 +89,17 @@
   animation: draw-stroke 2.8s ease-in-out forwards;
   animation-delay: var(--icon-delay, 0s);
 }
+
+/* Social icons — always in brand colors, subtle lift on hover */
+.social-icon-img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.social-link:hover .social-icon-img {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
+/* Facebook + Instagram render in their own SVG brand colors — no recoloring */
+.social-icon-fb,
+.social-icon-ig {
+  filter: none;
+}
